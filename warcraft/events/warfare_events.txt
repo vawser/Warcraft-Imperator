@@ -1,0 +1,722 @@
+﻿namespace = warfare
+
+warfare.1 = {
+	type = character_event
+	title = "warfare.1.t"
+	desc = "warfare.1.desc"
+	
+	picture = city_siege
+	
+	left_portrait = root
+	right_portrait = scope:enemy_ruler
+	
+	goto_location = scope:temp_city_scope_warfare_1
+	
+	trigger = {
+		is_governor = no
+		NOT = { employer = { tag = BAR } }
+		scope:target = {
+			OR = {
+				ROOT = {
+					is_mercenary = yes
+				}
+				NOT = { owner = root.employer }
+			}
+			OR = {
+				has_city_status = yes
+				is_capital = yes
+			}
+			NOR = { 
+				has_variable = sacking_cooldown
+				has_province_modifier = utterly_sacked
+			}
+		}
+	}
+	
+	immediate = {
+		save_scope_as = siege_instigator
+		add_popularity = popularity_small
+		if = {
+			limit = {
+				NOT = {
+					has_variable = sieginator
+				}
+			}
+			set_variable = {
+				name = sieginator
+				value = 1
+			}
+		}
+		else = {
+			change_variable = {
+				name = sieginator
+				add = 1
+			}
+		}
+		hidden_effect = { #Nickname assignation
+			if = {
+				limit = {
+					has_nickname = no
+					has_variable = sieginator
+					var:sieginator >= 20
+					has_culture_group = latin
+				}
+				add_nickname = NICKNAME_IMPERIOSUS
+				if = { limit = { is_minor_character = no } family = { add_prestige = prestige_small } }
+			}
+			else_if = {
+				limit = {
+					has_nickname = no
+					has_variable = sieginator
+					var:sieginator >= 20
+					NOT = {
+						has_culture_group = latin
+					}
+				}
+				add_nickname = NICKNAME_THE_BESIEGER
+				if = { limit = { is_minor_character = no } family = { add_prestige = prestige_small } }
+			}
+			if = {
+				limit = {
+					has_culture_group = latin
+					scope:target = {
+						province_id = 3256
+					}
+				}
+				random_list = {
+					25 = { 
+						add_nickname = NICKNAME_AFRICANUS
+						if = { limit = { is_minor_character = no } family = { add_prestige = prestige_small } }
+					}
+					75 = { }
+				}
+			}
+		}
+		set_local_variable = {
+			name = sieged_city
+			value = scope:target
+		}
+		scope:target = {
+			save_scope_as = temp_city_scope_warfare_1
+			set_variable = {
+				name = sacking_cooldown
+				days = 730 # 2 years
+			}
+			owner = {
+				current_ruler = {
+					save_scope_as = enemy_ruler
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "warfare.1.a" #Be nice to them
+		if = { limit = { is_minor_character = no } family = { add_prestige = prestige_small } }
+		add_gold = {
+			value = warfare_1_loot_small_value
+		}
+		if = {
+			limit = {
+				is_ruler = yes
+			}
+			employer = {
+				add_treasury = {
+					value = warfare_1_loot_small_value
+				}
+			}
+		}
+		hidden_effect = {
+			random_list = {
+				50 = {}
+				50 = {
+					scope:target = {
+						add_city_fire_effect = yes
+					}
+				}
+			}
+		}
+		ai_chance = {
+			base = 10
+			modifier = {
+				add = 10
+				has_trait = kindly
+			}
+			modifier = {
+				add = 10
+				has_trait = humble
+			}
+			modifier = {
+				add = 10
+				has_trait = loving
+			}
+			modifier = {
+				add = 10
+				has_trait = submissive
+			}
+			modifier = {
+				add = 10
+				has_trait = lazy
+			}
+		}
+	}
+	
+	option = {
+		name = "warfare.1.b" #normal looting
+		if = { limit = { is_minor_character = no } family = { add_prestige = prestige_small } }
+		add_gold = {
+			value = warfare_1_loot_medium_value
+		}
+		if = {
+			limit = {
+				is_ruler = yes
+			}
+			employer = {
+				add_treasury = {
+					value = warfare_1_loot_medium_value
+				}
+			}
+		}
+		if = {
+			limit = {
+				is_general = yes
+				unit = {
+					any_sub_unit = {
+						has_personal_loyalty = no
+					}
+				}
+			}
+			unit = {
+				random_sub_unit = {
+					set_personal_loyalty = root
+				}
+			}
+		}
+		local_var:sieged_city = {
+			while = {
+				count = 2
+				random_pops_in_province = {
+					kill_pop = yes
+				}
+			}
+		}
+		scope:target = {
+			add_city_fire_effect = yes
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					location = {
+						city_has_destroyable_wonder_trigger = yes
+					}
+				}
+				random_list = {
+					50 = {} # Nothing happens
+					10 = {
+						trigger = {
+							location = {
+								city_has_museion_trigger = yes
+							}
+						}
+						location = {
+							owner = {
+								trigger_event = {
+									id = dhe_museion.12
+								}
+							}
+						}
+					}
+					10 = {
+						trigger = {
+							location = {
+								city_has_colossus_trigger = yes
+							}
+						}
+						location = {
+							owner = {
+								trigger_event = {
+									id = dhe_colossus_of_rhodes.13
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			base = 20
+		}
+	}
+	
+	option = {
+		name = "warfare.1.c" #megalooting
+		if = { limit = { is_minor_character = no } family = { add_prestige = prestige_small } }
+		add_gold = {
+			value = warfare_1_loot_large_value
+		}
+		if = {
+			limit = {
+				is_ruler = yes
+			}
+			employer = {
+				add_treasury = {
+					value = warfare_1_loot_large_value
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_trait = cruel
+					has_trait = merciful
+					number_of_traits >= 5
+				}
+			}
+			add_trait = cruel
+		}
+		if = {
+			limit = {
+				is_general = yes
+				unit = {
+					any_sub_unit = {
+						has_personal_loyalty = no
+					}
+				}
+			}
+			while = {
+				count = 3
+				limit = {
+					unit = {
+						any_sub_unit = {
+							has_personal_loyalty = no
+						}
+					}
+				}
+				unit = {
+					random_sub_unit = {
+						set_personal_loyalty = root
+					}
+				}
+			}
+		}
+		local_var:sieged_city = {
+			while = {
+				count = 4
+				random_pops_in_province = {
+					kill_pop = yes
+				}
+			}
+		}
+		location = {
+			add_city_fire_effect = yes
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					location = {
+						city_has_destroyable_wonder_trigger = yes
+					}
+				}
+				random_list = {
+					20 = {} # Nothing happens
+					10 = {
+						trigger = {
+							location = {
+								city_has_museion_trigger = yes
+							}
+						}
+						location = {
+							owner = {
+								trigger_event = {
+									id = dhe_museion.12
+								}
+							}
+						}
+					}
+					10 = {
+						trigger = {
+							location = {
+								city_has_colossus_trigger = yes
+							}
+						}
+						location = {
+							owner = {
+								trigger_event = {
+									id = dhe_colossus_of_rhodes.13
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 10
+				has_trait = energetic
+			}
+			modifier = {
+				add = 10
+				has_trait = brave
+			}
+			modifier = {
+				add = 10
+				has_trait = vengeful
+			}
+			modifier = {
+				add = 10
+				has_trait = gluttonous
+			}
+			modifier = {
+				add = 10
+				has_trait = arrogant
+			}
+		}
+	}
+	
+	option = {
+		name = "warfare.1.d" #hyperlooting
+		trigger = {
+			local_var:sieged_city = {
+				OR = {
+					total_population >= 60
+					scripted_famous_cities_list_trigger = yes
+				}
+			}
+		}
+		if = { limit = { is_minor_character = no } family = { add_prestige = prestige_medium } }
+		add_gold = {
+			value = warfare_1_loot_huge_value
+		}
+		if = {
+			limit = {
+				is_ruler = yes
+			}
+			employer = {
+				add_treasury = {
+					value = warfare_1_loot_huge_value
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_trait = cruel
+					has_trait = merciful
+					number_of_traits >= 5
+				}
+			}
+			add_trait = cruel
+		}
+		set_local_variable = {
+			name = looted_gold
+			value = warfare_1_loot_huge_value
+		}
+		local_var:sieged_city = {
+			while = {
+				count = 6
+				random_pops_in_province = {
+					kill_pop = yes
+				}
+			}
+		}
+		local_var:sieged_city = {
+			add_province_modifier = {
+				name = utterly_sacked
+				duration = 3650
+			}
+		}
+		if = {
+			limit = {
+				is_ruler = no
+				NOT = {
+					location = {
+						city_has_destroyable_wonder_trigger = yes
+					}
+				}
+			}
+			employer = {
+				trigger_event = {
+					id = warfare.2
+				}
+			}
+		}
+		if = {
+			limit = {
+				is_general = yes
+				unit = {
+					any_sub_unit = {
+						has_personal_loyalty = no
+					}
+				}
+			}
+			while = {
+				count = 5
+				limit = {
+					unit = {
+						any_sub_unit = {
+							has_personal_loyalty = no
+						}
+					}
+				}
+				unit = {
+					random_sub_unit = {
+						set_personal_loyalty = root
+					}
+				}
+			}
+		}
+		scope:target = {
+			add_city_fire_effect = yes
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					scope:target = {
+						city_has_destroyable_wonder_trigger = yes
+					}
+				}
+				random_list = {
+					10 = {} # Nothing happens
+					10 = {
+						trigger = {
+							scope:target = {
+								city_has_museion_trigger = yes
+							}
+						}
+						scope:target = {
+							owner = {
+								trigger_event = {
+									id = dhe_museion.12
+								}
+							}
+						}
+					}
+					10 = {
+						trigger = {
+							scope:target = {
+								city_has_colossus_trigger = yes
+							}
+						}
+						scope:target = {
+							owner = {
+								trigger_event = {
+									id = dhe_colossus_of_rhodes.13
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		ai_chance = {
+			base = 30
+			modifier = {
+				add = 20
+				has_trait = cruel
+			}
+			modifier = {
+				add = 10
+				has_trait = cold
+			}
+			modifier = {
+				add = 10
+				has_trait = rash
+			}
+			modifier = {
+				add = 10
+				has_trait = uncaring
+			}
+			modifier = {
+				add = 10
+				has_trait = obsessive
+			}
+		}
+	}
+	
+}
+
+warfare.2 = {
+	type = country_event
+	title = warfare.2.t
+	desc = warfare.2.desc
+	picture = looting
+	
+	trigger = {
+		scope:siege_instigator = {
+			is_alive = yes
+		}
+	}
+	
+	immediate = {
+		
+	}
+	
+	option = {
+		name = "warfare.2.a"
+		scope:siege_instigator = {
+			if = {
+				limit = {
+					is_mercenary = no
+				}
+				add_loyalty = loyalty_looting_unpunished
+			}
+		}
+		if = {
+			limit = {
+				scope:siege_instigator = {
+					is_general = yes
+				}
+			}
+			scope:siege_instigator = {
+				unit = {
+					add_loyal_subunit = light_infantry
+					add_loyal_subunit = light_infantry
+				}	
+			}
+			
+		}
+	}
+	
+	option = {
+		name = "warfare.2.b"
+		scope:siege_instigator = {
+			if = {
+				limit = {
+					is_mercenary = no
+				}
+				add_loyalty = loyalty_demanded_oath
+			}
+		}
+	}
+	
+	option = {
+		name = "warfare.2.c"
+		custom_tooltip = shrewd_tooltip
+		highlight = yes
+		trigger = {
+			current_ruler = {
+				has_trait = shrewd
+			}
+		}
+		scope:siege_instigator = {
+			if = {
+				limit = {
+					is_mercenary = no
+				}
+				add_loyalty = loyalty_split_loot
+			}
+			add_gold = {
+				value = 0
+				subtract = local_var:looted_gold
+				divide = 2
+			}
+			unit = {
+				remove_unit_loyalty = yes
+			}
+		}
+		
+	}
+	
+}
+
+warfare.3 = {
+	type = country_event
+	title = "warfare.3.t"
+	desc = "warfare.3.desc"
+	
+	left_portrait = current_ruler
+	right_portrait = scope:actor.current_ruler
+	right_portrait = scope:target
+	
+	goto_location = scope:target.location
+	
+	picture = persia_marching
+	
+	trigger = {
+		exists = scope:target
+		exists = scope:actor
+	}
+	
+	immediate = {
+		save_scope_as = counter_target
+	}
+	
+	option = {
+		name = "warfare.3.a"
+		add_treasury = {
+			value = 0
+			subtract = army_size_merc_estimation
+		}
+		scope:actor = {
+			trigger_event = {
+				id = warfare.4
+			}
+		}
+		ai_chance = {
+			modifier = {
+				factor = 0.25
+			}
+			modifier = {
+				factor = 0
+				treasury <= local_var:merc_payoff_value
+			}
+		}
+	}
+	
+	option = {
+		name = "warfare.3.b"
+		scope:target = {
+			change_mercenary_employer = scope:actor
+		}
+		scope:actor = {
+			trigger_event = {
+				id = warfare.5
+			}
+		}
+		ai_chance = {
+			factor = 2
+		}
+	}
+	
+}
+
+warfare.4 = {
+	type = country_event
+	title = "warfare.4.t"
+	desc = "warfare.4.desc"
+	
+	left_portrait = current_ruler
+	right_portrait = scope:target.employer.current_ruler
+	right_portrait = scope:target
+	
+	picture = greek_court
+	
+	option = {
+		name = "warfare.4.a"
+	}
+	
+}
+
+warfare.5 = {
+	type = country_event
+	title = "warfare.5.t"
+	desc = "warfare.5.desc"
+	
+	picture = romans_marching
+	
+	goto_location = scope:target.location
+	
+	left_portrait = current_ruler
+	right_portrait = scope:target.employer.current_ruler
+	right_portrait = scope:target
+	
+	option = {
+		name = "warfare.5.a"
+		custom_tooltip = merc_joined_us_tt
+		
+	}
+	
+}
+	

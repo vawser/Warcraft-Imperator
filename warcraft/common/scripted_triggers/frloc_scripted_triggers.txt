@@ -1,0 +1,1267 @@
+﻿#####################################################
+###   Scripted Triggers for French Localization   ###
+###           Scripted by Nicolas Fouqué          ###
+#####################################################
+
+######################
+#   NATIONS / PAYS   #
+######################
+
+## Ex.: LE Royaume du Bosphore / DU Royaume du Bosphore / DU Royaume du Bosphore / AU Royaume du Bosphore / DANS LE Royaume du Bosphore / LUI
+#sg_art_masc_cons_lg_01 = {
+#}
+
+# Ex.: LE Pont / DU Pont / DU Pont / AU Pont / AU Pont / LUI
+sg_art_masc_cons_sh_02 = {
+	OR = {
+		# THIS IS AFRICA
+		tag = DOD
+		# THIS IS ANATOLIA
+		tag = PON
+		# THIS IS ARABIA
+		tag = HMJ tag = MIN tag = QTB
+		# THIS IS INDIA
+		tag = KAL tag = KRP tag = KUN tag = ZHZ
+		# THIS IS FORMABLE NATIONS
+		tag = BHA tag = DRA tag = NRM tag = PTU
+	}
+}
+
+# Ex.: L'Empire séleucide / DE L'Empire séleucide / DE L'Empire séleucide / À L'Empire séleucide / DANS L'Empire séleucide / LUI
+sg_art_masc_vow_lg1_03 = {
+	OR = {
+		# THIS IS CAUCASIA & MESOPOTAMIA
+		tag = SEL
+		# THIS IS FORMABLE NATIONS
+		tag = ALX tag = PER
+	}
+}
+
+# Ex.: L'Hadramaout / DE L'Hadramaout / DE L'Hadramaout / À L'Hadramaout / EN Hadramaout / LUI
+sg_art_masc_vow_lg2_04 = {
+		# THIS IS ARABIA
+		tag = HDM
+}
+
+# Ex.: L'Andhra / DE L'Andhra / D'Andhra / À L'Andhra / EN Andhra / LUI
+sg_art_masc_vow_sh_05 = {
+	OR = {
+		# THIS IS INDIA
+		tag = ANH tag = ATV tag = IDR
+	}
+}
+
+# Ex.: LA Ligue des Nésiotes / DE LA Ligue des Nésiotes / DE LA Ligue des Nésiotes / À LA Ligue des Nésiotes / DANS LA Ligue des Nésiotes / ELLE
+sg_art_fem_cons_lg_06 = {
+	OR = {
+		# THIS IS GREECE
+		tag = DEL
+		# THIS IS FORMABLE NATIONS
+		tag = CCC tag = CNO tag = DLA tag = HLA tag = YMN
+	}
+}
+# Ex.: LA Rébellion séleucide / DE LA Rébellion séleucide / DE LA Rébellion séleucide / À LA Rébellion séleucide / DANS LA Rébellion séleucide / ELLE
+sg_art_fem_cons_lg_06_REVOLT = {
+	OR = {
+		tag = A00 tag = A01 tag = A02 tag = A03 tag = A04 tag = A05 tag = A06 tag = A07 tag = A08 tag = A09
+		tag = A10 tag = A11 tag = A12 tag = A13 tag = A14 tag = A15 tag = A16 tag = A17 tag = A18 tag = A19
+		tag = A20 tag = A21 tag = A22 tag = A23 tag = A24 tag = A25 tag = A26 tag = A27 tag = A28 tag = A29
+		tag = A30 tag = A31 tag = A32 tag = A33 tag = A34 tag = A35 tag = A36 tag = A37 tag = A38 tag = A39
+		tag = A40 tag = A41 tag = A42 tag = A43 tag = A44 tag = A45 tag = A46 tag = A47 tag = A48 tag = A49
+		tag = A50 tag = A51 tag = A52 tag = A53 tag = A54 tag = A55 tag = A56 tag = A57 tag = A58 tag = A59
+		tag = A60 tag = A61 tag = A62 tag = A63 tag = A64 tag = A65 tag = A66 tag = A67 tag = A68 tag = A69
+		tag = A70 tag = A71 tag = A72 tag = A73 tag = A74 tag = A75 tag = A76 tag = A77 tag = A78 tag = A79
+		tag = A80 tag = A81 tag = A82 tag = A83 tag = A84 tag = A85 tag = A86 tag = A87 tag = A88 tag = A89
+		tag = A90 tag = A91 tag = A92 tag = A93 tag = A94 tag = A95 tag = A96 tag = A97 tag = A98 tag = A99
+		tag = A100 tag = A101 tag = A102 tag = A103 tag = A104 tag = A105 tag = A106 tag = A107 tag = A108 tag = A109
+		tag = A110 tag = A111 tag = A112 tag = A113 tag = A114 tag = A115 tag = A116 tag = A117 tag = A118 tag = A119
+	}
+}
+# Ex.: LA Sogdiane / DE LA Sogdiane / DE Sogdiane / À LA Sogdiane / EN Sogdiane / ELLE
+sg_art_fem_cons_sh_07 = {
+	OR = {
+		# THIS IS SPECIAL
+		tag = BAR tag = PIR tag = REB
+		# THIS IS AFRICA
+		tag = CYR tag = MAU tag = TRP
+		# THIS IS ANATOLIA
+		tag = BIT tag = CAP tag = CIA tag = PAP tag = PRY
+		# THIS IS ARABIA
+		tag = NBT
+		# THIS IS BACTRIA
+		tag = BAC tag = KRZ
+		# THIS IS CAUCASIA & MESOPOTAMIA
+		tag = COL tag = PAR
+		# THIS IS GREECE
+		tag = BOE tag = BPK tag = CHS tag = MAC tag = MSE tag = TRE
+		# THIS IS INDIA
+		tag = SOG
+		# THIS IS SYRIA
+		tag = COM tag = JUD tag = SMA
+		# THIS IS FORMABLE NATIONS
+		tag = 1KR tag = BBY tag = BGG tag = BRA tag = CBR tag = CCI tag = CNN tag = CPT tag = DAC tag = DCP tag = GAU tag = GLL tag = GLT tag = HBR tag = LST tag = MCD tag = MEE tag = MGG tag = NUM tag = PPN tag = PRG tag = PTH tag = SAR tag = SBN tag = SII tag = SYA tag = VTT tag = XXS
+	}
+}
+
+# Ex.: CURRENTLY NOT USED
+#sg_art_fem_vow_lg_08 = {
+#}
+
+# Ex.: L'Égypte / DE L'Égypte / D'Égypte / À L'Égypte / EN Égypte / ELLE
+sg_art_fem_vow_sh_09 = {
+	OR = {
+		# THIS IS AFRICA
+		tag = AUT tag = EGY
+		# THIS IS ANATOLIA
+		tag = IOA tag = ION
+		# THIS IS CAUCASIA & MESOPOTAMIA
+		tag = ADI tag = ALB tag = ARM tag = IBR tag = MAP
+		# THIS IS GREECE
+		tag = AET tag = AKR tag = AZA tag = EPI tag = EUB
+		# THIS IS FORMABLE NATIONS
+		tag = ACH tag = AGO tag = AQI tag = ARI tag = ARK tag = ASR tag = ASX tag = ATU tag = EGT tag = EPK tag = HIB tag = HVL tag = ILL
+	}
+}
+
+# Ex.: CURRENTLY NOT USED
+#sg_noart_masc_cons_lg_10 = {
+#}
+
+# Ex.: Ø Saba / DE Saba / DE Saba / À Saba / À Saba / LUI
+sg_noart_masc_cons_sh_11 = {
+	OR = {
+		# THIS IS AFRICA
+		tag = KSH
+		# THIS IS ARABIA
+		tag = MAK tag = QDA tag = SHB
+		# THIS IS INDIA
+		tag = BOJ tag = CHL tag = CHR tag = KRA tag = MRY tag = MSH tag = PND tag = RTI tag = SHU tag = STY tag = TSA tag = WUS tag = YRL
+	}
+}
+
+# Ex.: CURRENTLY NOT USED
+#sg_noart_masc_vow_lg_12 = {
+#}
+
+# Ex.: Ø Aksoum / D'Aksoum / D'Aksoum / À Aksoum / À Aksoum / LUI
+sg_noart_masc_vow_sh_13 = {
+	OR = {
+		# THIS IS AFRICA
+		tag = AXM # (= AX2, déjà formé)
+		# THIS IS INDIA
+		tag = ALU tag = ANU tag = ASM tag = AYY
+		# THIS IS FORMABLE NATIONS
+		tag = AX2 # (= AXM, formable)
+	}
+}
+
+# Ex.: CURRENTLY NOT USED
+#sg_noart_fem_cons_lg_14 = {
+#}
+
+# Ex.: Ø Carthage / DE Carthage / DE Carthage / À Carthage / À Carthage / ELLE
+sg_noart_fem_cons_sh_15 = {
+	OR = {
+		# THIS IS AFRICA
+		tag = CAR tag = GWN tag = KUA tag = LPT tag = MND tag = MYL tag = TPS tag = YEH
+		# THIS IS ANATOLIA
+		tag = CDD tag = KIO tag = KNI tag = KRS tag = KYA tag = KZK tag = RHO tag = SNP
+		# THIS IS ARABIA
+		tag = GRH tag = LHY tag = TQF tag = TYO
+		# THIS IS CAUCASIA & MESOPOTAMIA
+		tag = PHI tag = TRZ
+		# THIS IS GAUL
+		tag = MAS
+		# THIS IS GREECE
+		tag = BYZ tag = GRT tag = IEP tag = KNO tag = KOS tag = KRK tag = KYD tag = LPR tag = LYT tag = MGA tag = MGL tag = MLO tag = MTE tag = PRE tag = PRI tag = PTA tag = PYR tag = SPA tag = STP tag = TAN tag = THE tag = TRA tag = TRN tag = TYS
+		# THIS IS IBERIA
+		tag = CTI tag = GAD tag = MST tag = SGS tag = TAT
+		# THIS IS INDIA
+		tag = KHT tag = LOL tag = PSH
+		# THIS IS ITALIA
+		tag = CLA tag = CRO tag = GEL tag = LOC tag = MET tag = NUC tag = RHG tag = ROM tag = SIN tag = SIO tag = SYR tag = TAR tag = THU tag = TYN
+		# THIS IS SYRIA
+		tag = BMB tag = BYB tag = SID
+		# THIS IS FORMABLE NATIONS
+		tag = CYP tag = ITA tag = PMP tag = ROM tag = TRT tag = VAG tag = ZSE
+	}
+}
+
+# Ex.: CURRENTLY NOT USED
+#sg_noart_fem_vow_lg_16 = {
+#}
+
+# Ex.: Ø Athènes / D'Athènes / D'Athènes / À Athènes / À Athènes / ELLE
+sg_noart_fem_vow_sh_17 = {
+	OR = {
+		# THIS IS AFRICA
+		tag = ACO tag = ADO tag = EMP tag = HDR tag = IOL tag = OPO tag = UTC
+		# THIS IS ANATOLIA
+		tag = AMS tag = AST tag = HCP tag = HKS
+		# THIS IS GAUL
+		tag = HMK
+		# THIS IS GREECE
+		tag = ADR tag = AIG tag = ARG tag = ATH tag = ELI tag = ELT tag = EPD tag = HRA tag = ISO tag = OLB
+		# THIS IS IBERIA
+		tag = EPO
+		# THIS IS ITALIA
+		tag = ACR tag = ANO tag = ELE tag = HCL tag = HEM tag = HPO
+		# THIS IS SYRIA
+		tag = ARA
+		# THIS IS FORMABLE NATIONS
+		tag = AIO
+	}
+}
+
+# Ex.: LES Diablintes / DES Diablintes / DES Diablintes / AUX Diablintes / CHEZ LES Diablintes / EUX
+pl_masc_coll_18 = {
+	OR = {
+		# THIS IS SPECIAL
+		tag = MER
+		# THIS IS AFRICA
+		tag = AVL tag = BMY tag = BOR tag = MSL tag = MSS tag = MSY
+		# THIS IS ARABIA
+		tag = THD
+		# THIS IS BACTRIA
+		tag = PRN tag = PSS tag = ZNT
+		# THIS IS BRITANNIA
+		tag = ATR tag = BGA tag = BRI tag = CAI tag = CAL tag = CAN tag = CAT tag = CAU tag = CAV tag = COI tag = CON tag = COR tag = COV tag = DAR tag = DEC tag = DEM tag = DNN tag = DOB tag = DUM tag = DUR tag = ELA tag = ICE tag = IVE tag = MNA tag = ORD tag = PAS tag = REG tag = ROB tag = SIR tag = TRI tag = TXL tag = ULT tag = USD tag = VEN tag = VTD
+		# THIS IS CAUCASIA & MESOPOTAMIA
+		tag = HNY tag = LGA tag = SCA tag = SCE tag = SCY tag = SND tag = ZGY
+		# THIS IS GAUL
+		tag = ABC tag = ABM tag = ADC tag = ADT tag = AED tag = ALL tag = AMB tag = ARC tag = ASC tag = AVN tag = BGT tag = BIG tag = BLV tag = BOA tag = BRG tag = BTU tag = CCS tag = CGN tag = CIO tag = CLT tag = CMI tag = CNS tag = CRN tag = CTL tag = CTN tag = CTR tag = DBL tag = DCA tag = EBS tag = EBV tag = ESO tag = ESV tag = HVI tag = LCI tag = LMV tag = LNG tag = LTG tag = LXV tag = MDB tag = MDM tag = MNP tag = MRN tag = NMI tag = NMN tag = NRV tag = NTB tag = OSM tag = OXB tag = PCS tag = PRS tag = PTC tag = RAU tag = RDO tag = RMI tag = RUT tag = SBZ tag = SGL tag = SLV tag = SNN tag = SNT tag = SQI tag = SRB tag = SSS tag = SVC tag = TBC tag = TCT tag = TIG tag = TLG tag = TOU tag = TRB tag = TRC tag = TRO tag = TRS tag = TVI tag = VCL tag = VCT tag = VMD tag = VNL tag = VNN tag = VOC tag = VRB tag = VTN
+		# THIS IS GERMANIA
+		tag = AES tag = ANG tag = AGR tag = AVO tag = BST tag = BUR tag = CHC tag = CMB tag = CRS tag = DAN tag = EUD tag = FOS tag = GIT tag = GTH tag = HRE tag = LEU tag = LGB tag = LGI tag = LVA tag = MCM tag = RAM tag = REU tag = RGG tag = RUG tag = SCI tag = SLO tag = SMN tag = SUD tag = SWE tag = SXS tag = TIT tag = VDL tag = VND tag = VRI
+		# THIS IS GREECE
+		tag = MAE tag = ODR tag = PAA tag = SRM tag = TYG
+		# THIS IS IBERIA
+		tag = ABO tag = AEB tag = AEL tag = AMC tag = ARR tag = AUG tag = AUI tag = AVA tag = AVC tag = AVG tag = BAI tag = BAN tag = BDL tag = BDU tag = BED tag = BLL tag = BLN tag = BLT tag = BOL tag = BRC tag = CLC tag = CLD tag = CLO tag = CLU tag = CMS tag = CNI tag = CNT tag = CNU tag = COC tag = COP tag = CRE tag = CRI tag = CSS tag = DEI tag = DNQ tag = DOA tag = EBI tag = EBL tag = EDT tag = GGR tag = GRM tag = GRV tag = ICV tag = IDK tag = IGD tag = ILG tag = INT tag = LBT tag = LCC tag = LCN tag = LGO tag = LSN tag = LUN tag = MAT tag = MOC tag = MRC tag = MTS tag = NRI tag = OLC tag = ORM tag = ORT tag = PAE tag = PSC tag = SDT tag = SFI tag = SLC tag = SLI tag = SLN tag = SPT tag = SUR tag = TBU tag = TDI tag = TDL tag = TDT tag = TLS tag = TMC tag = TMG tag = TPL tag = TRQ tag = TTH tag = TUR tag = VAD tag = VCI tag = VDI tag = VRR tag = VSC tag = ZLA
+		# THIS IS ILLYRIA & DACIA
+		tag = ABI tag = ABN tag = AMI tag = ANS tag = APP tag = BCI tag = BUD tag = CAA tag = CAC tag = CVI tag = DIT tag = DLM tag = DND tag = DNT tag = DRD tag = DRI tag = DUI tag = EVS tag = GTE tag = HCN tag = LBN tag = LTB tag = MOE tag = NRC tag = OTN tag = OXU tag = PII tag = POT tag = RAT tag = SCD tag = SDI tag = SLD tag = TBL tag = TLN tag = TLT tag = TSC tag = TYR
+		# THIS IS INDIA
+		tag = KSA tag = PHY tag = PIT tag = SMP tag = TAY
+		# THIS IS ITALIA
+		tag = APU tag = BOI tag = BRE tag = BRT tag = CNM tag = CUT tag = EPA tag = ETR tag = FNT tag = FRE tag = GUN tag = HIS tag = IGN tag = INM tag = INS tag = KRN tag = LCA tag = LGN tag = LPO tag = MRS tag = MSP tag = PEL tag = PIE tag = RAE tag = SAB tag = SAM tag = SCU tag = SLS tag = SNI tag = TAU tag = UMB tag = VNT
+		# THIS IS FORMABLE NATIONS
+		tag = AUA tag = DHE tag = KHN tag = YZI
+		# THIS IS NURAGIC
+		tag = BLR tag = IOI
+	}
+}
+
+# Ex.: LES Amazones / DES Amazones / DES Amazones / AUX Amazones / CHEZ LES Amazones / ELLES -- CURRENTLY NOT USED
+#pl_fem_coll_19 = {
+#}
+
+# Ex.: LES Territoires barbares / DES Territoires barbares / DES Territoires barbares / AUX Territoires barbares / DANS LES Territoires barbares / EUX -- CURRENTLY NOT USED
+#pl_masc_geo_20 = {
+#}
+
+# Ex.: LES Gymnésies / DES Gymnésies / DES Gymnésies / AUX Gymnésies / DANS LES Gymnésies / ELLES
+pl_fem_geo_21 = {
+		# THIS IS IBERIA
+		tag = BLD
+}
+
+
+
+################################
+#   (MACRO)REGIONS / RÉGIONS   #
+################################
+
+# Ex.: LE Gandhara / DU Gandhara / DU Gandhara / DANS LE Gandhara / le grand Gandhara
+region_sg_art_masc_cons_01 = {
+	OR = {
+		is_in_region = dravida_region
+		is_in_region = gandhara_region
+		is_in_region = karnata_region
+		is_in_region = madhyadesa_region
+		is_in_region = maru_region
+		is_in_region = pracya_region
+		is_in_region = tibet_region
+		is_in_region = vindhyaprstha_region
+	}
+}
+
+# Ex.: L'Himalaya / DE L'Himalaya / DE L'Himalaya / DANS L'Himalaya / le grand Himalaya
+region_sg_art_masc_vow_02 = {
+	OR = {
+		is_in_region = aparanta_region
+		is_in_region = avanti_region
+		is_in_region = himalayan_region
+	}
+}
+
+# Ex.: LA Mésopotamie / DE LA Mésopotamie / DE Mésopotamie / EN Mésopotamie / la grande Mésopotamie
+region_sg_art_fem_cons_03 = {
+	OR = {
+		is_in_region = bactriana_region
+		is_in_region = baetica_region
+		is_in_region = belgica_region
+		is_in_region = bithynia_region
+		is_in_region = bohemia_area
+		is_in_region = britain_region
+		is_in_region = caledonia_region
+		is_in_region = cappadocia_region
+		is_in_region = central_gaul_region
+		is_in_region = cilicia_region
+		is_in_region = cisalpine_gaul_region
+		is_in_region = colchis_region
+		is_in_region = contestania_region
+		is_in_region = cyrenaica_region
+		is_in_region = dacia_region
+		is_in_region = galatia_region
+		is_in_region = gallaecia_region
+		is_in_region = gedrosia_region
+		is_in_region = germania_region
+		is_in_region = germania_superior_region
+		is_in_region = greece_region
+		is_in_region = lower_egypt_region
+		is_in_region = lusitania_region
+		is_in_region = macedonia_region
+		is_in_region = magna_graecia_region
+		is_in_region = mauretainia_region
+		is_in_region = media_region
+		is_in_region = mesopotamia_region
+		is_in_region = moesia_region
+		is_in_region = nubia_region
+		is_in_region = numidia_region
+		is_in_region = palestine_region
+		is_in_region = pannonia_region
+		is_in_region = parthia_region
+		is_in_region = persis_region
+		is_in_region = rhaetia_region
+		is_in_region = sarmatia_asiatica_region
+		is_in_region = sarmatia_europea_region
+		is_in_region = scandinavia_region
+		is_in_region = scythia_region
+		is_in_region = sogdiana_region
+		is_in_region = syria_region
+		is_in_region = tarraconensis_region
+		is_in_region = taurica_region
+		is_in_region = thrace_region
+		is_in_region = transalpine_gaul_region
+		is_in_region = upper_egypt_region
+		is_in_region = venedia_region
+		is_in_region = vistulia_region
+	}
+}
+
+# Ex.: L'Assyrie / DE L'Assyrie / D'Assyrie / EN Assyrie / la grande Assyrie
+region_sg_art_fem_vow_04 = {
+	OR = {
+		is_in_region = africa_region
+		is_in_region = albania_region
+		is_in_region = aquitaine_region
+		is_in_region = arabia_felix_region
+		is_in_region = arabia_region
+		is_in_region = ariana_region
+		is_in_region = armenia_region
+		is_in_region = armorica_region
+		is_in_region = asia_region
+		is_in_region = assyria_region
+		is_in_region = central_italy_region
+		is_in_region = illyria_region
+	}
+}
+
+# Ex.: Ø Pount / DE Pount / DE Pount / À Pount / le grand Pount
+region_sg_no_art_masc_cons_05 = {
+	is_in_region = punt_region
+}
+
+# region_sg_no_art_masc_vow_06 = {} # Currently not used
+# region_sg_no_art_fem_cons_07 = {} # Currently not used
+# region_sg_no_art_fem_vow_08 = {} # Currently not used
+# region_pl_art_masc_cons_09 = {} # Currently not used
+# region_pl_art_masc_vow_10 = {} # Currently not used
+# region_pl_art_fem_cons_11 = {} # Currently not used
+# region_pl_art_fem_vow_12 = {} # Currently not used
+# region_pl_no_art_masc_cons_13 = {} # Currently not used
+# region_pl_no_art_masc_vow_14 = {} # Currently not used
+# region_pl_no_art_fem_cons_15 = {} # Currently not used
+# region_pl_no_art_fem_vow_16 = {} # Currently not used
+
+
+
+########################################################################
+#   PROVINCES (used for cities) / PROVINCES (utilisé pour les cités)   #
+########################################################################
+
+# Ex.: LE Norique / DU Norique / DU Norique / DANS LE Norique / le grand Norique
+province_sg_art_masc_cons_01 = {
+	OR = {
+		is_in_area = asculum_area
+		is_in_area = carthage_area
+		is_in_area = central_delta_area
+		is_in_area = chomolangma_area
+		is_in_area = dahala_area
+		is_in_area = dakshina_kosala_area
+		is_in_area = dasarna_area
+		is_in_area = east_cedi_area
+		is_in_area = eastern_delta_area
+		is_in_area = fanindrapura_area
+		is_in_area = farfara_area
+		is_in_area = ferghana_area
+		is_in_area = ferraria_area
+		is_in_area = gaetulia_centralis_area
+		is_in_area = gandhara_area
+		is_in_area = gilgit_area
+		is_in_area = helvetia_orientalis_area
+		is_in_area = inner_saurashtra_area
+		is_in_area = jangtang_area
+		is_in_area = kaccha_area
+		is_in_area = kalinga_area
+		is_in_area = kamarupa_area
+		is_in_area = kamata_area
+		is_in_area = kasi_area
+		is_in_area = keralaputa_area
+		is_in_area = kharga_area
+		is_in_area = khargana_area
+		is_in_area = koda_area
+		is_in_area = kosala_area
+		is_in_area = kuntala_area
+		is_in_area = kuru_area
+		is_in_area = lhasa_area
+		is_in_area = madhyamika_area
+		is_in_area = madra_area
+		is_in_area = maeotia_area
+		is_in_area = magadha_area
+		is_in_area = mahendragiri_area
+		is_in_area = malla_area
+		is_in_area = maru_area
+		is_in_area = matsya_area
+		is_in_area = mulaka_area
+		is_in_area = north_mahishamandala_area
+		is_in_area = north_satiyaputa_area
+		is_in_area = north_sindhu_area
+		is_in_area = north_tambapamni_area
+		is_in_area = north_tarim_area
+		is_in_area = north_tondainadu_area
+		is_in_area = outer_saurashtra_area
+		is_in_area = pamir_area
+		is_in_area = pancala_area
+		is_in_area = panchanada_area
+		is_in_area = pandiya_area
+		is_in_area = parisia_area
+		is_in_area = parsatunik_area
+		is_in_area = pontus_area
+		is_in_area = pontus_colopene_area
+		is_in_area = pundra_area
+		is_in_area = qataba_area
+		is_in_area = radha_area
+		is_in_area = roma_area
+		is_in_area = samatata_area
+		is_in_area = sauvira_area
+		is_in_area = sinai_area
+		is_in_area = sivi_area
+		is_in_area = south_mahishamandala_area
+		is_in_area = south_satiyaputa_area
+		is_in_area = south_sindhu_area
+		is_in_area = south_tambapamni_area
+		is_in_area = south_tarim_area
+		is_in_area = south_tondainadu_area
+		is_in_area = sriparvata_area
+		is_in_area = sthanisvara_area
+		is_in_area = sumpa_area
+		is_in_area = suvarna_gotra_area
+		is_in_area = tarawn_area
+		is_in_area = tarim_area
+		is_in_area = tayk_area
+		is_in_area = trigarta_area
+		is_in_area = tsang_area
+		is_in_area = vanavasi_area
+		is_in_area = vanga_area
+		is_in_area = vaspurakan_area
+		is_in_area = vidarbha_area
+		is_in_area = vrji_area
+		is_in_area = west_cedi_area
+		is_in_area = western_delta_area
+		is_in_area = yarlung_area
+		is_in_area = zhangzhung_area
+	}
+}
+
+# Ex.: L'Aurès / DE L'Aurès / DE L'Aurès / DANS L'Aurès / le grand Aurès
+province_sg_art_masc_vow_02 = {
+	OR = {
+		is_in_area = ahicchatra_area
+		is_in_area = anartta_area
+		is_in_area = andhra_area
+		is_in_area = anga_area
+		is_in_area = anupa_area
+		is_in_area = aparanta_area
+		is_in_area = arran_area
+		is_in_area = asika_area
+		is_in_area = asmaka_area
+		is_in_area = avanti_area
+		is_in_area = ayrarat_area
+		is_in_area = gaetulia_septentrionalis_area
+		is_in_area = hadramut_occidentalis_area
+		is_in_area = hadramut_orientalis_area
+		is_in_area = haemimontus_area
+	}
+}
+
+# Ex.: LA Babylonie / DE LA Babylonie / DE Babylonie / EN Babylonie / la grande Babylonie
+province_sg_art_fem_cons_03 = {
+	OR = {
+		is_in_area = africa_meridionalis_area
+		is_in_area = africa_septentrionalis_area
+		is_in_area = alania_area
+		is_in_area = amardioi_area
+		is_in_area = arabia_deserta_area
+		is_in_area = ardashir_area
+		is_in_area = asoristan_area
+		is_in_area = aspadana_area
+		is_in_area = aswan_area
+		is_in_area = babylonia_area
+		is_in_area = bactria_area
+		is_in_area = baetica_cordubensis_area
+		is_in_area = baetica_hispalensis_area
+		is_in_area = bassetia_area
+		is_in_area = bastetania_area
+		is_in_area = bekhyria_area
+		is_in_area = bellovacia_area
+		is_in_area = beth_daraye_area
+		is_in_area = biggeronia_area
+		is_in_area = bithynia_area
+		is_in_area = bithynia_inferior_area
+		is_in_area = bithynia_superior_area
+		is_in_area = bituriga_occidentalis_area
+		is_in_area = bituriga_orientalis_area
+		is_in_area = boeotia_area
+		is_in_area = boioa_meridionalis_area
+		is_in_area = boioa_septentrionalis_area
+		is_in_area = borysthenia_area
+		is_in_area = borysthenia_maioris_area
+		is_in_area = borysthenia_minor_area
+		is_in_area = bosproranum_area
+		is_in_area = brigantia_area
+		is_in_area = britannia_secunda_meridionalis_area
+		is_in_area = bructeria_area
+		is_in_area = buria_area
+		is_in_area = cadurcia_area
+		is_in_area = caledonia_meridionalis_area
+		is_in_area = caledonia_occidentalis_area
+		is_in_area = caledonia_septentrionalis_area
+		is_in_area = callaecia_meridionalis_area
+		is_in_area = callaecia_septentrionalis_area
+		is_in_area = caluconia_area
+		is_in_area = candara_area
+		is_in_area = cantabria_area
+		is_in_area = cantiacia_area
+		is_in_area = cappadocia_area
+		is_in_area = cappadocia_cataonia_area
+		is_in_area = cappadocia_garsauritis_area
+		is_in_area = cappadocia_melitene_area
+		is_in_area = cappadocia_saravene_area
+		is_in_area = carmania_area
+		is_in_area = carnuntia_area
+		is_in_area = carnutia_area
+		is_in_area = carpetania_area
+		is_in_area = celtiberia_centralis_area
+		is_in_area = celtiberia_meridionalis_area
+		is_in_area = celtiberia_septentrionalis_area
+		is_in_area = celtica_centralis_area
+		is_in_area = celtica_occidentalis_area
+		is_in_area = celticia_maoioris_area
+		is_in_area = celticia_minoris_area
+		is_in_area = cessetania_area
+		is_in_area = chalkidiki_area
+		is_in_area = chamavia_area
+		is_in_area = chasuaria_area
+		is_in_area = chattia_occidentalis_area
+		is_in_area = chaucia_area
+		is_in_area = chrononis_area
+		#is_in_area = cidamus_area
+		is_in_area = cilicia_pedias_area
+		is_in_area = cilicia_trachea_area
+		is_in_area = cimbrica_superioris_area
+		is_in_area = ciscarpathia_area
+		is_in_area = clepia_area
+		is_in_area = coastal_caria_area
+		is_in_area = colchis_area
+		is_in_area = commagene_area
+		is_in_area = confluenta_area
+		is_in_area = contestania_meridionalis_area
+		is_in_area = contestania_septentrionalis_area
+		is_in_area = corduene_area
+		is_in_area = coritania_area
+		is_in_area = cornovia_area
+		is_in_area = corsica_area
+		is_in_area = couneia_area
+		is_in_area = crete_area
+		is_in_area = croton_area
+		is_in_area = cyrenaica_inferioris_area
+		is_in_area = cyrenaica_superioris_area
+		is_in_area = cyropolis_area
+		is_in_area = dacia_inferioris_area
+		is_in_area = dacia_mediterranea_area
+		is_in_area = dacia_superioris_area
+		is_in_area = dahaea_area
+		is_in_area = dalmatia_centralis_area
+		is_in_area = dalmatia_occidentalis_area
+		is_in_area = dalmatia_orientalis_area
+		is_in_area = danaia_area
+		is_in_area = danaia_superioris_area
+		is_in_area = dardania_inferioris_area
+		is_in_area = dardania_superioris_area
+		is_in_area = darn_area
+		is_in_area = decapolis_area
+		is_in_area = dedan_area
+		is_in_area = derbicca_area
+		is_in_area = dobunnia_area
+		is_in_area = drangiana_area
+		is_in_area = dumnonia_area
+		is_in_area = durotrigia_area
+		is_in_area = east_gothia_area
+		is_in_area = east_insubria_area
+		is_in_area = east_sicily_area
+		is_in_area = frisia_area
+		is_in_area = gaditanus_area
+		is_in_area = gaetulia_occidentalis_area
+		is_in_area = gaetulia_orientalis_area
+		is_in_area = galatia_area
+		is_in_area = galatia_trocmi_area
+		is_in_area = galilee_area
+		is_in_area = galindia_area
+		#is_in_area = garamantum_area
+		is_in_area = garamig_area
+		is_in_area = gedrosia_area
+		is_in_area = gerrha_area
+		is_in_area = getia_occidentalis_area
+		is_in_area = getia_orientalis_area
+		is_in_area = gugark_area
+		is_in_area = helvetia_superioris_area
+		is_in_area = hema_nome_area
+		is_in_area = heraclea_area
+		is_in_area = iazygia_majoris_area
+		is_in_area = inland_caria_area
+		is_in_area = jaxartia_area
+		is_in_area = judea_area
+		is_in_area = kadousioi_area
+		is_in_area = kahetia_area
+		is_in_area = kasmira_area
+		is_in_area = kharesmia_area
+		is_in_area = kharesmia_superior
+		is_in_area = kossioi_area
+		is_in_area = langobardia_area
+		is_in_area = latobrigia_area
+		is_in_area = lemovicia_area
+		is_in_area = leucia_area
+		is_in_area = liguria_area
+		is_in_area = lobetania_area
+		is_in_area = lugia_area
+		is_in_area = lusitania_meridionalis_area
+		is_in_area = lusitania_septentrionalis_area
+		is_in_area = luxor_area
+		is_in_area = lycaonia_area
+		is_in_area = lycia_area
+		is_in_area = lydia_area
+		is_in_area = macedonia_salutaris_area
+		is_in_area = machelonia_area
+		is_in_area = maeotia_minores_area
+		is_in_area = malacita_area
+		is_in_area = malvensis_area
+		is_in_area = marcomannia_maiores_area
+		is_in_area = marcomannia_minores_area
+		is_in_area = margiana_area
+		is_in_area = margu_area
+		is_in_area = marmarica_occidentalis_area
+		is_in_area = marmarica_orientalis_area
+		#is_in_area = marmaridae_area
+		is_in_area = marsignia_area
+		is_in_area = mastiania_area
+		is_in_area = mauretania_caesariensis_centralis_area
+		is_in_area = mauretania_caesariensis_minoris_area
+		is_in_area = mauretania_caesariensis_occidentalis_area
+		is_in_area = mauretania_caesariensis_orientalis_area
+		is_in_area = mauretania_tingitana_meridionalis_area
+		is_in_area = mauretania_tingitana_septentrionalis_area
+		is_in_area = media_area
+		is_in_area = media_choromithrene
+		is_in_area = mediomatricia_area
+		is_in_area = memphis_area
+		is_in_area = meroe_area
+		is_in_area = meshan_area
+		is_in_area = milyas_area
+		is_in_area = moesia_occidentalis_area
+		is_in_area = moesia_orientalis_area
+		is_in_area = moesia_prima_occidentalis_area
+		is_in_area = moesia_prima_orientalis_area
+		is_in_area = morinia_area
+		is_in_area = mosylon_area
+		is_in_area = mysia_abrettene_area
+		is_in_area = mysia_area
+		is_in_area = napata_area
+		is_in_area = narbonensis_centralis_area
+		is_in_area = narbonensis_occidentalis_area
+		is_in_area = narbonensis_orientalis_area
+		is_in_area = neapolis_area
+		is_in_area = nervia_area
+		is_in_area = niniveh_area
+		is_in_area = noricum_mediterranum_area
+		is_in_area = north_etruria_area
+		is_in_area = north_nubia_area
+		is_in_area = north_phoenicia_area
+		is_in_area = numidia_centralis_area
+		is_in_area = numidia_maioris_area
+		is_in_area = numidia_minoris_area
+		is_in_area = numidia_occidentalis_area
+		is_in_area = pactya_area
+		is_in_area = palmyra_area
+		is_in_area = pamphylia_area
+		is_in_area = pannonia_prima_occidentalis_area
+		is_in_area = pannonia_prima_orientalis_area
+		is_in_area = pannonia_secunda_area
+		is_in_area = pannonia_valeria_area
+		is_in_area = paphlagonia_inferior_area
+		is_in_area = paphlagonia_superior_area
+		is_in_area = parecania_area
+		is_in_area = parnia_area
+		is_in_area = pars_area
+		is_in_area = parskahayk_area
+		is_in_area = parthia_area
+		is_in_area = parthia_komishene_area
+		is_in_area = parva_area
+		is_in_area = patalene_area
+		is_in_area = paytankert_area
+		is_in_area = peraea_area
+		is_in_area = persepolis_area
+		is_in_area = pharodenia_area
+		is_in_area = philistia_area
+		is_in_area = phrygia_area
+		is_in_area = phrygia_epiktetos
+		is_in_area = phrygia_parorea_area
+		is_in_area = pictonia_meridionalis_area
+		is_in_area = pictonia_septentrionalis_area
+		is_in_area = pisae_area
+		is_in_area = pisidia_area
+		is_in_area = porolissensis_area
+		is_in_area = porolissensis_inferioris_area
+		is_in_area = ptolemais_area
+		#is_in_area = relicta_area
+		is_in_area = remia_area
+		is_in_area = rhagai_area
+		is_in_area = rhodope_area
+		is_in_area = rugia_area
+		is_in_area = rutubis_area
+		is_in_area = sagartia_area
+		is_in_area = samaria_area
+		is_in_area = sardinia_meridionalis
+		is_in_area = sardinia_septentrionalis
+		is_in_area = sarmatia_area
+		is_in_area = sarmatia_hyrcania_area
+		is_in_area = sarmatia_superioris_area
+		is_in_area = sattagydia_area
+		is_in_area = sattara_area
+		is_in_area = savia_occidentalis_area
+		is_in_area = savia_orientalis_area
+		is_in_area = scandia_insula_area
+		is_in_area = scythia_ad_pontem_area
+		is_in_area = scythia_area
+		is_in_area = scythia_prima_area
+		is_in_area = scythia_trans_montem_area
+		is_in_area = scythia_ultima_area
+		is_in_area = semnonia_area
+		is_in_area = senonia_area
+		is_in_area = sentonia_maioris_area
+		is_in_area = sequania_area
+		is_in_area = sicambria_area
+		is_in_area = sirdarya_area
+		is_in_area = soducene_area
+		is_in_area = sogdiana_area
+		is_in_area = sophene_area
+		is_in_area = south_nubia_area
+		is_in_area = south_peleponnesos_area
+		is_in_area = south_phoenicia_area
+		is_in_area = suaeuconia_area
+		is_in_area = suaneti_area
+		is_in_area = subcarpathia_area
+		is_in_area = surasena_area
+		is_in_area = susiana_area
+		is_in_area = syracene_area
+		is_in_area = syracuse_area
+		is_in_area = syria_area
+		is_in_area = syria_coele_area
+		is_in_area = syria_cyrrestice_area
+		is_in_area = syunik_area
+		is_in_area = tadla_area
+		is_in_area = taifa_area
+		is_in_area = talas_area
+		is_in_area = tana_area
+		is_in_area = tanaissa_area
+		is_in_area = tanassa_area
+		is_in_area = tarentum_area
+		is_in_area = taurica_area
+		is_in_area = taxila_area
+		is_in_area = thessaly_area
+		is_in_area = thracia_area
+		is_in_area = tigurinia_area
+		is_in_area = transborysthenia_area
+		is_in_area = transcarpathia_centralis_area
+		is_in_area = transcarpathia_occidentalis_area
+		is_in_area = transcarpathia_orientalis_area
+		is_in_area = transhypania_area
+		is_in_area = transhyrcania_area
+		is_in_area = transoxus_area
+		is_in_area = transpadana_area
+		is_in_area = treveria_area
+		is_in_area = tribocia_area
+		is_in_area = tripolitania_centralis_area
+		is_in_area = tripolitania_orientalis_area
+		is_in_area = troglodytica_area
+		is_in_area = tulingia_area
+		is_in_area = turdetania_occidentalis_area
+		is_in_area = turdulia_occidentalis_area
+		is_in_area = turdulia_orientalis_area
+		is_in_area = turuntia_area
+		is_in_area = upper_macedonia_area
+		is_in_area = upper_mesopotamia_area
+		is_in_area = vaccaeia_meridionalis_area
+		is_in_area = vaccaeia_septentrionalis_area
+		is_in_area = vangionia_area
+		is_in_area = vardulia_area
+		is_in_area = vasconia_area
+		is_in_area = veliocassia_area
+		is_in_area = venedia_area
+		is_in_area = venetia_area
+		is_in_area = veshapur_area
+		is_in_area = vettonia_meridionalis_area
+		is_in_area = vettonia_septentrionalis_area
+		is_in_area = vishpauzatis_area
+		is_in_area = vistulia_area
+		is_in_area = vistulia_inferioris_area
+		is_in_area = west_gothia_area
+		is_in_area = west_sicily_area
+		is_in_area = zargidava_area
+	}
+}
+
+# Ex.: L'Assyrie / DE L'Assyrie / D'Assyrie / EN Assyrie / la grande Assyrie
+province_sg_art_fem_vow_04 = {
+	OR = {
+		is_in_area = abasgoi_area
+		is_in_area = abhiria_area
+		is_in_area = achaea_area
+		is_in_area = adiabene_area
+		is_in_area = aebocosia_area
+		is_in_area = aemilla_area
+		is_in_area = aeolia_area
+		is_in_area = aetolia_area
+		is_in_area = alana_area
+		is_in_area = alania_orientalis_area
+		is_in_area = alania_proper_area
+		is_in_area = allobrogia_area
+		is_in_area = alut_area
+		is_in_area = amadocia_occidentalis_area
+		is_in_area = ammon_area
+		is_in_area = apamene_area
+		is_in_area = apulensis_area
+		is_in_area = aquitania_occidentalis_area
+		is_in_area = aquitania_orientalis_area
+		is_in_area = arabia_ad_sinus_area
+		#is_in_area = arabia_deserta_ulterior
+		is_in_area = arabia_felix_centralis_area
+		is_in_area = arabia_felix_occidentalis_area
+		is_in_area = arabia_felix_orientalis_area
+		is_in_area = arabia_maritimae_area
+		is_in_area = arabia_petrea_area
+		is_in_area = arabia_relicta_area
+		is_in_area = arachosia_area
+		is_in_area = aria_area
+		is_in_area = ariminum_area
+		is_in_area = armenia_maior_area
+		is_in_area = armenia_minor_area
+		is_in_area = armorica_centralis_area
+		is_in_area = armorica_maioris_area
+		is_in_area = armorica_minoris_area
+		is_in_area = artshak_area
+		is_in_area = asturia_meridionalis_area
+		is_in_area = asturia_septentrionalis_area
+		is_in_area = atara_area
+		is_in_area = atbaras_area
+		is_in_area = aternum_area
+		is_in_area = autrigonia_area
+		is_in_area = britannia_secunda_septentrionalis_area
+		is_in_area = cannae_area
+		is_in_area = caucasian_albania_area
+		is_in_area = caucasian_iberia_area
+		is_in_area = celtica_orientalis_area
+		is_in_area = cenomannia_area
+		is_in_area = central_greece_area
+		is_in_area = central_massif_area
+		is_in_area = chattia_orientalis_area
+		is_in_area = cimbrica_inferioris_area
+		is_in_area = east_omana_area
+		is_in_area = ecbatana_area
+		is_in_area = edetania_area
+		is_in_area = elysia_area
+		is_in_area = epirus_area
+		is_in_area = euphrates_area
+		is_in_area = europa_area
+		is_in_area = harmozeia_area
+		is_in_area = helveconia_area
+		is_in_area = helvetia_inferioris_area
+		is_in_area = heptanomis_area
+		is_in_area = heracleotis_area
+		is_in_area = herulia_area
+		is_in_area = hibernia_meridionalis_area
+		is_in_area = hibernia_occidentalis_area
+		is_in_area = hibernia_orientalis_area
+		is_in_area = hibernia_septentrionalis_area
+		is_in_area = histria_area
+		is_in_area = hypania_area
+		is_in_area = hypania_minoris_area
+		is_in_area = hyrcania_area
+		is_in_area = hyrcania_superior_area
+		is_in_area = iazygia_minoris_area
+		is_in_area = icenia_area
+		is_in_area = ilercavonia_area
+		is_in_area = ilergetia_area
+		is_in_area = illyria_graeca_area
+		is_in_area = indiketia_area
+		is_in_area = ionia_area
+		is_in_area = isauria_area
+		is_in_area = lingonia_area
+		is_in_area = macedonia_area
+		is_in_area = mauretania_caesariensis_maioris_area
+		is_in_area = media_atropatene_area
+		is_in_area = media_felix_area
+		is_in_area = menapia_orientalis
+		is_in_area = namek_area
+		is_in_area = olbia_area
+		is_in_area = omana_area
+		is_in_area = oppidania_area
+		is_in_area = oretania_area
+		is_in_area = osroene_area
+		is_in_area = ossioia_area
+		is_in_area = oxiana_area
+		is_in_area = pannonia_terminus_area
+		is_in_area = south_etruria_area
+		is_in_area = tigris_area
+		is_in_area = tripolitania_occidentalis_area
+		is_in_area = upper_armenia_area
+		is_in_area = utia_area
+		is_in_area = west_insubria_area
+	}
+}
+
+# Ex.: Ø Sumer / DE Sumer / DE Sumer / À Sumer / le grand Sumer
+province_sg_no_art_masc_cons_05 = {
+	OR = {
+		is_in_area = punt_area
+		is_in_area = sheba_area
+		is_in_area = veh_kavad_area
+	}
+}
+
+# province_sg_no_art_masc_vow_06 = {} # Currently not used
+
+# Ex.: Ø Chypre / DE Chypre / DE Chypre / À Chypre / la grande Chypre
+province_sg_no_art_fem_cons_07 = {
+	is_in_area = cyprus_area
+}
+
+# Ex.: Ø Ultima Thulé / D'Ultima Thulé / D'Ultima Thulé / À Ultima Thulé / la grande Ultima Thulé
+province_sg_no_art_fem_vow_08 = {
+	OR = {
+		is_in_area = aksum_area
+		is_in_area = ultima_thule_area
+	}
+}
+
+# Ex.: LES Monts Porphyrites / DES Monts Porphyrites / DES Monts Porphyrites / DANS LES Monts Porphyrites / les grands Monts Porphyrites
+province_pl_art_masc_cons_09 = {
+	OR = {
+		is_in_area = malayas_area
+		is_in_area = myos_hormos_area
+		is_in_area = vindya_area
+	}
+}
+
+# Ex.: LES Alpes grées / DES Alpes grées / DES Alpes grées / DANS LES Alpes grées / les grandes Alpes grées
+province_pl_art_masc_vow_10 = {
+	OR = {
+		is_in_area = aegean_islands_area
+		is_in_area = alpes_graiae_area
+		is_in_area = alpes_maritimae_area
+		is_in_area = alpes_maritimae_two_area
+		is_in_area = alpes_raetiae_occidentalis
+		#is_in_area = alpes_raetiae_occidentalis_area
+		is_in_area = alpes_raetiae_orientalis
+		#is_in_area = alpes_raetiae_orientalis_area
+		is_in_area = balearides_area
+		is_in_area = bamyan_area
+		is_in_area = north_sahyadri_area
+		is_in_area = south_sahyadri_area
+	}
+}
+
+# province_pl_art_fem_cons_11 = {} # Currently not used
+# province_pl_art_fem_vow_12 = {} # Currently not used
+# province_pl_no_art_masc_cons_13 = {} # Currently not used
+# province_pl_no_art_masc_vow_14 = {} # Currently not used
+# province_pl_no_art_fem_cons_15 = {} # Currently not used
+# province_pl_no_art_fem_vow_16 = {} # Currently not used
+
+
+
+##################################################################################
+#   TITLES & OFFICES DETERMINATIVES / DÉTERMINANTS POUR LES TITRES & FONCTIONS   #
+##################################################################################
+
+#######################
+# RULERS / DIRIGEANTS #
+#######################
+
+# Ex.: L'archonte / À L'archonte / DE L'archonte
+country_ruler_masc_vow_01 = {
+	OR = {
+		AND = {
+			OR = {
+				government = despotic_monarchy # (Roi)
+				government = stratocratic_monarchy # (Roi)
+				government = aristocratic_monarchy # (Roi)
+				government = plutocratic_monarchy # (Roi)
+			}
+			country_culture_group = north_african # Ity
+		}
+		AND = {
+			government = theocratic_monarchy # (Grand roi)
+			OR = {
+				country_culture_group = west_levantine # Adonis
+				country_culture_group = north_african # Ity
+			}
+		}
+		AND = {
+			OR = {
+				government = imperium # Empereur
+				government = imperial_cult # Empereur
+			}
+			NOR = {
+				country_culture_group = aryan country_culture_group = indian country_culture_group = tibetan # (Chakravarti)
+				country_culture_group = persia # (Sahe sahan)
+				country_culture_group = hellenic # (Megas basileus)
+				country_culture_group = west_levantine # (Suffète)
+				country_culture_group = north_african # (Pharaon)
+			}
+		}
+		AND = {
+			OR = {
+				government = aristocratic_republic # Archonte
+				government = oligarchic_republic # Archonte
+				government = democratic_republic # Archonte
+				government = plutocratic_republic # Archonte
+			}
+			NOR = {
+				country_culture_group = latin # (Consul)
+				country_culture_group = indian country_culture_group = aryan country_culture_group = tibetan # (Raja)
+				country_culture_group = west_levantine # (Suffète)
+			}
+		}
+		AND = {
+			government = theocratic_republic # (Prêtre-archonte)
+			country_culture_group = west_levantine # Adonis
+		}
+		AND = {
+			government = tribal_kingdom # (Chef de tribu)
+			country_culture_group = hellenic # Anax
+		}
+	}
+}
+
+## Ex.: LE roi / AU roi / DU roi
+#country_ruler_masc_cons_02 = {
+#}
+
+# Ex.: L'anassa / À L'anassa / DE L'anassa
+country_ruler_fem_vow_03 = {
+	OR = {
+		AND = {
+			OR = {
+				government = despotic_monarchy # (Reine)
+				government = stratocratic_monarchy # (Reine)
+				government = aristocratic_monarchy # (Reine)
+				government = plutocratic_monarchy # (Reine)
+			}
+			country_culture_group = north_african # Ity
+		}
+		AND = {
+			government = theocratic_monarchy # (Grande reine)
+			OR = {
+				country_culture_group = west_levantine # Adonia
+				country_culture_group = north_african # Ity
+			}
+		}
+		AND = {
+			OR = {
+				government = imperium # Impératrice
+				government = imperial_cult # Impératrice
+			}
+			NOR = {
+				country_culture_group = aryan country_culture_group = indian country_culture_group = tibetan # (Chakravarti)
+				country_culture_group = persia # (Bânbishnân bânbishn)
+				country_culture_group = hellenic # (Basilinna)
+				country_culture_group = west_levantine # (Suffète)
+				country_culture_group = north_african # (Khénémet-néfer-hedjet)
+			}
+		}
+		AND = {
+			OR = {
+				government = aristocratic_republic # Archonte
+				government = oligarchic_republic # Archonte
+				government = democratic_republic # Archonte
+				government = plutocratic_republic # Archonte
+			}
+			NOR = {
+				country_culture_group = latin # (Consule)
+				country_culture_group = indian country_culture_group = aryan country_culture_group = tibetan # (Rani)
+				country_culture_group = west_levantine # (Suffète)
+			}
+		}
+		AND = {
+			government = theocratic_republic # (Prêtresse-archonte)
+			country_culture_group = west_levantine # Adonia
+		}
+		AND = {
+			OR = {
+				government = tribal_kingdom # (Cheffe de tribu)
+				government = tribal_federation # (Première magistrate)
+			}
+			country_culture_group = hellenic # Anassa
+		}
+	}
+}
+
+## Ex.: LA reine / À LA reine / DE LA reine
+#country_ruler_fem_cons_04 = {
+#}
+
+
+
+#######################
+# CONSORTS / CONSORTS #
+#######################
+
+## Ex.: L'empereur / À L'empereur / DE L'empereur
+#country_consort_masc_vow_01 = {
+#}
+
+# Ex.: LE consort / AU consort / DU consort
+country_consort_masc_cons_02 = {
+	OR = {
+		government = dictatorship # (Consort)
+		government = despotic_monarchy # (Consort)
+		government = aristocratic_monarchy # (Consort)
+		government = stratocratic_monarchy # (Consort)
+		government = theocratic_monarchy # (Consort)
+		government = plutocratic_monarchy # (Consort)
+		government = imperium # (Consort)
+		government = imperial_cult # (Consort)
+	}
+}
+
+# Ex.: L'impératrice / À L'impératrice / DE L'impératrice
+country_consort_fem_vow_03 = {
+	OR = {
+		government = imperium # (Impératrice)
+		government = imperial_cult # (Impératrice)
+	}
+}
+
+# Ex.: LA consort / À LA consort / DE LA consort
+country_consort_fem_cons_04 = {
+	OR = {
+		government = dictatorship # (Consort)
+		government = despotic_monarchy # (Reine)
+		government = aristocratic_monarchy # (Reine)
+		government = stratocratic_monarchy # (Reine)
+		government = theocratic_monarchy # (Grande reine)
+		government = plutocratic_monarchy # (Reine)
+	}
+}
+
+
+
+##################################
+#   TRADE GOODS / MARCHANDISES   #
+##################################
+
+## Ex.: LE bétail / DU bétail / production DE bétail / UN BON bétail
+tradegood_sg_masc_cons_01 = {
+	OR = {
+		trade_goods = cattle # Bétail
+		trade_goods = fish # Poisson
+		trade_goods = glass # Verre
+		trade_goods = hemp # Chanvre
+		trade_goods = honey # Miel
+		trade_goods = iron # Fer
+		trade_goods = leather # Cuir
+		trade_goods = marble # Marbre
+		trade_goods = papyrus # Papyrus
+		trade_goods = salt # Sel
+		trade_goods = wild_game # Gibier
+		trade_goods = wine # Vin
+		trade_goods = wood # Bois
+	}
+}
+
+## Ex.: L'ambre / DE L'ambre / production D'ambre / UN BON ambre
+tradegood_sg_masc_vow_02 = {
+	OR = {
+		trade_goods = amber # Ambre
+		trade_goods = incense # Encens
+	}
+}
+
+## Ex.: LA soie / DE LA soie / production DE soie / UNE BONNE soie
+tradegood_sg_fem_cons_03 = {
+	OR = {
+		trade_goods = silk # Soie
+		trade_goods = stone # Pierre
+		trade_goods = woad # Guède
+	}
+}
+
+## Ex.:
+#tradegood_sg_fem_vow_04 = {} # Currently not used
+
+## Ex.: LES chameaux / DES chameaux / production DE chameaux / DE BONS chameaux
+tradegood_pl_masc_cons_05 = {
+	OR = {
+		trade_goods = base_metals # Métaux de base
+		trade_goods = camel # Chameaux
+		trade_goods = horses # Chevaux
+		trade_goods = precious_metals # Métaux précieux
+		trade_goods = steppe_horses # Chevaux des steppes
+		trade_goods = vegetables # Légumes
+	}
+}
+
+## Ex.: LES éléphants / DES éléphants / production D'éléphants / DE BONS éléphants
+tradegood_pl_masc_vow_06 = {
+	trade_goods = elephants # Éléphants
+}
+
+## Ex.: LES dattes / DES dattes / production DE dattes / DE BONNES dattes
+tradegood_pl_fem_cons_07 = {
+	OR = {
+		trade_goods = dates # Dattes
+		trade_goods = dye # Teintures
+		trade_goods = earthware # Céramiques
+		trade_goods = fur # Fourrures
+		trade_goods = gems # Pierres précieuses
+		trade_goods = grain # Céréales
+	}
+}
+
+## Ex.: LES étoffes / DES étoffes / production D'étoffes / DE BONNES étoffes
+tradegood_pl_fem_vow_08 = {
+	OR = {
+		trade_goods = cloth # Étoffes
+		trade_goods = olive # Olives
+		trade_goods = spices # Épices
+	}
+}

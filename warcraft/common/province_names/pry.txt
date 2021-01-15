@@ -1,0 +1,4 @@
+﻿PRY = {
+	244 = PROV244_PRY #  Nikaia
+	258 = PROV258_PRY #  Polymedion
+}

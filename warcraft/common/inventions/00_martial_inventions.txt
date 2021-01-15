@@ -1,0 +1,111 @@
+﻿#Level 0
+trireme_discipline_inv_1 = { 			naval_damage_taken = -0.05					military_tech = 0 }
+global_start_experience_inv_1 = { 		global_start_experience = 7.5				military_tech = 0 }
+global_supply_limit_modifier_inv_1 = { 	global_supply_limit_modifier = 0.1			military_tech = 0 }
+
+# Level 1
+siege_speed_inv_1 = { 					siege_ability = 0.05						military_tech = 1 }
+military_tech_investment_inv_1 = { 		price_state_investment_military_cost_modifier = -0.1	military_tech = 1 }
+heavy_infantry_discipline_inv = {		heavy_infantry_discipline = 0.1				military_tech = 1 }
+
+# Level 2
+siege_engineers_inv_1 = { 				siege_engineers = 1 						military_tech = 2 }
+global_defensive_inv_1 = {			 	global_defensive = 0.05						military_tech = 2 }
+buy_military_tradition_inv = { 			army_weight_modifier = -0.1 				military_tech = 2 }
+
+# Level 3
+discipline_inv_1 = { 					discipline = 0.05							military_tech = 3 }
+trireme_discipline_inv_2 = { 			tetrere_discipline = 0.05					military_tech = 3 }
+navy_maintenance_cost_inv_1 = { 		navy_maintenance_cost = -0.1 				military_tech = 3 }
+
+# Level 4
+army_maintenance_cost_inv_1 = { 		army_maintenance_cost = -0.1 				military_tech = 4 }
+global_supply_limit_modifier_inv_2 = { 	global_supply_limit_modifier = 0.1			military_tech = 4 }
+pirate_spawn_chance_inv_1 = { 			naval_range = 0.15							military_tech = 4 }
+
+# Level 5
+siege_engineers_inv_2 = { 				siege_engineers = 1 						military_tech = 5 }
+global_start_experience_inv_2 = { 		global_start_experience = 5					military_tech = 5 }
+general_loyalty_inv = {					general_loyalty = 5							military_tech = 5 }
+
+# Level 6
+siege_speed_inv_2 = { 					siege_ability = 0.05						military_tech = 6 }
+hostile_attrition_inv = { 				hostile_attrition =1 						military_tech = 6 }
+global_cohort_recruit_speed_inv = { 	global_cohort_recruit_speed = 0.2  			military_tech = 6 }
+
+# Level 7
+discipline_inv_2 = { 					discipline = 0.05							military_tech = 7 }
+global_defensive_inv_2 = { 				global_defensive = 0.05						military_tech = 7 }
+assault_ability_inv = { 				assault_ability = 0.05 						military_tech = 7 }
+
+# Level 8
+trireme_discipline_inv_3 = { 			trireme_discipline = 0.1					military_tech = 8 }
+siege_engineers_inv_3 = { 				siege_engineers = 1 						military_tech = 8 }
+heavy_infantry_cost_inv = {				heavy_infantry_cost = -0.1					military_tech = 8 }
+
+# Level 9
+siege_speed_inv_3 = { 					siege_ability = 0.05						military_tech = 9 }
+global_ship_recruit_speed_inv = { 		global_ship_recruit_speed = 0.2  			military_tech = 9 }
+military_tech_investment_inv_2 = { 		army_movement_speed = 0.1 					military_tech = 9 }
+
+# Level 10
+discipline_inv_3 = { 					discipline = 0.05							military_tech = 10 }
+naval_unit_attrition_inv = {			naval_unit_attrition = -0.1  				military_tech = 10 }
+experience_decay_inv_1 = { 				experience_decay = -0.005 					military_tech = 10 }
+
+# Level 11
+global_supply_limit_modifier_inv_3 = { 	global_supply_limit_modifier = 0.1			military_tech = 11 }
+global_start_experience_inv_3 = { 		global_start_experience = 5					military_tech = 11 }
+fort_maintenance_cost_inv = {			fort_maintenance_cost = -0.1				military_tech = 11 }
+
+# Level 12
+global_defensive_inv_3 = { 				global_defensive = 0.05						military_tech = 12 }
+army_maintenance_cost_inv_2 = { 		army_maintenance_cost = -0.1 				military_tech = 12 }
+siege_engineers_inv_4 = { 				siege_engineers = 1 						military_tech = 12 }
+
+# Level 13
+siege_speed_inv_4 = { 					siege_ability = 0.05						military_tech = 13 }
+army_movement_speed_inv = { 			army_movement_speed = 0.1  					military_tech = 13 }
+heavy_cavalry_discipline_inv = {		heavy_cavalry_discipline = 0.1				military_tech = 13 }
+
+# Level 14
+discipline_inv_4 = { 					discipline = 0.05							military_tech = 14 }
+global_defensive_inv_4 = { 				global_defensive = 0.05						military_tech = 14 }
+trireme_discipline_inv_4 = { 			hexere_discipline = 0.05					military_tech = 14 }
+
+# Level 15
+global_supply_limit_modifier_inv_4 = { 	global_supply_limit_modifier = 0.25			military_tech = 15 }
+global_start_experience_inv_4 = { 		global_start_experience = 5					military_tech = 15 }
+cohort_reinforcement_speed_inv = {		cohort_reinforcement_speed = 0.05				military_tech = 15 }
+
+# Level 16
+siege_engineers_inv_5 = { 				siege_engineers = 1 						military_tech = 16 }
+land_unit_attrition_inv = { 			land_unit_attrition = -0.1  				military_tech = 16 }
+retreat_delay_inv = {					retreat_delay = -2							military_tech = 16 }
+
+
+# Level 17
+navy_maintenance_cost_inv_2 = { 		naval_damage_taken = -0.05 					military_tech = 17 }
+navy_movement_speed_inv = { 			liburnian_discipline = 0.1  					military_tech = 17 }
+pirate_spawn_chance_inv_2 = { 			naval_range = 0.15 							military_tech = 17 }
+
+# Level 18
+siege_speed_inv_5 = { 					siege_ability = 0.05						military_tech = 18 }
+experience_decay_inv_2 = { 				experience_decay = -0.005					military_tech = 18 }
+blockade_efficiency_inv = {				blockade_efficiency = 0.2					military_tech = 18 }
+
+# Level 19
+global_defensive_inv_5 = { 				global_defensive = 0.20						military_tech = 19 }
+global_supply_limit_modifier_inv_5 = { 	global_supply_limit_modifier = 0.25			military_tech = 19 }
+siege_engineers_inv_6 = { 				siege_engineers = 2 						military_tech = 19 }
+
+# Level 20
+discipline_inv_5 = { 					discipline = 0.1							military_tech = 20 }
+global_start_experience_inv_5 = { 		global_start_experience = 5					military_tech = 20 }
+trireme_discipline_inv_5 = { 			naval_damage_done = 0.1						military_tech = 20 }
+
+
+
+
+
+

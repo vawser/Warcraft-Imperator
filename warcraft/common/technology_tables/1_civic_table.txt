@@ -1,0 +1,7 @@
+﻿civic_tech = {
+	icon = civic_icon
+	skill = finesse
+
+	global_commerce_modifier = 0.025
+	global_population_capacity_modifier = 0.02
+}

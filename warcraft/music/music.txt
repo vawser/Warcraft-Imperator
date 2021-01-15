@@ -1,0 +1,103 @@
+﻿track1 = {
+	music = "event:/MUSIC/BaseGame/MainMenu/mx_maintheme_02"
+	weight = 25
+	can_be_interrupted = yes
+}
+
+track2 = {
+	music = "event:/MUSIC/BaseGame/MainMenu/mx_maintheme_03"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track3 = {
+	music = "event:/MUSIC/BaseGame/Moods/Idle/mx_mood_idle_01"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track4 = {
+	music = "event:/MUSIC/BaseGame/Moods/Idle/mx_mood_idle_02"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track5 = {
+	music = "event:/MUSIC/BaseGame/Moods/Idle/mx_mood_idle_03"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track6 = {
+	music = "event:/MUSIC/BaseGame/Moods/Idle/mx_mood_idle_04"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track7 = {
+	music = "event:/MUSIC/BaseGame/Moods/Idle/mx_mood_idle_05"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track8 = {
+	music = "event:/MUSIC/BaseGame/Moods/War/mx_mood_war_01"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track9 = {
+	music = "event:/MUSIC/BaseGame/Moods/War/mx_mood_war_02"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track10 = {
+	music = "event:/MUSIC/BaseGame/Moods/War/mx_mood_war_03"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track11 = {
+	music = "event:/MUSIC/BaseGame/Moods/War/mx_mood_war_04"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track12 = {
+	music = "event:/MUSIC/BaseGame/Moods/War/mx_mood_war_05"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track13 = {
+	music = "event:/MUSIC/BaseGame/Moods/War/mx_mood_war_06"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track14 = {
+	music = "event:/MUSIC/BaseGame/Moods/War/mx_mood_war_07"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}
+
+track15 = {
+	music = "event:/MUSIC/BaseGame/Moods/War/mx_mood_war_08"
+	weight = 25
+	mood = yes
+	can_be_interrupted = yes
+}

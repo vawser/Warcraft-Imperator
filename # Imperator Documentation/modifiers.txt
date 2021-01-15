@@ -1,0 +1,242 @@
+#---------------------------------------------
+# Country
+#---------------------------------------------
+# ----- General -----
+<price>_cost_modifier = <float>
+all_power_cost  = <float>             
+  
+country_civilization_value = <int>      
+global_monthly_civilization = <float>  
+
+global_unrest = <float>
+
+war_exhaustion = <float>
+max_war_exhaustion = <int>
+
+monthly_centralization = <float>
+monthly_corruption = <float>
+monthly_legitimacy = <float>
+monthly_tyranny = <float>
+
+pirate_spawn_chance = <float>
+
+# ----- Economy -----
+<building>_cost = <float>
+global_tax_income = <float>
+global_tax_modifier = <float>
+global_capital_trade_routes = <int>
+global_state_trade_routes = <int>
+commerce_value = <float>
+state_commerce_modifier = <float>
+global_commerce_modifier = <float>
+build_cost = <float>
+build_time = <float>
+global_building_slot = <int>
+
+# ----- Government -----
+<party>_influence = <float>
+senate_influence = <float>
+election_term_duration = <int>
+
+# ----- Technology -----
+technology_investment = <float>
+research_points = <int>
+research_points_modifier = <float>
+<tech>_investment = <float>
+monthly_<tech>_loyalty = <float>
+
+# ----- Religion -----
+omen_power = <float>
+omen_duration = <float>
+convert_pop_cost_modifier = <float>
+
+# ----- Diplomacy -----
+diplomatic_reputation = <int>
+diplomatic_relations = <int>
+agressive_expansion_impact = <float>
+agressive_expansion_monthly_change = <float>
+agressive_expansion_monthly_decay = <float>
+tribute_income_modifier = <float>
+integrate_speed = <float>
+subject_opinions = <float>
+subject_loyalty = <float>
+loyalty_to_overlord = <float>
+improve_relation_impact = <float>
+war_score_cost = <float>
+control_range_modifier = <float>
+diplomatic_range_modifier = <float>
+next_ruler_legitimacy = <float>
+num_of_clan_chiefs = <int>
+clan_retinue_size = <float>
+
+# ----- Military -----
+global_manpower = <float>
+global_manpower_modifier = <float>
+manpower_recovery_speed = <float>
+global_supply_limit_modifier = <float>
+global_cohort_recruit_speed = <float>
+global_ship_recruit_speed = <float>
+fort_maintenance_cost = <float>
+army_maintenance_cost = <float>
+navy_maintenance_cost = <float>
+mercenary_maintenance_cost = <float>
+global_start_experience = <float>
+experience_decay = <float>
+retreat_delay = <float>
+hostile_attrition = <int>
+
+# ----- Land Combat -----
+<unit>_<terrain>_combat_bonus = <float>
+<unit>_discipline = <float>
+<unit>_morale = <float>
+<unit>_offensive = <float>
+<unit>_defensive = <float>
+<unit>_cost = <float>
+<unit>_maintenance_cost = <float>
+<unit>_movement_speed = <float>
+
+land_morale = <float>
+land_morale_modifier = <float>
+land_unit_attrition = <float>
+discipline = <float>
+global_defensive = <float>
+cohort_reinforcement_speed = <float>
+land_morale_recovery = <float>
+siege_ability = <float>
+assault_ability = <float>
+siege_engineers = <float>
+global_cohort_start_experience = <float>
+
+# ----- Naval Combat -----
+naval_morale  = <float>
+naval_morale_modifier = <float>
+naval_unit_attrition = <float>
+naval_morale_recovery = <float>
+blockade_efficiency = <float>
+global_ship_start_experience  = <float>
+ship_repair_at_sea = <float>
+
+# ----- Population -----
+global_<pop>_output = <float>
+global_<pop>_happyness = <float>
+global_<pop>_promotion_cost_modifier = <float>
+global_population_growth = <float>
+global_goods_from_slaves = <float>
+enslavement_efficiency = <float>
+
+# ----- Character -----
+ruler_popularity_gain = <float>
+max_loyalty = <int>
+global_monthly_state_loyalty = <float>
+monthly_wage_modifier = <float>
+monthly_governor_wage = <float>
+loyalty_gain_chance_modifier = <float>
+monthly_general_loyalty = <float>
+monthly_admiral_loyalty = <float>
+monthly_governor_loyalty = <float>
+monthly_office_<office>_loyalty = <float>
+
+#---------------------------------------------
+# State
+#---------------------------------------------
+local_monthly_state_loyalty = <float>
+local_state_trade_routes = <int>
+
+#---------------------------------------------
+# Province
+#---------------------------------------------
+local_output_modifier 
+local_<pop>_output = <float>
+
+local_<pop>_happyness = <float>
+happiness_for_wrong_culture_modifier
+happiness_for_same_culture_modifier
+
+tax_income = <float>
+local_tax_modifier = <float>
+local_building_slot = <float>
+local_population_growth = <float>
+
+base_resources = <float>
+local_goods_from_slaves = <float>
+
+city_monthly_state_loyalty = <float>
+monthly_local_governor_wage = <float>
+
+minimum_unrest = <float>
+local_unrest = <float>
+
+local_research_points_modifier = <float>
+local_commerce_modifier = <float>
+
+local_monthly_civilization = <float>
+local_country_civilization_value = <float>
+
+barbarian_growth = <float>
+barbarian_spawn_chance = <float>
+local_pirate_spawn_chance = <float>
+
+local_manpower = <float>
+local_manpower_modifier = <float>
+
+attrition = <float>
+max_attrition = <float>
+local_hostile_attrition = <float>
+
+fort_level = <float>
+supply_limit = <float>
+supply_limit_modifier = <float>
+garrison_size = <float>
+garrison_growth = <float>
+
+movement_cost = <float>
+army_movement_speed = <float>
+navy_movement_speed = <float>
+movement_speed_if_no_road = <float>
+
+local_defensive = <float>
+local_start_experience = <float>
+
+local_cohort_recruit_speed = <float>
+local_cohort_start_experience = <float>
+
+local_ship_start_experience = <float>
+local_ship_recruit_speed = <float>
+
+#---------------------------------------------
+# Character
+#---------------------------------------------
+martial = <int>
+finesse = <int>
+charisma  = <int>
+zeal = <int>
+fertility = <int>
+health = <int>
+
+prominence = <float>
+current_corruption = <float>
+monthly_character_wealth = <float>
+
+disallow_job = <bool>
+disallow_office = <bool>
+disallow_command = <bool>
+
+primary_heir_attraction = <float>
+support_for_character_as_heir = <float>
+
+max_rivals = <int>
+max_friends = <int>
+
+monthly_wage_for_character = <float>
+monthly_wage_on_character_modifier = <float>
+
+monthly_character_loyalty = <float>
+monthly_character_popularity = <float>
+monthly_character_popularity_decay = <float>
+monthly_character_prominence = <float>
+monthly_character_fam_prestige = <float>
+
+loyalty_gain_chance = <float>
+loyalty_gain_chance_modifier = <float>
+
+monthly_<party>_conviction = <float>

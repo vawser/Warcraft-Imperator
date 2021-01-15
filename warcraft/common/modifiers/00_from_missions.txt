@@ -1,0 +1,1135 @@
+﻿##################################################################################################
+# scriptable and usable for event-system below.
+##################################################################################################
+
+#Mission Related Modifiers
+
+embelished_great_shrine_modifier = {
+	local_happiness_for_same_religion_modifier = 0.1
+	tax_income = 3
+	local_nobles_desired_pop_ratio = 0.05
+	local_nobles_happyness = happiness_large_svalue
+}
+
+cult_protector_king = {
+	monthly_legitimacy = 0.05
+	land_morale_modifier = 0.05
+}
+
+cult_protector_chief = {
+	clan_chief_loyalty = 5
+	land_morale_modifier = 0.05
+}
+
+cult_protector_republic = {
+	ruler_popularity_gain = 0.1
+	land_morale_modifier = 0.05
+}
+
+cult_protector_religious_establishment = {
+	omen_power = 0.1
+	happiness_for_same_religion_modifier = 0.1
+}
+
+ongoing_renovations = {
+	local_output_modifier = -1
+}
+
+gubernatorial_aid = {
+	local_output_modifier = 0.25
+}
+
+pilgrim_traders = {
+	local_tax_modifier = 0.2
+}
+
+governorship_secured = {
+	city_monthly_state_loyalty = 0.1
+	local_migration_attraction = 2
+}
+
+capital_secured = {
+	garrison_growth = 0.10
+	local_defensive = 0.25
+}
+
+colonia_underway = {
+	local_migration_attraction = 2
+	local_pop_assimilation_speed = 1
+	local_pop_conversion_speed = 1
+}
+
+colonial_unrest = {
+	local_population_happiness = -0.1
+}
+
+stunted_growth = {
+	local_population_happiness = -0.1
+	local_migration_attraction = -1
+}
+
+support_from_central_government = {
+	local_population_happiness = 0.1
+}
+
+migrants_stopped = {
+	local_output_modifier = -0.1
+}
+
+military_colony_mission_modifier = { #10 year reward
+	local_manpower_modifier = 0.25 #2.5 Camps
+	local_pop_assimilation_speed = 1
+	city_monthly_state_loyalty = 0.1
+}
+
+trade_city_mission_modifier = { #10 year reward
+	local_tax_modifier = 0.3 #3 markets
+	local_pop_assimilation_speed = 1
+	city_monthly_state_loyalty = 0.1
+}
+
+well_cared_for_governorship_center = {
+	local_building_slot = 1
+	local_state_trade_routes = 1
+}
+
+new_metropole = {
+	local_migration_attraction = 1
+	local_tax_modifier = 0.25
+}
+
+royal_palaces_mission_modifier = {
+	local_tax_modifier = 0.15
+	local_country_civilization_value = 10
+	local_building_slot = 2
+}
+
+forum_mission_modifier = {
+	local_research_points_modifier = 0.15
+	local_building_slot = 2
+	local_country_civilization_value = 10
+}
+
+clan_council_compound_mission_modifier = {
+	local_manpower_modifier = 0.15
+	local_building_slot = 2
+	local_country_civilization_value = 10
+}
+
+clean_slate = {
+	local_output_modifier = 0.15
+}
+
+building_corruption = {
+	local_output_modifier = -0.05
+}
+
+cleaned_up_slums = {
+	local_pop_promotion_speed = 5
+}
+
+expanded_commercial_district = {
+	local_tax_modifier = 0.3
+}
+
+regional_magnates = {
+	local_building_slot = 1
+	tax_income = -1
+}
+
+alienated_local_elites = {
+	city_monthly_state_loyalty = 0.05
+}
+
+growing_pains = {
+	local_tax_modifier = -0.15
+}
+
+fruits_of_the_land = {
+	local_monthly_food_modifier = 0.2
+}
+
+food_depot = {
+	local_food_capacity = 800
+}
+
+bread_and_circuses_mission = {
+	global_freemen_happyness = happiness_huge_svalue
+}
+
+thriving_mining_sector = {
+	local_slaves_output = output_large_svalue
+}
+
+regional_center_of_trade = {
+	local_state_trade_routes = 1
+}
+
+ship_building_center_modifier = {
+	local_ship_recruit_speed = 0.33
+}
+
+emporion_modifier = {
+	local_building_slot = 2
+}
+
+temples_built = {
+	omen_power = 0.1
+}
+
+cultural_assimilation_trend = {
+	local_pop_assimilation_speed = 0.02
+}
+
+fortified_stronghold = {
+	local_defensive = 0.25
+}
+
+expanded_port = {
+	local_tax_modifier = 0.2
+}
+
+military_regiment_city = {
+	local_manpower_modifier = 0.15
+}
+
+slave_city_modifier = {
+	local_slaves_happyness = happiness_huge_svalue
+}
+
+spartan_helot_treatment_good_modifier = {
+	local_slaves_happyness = happiness_huge_svalue
+	local_slaves_output = -0.3
+}
+
+spartan_helot_treatment_bad_modifier = {
+	local_slaves_happyness = -0.24
+	local_slaves_output = 0.4
+}
+
+spartan_helot_treatment_good_country_modifier = {
+	global_slaves_happyness = happiness_small_svalue
+	global_slaves_output = -0.05
+	global_monthly_food_modifier = 0.05
+}
+
+spartan_helot_treatment_bad_country_modifier = {
+	global_manpower_modifier = -0.05   
+	happiness_for_same_culture_modifier = 0.06
+	global_start_experience = 10
+}
+
+spartan_mission_messenia_modifier = {
+	local_goods_from_slaves = -1
+	local_tax_modifier = 0.05
+	local_food_capacity = 200
+}
+
+spartan_mission_laconia_sparta_modifier = {
+	local_building_slot = 2
+	local_citizen_happyness = happiness_large_svalue
+}
+
+spartan_mission_laconian_food_modifier = {
+	local_monthly_food_modifier = 0.1
+	local_monthly_food = 1
+}
+
+spartan_mission_laconian_skiritai_modifier = {
+	light_infantry_mountain_combat_bonus = 0.1
+	light_infantry_hills_combat_bonus = 0.1
+	light_infantry_discipline = 0.05
+}
+
+spartan_mission_spartan_glory_modifier = {
+	manpower_recovery_speed = 0.1
+	global_start_experience = 5
+}
+
+spartan_mission_spartan_garrison_modifier = {
+	local_pop_assimilation_speed = 1
+	local_slaves_output = negative_output_huge_svalue
+	local_cohort_start_experience = 5
+}
+
+sparta_mission_laconia_finished_modifier = {
+	ruler_popularity_gain = 0.05
+	global_cohort_recruit_speed = 0.15
+	monthly_military_experience_modifier = 0.05
+}
+
+sparta_mission_ambitious_spartan_king_modifier = {
+	martial = 2
+	finesse = 1
+	monthly_character_popularity = 0.1
+}
+
+sparta_mission_peloponnesian_league_cities_modifier = {
+	subject_loyalty = 5
+	integrate_speed = 0.1
+}
+
+sparta_mission_peloponnesian_league_charitable_envoy_modifier = {
+	local_population_happiness = 0.1
+	local_output_modifier = -0.1
+}
+
+sparta_mission_peloponnesian_league_infrastructure_cities_modifier = {
+	local_tax_modifier = 0.05
+	local_population_growth = 0.05
+}
+
+sparta_mission_peloponnesian_league_navy_modifier = {
+	navy_maintenance_cost = -0.1
+	global_ship_start_experience = 10
+}
+
+sparta_mission_peloponnesian_league_capital_tier_1_modifier = {
+	local_output_modifier = 0.05
+	local_population_capacity = 2
+	local_building_slot = 1
+}
+
+sparta_mission_peloponnesian_league_capital_tier_2_modifier = {
+	local_output_modifier = 0.10
+	local_population_capacity = 4
+	local_building_slot = 2
+	local_country_civilization_value = 2
+}
+
+sparta_mission_peloponnesian_league_capital_tier_3_modifier = {
+	local_output_modifier = 0.15
+	local_population_capacity = 6
+	local_building_slot = 3
+	local_country_civilization_value = 5
+}
+
+sparta_mission_peloponnesus_olympia_modifier = {
+	omen_power = 0.1
+	stability_cost_modifier = -0.1
+}
+
+sparta_mission_peloponnesus_argos_modifier = {
+	local_population_happiness = 0.1
+	local_manpower_modifier = -0.25
+}
+
+sparta_mission_peloponnesus_argos_country_modifier = {
+	loyalty_to_overlord = 20
+	global_manpower_modifier = -0.1
+}
+
+sparta_mission_peloponnesus_arcadia_modifier = {
+	local_freemen_happyness = happiness_large_svalue
+	local_freemen_output = negative_output_huge_svalue
+	local_population_happiness = 0.05
+}
+
+sparta_mission_peloponnesus_arcadia_country_modifier = {
+	loyalty_to_overlord = 10
+	global_freemen_happyness = happiness_large_svalue
+}
+
+sparta_mission_peloponnesus_argos_rebuilt_modifier = {
+	local_population_happiness = 0.05
+	local_building_slot = 2
+	local_output_modifier = 0.05
+}
+
+sparta_mission_peloponnesus_achaea_modifier = {
+	local_population_happiness = 0.05
+	local_tax_modifier = 0.15
+	local_pop_assimilation_speed = 2
+}
+
+sparta_mission_peloponnesus_arcadia_center_modifier = {
+	local_tax_modifier = 0.1
+	local_pop_assimilation_speed = 2
+}
+
+sparta_mission_peloponnesus_corinth_expanded_acropolis_modifier = {
+	local_population_happiness = 0.05
+	local_building_slot = 2
+	local_food_capacity = 150
+}
+
+sparta_mission_protector_of_peloponnesus_modifier = {
+	local_output_modifier = 0.05
+	local_tax_modifier = 0.05
+}
+
+sparta_mission_peloponnesian_league_completed_modifier = {
+	subject_loyalty = 10
+	integrate_speed = 0.25
+	discipline = 0.05
+}
+
+me_syr_2_10_cmod = {
+	global_export_commerce_modifier = 0.15
+	global_monthly_food_modifier = 0.10
+}
+
+me_syr_2_6_pmod = {
+	base_resources = 1
+	local_monthly_food = 1
+}
+
+me_syr_2_8_pmod = {
+	local_building_slot = 2
+}
+
+me_syr_2_5_cmod = {
+	war_score_cost = -0.1
+	siege_ability = 0.1
+}
+
+me_syr_2_11_smod = {
+	local_pop_assimilation_speed = 1
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_large
+}
+
+me_syr_2_2_cmod = {
+	recruit_mercenary_cost_modifier = -0.5
+	mercenary_land_maintenance_cost = -0.1
+}
+
+me_syr_2_charmod = {
+	martial = 1
+	charisma = 1
+	ruler_popularity_gain = 0.2
+}
+
+me_syr_2_4_pmod = {
+	local_defensive = 0.10
+	local_tax_modifier = 0.15
+}
+
+me_syr_2_2_opt_cmod = {
+	light_infantry_offensive = 0.10
+	heavy_infantry_discipline = 0.10
+}
+
+me_syr_2_7_cmod = {
+	happiness_for_same_culture_modifier = 0.10
+	ruler_popularity_gain = 0.02
+}
+
+me_syr_3_1_cmod = {
+	navy_maintenance_cost = -0.15
+	naval_morale_modifier = 0.05
+}
+
+me_syr_3_5_1_cmod = {
+	ship_repair_at_sea = 0.1
+	trireme_defensive = 0.1
+}	
+
+me_syr_3_5_2_cmod = {
+	navy_movement_speed = 0.1
+	trireme_offensive = 0.1
+}
+
+me_syr_3_7_pmod = {
+	local_pop_assimilation_speed = 1
+	local_population_growth = 0.2
+}
+
+me_syr_3_8_pmod = {
+	local_happiness_for_same_culture_modifier = 0.1
+	local_freemen_output = output_large_svalue
+}
+
+me_syr_3_3_pmod = {
+	local_defensive = 0.1
+	local_hostile_attrition = 1
+}
+
+me_syr_3_12_cmod = {
+	land_morale_modifier = -0.05
+}
+
+me_syr_3_sicilian_victory_cmod = {
+	monthly_political_influence_modifier = 0.15
+	happiness_for_same_religion_modifier = 0.10
+}
+
+me_syr_3_cmod = {
+	manpower_recovery_speed = 0.05
+	global_defensive = 0.05
+}
+
+sparta_mission_rivals_athens_subjugated_modifier = {
+	local_population_happiness = 0.1
+	local_pop_assimilation_speed = 2
+	local_output_modifier = -0.25
+}
+
+sparta_mission_rivals_attican_infrastructure_modifier = {
+	local_food_capacity = 300
+	local_monthly_food = 5
+	local_output_modifier = 0.05
+}
+
+sparta_mission_rivals_athens_garrisoned_modifier = {
+	local_population_happiness = 0.1
+	local_pop_assimilation_speed = 2
+}
+
+sparta_mission_thessalian_cavalry = {
+	light_cavalry_discipline = 0.1
+	light_cavalry_morale = 0.1
+	light_cavalry_maintenance_cost = -0.15
+}
+
+sparta_mission_rivals_theban_occupation_modifier = {
+	local_pop_assimilation_speed = 2
+	local_population_happiness = 0.05
+}
+
+sparta_mission_rivals_theban_glory_modifier = {
+	local_building_slot = 2
+	local_population_happiness = 0.05
+	local_food_capacity = 300
+	local_defensive = 0.25
+}
+
+sparta_mission_rivals_boeotia_appeased_gods_modifier = {
+	local_population_happiness = 0.1
+	local_output_modifier = 0.1
+}
+
+sparta_mission_rivals_revenge_on_the_macedons_modifier = {
+	local_population_happiness = 0.025
+	land_morale_modifier =0.1
+}
+
+sparta_mission_rivals_pella_modifier = {
+	local_migration_attraction = -5
+	local_population_capacity_modifier = -0.5
+}
+
+sparta_mission_rivals_armies_of_sparta_modifier = {
+	monthly_military_experience_modifier = 0.05
+	discipline = 0.10
+	land_morale_recovery = 0.25
+}
+
+me_syr_4_magna_sicilia_cmod = {
+	global_pop_assimilation_speed = 1
+    happiness_for_same_culture_modifier = 0.10
+}
+
+me_syr_4_4_1_pmod = {
+	local_research_points_modifier = 0.05
+    local_country_civilization_value = 5
+}
+
+me_syr_4_4_2_pmod = {
+	local_research_points_modifier = 0.15
+    local_happiness_for_same_religion_modifier = -0.1
+}
+
+me_syr_4_5_1_cmod = {
+	light_cavalry_maintenance_cost = -0.2
+	light_cavalry_discipline = 0.1
+}
+
+me_syr_4_5_2_cmod = {
+	light_cavalry_movement_speed = 0.1
+	light_cavalry_discipline = 0.1
+}
+
+me_syr_4_cmod = {
+	happiness_for_wrong_culture_modifier = negative_wrong_culture_large
+	agressive_expansion_impact = -0.05
+}
+
+me_syr_4_6_cmod = {
+	global_manpower_modifier = 0.1
+	light_infantry_hills_combat_bonus = 0.1
+}
+
+me_syr_4_eleph_pmod = {
+	local_goods_from_slaves = 20
+}
+
+me_syr_4_11_pmod = {
+	happiness_for_same_religion_modifier = 0.05
+	local_population_growth = 0.25
+}
+
+me_syr_4_united_cmod = {
+	global_citizen_output = output_large_svalue
+	manpower_recovery_speed = 0.1
+}
+
+me_syr_4_master_cmod = {
+	global_pop_assimilation_speed_modifier = 0.25
+	land_morale_modifier = 0.1
+}
+
+me_syr_support_cmod = {
+	siege_ability = 0.1
+	land_unit_attrition = -0.1
+}
+
+me_syr_12_pension_cmod = {
+	army_maintenance_cost = 0.20
+	global_tax_modifier = -0.05
+}
+
+me_syr_12_defaulted_cmod = {
+	recruit_mercenary_cost_modifier = 1
+	global_monthly_state_loyalty = -0.03
+}
+
+me_syr_14_promise_breaker = {
+	diplomatic_reputation = -5
+}
+
+me_syr_13_syracuse_veterans = {
+	land_morale_modifier = 0.05
+	global_manpower_modifier = 0.05
+}
+
+me_syr_nascent_republic_cmod = {
+	monthly_political_influence_modifier = 0.1
+	character_loyalty = -7.5
+}
+
+athenian_mission_01_loyalist_path = {
+	loyalty_to_overlord = 10
+	global_commerce_modifier = 0.05
+	global_tax_modifier = 0.05
+}
+
+athenian_mission_02_loyalist_path = {
+	loyalty_to_overlord = 20
+	global_commerce_modifier = 0.1
+	global_tax_modifier = 0.1
+	global_population_growth = 0.05
+}
+
+athenian_mission_03_loyalist_path = {
+	loyalty_to_overlord = 30
+	global_commerce_modifier = 0.15
+	global_tax_modifier = 0.15
+	global_population_growth = 0.1
+	character_loyalty = 2.5
+}
+
+athenian_mission_04_loyalist_path = {
+	loyalty_to_overlord = 40
+	global_commerce_modifier = 0.2
+	global_tax_modifier = 0.2
+	global_population_growth = 0.2
+	character_loyalty = 5
+}
+
+athenian_mission_01_independence_path = {
+	loyalty_to_overlord = -10
+	manpower_recovery_speed = 0.05
+	land_morale_modifier =0.05
+}
+
+athenian_mission_02_independence_path = {
+	loyalty_to_overlord = -20
+	manpower_recovery_speed = 0.1
+	land_morale_modifier =0.1
+	monthly_military_experience_modifier = 0.05
+}
+
+athenian_mission_03_independence_path = {
+	loyalty_to_overlord = -30
+	manpower_recovery_speed = 0.15
+	land_morale_modifier =0.15
+	monthly_military_experience_modifier = 0.1
+	global_start_experience = 10
+}
+
+athenian_mission_04_independence_path = {
+	loyalty_to_overlord = -40
+	manpower_recovery_speed = 0.20
+	land_morale_modifier =0.20
+	monthly_military_experience_modifier = 0.15
+	global_start_experience = 15
+}
+
+athenian_mission_securing_protection_modifier = {
+	monthly_military_experience_modifier = 0.1
+	global_start_experience = 10
+	global_cohort_recruit_speed = 0.15
+}
+
+me_gre_1_cmod = {
+	agressive_expansion_impact = -0.1
+	ruler_popularity_gain = 0.1
+}
+
+me_gre_1_19_pmod = {
+	local_tax_modifier = 0.15
+	local_migration_attraction = 1
+}
+
+me_gre_1_4_cmod = {
+	global_commerce_modifier = 0.15
+	navy_maintenance_cost = -0.1
+}
+
+me_gre_1_3_pmod = {
+	local_freemen_happyness = happiness_large_svalue
+	local_migration_attraction = 2
+}
+
+me_gre_1_2_pmod_1 = {
+	local_population_growth = 0.1
+	local_slaves_output = 0.2
+}
+
+me_gre_1_2_pmod_2 = {
+	local_population_growth = 0.25
+	local_freemen_output = output_large_svalue
+}
+
+me_gre_1_7_smod = {
+	local_pop_assimilation_speed_modifier = 0.2
+	local_tax_modifier = 0.1
+}
+
+me_gre_1_15_cmod = {
+	global_tax_modifier = 0.1
+	#global_nobles_happiness = 0.05
+}
+
+me_gre_1_16_cmod = {
+	global_citizen_happyness = happiness_small_svalue
+	global_commerce_modifier = 0.1
+}
+
+me_gre_1_17_cmod = {
+	mercenary_naval_maintenance_cost = -0.5
+	ship_capture_chance = 0.1
+}
+
+gm_1_hardy_navy = {
+	naval_damage_taken = -0.1
+}
+
+gm_1_swift_navy = {
+	navy_movement_speed = 0.15
+}
+
+me_gre_1_18_cmod = {
+	global_migration_speed_modifier = 0.1
+	global_tribesmen_output = output_large_svalue
+}
+
+athenian_mission_02_attica_restoration_modifier = {
+	local_output_modifier = 0.05
+	local_tax_modifier = 0.1
+}
+
+athenian_mission_02_attican_minerals_modifier = {
+	local_goods_from_slaves = -1
+	base_resources = 1
+}
+
+athenian_mission_02_ports_of_piraeus_modifier = {
+	local_state_trade_routes = 3
+	local_tax_modifier = 0.1
+	local_ship_recruit_speed = 0.1
+	local_ship_start_experience = 5
+}
+
+athenian_mission__07_military = {
+	research_points_modifier = 0.05
+	military_tech_investment = 0.10
+}
+
+athenian_mission__07_civic = {
+	research_points_modifier = 0.05
+	civic_tech_investment = 0.10
+}
+
+athenian_mission__07_oratory = {
+	research_points_modifier = 0.05
+	oratory_tech_investment = 0.10
+}
+
+athenian_mission__07_religious = {
+	research_points_modifier = 0.05
+	religious_tech_investment = 0.10
+}
+
+athenian_mission_09_rites_eleusis_modifier = {
+	omen_power = 0.1
+	global_monthly_food_modifier = 0.1
+}
+
+athenian_mission_10_eleusinian_cult_modifier = {
+	zeal = 2
+	prominence = 10
+	max_friends = 1
+}
+
+athenian_mission_02_restored_attica_final_modifier = {
+	local_output_modifier = 0.05
+	local_tax_modifier = 0.1
+	local_population_capacity = 3
+}
+
+athenian_mission_04_athenian_garrison_modifier = {
+	local_population_happiness = 0.1
+	local_output_modifier = 0.05
+}
+
+athenian_mission_04_grand_navy_modifier = {
+	naval_damage_taken = -0.05
+	naval_damage_done = 0.05
+	navy_maintenance_cost = -0.1
+}
+
+athenian_mission_04_religious_delos_modifier = {
+	omen_power = 0.1
+	religious_tech_investment = 0.05
+	happiness_for_same_religion_modifier = 0.05
+}
+
+athenian_mission_04_treasury_delos_modifier = {
+	local_tax_modifier = 0.15
+	tax_income = 4
+}
+
+athenian_mission_04_naxian_quarry_modifier = {
+	base_resources = 1
+	local_goods_from_slaves = -3
+	local_slaves_output = output_small_svalue
+}
+
+athenian_mission_04_samian_navy_modifier = {
+	local_ship_recruit_speed = 0.25
+	local_ship_start_experience = 20
+}
+
+athenian_mission_04_sestos_army_modifier = {
+	local_cohort_recruit_speed = 0.10
+	local_cohort_start_experience = 10
+	local_defensive = 0.10
+}
+
+athenian_mission_04_amphipolian_mines_modifier = {
+	base_resources = 2
+	local_goods_from_slaves = -2
+}
+
+athenian_mission_04_hekatomnid_legacy_modifier = {
+	local_building_slot = 2
+	local_population_capacity = 3
+	local_output_modifier = 0.05
+}
+
+athenian_mission_04_delian_league_completed_modifier = {
+	subject_loyalty = 10
+	integrate_speed = 0.25
+	discipline = 0.05
+}
+
+me_gre_2_8_charmod = {
+	martial = 1
+	monthly_character_popularity_decay = -0.25
+}
+
+me_gre_1_12_pmod = {
+	happiness_for_same_culture_modifier = 0.1
+	global_citizen_output = output_small_svalue
+}
+
+me_gre_1_13_pmod = {
+	happiness_for_same_culture_modifier = 0.1
+	build_cost = -0.05
+}
+
+me_gre_2_7_pmod = {
+	local_pop_assimilation_speed_modifier = 0.2
+	local_citizen_happyness = happiness_large_svalue
+}
+
+me_gre_2_15_cmod = {
+	global_manpower_modifier = 0.1
+	tribute_income_modifier = 0.2
+}
+
+me_gre_2_16_cmod = {
+	global_commerce_modifier = 0.1
+	tribute_income_modifier = 0.2
+}
+
+me_gre_2_15_feud_cmod = {
+	global_manpower_modifier = -0.5
+	loyalty_to_overlord = -20
+}
+
+me_gre_2_16_trib_cmod = {
+	global_commerce_modifier = -0.5
+	loyalty_to_overlord = -20
+}
+
+me_gre_2_10_cmod = {
+	navy_maintenance_cost = -0.1
+	naval_damage_taken = -0.1
+}
+
+me_gre_2_11_cmod = {
+	land_morale_modifier = 0.1
+	heavy_infantry_maintenance_cost = -0.15
+}
+
+me_gre_2_18_cmod = {
+	ship_cost = -0.15
+	naval_morale_modifier = 0.05
+}
+
+greek_2_9_1_cmod = {
+	global_slaves_output = output_large_svalue
+	monthly_legitimacy = 0.02
+}
+
+greek_2_9_2_cmod = {
+	global_slaves_output = output_large_svalue
+	ruler_popularity_gain = 0.1
+}
+
+greek_2_14_cmod = {
+	global_freemen_happyness = happiness_large_svalue
+	ruler_popularity_gain = 0.1
+}
+
+me_gre_2_8_umod = {
+	land_morale_modifier =0.3
+}
+
+me_gre_2_self_government_cmod = {
+	loyalty_to_overlord = 25
+}
+
+me_gre_2_45_cmod = {
+	agressive_expansion_impact = -0.1
+	diplomatic_reputation = 1
+}
+
+me_gre_2_charmod = {
+	martial = 1
+	charisma = 1
+	prominence = 10
+}
+
+me_gre_2_12_cmod = {
+	global_population_happiness = -0.1
+	global_tax_modifier = -0.1
+}
+
+athenian_mission_03_council_modifier = {
+	local_citizen_output = output_large_svalue
+	local_citizen_happyness = happiness_large_svalue
+}
+
+athenian_mission_03_assembly_modifier = {
+	local_freemen_output = output_large_svalue
+	local_freemen_happyness = happiness_large_svalue
+}
+
+spartan_mission_02_religious_olympia_modifier = {
+	omen_power = 0.1
+	religious_tech_investment = 0.05
+	happiness_for_same_religion_modifier = 0.05
+}
+
+me_gre_3_9_pmod = {
+	local_migration_attraction = 2
+	local_happiness_for_same_culture_modifier = 0.1
+}
+
+me_gre_3_2_cmod = {
+	fabricate_claim_cost_modifier = -0.25
+	manpower_recovery_speed = 0.1
+}
+
+me_gre_3_1_cmod = {
+	loyalty_to_overlord = -25
+	manpower_recovery_speed = 0.1
+}
+
+me_gre_3_6_cmod = {
+	land_morale_modifier = 0.1
+	happiness_for_same_culture_modifier = 0.1
+}
+
+me_gre_3_10_pmod = {
+	local_country_civilization_value = 5
+	local_building_slot = 3
+}
+
+me_gre_3_19_1_cmod = {
+	light_cavalry_offensive = 0.15
+	light_cavalry_maintenance_cost = -0.1
+}
+
+me_gre_3_19_2_cmod = {
+	ship_capture_chance = 0.1
+	navy_maintenance_cost = -0.1
+}
+
+me_gre_3_19_3_cmod = {
+	research_points_modifier = 0.1
+	global_population_happiness = 0.05
+}
+
+me_gre_3_19_4_cmod = {
+	research_points_modifier = 0.05
+	global_population_happiness = 0.025
+}
+
+me_gre_3_19_5_cmod = {
+	land_morale_modifier = 0.05
+	army_maintenance_cost = -0.05
+}
+
+me_gre_3_19_6_cmod = {
+	naval_damage_taken = -0.05
+	navy_maintenance_cost = -0.05
+}
+
+me_gre_3_19_7_1_cmod = {
+	discipline = 0.05
+	heavy_infantry_morale = 0.05
+}
+
+me_gre_3_19_7_2_cmod = {
+	naval_damage_done = 0.05
+	ship_cost = -0.05
+}
+
+me_gre_3_19_7_3_cmod = {
+	recruit_mercenary_cost_modifier = -0.25
+	manpower_recovery_speed = 0.05
+}
+
+me_gre_3_19_7_4_cmod = {
+	siege_ability = 0.05
+	manpower_recovery_speed = 0.05
+}
+
+me_gre_3_19_7_5_cmod = {
+	omen_power = 0.05
+	global_defensive = 0.05
+}
+
+me_gre_3_19_7_6_cmod = {
+	global_defensive = 0.05
+	ship_cost = -0.05
+}
+
+me_gre_3_19_7_7_cmod = {
+	happiness_for_wrong_culture_group_modifier = wrong_culture_group_small
+	ship_cost = -0.05
+}
+
+greek_3_5_cmod = {
+    global_manpower_modifier = 0.05
+    global_monthly_state_loyalty = 0.05
+}
+
+greek_3_12_cmod = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_large
+	global_pop_assimilation_speed_modifier = 0.1
+}
+
+greek_3_8_cmod = {
+	mercenary_land_maintenance_cost = -0.15
+	experience_decay = -0.010
+}
+
+greek_3_11_cmod = {
+	happiness_for_same_culture_modifier = 0.1
+	agressive_expansion_monthly_decay = 0.05
+}
+
+greek_3_18_1_cmod = {
+	global_commerce_modifier = 0.15
+	global_citizen_happyness = happiness_small_svalue
+}
+
+greek_3_18_2_cmod = {
+	light_infantry_offensive = 0.1
+	light_infantry_discipline = 0.1
+}
+
+greek_3_18_3_cmod = {
+	global_commerce_modifier = 0.15
+	mercenary_naval_maintenance_cost = -0.10
+}
+
+greek_3_15_cmod = {
+	happiness_for_same_religion_modifier = 0.05
+	global_tax_modifier = 0.1
+}
+
+me_gre_3_charmod = {
+	monthly_character_popularity = 0.05
+	charisma = 2
+}
+
+me_gre_4_3_pmod = {
+	local_tax_modifier = 0.15
+	local_state_trade_routes = 1
+}
+
+me_gre_4_2_pmod_1 = {
+	local_population_growth = 0.1
+	local_tax_modifier = 0.25
+}
+
+me_gre_4_2_pmod_2 = {
+	local_population_growth = 0.25
+	local_pop_assimilation_speed_modifier = 0.15
+}
+
+me_gre_4_19_pmod = {
+	local_tax_modifier = 0.15
+	local_migration_attraction = 1
+}
+
+me_gre_4_12_pmod = {
+	happiness_for_same_culture_modifier = 0.1
+	local_pop_assimilation_speed_modifier = 0.15
+}
+
+me_gre_4_13_cmod = {
+	happiness_for_wrong_culture_group_modifier = negative_wrong_culture_group_large
+	global_pop_assimilation_speed_modifier = 0.15
+}
+
+me_gre_4_17_pmod = {
+	local_pop_assimilation_speed = 0.15
+	local_migration_attraction = 2
+}
+
+me_gre_4_15_cmod = {
+	global_commerce_modifier = 0.15
+	ship_cost = -0.1
+}
+
+me_gre_4_4_cmod = {
+	global_commerce_modifier = 0.15
+	navy_maintenance_cost = -0.1
+}
+
+me_gre_4_cmod = {
+	agressive_expansion_impact = -0.1
+	ruler_popularity_gain = 0.1
+}
+
+me_epi_3_5_pmod = {
+	local_defensive = 0.15
+	supply_limit_modifier = 0.2
+}

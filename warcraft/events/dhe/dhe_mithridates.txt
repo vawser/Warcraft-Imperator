@@ -1,0 +1,343 @@
+﻿namespace = dhe_mithridates
+
+# Trigger event
+dhe_mithridates.1 = {
+	type = country_event
+	hidden = yes
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = PRY
+	}
+
+	immediate = {
+		char:97 = {
+			save_scope_as = mithridates
+		}
+		c:PAP = {
+			trigger_event = {
+				id = dhe_mithridates.2
+				days = { 700 900 }
+			}
+		}
+	}
+}
+
+# Paphlagonian Offer
+dhe_mithridates.2 = {
+	type = country_event
+	title = "dhe_mithridates.2.t"
+	desc = "dhe_mithridates.2.desc"
+	picture = greek_court
+
+	left_portrait = current_ruler
+	right_portrait = scope:mithridates
+	right_portrait = scope:mithridates.employer.current_ruler
+
+	trigger = {
+		exists = scope:mithridates
+		char:97 = {
+			prisoner = no
+			is_alive = yes
+		}
+	}
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = "dhe_mithridates.2.a"
+		add_treasury = 50
+		c:PRY = {
+			add_opinion = {
+				modifier = opinion_accepted_refugee
+				target = root
+			}
+			trigger_event = {
+				id = dhe_mithridates.3
+			}
+		}
+		scope:mithridates = {
+			move_country = root
+			if = {
+				limit = {
+					exists = spouse
+				}
+				spouse = {
+					move_country = root
+				}
+			}
+			if = {
+				limit = {
+					num_of_children >= 1
+				}
+				every_child = {
+					move_country = root
+				}
+			}
+		}
+		c:PON = {
+			trigger_event = {
+				id = dhe_mithridates.5
+				days = { 3650 7300 }
+			}
+		}
+	}
+
+	option = {
+		name = "dhe_mithridates.2.b"
+		trigger = {
+			is_ai = no
+		}
+		c:PRY = {
+			add_opinion = {
+				modifier = opinion_returned_refugee
+				target = root
+			}
+			trigger_event = {
+				id = dhe_mithridates.4
+			}
+		}
+	}
+}
+
+# Phrygian Ping about Mithridates in Paphlagonia
+dhe_mithridates.3 = {
+	type = country_event
+	title = "dhe_mithridates.3.t"
+	desc = "dhe_mithridates.3.desc"
+	picture = scribe_tools
+
+	left_portrait = current_ruler
+	right_portrait = scope:mithridates
+
+	option = {
+		name = "dhe_mithridates.3.a"
+	}
+}
+
+# Phrygian Ping about Mithridates' offer being rejected by Paphlagonia
+dhe_mithridates.4 = {
+	type = country_event
+	title = "dhe_mithridates.4.t"
+	desc = "dhe_mithridates.4.desc"
+	picture = scribe_tools
+
+	left_portrait = current_ruler
+	right_portrait = scope:mithridates
+
+	trigger = {
+
+	}
+
+	immediate = {
+		scope:mithridates = {
+			add_loyalty = loyalty_schemes_punished
+		}
+	}
+
+	option = {
+		name = "dhe_mithridates.4.a"
+		imprison =  {
+			target = scope:mithridates
+		}
+	}
+}
+
+# Pontus is informed that Mithridates wants to hang out with them
+dhe_mithridates.5 = {
+	type = country_event
+	title = "dhe_mithridates.5.t"
+	desc = "dhe_mithridates.5.desc"
+	picture = greek_court
+
+	left_portrait = current_ruler
+	right_portrait = scope:mithridates
+
+	trigger = {
+		exists = scope:mithridates
+		scope:mithridates = {
+			is_alive = yes
+			prisoner = no
+			NOT = { employer = c:PRY }
+		}
+	}
+
+	immediate = {
+		scope:mithridates.employer = {
+			save_scope_as = mithridates_employer
+		}
+	}
+
+	option = {
+		name = "dhe_mithridates.5.a"
+		scope:mithridates = {
+			remove_all_positions = yes
+			move_country = root
+			remove_character_modifier = foreign_citizen
+			if = {
+				limit = {
+					exists = spouse
+				}
+				spouse = {
+					remove_all_positions = yes
+					move_country = root
+					remove_character_modifier = foreign_citizen
+					set_as_minor_character = this
+				}
+			}
+			if = {
+				limit = {
+					num_of_children >= 1
+				}
+				every_child = {
+					remove_all_positions = yes
+					move_country = root
+					remove_character_modifier = foreign_citizen
+				}
+			}
+		}
+		set_as_ruler = scope:mithridates
+		if = {
+			limit = {
+				is_tribal = yes
+			}
+			change_government = despotic_monarchy
+		}
+		scope:mithridates_employer = {
+			trigger_event = {
+				id = dhe_mithridates.6
+			}
+		}
+		trigger_event = {
+			id = dhe_mithridates.7
+			days = { 3 5 }
+		}
+	}
+
+	option = {
+		name = "dhe_mithridates.5.b"
+		trigger = {
+			is_ai = no
+		}
+		add_stability = 10
+		current_ruler = {
+			add_popularity = popularity_medium
+		}
+	}
+}
+
+# Ping event to whoever Mithridates used to be with, that Mithridates now longer wants to hang with them
+dhe_mithridates.6 = {
+	type = country_event
+	title = "dhe_mithridates.6.t"
+	desc = "dhe_mithridates.6.desc"
+	picture = scribe_tools
+
+	left_portrait = current_ruler
+	right_portrait = scope:mithridates
+
+	option = {
+		name = "dhe_mithridates.6.a"
+		scope:mithridates.employer = {
+			add_opinion = {
+				modifier = opinion_supported_mithridates
+				target = root
+			}
+		}
+	}
+}
+
+# Ping event about how stuff are going now that Mithridates hang out in Pontus
+dhe_mithridates.7 = {
+	type = country_event
+	title = "dhe_mithridates.7.t"
+	desc = "dhe_mithridates.7.desc"
+	picture = city_construction
+
+	left_portrait = current_ruler
+
+	trigger = {
+		scope:mithridates = {
+			is_alive = yes
+			prisoner = no
+		}
+	}
+
+	option = {
+		name = "dhe_mithridates.7.a"
+		trigger_event = {
+			id = dhe_mithridates.8
+			days = { 1460 1825 }
+		}
+		scope:mithridates_employer = {
+			add_opinion = {
+				modifier = opinion_supported_mithridates
+				target = root
+			}
+		}
+	}
+}
+
+# Greek or Persian heritage in Pontus
+dhe_mithridates.8 = {
+	type = country_event
+	title = "dhe_mithridates.8.t"
+	desc = "dhe_mithridates.8.desc"
+	picture = greek_city_market
+
+	left_portrait = current_ruler
+
+	trigger = {
+		any_owned_province = {
+			is_in_region = bithynia_region
+			is_coastal = yes
+			province_dominant_culture_group = hellenic
+		}
+	}
+
+	immediate = {
+		save_scope_as = pontus
+		p:1812 = {
+			save_scope_as = sinope
+		}
+	}
+
+	option = {
+		name = "dhe_mithridates.8.a"
+		if = {
+			limit = {
+				NOT = { capital_scope = { province_id = 1812 } }
+			}
+			custom_tooltip = "dhe_mithridates.8.a.tt"
+		}
+		if = {
+			limit = {
+				OR = {
+					religion = roman_pantheon
+					religion = anatolian_religion
+					religion = zoroaster
+				}
+			}
+		}
+		custom_tooltip = "dhe_mithridates.8.a.tt.2"
+		add_country_modifier = {
+			name = country_improvement_pontus_greek
+			duration = 3650
+		}
+		set_variable = {
+			name = "greco_pontic_traditions"
+			days = -1
+		}
+	}
+
+	option = {
+		name = "dhe_mithridates.8.b"
+		add_country_modifier = {
+			name = country_improvement_pontus_persian
+			duration = 3650
+		}
+	}
+}

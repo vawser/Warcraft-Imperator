@@ -1,0 +1,146 @@
+﻿propose_marriage = {
+
+	on_other_nation = yes
+	on_own_nation = no
+	
+	sound = "event:/SFX/UI/Character/Generic/sfx_ui_character_diplomacy"
+	
+	message = yes
+	
+	potential_trigger = {
+		hidden:scope:target.employer = {
+			NOR = { 
+				this = scope:actor
+				tag = REB
+				tag = BAR
+			}
+		}
+		hidden:scope:target = {
+			is_alive = yes
+			is_ruler = no
+			is_mercenary = no
+			NOT = {
+				has_character_modifier = disloyal_successor_cmod
+			}
+		}
+	}
+	
+	
+	allowed_trigger = {
+		hidden:scope:actor = {
+			is_monarchy = yes
+		}
+		hidden:scope:target.employer = {
+			is_monarchy = yes
+		}
+		custom_tooltip = {
+			text = ""
+			scope:target = {
+				prisoner_valid_for_country_events_trigger = yes 
+			}
+		}
+		scope:target = {
+			is_ruler = no
+			from_ruler_family = yes
+			is_alive = yes
+			age >= 16
+			is_married = no
+		}
+		trigger_if = {
+			limit = {
+				scope:target = {
+					is_male = yes
+				}
+			}
+			scope:actor = {
+				custom_tooltip = {
+					text = has_valid_marriage_candidate_female
+					OR = {
+						current_ruler = {
+							is_female = yes
+							is_married = no
+						}
+						any_character = {
+							from_ruler_family = yes
+							is_female = yes
+							age >= 16
+							is_married = no
+						}
+					}
+				}
+			}
+		}
+		trigger_else = {
+			scope:actor = {
+				custom_tooltip = {
+					text = has_valid_marriage_candidate_male
+					OR = {
+						current_ruler = {
+							is_male = yes
+							is_married = no
+						}
+						any_character = {
+							from_ruler_family = yes
+							is_male = yes
+							age >= 16
+							is_married = no
+						}
+					}
+				}
+			}
+		}
+		scope:target.employer = {
+			opinion = {
+				target = scope:actor
+				value >= royal_marriage_acceptance_theirs_vs_ours_cities
+			}
+		}
+		custom_tooltip = royal_marriage_acceptance_tooltip_base
+		custom_tooltip = royal_marriage_acceptance_tooltip_legitimacy
+		trigger_if = {
+			limit = {
+				scope:actor.num_of_cities > scope:target.employer.num_of_cities
+			}
+			custom_tooltip = royal_marriage_acceptance_tooltip_larger
+		}
+		custom_tooltip = {
+			text = "current_marriage_proposal"
+			scope:actor = {
+				NOT = {
+					has_variable = marriage_proposal_ongoing
+				}
+			}
+		}
+	}
+	
+	character_actor_trigger = {
+		OR = {
+			is_ruler = yes
+			from_ruler_family = yes
+		}
+		age >= 16
+		is_married = no
+		NOT = { is_same_gender = scope:target }
+	}
+	
+	effect = {
+		custom_tooltip = female_shall_move_tooltip
+		hidden_effect = {
+			scope:target.employer = {
+				set_variable = {
+					name = marriage_proposal_ongoing
+					days = 60
+				}
+			}
+			scope:actor = {
+				set_variable = {
+					name = marriage_proposal_ongoing
+					days = 60
+				}
+			}
+			scope:target.employer = {
+				trigger_event = { id = royal_marriage.2 }
+			}
+		}
+	}
+}

@@ -1,0 +1,51 @@
+﻿endorse_party_inv = { 
+	allow = {
+		is_republic = yes
+	}
+	oratory_tech = 6 
+	endorse_party_cost_modifier = -0.2 				
+}
+
+assemble_raiding_inv = {
+	allow = {
+		is_tribal = yes
+	}
+	oratory_tech = 6
+	price_assemble_raiding_party_button_cost_modifier = -0.2
+}
+
+oaths_of_allegiance_inv = {
+	allow = {
+		is_monarchy = yes
+	}
+	oratory_tech = 6
+	price_oaths_of_allegiance_button_cost_modifier = -0.2
+}
+
+###Rank
+
+scientific_patronage_inv = {
+	allow = {
+		rank >= regional_power 
+	}
+	research_points_modifier = 0.1
+	oratory_tech = 4
+}
+
+scientific_patronage_2_inv = {
+	allow = {
+		rank >= major_power 
+	}
+	research_points_modifier = 0.1
+	oratory_tech = 6
+}
+
+###
+
+intervene_inv = {
+	allow = {
+		tag = ROM 
+	}
+	enable_intervene = yes
+	oratory_tech = 5
+}

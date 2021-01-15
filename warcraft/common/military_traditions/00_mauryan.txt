@@ -1,0 +1,755 @@
+﻿mauryan_philosophy = {
+
+	primary = archers
+	second = chariots
+	flank = light_cavalry
+
+	primary_navy = tetrere
+	secondary_navy = octere
+	flank_navy = liburnian
+	
+	allow = {
+		OR = {
+			country_culture_group = aryan
+			country_culture_group = pracyan
+			country_culture_group = indian
+			country_culture_group = tibetan
+		}
+	}
+
+	start = {
+		allow_unit_type = chariots
+	}
+	
+	
+	
+	
+	mauryan_mauryas_path = { #Southern & Tribal Path
+		#Favored by Southerners & Tribes
+		#Second choice for others
+		mauryan_mauryas_path_1 = { #Versatile Infantry
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = indian
+							is_tribal = yes
+						}
+					}
+					add = {
+						value = 5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			archers_offensive = 0.15
+		}
+		mauryan_coastal_path_2 = { #The Vyuha System
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = indian
+							is_tribal = yes
+						}
+					}
+					add = {
+						value = 6 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			archers_morale = 0.1
+		}
+		mauryan_mauryas_path_3 = { #Warhost of the Empire
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = indian
+							is_tribal = yes
+						}
+					}
+					add = {
+						value = 6 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			heavy_infantry_morale = 0.1
+		}
+		mauryan_noble_path_4 = { #Padma Vyuha
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = indian
+							is_tribal = yes
+						}
+					}
+					add = {
+						value = 4 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			enable_tactic = padma_vyuha
+		}
+		mauryan_mauryas_path_5 = { #Dedicated Archers
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = indian
+							is_tribal = yes
+						}
+					}
+					add = {
+						value = 6 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			archers_discipline = 0.1
+		}
+		
+		mauryan_noble_path_3 = { #Armored Archers
+			ai_will_do = { 
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = indian
+							is_tribal = yes
+						}
+					}
+					add = {
+						value = 4 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			archers_defensive = 0.1
+		}
+		mauryan_mauryas_path_6 = { #Homeland of our Fathers
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						country_culture_group = indian
+					}
+					add = {
+						value = 6 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			heavy_infantry_forest_combat_bonus = 0.15
+			heavy_infantry_jungle_combat_bonus = 0.15
+			light_infantry_forest_combat_bonus = 0.15
+			light_infantry_jungle_combat_bonus = 0.15
+		}
+		
+	
+		bonus = { #Bureaucracy of War
+			war_exhaustion = -0.01
+		}
+	}
+	
+	mauryan_coastal_path = { 
+		#Favored by sedentary South & East Indians
+		#Second choice candidate for countries with many ports.
+		mauryan_coastal_path_1 = { #Natural Harbors
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = indian
+							country_culture_group = pracyan
+						}
+						is_tribal = no
+						NOT = { tag = MRY }
+						OR = {
+							num_of_ports > 1
+							AND = {
+								num_of_cities < 8
+								num_of_ports >= 1
+							}
+						}
+					}
+					add = {
+						value = 5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						num_of_ports >= 15
+					}
+					add = {
+						value = 3 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			ship_cost = -0.15
+		}
+		
+		
+		mauryan_noble_path_7 = { #Exotic Soldiers
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = indian
+							country_culture_group = pracyan
+						}
+						is_tribal = no
+						NOT = { tag = MRY }
+						OR = {
+							num_of_ports > 1
+							AND = {
+								num_of_cities < 8
+								num_of_ports >= 1
+							}
+						}
+					}
+					add = {
+						value = 5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						num_of_ports >= 15
+					}
+					add = {
+						value = 3 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			mercenary_land_maintenance_cost = -0.15
+		}
+		
+		mauryan_coastal_path_3 = { #Masters of the Sea
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = indian
+							country_culture_group = pracyan
+						}
+						is_tribal = no
+						NOT = { tag = MRY }
+						OR = {
+							num_of_ports > 1
+							AND = {
+								num_of_cities < 8
+								num_of_ports >= 1
+							}
+						}
+					}
+					add = {
+						value = 6 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						num_of_ports >= 15
+					}
+					add = {
+						value = 3 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			naval_morale_modifier = 0.1
+		}
+		mauryan_coastal_path_4 = { #Plunder
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = indian
+							country_culture_group = pracyan
+						}
+						is_tribal = no
+						NOT = { tag = MRY }
+						OR = {
+							num_of_ports > 1
+							AND = {
+								num_of_cities < 8
+								num_of_ports >= 1
+							}
+						}
+					}
+					add = {
+						value = 6 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						num_of_ports >= 15
+					}
+					add = {
+						value = 3 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			enable_ability = naval_raiding #note: abilities can no longer be enabled here. They are enabled in the allow section of the ability
+			enslavement_efficiency = 0.1
+		}
+		
+		
+		mauryan_coastal_path_6 = { #City of the World's Desire
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = indian
+							country_culture_group = pracyan
+						}
+						is_tribal = no
+						NOT = { tag = MRY }
+						OR = {
+							num_of_ports > 1
+							AND = {
+								num_of_cities < 8
+								num_of_ports >= 1
+							}
+						}
+					}
+					add = {
+						value = 6 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						num_of_ports >= 15
+					}
+					add = {
+						value = 3 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			global_defensive = 0.1
+		}
+		
+		mauryan_mauryas_path_7 = { #Integrated Tribes
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = indian
+							country_culture_group = pracyan
+						}
+						is_tribal = no
+						NOT = { tag = MRY }
+						OR = {
+							num_of_ports > 1
+							AND = {
+								num_of_cities < 8
+								num_of_ports >= 1
+							}
+						}
+					}
+					add = {
+						value = 6 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						num_of_ports >= 15
+					}
+					add = {
+						value = 3 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			global_tribesmen_happyness = happiness_huge_svalue
+		}
+		
+		
+		mauryan_coastal_path_7 = { #State Artisans
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						OR = {
+							country_culture_group = indian
+							country_culture_group = pracyan
+						}
+						is_tribal = no
+						NOT = { tag = MRY }
+						OR = {
+							num_of_ports > 1
+							AND = {
+								num_of_cities < 8
+								num_of_ports >= 1
+							}
+						}
+					}
+					add = {
+						value = 6 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						num_of_ports >= 15
+					}
+					add = {
+						value = 3 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			archers_cost = -0.1
+			chariots_cost = -0.1
+		}
+	
+		bonus = { #Diplomatic Fleet
+			naval_damage_done = 0.1
+			allow_unit_type = octere
+		}
+	}
+		
+	
+	mauryan_noble_path = { 
+		#Sedentary Northern Indians + Tribes as second choice
+		mauryan_noble_path_1 = { #Fit for a King
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						is_tribal = no
+						OR = {
+							tag = MRY
+							country_culture_group = aryan
+							country_culture_group = pracyan
+						}
+					}
+					add = {
+						value = 6 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						is_tribal = yes
+					}
+					add = {
+						value = 3 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			chariots_defensive = 0.15
+		}
+		
+		mauryan_noble_path_5 = { #Imported Horses
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						is_tribal = no
+						OR = {
+							tag = MRY
+							country_culture_group = aryan
+							country_culture_group = pracyan
+						}
+					}
+					add = {
+						value = 6 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						is_tribal = yes
+					}
+					add = {
+						value = 3 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			chariots_discipline = 0.15
+		}
+		
+		mauryan_mauryas_path_2 = { #Descendants of Airavata
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						is_tribal = no
+						OR = {
+							tag = MRY
+							country_culture_group = aryan
+							country_culture_group = pracyan
+						}
+					}
+					add = {
+						value = 6 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			warelephant_defensive = 0.1
+		}
+		
+		mauryan_mauryas_path_4 = { #Natural Pathfinders
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						is_tribal = no
+						OR = {
+							tag = MRY
+							country_culture_group = aryan
+							country_culture_group = pracyan
+						}
+					}
+					add = {
+						value = 6 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						is_tribal = yes
+					}
+					add = {
+						value = 3 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			warelephant_jungle_combat_bonus = 0.15
+			warelephant_forest_combat_bonus = 0.15
+		} 
+		
+		
+		mauryan_noble_path_2 = { #Trained To Kill
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						is_tribal = no
+						OR = {
+							tag = MRY
+							country_culture_group = aryan
+							country_culture_group = pracyan
+						}
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						is_tribal = yes
+					}
+					add = {
+						value = 3 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			warelephant_discipline = 0.1
+		}
+		
+		mauryan_noble_path_6 = { #Elephantine Abundance
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						is_tribal = no
+						OR = {
+							tag = MRY
+							country_culture_group = aryan
+							country_culture_group = pracyan
+						}
+					}
+					add = {
+						value = 5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						is_tribal = yes
+					}
+					add = {
+						value = 3 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			warelephant_cost = -0.15
+		}
+		
+		mauryan_coastal_path_5 = { #Flexible Divisions
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						is_tribal = no
+						OR = {
+							tag = MRY
+							country_culture_group = aryan
+							country_culture_group = pracyan
+						}
+					}
+					add = {
+						value = 2.5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						country_culture_group = indian
+					}
+					add = {
+						value = 7 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						is_tribal = yes
+					}
+					add = {
+						value = 3 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			land_morale_modifier = 0.05
+		}
+	
+		bonus = {
+			warelephant_morale = 0.1
+		}
+	}
+}

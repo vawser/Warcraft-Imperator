@@ -1,0 +1,617 @@
+﻿greek_philosophy = {
+
+	primary = archers
+	second = heavy_infantry
+	flank = light_cavalry
+	
+	primary_navy = tetrere
+	secondary_navy = octere
+	flank_navy = liburnian
+	
+	allow = {
+		OR = {
+			country_culture_group = hellenic
+			country_culture_group = dacia_group
+			country_culture_group = illyrian_group
+		}
+		NOT = { tag = BAC }
+		NOT = { tag = EGY }
+	}
+
+	start = {
+		enable_tactic = greek_phalanx
+	}
+	
+	
+	greek_seleucid_path = {
+		greek_seleucid_path_1 = {
+			heavy_cavalry_maintenance_cost = -0.15
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						any_owned_province = {
+							trade_goods = horses
+						}
+					}
+					add = {
+						value = 1 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							tag = SEL
+							heritage = hellenistic_heritage
+						}
+					}
+					add = {
+						value = 5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+		}
+		greek_seleucid_path_2 = {
+			recruit_mercenary_cost_modifier = -0.15
+			land_morale_modifier = 0.05
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 1.5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							tag = SEL
+							heritage = hellenistic_heritage
+						}
+					}
+					add = {
+						value = 6 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+		}
+		greek_seleucid_path_3 = {
+			naval_damage_done = 0.05
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						OR = {
+							tag = SEL
+							heritage = hellenistic_heritage
+						}
+					}
+					add = {
+						value = 7 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+		}
+		greek_seleucid_path_4 = {
+			enable_tactic = cavalry_skirmish
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						OR = {
+							tag = SEL
+							heritage = hellenistic_heritage
+						}
+					}
+					add = {
+						value = 8 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+		}
+		greek_seleucid_path_5 = {
+			heavy_cavalry_offensive = 0.1
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						OR = {
+							tag = SEL
+							heritage = hellenistic_heritage
+						}
+					}
+					add = {
+						value = 9 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+		}
+		greek_seleucid_path_6 = {
+			light_infantry_morale = 0.1
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						OR = {
+							tag = SEL
+							heritage = hellenistic_heritage
+						}
+					}
+					add = {
+						value = 10 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+		}
+		greek_seleucid_path_7 = {
+			heavy_cavalry_morale = 0.1
+			light_cavalry_morale = 0.1
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						OR = {
+							tag = SEL
+							heritage = hellenistic_heritage
+						}
+					}
+					add = {
+						value = 11 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+		}
+	
+		bonus = {
+			mercenary_land_maintenance_cost = -0.15
+			heavy_cavalry_discipline = 0.1
+		}
+	}
+	
+	greek_states_path = {
+		#States in Greece and Macedon + Greek Republics will favor
+		greek_states_path_1 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						any_owned_province = {
+							trade_goods = iron
+						}
+					}
+					add = {
+						value = 1 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							is_republic = yes
+							capital_scope = {
+								OR = {
+									is_in_region = greece_region
+									is_in_region = macedonia_region
+								}
+							}
+						}
+					}
+					add = {
+						value = 5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			heavy_infantry_morale = 0.1
+		}
+		greek_antigonid_path_1 = {
+			global_cohort_start_experience = 10
+			experience_decay = -0.005
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 1.5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							is_republic = yes
+							capital_scope = {
+								OR = {
+									is_in_region = greece_region
+									is_in_region = macedonia_region
+								}
+							}
+						}
+					}
+					add = {
+						value = 6 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+		}
+		greek_states_path_2 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							is_republic = yes
+							capital_scope = {
+								OR = {
+									is_in_region = greece_region
+									is_in_region = macedonia_region
+								}
+							}
+						}
+					}
+					add = {
+						value = 7 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			light_cavalry_defensive = 0.1
+		}
+		greek_states_path_4 = {
+			enable_ability = military_colonies
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2.5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							is_republic = yes
+							capital_scope = {
+								OR = {
+									is_in_region = greece_region
+									is_in_region = macedonia_region
+								}
+							}
+						}
+					}
+					add = {
+						value = 8 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+		}
+		greek_antigonid_path_3 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 3 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							is_republic = yes
+							capital_scope = {
+								OR = {
+									is_in_region = greece_region
+									is_in_region = macedonia_region
+								}
+							}
+						}
+					}
+					add = {
+						value = 9 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			light_cavalry_offensive = 0.1
+		}
+		greek_states_path_6 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 3.5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							is_republic = yes
+							capital_scope = {
+								OR = {
+									is_in_region = greece_region
+									is_in_region = macedonia_region
+								}
+							}
+						}
+					}
+					add = {
+						value = 10 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			global_defensive = 0.15
+		}
+		greek_states_path_7 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 4 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							is_republic = yes
+							capital_scope = {
+								OR = {
+									is_in_region = greece_region
+									is_in_region = macedonia_region
+								}
+							}
+						}
+					}
+					add = {
+						value = 11 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			heavy_infantry_maintenance_cost = -0.1
+		}
+	
+		bonus = {
+			heavy_infantry_offensive = 0.1
+		}
+	}
+	
+	greek_antigonid_path = {
+		#Favored by Antigonids, and Naval Powers
+		
+		greek_antigonid_path_2 = {
+			ship_cost = -0.15
+			allow_unit_type = octere
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						num_of_ports > 4
+					}
+					add = {
+						value = 1 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							tag = PRY
+							capital_scope = {
+								OR = {
+									is_in_region = thrace_region
+									is_in_region = asia_region
+									is_in_region = cilicia_region
+									is_in_region = syria_region
+									is_in_region = phrygia_region
+								}
+							}
+						}
+					}
+					add = {
+						value = 5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+		}
+		greek_states_path_5 = {
+			allow_unit_type = mega_galley
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						num_of_ports > 4
+					}
+					add = {
+						value = 1 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							tag = PRY
+							capital_scope = {
+								OR = {
+									is_in_region = thrace_region
+									is_in_region = asia_region
+									is_in_region = cilicia_region
+									is_in_region = syria_region
+									is_in_region = phrygia_region
+								}
+							}
+						}
+					}
+					add = {
+						value = 6 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+		}
+		greek_antigonid_path_5 = {
+			light_infantry_offensive = 0.1
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 1.5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							tag = PRY
+							capital_scope = {
+								OR = {
+									is_in_region = thrace_region
+									is_in_region = asia_region
+									is_in_region = cilicia_region
+									is_in_region = syria_region
+									is_in_region = phrygia_region
+								}
+							}
+						}
+					}
+					add = {
+						value = 7 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+		}
+		greek_antigonid_path_4 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							tag = PRY
+							capital_scope = {
+								OR = {
+									is_in_region = thrace_region
+									is_in_region = asia_region
+									is_in_region = cilicia_region
+									is_in_region = syria_region
+									is_in_region = phrygia_region
+								}
+							}
+						}
+					}
+					add = {
+						value = 8 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			enable_ability = naval_raiding #note: abilities can no longer be enabled here. They are enabled in the allow section of the ability
+			enslavement_efficiency = 0.1
+		}
+		greek_states_path_3 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 2.5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							tag = PRY
+							capital_scope = {
+								OR = {
+									is_in_region = thrace_region
+									is_in_region = asia_region
+									is_in_region = cilicia_region
+									is_in_region = syria_region
+									is_in_region = phrygia_region
+								}
+							}
+						}
+					}
+					add = {
+						value = 9 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			siege_ability = 0.1
+		}
+		greek_antigonid_path_6 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 3.5 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							tag = PRY
+							capital_scope = {
+								OR = {
+									is_in_region = thrace_region
+									is_in_region = asia_region
+									is_in_region = cilicia_region
+									is_in_region = syria_region
+									is_in_region = phrygia_region
+								}
+							}
+						}
+					}
+					add = {
+						value = 10 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			archers_discipline = 0.1
+		}
+		greek_antigonid_path_7 = {
+			ai_will_do = {
+				modifier = {
+					trigger = {
+						always = yes
+					}
+					add = {
+						value = 4 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+				modifier = {
+					trigger = {
+						OR = {
+							tag = PRY
+							capital_scope = {
+								OR = {
+									is_in_region = thrace_region
+									is_in_region = asia_region
+									is_in_region = cilicia_region
+									is_in_region = syria_region
+									is_in_region = phrygia_region
+								}
+							}
+						}
+					}
+					add = {
+						value = 11 #Multiplied on plan value when selecting tradition. (Added to base which is 1.)
+					}
+				}
+			}
+			archers_hills_combat_bonus = 0.15
+			light_infantry_hills_combat_bonus = 0.15
+			heavy_infantry_hills_combat_bonus = 0.15
+		}
+	
+		bonus = {
+			light_infantry_offensive = 0.1
+			light_infantry_defensive = 0.1
+		}
+	}
+}

@@ -1,0 +1,44 @@
+﻿namespace = office_gain
+
+office_gain.1 = { 
+	type = character_event
+	
+	hidden = yes
+	
+	trigger = {
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_loyalty = loyalty_office_lost }
+			}
+			add_loyalty = loyalty_office_gained
+			add_popularity = 5
+		}
+		else_if = {
+			limit = { has_loyalty = loyalty_office_lost }
+			remove_loyalty = loyalty_office_lost
+		}
+	}
+}
+
+office_gain.2 = { 
+	type = character_event
+	
+	hidden = yes
+	
+	trigger = {
+	}
+	
+	immediate = {
+		if = {
+			limit = { has_loyalty = loyalty_office_gained }
+			remove_loyalty = loyalty_office_gained
+		}
+		add_loyalty = loyalty_office_lost
+		add_popularity = -5
+	}
+	
+}
+
