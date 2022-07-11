@@ -1,0 +1,57 @@
+﻿l_russian:
+##### GW event modifiers
+ vandalized_work_modifier:1 "Разрушенный монумент"
+ desc_vandalized_work_modifier:0 "Один из монументов нашей державы был осквернён и разрушен. Дух нашего народа сломлен, и люди начинают сомневаться в нашей способности править ими."
+
+ great_work_celebration:1 "Прославление монумента"
+ desc_great_work_celebration:0 "Мы проводим празднества в честь великого монумента, который возводится в этой области, и это вдохновляет местное население."
+
+ great_work_no_celebration:0 "Население недовольно"
+ desc_great_work_no_celebration:0 "Жители этой области недовольны и сомневаются в нашем праве на власть."
+
+ great_work_celebration_2:1 "Празднование годовщины монумента"
+ desc_great_work_celebration_2:0 "$desc_great_work_celebration$"
+
+ great_work_no_celebration_2:0 "Недовольство населения растёт"
+ desc_great_work_no_celebration_2:0 "$desc_great_work_no_celebration$"
+
+ great_work_completed:1 "Монумент завершён"
+ desc_great_work_completed:0 "Мы наконец-то завершили возведение впечатляющего монумента, который обеспечит законность нашей власти, когда истории о его красоте и размерах разлетятся по свету."
+
+ great_work_completed_great:1 "Монумент завершён"
+ desc_great_work_completed_great:0 "Неподалёку было завершено строительство величественного монумента, повергающего местное население в трепет."
+
+ great_work_completed_bad:0 "Монумент завершён"
+ desc_great_work_completed_bad:0 "$desc_great_work_completed_great$"
+
+ xenophobe_response:0 "Правитель-ксенофоб"
+ desc_xenophobe_response:0 "В результате наших действий местное население считает нас ксенофобами."
+
+ great_work_renovation:1 "Восстановление монумента"
+ desc_great_work_renovation:0 "Мы потратили значительные ресурсы на восстановление местного монумента."
+
+ great_work_small_renovation:0 "Финансовая помощь"
+ desc_great_work_small_renovation:0 "Мы выделили часть ресурсов, чтобы помочь местному населению обновить монумент."
+
+ great_work_dirty:1 "Грязный монумент"
+ desc_great_work_dirty:0 "В результате недостатка внимания местный монумент выглядит неопрятным и гораздо менее впечатляющим, чем когда-то."
+
+ happy_gw_province:0 "Процветающая провинция"
+ desc_happy_gw_province:0 "Эта территория испытывает необычайный экономический рост после недавнего возведения монумента."
+
+ praise_the_animals:0 "Восславить зверей"
+ desc_praise_the_animals:0 "Наши авгуры объявили, что постоянные появления животных около одного из наших монументов доказывают, что высшие силы благословили нас."
+
+ embrace_great_works_religion:0 "Принять религию"
+ desc_embrace_great_works_religion:0 "Мы выделили средства на поддержку местного культа, возникшего вокруг одного из наших наиболее впечатляющих монументов."
+
+ great_work_more_guards:0 "Усилить стражу"
+ desc_great_work_more_guards:0 "Мы разместили дополнительную охрану у местного монумента, чтобы не допустить его осквернения или разрушения."
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ great_work_loss_unrest:0 "Чудо света увековечено"
+ great_work_omen_power_from_burial:0 "Умерший правитель"
+ great_work_omen_power_from_burial_powerful:0 "Умерший правитель"
+ great_work_omen_power_from_burial_sad_pops:0 "Умерший правитель"
+ great_work_omen_power_from_burial_powerful_sad_pops:0 "Умерший правитель"
+ embrace_gw_religion:0 "Религиозное сотрудничество"

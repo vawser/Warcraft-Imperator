@@ -1,0 +1,66 @@
+﻿l_german:
+ ### Nation specific ###
+ ## Carthage ##
+ deity_baal_qarnaim:0 "$omen_baal_qarnaim$"
+ omen_baal_qarnaim:1 "Ba'al Qarnaim"
+ omen_baal_qarnaim_desc:3 "Wir werden dem Herrn der zwei Hörner große Opfergaben darbringen und so sicherstellen, dass er unsere jüngsten Kriege segnet. Mit seiner Führung werden wir unsere Ausbreitung in feindliche Länder unter denjenigen in unserem Volk, die von Kampf und Zwisten ermüdet sind, leicht rechtfertigen können.\n\nAls ein anderes Gesicht des großen Ba'al verehren wir Ba'al Qarnaim in Zeiten der Not und des Krieges, und er inspiriert unser Volk."
+
+ ## Arabian (south_levantine) ##
+ deity_attar:0 "$omen_attar$"
+ omen_attar:1 "Attar"
+ omen_attar_desc:3 "Er, der in der Schlacht tapfer ist, wird unsere Waffenbrüder unterstützen und schützen und für ihre Disziplin und ihre Moral sorgen. Wenn unsere Soldaten darum kämpfen, sich selbst zu beweisen, ist der Sieg wesentlich wahrscheinlicher der unsere."
+
+ ## Carthaginian ##
+ deity_tanit:0 "$omen_tanit$"
+ omen_tanit:1 "Tanit"
+ omen_tanit_desc:3 "Unsere Göttin wird in der Schlacht über uns wachen und unseren Sieg sichern, wenn wir unsere Feinde bezwingen. Es gibt wenige Gottheiten, die unsere Soldaten so inspirieren wie Tanit, und dies beweist immer wieder aufs Neue, welchen Einfluss sie auf unsere Kriege hat.\n\nIm Gegensatz zum phönizischen Pantheon ist Tanit eher eine lokale karthagische Göttin. Sie spielt eine wichtige Rolle in unseren Riten, sowohl als Mond- als auch als Kriegsgöttin. Tanit ist derart wohlwollend, dass sogar einige Libyer und Mauretanier damit begonnen haben, sie unserem Beispiel folgend anzubeten."
+ deity_baal_hammon:0 "$omen_baal_hammon$"
+ omen_baal_hammon:1 "Ba'al Hammon"
+ omen_baal_hammon_desc:3 "Die jungen Männer unserer Nation strömen mit dem Wissen zu unseren Bannern, dass Ba'al Hammon unsere Kriege gesegnet hat. Mit mehr Rekruten in unseren Armeen können wir unsere Feinde dazu zwingen, unseren Forderungen zuzustimmen.\n\nAnders als bei der allgemeineren Anbetung von Ba'al in den anderen phönizischen Regionen haben wir die Gunst von Ba'al Hammon, dem Führer des Pantheons in den karthagischen Ländern. Als Gott der Ernte wird er gelegentlich mit dem griechischen Gott Kronos verglichen, obwohl er eine wichtigere und tatkräftigere Rolle spielt als seine griechische Version."
+
+ ## Generic ##
+ deity_anat:0 "$omen_anat$"
+ omen_anat:1 "Anat"
+ omen_anat_desc:3 "Die wilde Kriegergöttin wird an der Seite unserer Männer kämpfen, ihre Hand im Kampf führen und ihre Moral stärken. Anat ist bekannt für das blutige Abschlachten ihrer Feinde, und mit ihr als Waffenschwester gewinnen wir mit höherer Wahrscheinlichkeit unsere Kriege.\n\nAls Kriegsgöttin war Anat in vielen kanaanitischen Kulturen entlang der Levante bekannt. Sie spielte eine wichtige Rolle bei der Rache ihres Bruders und Geliebten Ba'al nach seinem angeblichen Tod durch die Hand von Mot."
+ deity_el:0 "$omen_el$"
+ omen_el:1 "El"
+ omen_el_desc:3 "Alle jungen Männer werden unter der Führung des höchsten Gottes zu unseren Bannern strömen. So sind wir in der Lage, Kriege zu gewinnen, da wir mehr potenzielle Rekruten haben als zuvor.\n\nAls Oberhaupt des Pantheons wird El weitestgehend als Erster unter Gleichen betrachtet. Er ist der König und Vater der meisten Gottheiten und der Schöpfer des Landes."
+ deity_kothar:0 "$omen_kothar$"
+ omen_kothar:1 "Kothar"
+ omen_kothar_desc:3 "Das große Wissen von Kothar-wa-Khasis wird auf unsere Handwerker abfärben und ihnen die Erkenntnis geben, die sie brauchen. Wenn wir seine Führung haben, können wir mit unseren Nachbarn konkurrieren und die Fähigkeiten unserer Feinde übertreffen.\n\nKothar ist als Schutzgott der Metallverarbeitung und der Magie bekannt und hat den anderen Gottheiten mit seinen einzigartigen Fähigkeiten viele bemerkenswerte Waffen und Geschenke gemacht. Geschichten zufolge lernten sogar die Ägypter von diesem Gott und nannten ihn in ihrer eigenen Sprache Ptah."
+ deity_yam:0 "$omen_yam$"
+ omen_yam:1 "Yam"
+ omen_yam_desc:3 "Yam ist einer der Meeresgötter. Von seinem Palast in den dunklen Tiefen des Ozeans aus gebietet er über die tosenden Wellen und die stürmischen Winde, mit denen unsere Schiffe zu kämpfen haben, wenn sie auf See sind.\n\nObwohl er einer der von El auserwählten Helden ist, stellt er eine Gefahr für diejenigen dar, die ihn zu beleidigen wagen. So mancher Seemann hat bereits seinen Zorn zu spüren bekommen, als er gegen Riffe geschleudert oder sein Schiff gnadenlos von den Wogen zermalmt wurde."
+ deity_melqart:0 "$omen_melqart$"
+ omen_melqart:1 "Melkart"
+ omen_melqart_desc:3 "Der große wandernde Melkart wird unserem ganzen Reich Reichtum bringen. Mit größerem Reichtum kommt mehr Wohlstand für unser Volk, und dieser wiederum gewährleistet zumindest vorerst unsere Sicherheit.\n\nObwohl der Gott ursprünglich der Schutzgott der phönizischen Stadt Tyrus war, ist er in der gesamten phönizischen Welt sowie bei all jenen bekannt geworden, die mit den Phöniziern Handel trieben oder sonstige Beziehungen pflegten."
+ deity_baal:0 "$omen_baal$"
+ omen_baal:1 "Ba'al"
+ omen_baal_desc:3 "Der große Ba'al wird unsere Ausbreitung in feindliche Länder rechtfertigen und den Erfolg dieser Feldzüge sichern. Es gibt manche, die den Krieg satthaben, doch dieser Segen wird sie von der Notwendigkeit einer fortgesetzten Kriegsführung überzeugen.\n\nAls Schutzpatron der Ernten, der Stürme, der Seeleute und des Wetters ist der Große Ba'al unsere meistverehrte Gottheit. In Zeiten des Kampfes und der Not ist Ba'al jene Gottheit, die Erlösung und Hilfe bringt."
+ deity_dagon:0 "$omen_dagon$"
+ omen_dagon:1 "Dagon"
+ omen_dagon_desc:3 "Dagon wird unsere Kaufleute mit umfangreichen Ressourcen zum Handeln versorgen. Mit seiner Hilfe erlangen unsere Kaufleute größeren Reichtum und werden in der Lage sein, ihre Geschäfte und ihr Vermögen noch lange auszubauen.\n\nDagon, den Griechen als Zeus Arotrios bekannt, ist der Vater von Ba'al und selbst ein Fruchtbarkeitsgott."
+ deity_shapash:0 "$omen_shapash$"
+ omen_shapash:1 "Shapash"
+ omen_shapash_desc:3 "Die Gerechtigkeit von Shapash wird wie die Sonne auf unser Land herabscheinen und unser Volk mit Frieden und Redlichkeit segnen. Unter ihrem wachen Blick werden nur die widerspenstigsten Menschen ihren Kampf gegen unsere Gesellschaft fortsetzen, und wir werden endlich jeder inneren Bedrohung ein Ende setzen können.\n\nAls eine der Töchter von El ist sie als Sonnengöttin und Richterin unter den Göttern bekannt. Ihre Gerechtigkeit entscheidet über den Glauben anderer Götter und kann nötigenfalls deren Handeln behindern."
+ deity_astarte:0 "$omen_astarte$"
+ omen_astarte:1 "Astarte"
+ omen_astarte_desc:3 "Unser Volk wird unter den liebenden Augen der Göttin wachsen und sich ausbreiten. Mit ihrem Segen wird unsere Jugend gesund heranreifen und unsere Ernten noch viele Jahre Überfluss erleben.\n\nAstarte ist in ganz Phönizien als Fruchtbarkeitsgöttin bekannt und wird gelegentlich zusammen mit dem heilenden Gott Eshmun gefeiert. Die Griechen vergleichen sie oft mit ihrer Aphrodite."
+ deity_eshmun:0 "$omen_eshmun$"
+ omen_eshmun:0 "Eschmun"
+ omen_eshmun_desc:1 "Die Weisheit und die Güte von Eschmun werden unserem Volk Gesundheit und Glück bringen. Mithilfe seines umfassenden Wissens über die vielfältigen Gaben der Natur wird der Gott unser Volk vor den Verheerungen durch Alter und Krankheiten schützen.\n\nEschmun wird von Phönizien bis Karthago verehrt und von den Griechen Asklepios genannt. Er ist ein berühmter und in der ganzen kanaanitischen Welt sehr geschätzter Gott."
+ deity_atargatis:0 "$omen_atargatis$"
+ omen_atargatis:0 "Atargatis"
+ omen_atargatis_desc:2 "Atargatis, die dreifach gesegnete Überbringerin des Überflusses und Beschützerin der Notleidenden, wird dafür sorgen, dass die Bedürfnisse unseres Volkes befriedigt bleiben.\n\nAtargatis ist eine Kombination der drei großen kanaanitischen Göttinnen Atirat, Anat und Attart, deren Verehrung auch nach der Hellenisierung Syriens, insbesondere in Bambyke, jahrhundertelang beliebt blieb."
+ deity_baalat:0 "$omen_baalat$"
+ omen_baalat:0 "Ba'alat"
+ omen_baalat_desc:0 "Ba'alat ist eine Gottheit, die aus dem Stadtstaat Byblos in Phönizien stammt und seit undenklichen Zeiten ein beeindruckendes Heiligtum in der Stadt besitzt.\n\nDie Gottheit wird oft mit der Erde und anderen Fruchtbarkeitsgöttinnen wie Astarte und Ischtar in Verbindung gebracht. Die Ägypter kennen sie als Hathor und die Griechen als Baaltis."
+
+ # Heirs of Alexander #
+ deity_gad:0 "$omen_gad$"
+ omen_gad:0 "Gad"
+ omen_gad_desc:0 "Gad ist ein alter Gott oder gelegentlich auch eine Göttin des Glücks und des Zufalls. Im Gegensatz zu vielen anderen Gottheiten Phöniziens und Palästinas wird Gad im gesamten östlichen Teil des Mittelmeers universell angebetet und geehrt. Andere Gottheiten werden gelegentlich auch mit dem Namen Gad verbunden, allerdings mehr als Titel."
+ deity_hadad:0 "$omen_hadad$"
+ omen_hadad:0 "Hadad"
+ omen_hadad_desc:0 "Hadad ist eine Sturmgottheit, die ursprünglich aus Nordsyrien und Niederarmenien stammt, wo er oft im Einklang mit der synkretistischen Gottheit Atargatis verehrt wurde. Trotz seiner Herkunft wurde einer seiner größten Tempel in Askalon errichtet, einer Stadt, in der er als die wichtigste Gottheit von allen galt."
+

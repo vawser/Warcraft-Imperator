@@ -1,0 +1,4 @@
+﻿l_simp_chinese:
+ #####Loans
+ num_of_loans_tooltip:1 "[SCOPE.sCountry('actor').GetName|Y]的贷款少于 #Y 3#! 笔。"
+ rule_pop_greater_than_target_loyalty:0 "\t\t\t\t\t\t\t\t统治者声望高于[SCOPE.sChar('target').GetName]的忠诚度。"

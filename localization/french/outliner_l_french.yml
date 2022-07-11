@@ -1,0 +1,80 @@
+﻿l_french:
+ OUTLINER_SHOWHIDE_TOOLTIP:1 "#T Afficher ou masquer le gestionnaire#!\nLe gestionnaire contient des raccourcis et des informations sur l'état actuel de choses telles que les armées, les flottes ou les personnages déloyaux."
+ OUTLINER_SETTINGS:0 "#T Configuration du gestionnaire#!\nAffiche le menu permettant de configurer les éléments figurant dans le gestionnaire."
+ OUTLINER_CATEGORY_PLAYER_NAVIES:0 "Flottes contrôlées"
+ OUTLINER_CATEGORY_PLAYER_ARMIES:0 "Armées  contrôlées"
+ OUTLINER_CATEGORY_AUTOMATED_NAVIES:0 "Flottes automatisées"
+ OUTLINER_CATEGORY_AUTOMATED_ARMIES:0 "Armées  automatisées"
+ OUTLINER_CATEGORY_PROVINCIAL_ARMIES:0 "Armées provinciales"
+ OUTLINER_CATEGORY_DISLOYAL_ARMIES:0 "Armées déloyales"
+ OUTLINER_CATEGORY_FAVORITE_CHARACTERS:0 "Personnages favoris"
+ OUTLINER_CATEGORY_PLAYER_NAVIES_TOOLTIP:0 "Ces flottes sont sous contrôle direct."
+ OUTLINER_CATEGORY_PLAYER_ARMIES_TOOLTIP:0 "Ces armées sont sous contrôle direct."
+ OUTLINER_CATEGORY_AUTOMATED_NAVIES_TOOLTIP:0 "Ces flottes ont reçu des objectifs automatisés."
+ OUTLINER_CATEGORY_AUTOMATED_ARMIES_TOOLTIP:0 "Ces armées ont reçu des objectifs automatisés."
+ OUTLINER_CATEGORY_PROVINCIAL_ARMIES_TOOLTIP:0 "Ces armées sont assignées à une province et ne peuvent la quitter."
+ OUTLINER_CATEGORY_DISLOYAL_ARMIES_TOOLTIP:0 "armées dirigées par un commandant devenu déloyal, qui poursuit désormais ses propres objectifs."
+ OUTLINER_CATEGORY_FAVORITE_CHARACTERS_TOOLTIP:0 "Personnages marqués comme #Y favoris#!."
+
+ OUTLINER_CATEGORY_ARMIES:0 "Armées"
+ OUTLINER_CATEGORY_ARMIES_TOOLTIP:0 "Armées"
+ OUTLINER_CATEGORY_NAVIES:0 "Flottes"
+ OUTLINER_CATEGORY_NAVIES_TOOLTIP:0 "Flottes"
+ OUTLINER_ITEM_UNIT:1 "[UNIT.GetTooltip]\nPosition : [UNIT.GetLocation.GetName|Y]."
+
+ OUTLINER_CATEGORY_COMBATS:0 "Combats"
+ OUTLINER_CATEGORY_COMBATS_TOOLTIP:0 "Combats"
+ OUTLINER_ITEM_COMBAT_TOOLTIP:0 "[COMBAT.GetName]"
+  
+ OUTLINER_CATEGORY_SIEGES_OFFENSIVE:0 "Sièges menés"
+ OUTLINER_CATEGORY_SIEGES_OFFENSIVE_TOOLTIP:0 "Sièges que nous menons"
+ OUTLINER_CATEGORY_SIEGES_DEFENSIVE:0 "Sièges ennemis"
+ OUTLINER_CATEGORY_SIEGES_DEFENSIVE_TOOLTIP:0 "Sièges menés par l'ennemi"
+ OUTLINER_ITEM_SIEGE_TOOLTIP:1 "#T [SIEGE.GetName]#!\n$DATA$"
+
+ OUTLINER_CATEGORY_DISLOYAL_CHARACTERS:0 "Personnages déloyaux"
+ OUTLINER_CATEGORY_DISLOYAL_CHARACTERS_TOOLTIP:0 "Ces personnages sont déloyaux ou sont proches de le devenir."
+ OUTLINER_ITEM_DISLOYAL_CHARACTER_TOOLTIP:2 "#T [CHARACTER.GetName]#!\n[CHARACTER.GetRelevantDescription]\nLa loyauté de [CHARACTER.GetName] est actuellement de #R [CHARACTER.GetLoyalty]%#!\n[CHARACTER.GetLoyaltyNonTitleToolTip]" # [LocEditor:AwaitingBatchUpdate]
+  
+ OUTLINER_CATEGORY_CONSTRUCTIONS_MILITARY:0 "Recrutements"
+ OUTLINER_CATEGORY_CONSTRUCTIONS_MILITARY_TOOLTIP:0 "Unités en cours de recrutement"
+ OUTLINER_CATEGORY_CONSTRUCTIONS_BUILDINGS:0 "Constructions"
+ OUTLINER_CATEGORY_CONSTRUCTIONS_BUILDINGS_TOOLTIP:0 "Bâtiments en cours de construction"
+ OUTLINER_ITEM_CONSTRUCTION_DAYS_LEFT:0 "$DAYS$ jours"
+ OUTLINER_ITEM_CONSTRUCTION_DAYS_LEFT_QUEUED:0 "$DAYS$ jours (+$QUEUED$)"
+ 
+ OUTLINER_CATEGORY_PROVINCEMODIFIER:0 "Activités des localités"
+ OUTLINER_CATEGORY_PROVINCEMODIFIER_TOOLTIP:0 "Constructions en cours dans les cités et métropoles, ainsi que les efforts faits pour propager la civilisation."
+ 
+ OUTLINER_CATEGORY_ACTIVE_DIPLOMACY:0 "Diplomatie en cours"
+ OUTLINER_CATEGORY_DIPLOMACY_TOOLTIP:0 "Toutes les actions diplomatiques que nous menons actuellement."
+ INTEGRATION_TEXT_OUTLINER:0 "$CURR|Y$/$NEED$"
+ INTEGRATE_OUTLINER_TT:1 "L'intégration progresse de $SPEED|+=/$ chaque mois du fait de :\n$WHY$\nElle devrait être achevée autour du $WHEN|Y$."
+
+ CLAIM_TEXT_OUTLINER:0 "$PERC|Y2%$"
+ CLAIM_OUTLINER_TT:1 "Progression dans la fabrication de la revendication de $SPEED|+=/%$ par mois :\n$WHY$\nCette revendication devrait pouvoir être avancée autour du $WHEN|Y$."
+
+ 
+ OUTLINER_CATEGORY_ACTIVE_WARS:0 "Guerres en cours"
+ OUTLINER_CATEGORY_ACTIVE_WARS_TOOLTIP:1 "Guerres dans lesquelles nous sommes actuellement impliqués."
+ OUTLINER_ITEM_WAR:0 "[WAR.GetName]"
+  
+ OUTLINER_CATEGORY_HUMAN_PLAYERS:0 "Joueurs humains"
+ OUTLINER_CATEGORY_HUMAN_PLAYERS_TOOLTIP:0 "Joueurs humains"
+ OUTLINER_ITEM_HUMAN_PLAYER_TOOLTIP:0 "$NAME$ ($USER$) joue @[COUNTRY.GetFlag]![COUNTRY.GetName]"
+ OUTLINER_ITEM_HUMAN_PLAYER_OBSERVER_TOOLTIP:0 "$NAME$ ($USER$) joue en tant qu'observateur"
+ 
+ OUTLINER_CATEGORY_DISLOYAL_STATES:0 "Provinces déloyales"
+ OUTLINER_CATEGORY_DISLOYAL_STATES_TOOLTIP:0 "Ces provinces nous sont déloyales ou sur le point de le devenir."
+ OUTLINER_ITEM_DISLOYAL_STATE_TOOLTIP:0 "[STATE.GetLoyaltyTooltip]"
+ 
+ OUTLINER_CATEGORY_STATE_INFRASTRUCTURE:0 "Invest. provinciaux"
+ OUTLINER_CATEGORY_STATE_INFRASTRUCTURE_TOOLTIP:0 "Ces provinces font actuellement l'objet d'investissements."
+ OUTLINER_ITEM_STATE_INFRASTRUCTURE_STATUS:0 "#G [STATE.GetTimedModifier('state_modification_in_progress').GetProgress|2]%#!"
+ OUTLINER_ITEM_STATE_INFRASTRUCTURE_STATUS_TOOLTIP:0 "La [STATE.GetName] fait l'objet d'investissements provinciaux."
+
+
+ OUTLINER_CATEOGRY_GREAT_WORK:0 "Grandes merveilles"
+ OUTLINER_CATEOGRY_GREAT_WORK_TOOLTIP:0 "Grandes merveilles"
+ OUTLINER_GREAT_WORKS_EVENT_CONSTRUCTION:0 "Construction en cours"
+ OUTLINER_GREAT_WORK_STATUS_HALTED:0 "#R En pause#!"

@@ -1,0 +1,24 @@
+﻿l_french:
+ WAR_OVERVIEW_SUE_FOR_PEACE:0 "Négocier la paix"
+ WAR_OVERVIEW_SUE_FOR_PEACE_TOOLTIP:0 "Négocier un traité de paix."
+ WARGOAL_IS_CONQUEST:0 "#T But de guerre imposé#!\n"
+ WARGOAL_IS_SAFE:0 "#T But de guerre protégé#!\n"
+
+ WAR_OVERVIEW_DATE_TOOLTIP:0 "Guerre déclarée le [WarOverview.GetWar.GetStartDate]"
+ WAR_OVERVIEW_WAR_GOAL_TOOLTIP:0 "La guerre a été déclarée à [WarOverview.GetWar.GetOriginalDefender.GetName] par [WarOverview.GetWar.GetOriginalAttacker.GetName].\n[WarOverview.GetWar.GetWarGoal.GetDescription]"
+ 
+ WAR_OVERVIEW_WINLOSE_VS:1 "$NUM$ @[COUNTRY.GetFlag]! / $TARGET_NUM$ @[TARGET_COUNTRY.GetFlag]!"
+ WAR_OVERVIEW_RESULT_WIN:0 "#G Victoire#!"
+ WAR_OVERVIEW_RESULT_LOSS:0 "#R Défaite#!"
+
+ WAR_OVERVIEW_BLOCKADED_PERCENT_TOOLTIP:0 "$NUM$ des $MAX$ ports de @[COUNTRY.GetFlag]![COUNTRY.GetName] sont sous blocus."
+
+ WAR_OVERVIEW_BATTLES_WON:1 "Victoires"
+ WAR_OVERVIEW_BATTLES_LOST:1 "Victoires"
+ 
+ WAR_OVERVIEW_LOSSES_FRIENDLY_LAND_TOOLTIP:0 "#T Nos pertes terrestres#! :"
+ WAR_OVERVIEW_LOSSES_FRIENDLY_NAVAL_TOOLTIP:0 "#T Nos pertes navales#! :"
+ WAR_OVERVIEW_LOSSES_ENEMY_LAND_TOOLTIP:0 "#T Pertes terrestres de l'ennemi#! :"
+ WAR_OVERVIEW_LOSSES_ENEMY_NAVAL_TOOLTIP:0 "#T Pertes navales de l'ennemi#! :"
+ WAR_OVERVIEW_LOSSES_TOOLTIP_LINE:0 "Pertes à [BATTLE_RESULT.GetName] : [BATTLE_SIDE.GetLosses|Y0*]"
+ GREAT_CONQUEST_MAPTEXT:0 "$AE$@aggressive_expansion!\n$EXHAUSTION$@war_exhaustion!"

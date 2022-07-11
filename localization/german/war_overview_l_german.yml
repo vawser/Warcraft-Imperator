@@ -1,0 +1,24 @@
+﻿l_german:
+ WAR_OVERVIEW_SUE_FOR_PEACE:0 "Frieden verhandeln"
+ WAR_OVERVIEW_SUE_FOR_PEACE_TOOLTIP:0 "Um Frieden bitten"
+ WARGOAL_IS_CONQUEST:0 "#T Kriegsziel durchgesetzt#!\n"
+ WARGOAL_IS_SAFE:0 "#T Kriegsziel beschützt#!\n"
+
+ WAR_OVERVIEW_DATE_TOOLTIP:0 "Der Krieg begann am [WarOverview.GetWar.GetStartDate]"
+ WAR_OVERVIEW_WAR_GOAL_TOOLTIP:0 "Dieser Krieg wurde von [WarOverview.GetWar.GetOriginalAttacker.GetName] begonnen und richtet sich gegen [WarOverview.GetWar.GetOriginalDefender.GetName].\n[WarOverview.GetWar.GetWarGoal.GetDescription]"
+ 
+ WAR_OVERVIEW_WINLOSE_VS:1 "@[COUNTRY.GetFlag]! $NUM$ vs @[TARGET_COUNTRY.GetFlag]! $TARGET_NUM$"
+ WAR_OVERVIEW_RESULT_WIN:0 "#G Gewonnen#!"
+ WAR_OVERVIEW_RESULT_LOSS:0 "#R Verloren#!"
+
+ WAR_OVERVIEW_BLOCKADED_PERCENT_TOOLTIP:0 "$NUM$ von $MAX$ Häfen sind in @[COUNTRY.GetFlag]! [COUNTRY.GetName] blockiert"
+
+ WAR_OVERVIEW_BATTLES_WON:1 "Gewonnene Schlachten"
+ WAR_OVERVIEW_BATTLES_LOST:1 "Gewonnene Schlachten"
+ 
+ WAR_OVERVIEW_LOSSES_FRIENDLY_LAND_TOOLTIP:0 "#T Unsere Armeeverluste#!"
+ WAR_OVERVIEW_LOSSES_FRIENDLY_NAVAL_TOOLTIP:0 "#T Unsere Flottenverluste#!"
+ WAR_OVERVIEW_LOSSES_ENEMY_LAND_TOOLTIP:0 "#T Feindliche Armeeverluste#!"
+ WAR_OVERVIEW_LOSSES_ENEMY_NAVAL_TOOLTIP:0 "#T Feindliche Flottenverluste#!"
+ WAR_OVERVIEW_LOSSES_TOOLTIP_LINE:0 "[BATTLE_SIDE.GetLosses|Y0*] Verluste in [BATTLE_RESULT.GetName]"
+ GREAT_CONQUEST_MAPTEXT:0 "@aggressive_expansion! $AE$\n@war_exhaustion! $EXHAUSTION$"

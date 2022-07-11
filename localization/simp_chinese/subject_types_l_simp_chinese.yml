@@ -1,0 +1,18 @@
+﻿l_simp_chinese:
+ protectorate:0 "保护国"
+ CANCEL_TITLE:0 "撤销附属关系"
+ subject_merc_city_state_cost_modifier:0 "雇佣军城邦收入"
+ MERC_CITY_STATE_EFFECT_TT:0 "[SCOPE.GetRootScope.GetProvince.GetName|Y]将成为由当地雇佣军领导的自由市。\n他们将成为我们的附属国，并且可以获得他们基础人力的加成。\n\n"
+ SYR_merc_state_title:0 "创建雇佣军城邦"
+ SYR_merc_state_desc:0 "你确定要创建雇佣军城邦吗？这将在[SCOPE.GetRootScope.GetProvince.GetName|Y]之外建立附属国。"
+ recruit_character_mg_syr_cost_modifier:0 "选举领袖花费修正"
+ goes_here_becomes_king_tt:0 "[SCOPE.sChar('target').GetPraenomen|Y]转移到[SCOPE.sC('actor').GetName|Y]并成为[SCOPE.sC('actor').GetRulerTitle|Y]。"
+ mg_recruit_cooldown_string:0 "直至[SCOPE.sC('actor').GetVariableExpiry('mg_recruit_cooldown')|Y]，你无法进行此操作。"
+ recruit_character_mg_syr:0 "选举雇佣军之王"
+ create_merc_state_price:0 "创建雇佣军城邦"
+ owned_by_us_tt:0 "属于我们。"
+ MERC_CITY_MONARCHY_EFFECT:0 "如果你是#Y 君主制#!政体，每#Y 5#!年，你可以选择推翻当前统治者，取而代之的是一个属于你的#Y 雇佣军城邦#!的统治者。这可以通过#Y 人物互动#!来完成，并需要通过#Y 雇佣军契约法#!。\n\n"
+ LEAGUE_CITY_STATE_EFFECT_TT:0 "[SCOPE.GetRootScope.GetProvince.GetName|Y]将成为共和政府统治的自由同盟城邦。\n同盟将成为我们的附属并拥有贸易路线和贸易品生产加成。他们不会加入我们的战争，但也不会占用外交关系槽位，也不能被整合。"
+ league_city_title:0 "创建同盟城邦"
+ league_city_desc:0 "你确定要创建同盟城邦吗？这将在[SCOPE.GetRootScope.GetProvince.GetName|Y]之外建立附属国。"
+ 

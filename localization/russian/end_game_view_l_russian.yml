@@ -1,0 +1,16 @@
+﻿l_russian:
+ END_GAME_VIEW_LOSING_TITLE:0 "Конец игры"
+ END_GAME_VIEW_LOSING_TEXT:0 "Славное правление, коим может похвастаться [COUNTRY.GetName], бесславно завершилось в $DATE$ злой волей правителя по имени [TARGET_COUNTRY.GetRuler.GetName] и [TARGET_COUNTRY.GetAdjective]ого народа.\n\nСкоро, скоро пески времени занесут наш гордый город, имя которого останется лишь в эпических поэмах, прославляющих нашего врага."
+  
+ END_GAME_VIEW_SURVIVING_TITLE:1 "Небольшое дополнение к истории"
+ END_GAME_VIEW_SURVIVING_TEXT:1 "Наша гордая нация пережила столетия борьбы, войн и бедствий, однако [COUNTRY.GetAdjective]ий народ не совершил ничего выдающегося. В мире могущественных цивилизаций мы — лишь былинки среди дубов."
+  
+ END_GAME_VIEW_IMPERIAL_GLORY_TITLE:0 "Империя на века"
+ END_GAME_VIEW_IMPERIAL_GLORY_TEXT:1 "[COUNTRY.GetAdjective]ий народ создал империю, которую запомнят в истории как первую среди равных. Несмотря на все наши старания, [COUNTRY.GetName] процветает и поныне — и, несомненно, будет процветать до конца времён."
+  
+ END_GAME_VIEW_GREATEST_EMPIRE_TITLE:0 "Величайшая империя в истории"
+ END_GAME_VIEW_GREATEST_EMPIRE_TEXT:1 "[COUNTRY.GetAdjective]ий народ достоин похвалы самих богов — помнит нас не только как завоевателей: мы несли свет истины во все концы земли."
+ 
+ OBSERVE:0 "Продолжить в режиме наблюдателя"
+ CONTINUE_PAST_END_DATE:0 "Продолжить игру (достижения отключены)"
+ 

@@ -1,0 +1,85 @@
+﻿l_simp_chinese:
+### GW Events
+ gw_completed.1.t:1 "[SCOPE.sP('target').GetGreatWork.GetName]已完工！"
+ gw_completed.1.desc:2 "看啊！[SCOPE.sGreatWork('target').GetName]终于完成了！我们长久的努力有了回报。如此规模的建筑本身就是一项成就，其内部更是我国人民制造的最优秀的艺术作品。它真正代表了我们这个国度的伟大，以其他东西都无法做到的方式。实在是伟哉壮矣！"
+ gw_completed_flavor.1.a:2 "我们领袖的力量引领我们完成此成就！"
+ gw_completed_flavor.1.b:1 "必须向我们的天才统治者致敬！"
+ gw_completed_flavor.1.c:1 "我们人民的辛勤劳动完成了这项浩大的工程！"
+
+ gw_completed.2.t:1 "[SCOPE.sP('target').GetGreatWork.GetName]已完工！"
+ gw_completed.2.desc:1 "曾经，也许没有多少人会相信这一天的到来，但是最终[SCOPE.sP('target').GetGreatWork.GetName]还是被完成了。在所有[ROOT.GetCountry.GetName]曾经完成的事业中，显然没有比这更加伟大的了。在文明世界的历史进程中，很少有国家知道什么是完美的。这必将展露我们的真正潜力！"
+ gw_completed_flavor.2.a:0 "这是稳定和巩固我国的绝佳机会！"
+ gw_completed_flavor.2.b:1 "我们应倾尽所能保持这种势头！"
+
+ gw_completed.3.t:1 "[SCOPE.sP('target').GetGreatWork.GetName]已完工！"
+ gw_completed.3.desc:1 "[SCOPE.sP('target').GetGreatWork.GetName]终于完工了！虽然花费了大量时间和努力，但这只是展现了国家不屈不挠的雄心。纪念碑的大小证明了我们的能力。人类很少能（如果有的话）创造这样的东西：单是架构与工艺就是那么无与伦比。景观看起来不同寻常，空气给人的感觉也不同寻常：[ROOT.GetCountry.GetName]新的繁荣时代已经开始。"
+ gw_completed_flavor.3.a:0 "雄伟的纪念碑将重燃我们的勇气！"
+ gw_completed_flavor.3.b:1 "我们的人民可以取得不同凡响的成就，这座纪念碑就是证明！"
+ gw_completed_flavor.3.c:1 "我们的齐心协力与巨大牺牲，终于让这样的伟业成为可能。"
+
+ gw_existing.1.t:0 "[ROOT.GetCountry.Custom('00_great_work_event_01_loc')]"
+ 00_great_work_event_01_loc_1:0 "罗马人滚回去！"
+ 00_great_work_event_01_loc_fallback:0 "恶意的文字"
+ gw_existing.1.desc:0 "昨天，在安排好的夜间巡逻中，卫兵在[SCOPE.sP('province').GetGreatWork.GetName]上发现了一些文字。巡逻队长进一步检查后发现，这些文字不仅未曾申请，而且还充满挑衅，拼写也满是错误。"
+ gw_existing.flavor.1.a:0 "鉴于我们所处的状态，我们对此无能为力。"
+ gw_existing.flavor.1.b:0 "派工人把这清理干净，然后部署更多守卫。"
+ gw_existing.flavor.1.c:0 "我们必须找出是谁干的，然后杀鸡儆猴！"
+ gw_existing.flavor.1.d:0 "说服群众这只是个例。"
+
+ gw_existing.2.t:0 "庆典！"
+ gw_existing.2.desc:0 "距我们第一次庆祝[SCOPE.sP('province').GetGreatWork.GetName]的完工已经过去了五年。现在，它就像是我国天生的一部分一样，没有它的生活简直无法想象。只要从国库拨款进行支持，各类庆典将如雨后春笋般涌现，为百姓提供愉快的消遣。"
+ gw_existing.flavor.2.a:1 "我们当然应该支持它！"
+ gw_existing.flavor.2.b:1 "我们的努力和资源最好用在别处。"
+
+ gw_existing.3.t:0 "庆典！"
+ gw_existing.3.desc:0 "自我们的[SCOPE.sP('province').GetGreatWork.GetName]完成之后，又一个五年过去了，人民在举办庆典！我们可以抓住机会，将这样自发的庆典转正为官方的节日。"
+ gw_existing.flavor.3.a:1 "我们会再次支持举办庆典！"
+ gw_existing.flavor.3.b:1 "我们的努力和资源最好用在别处。"
+
+ gw_existing.4.t:0 "庆典！"
+ gw_existing.4.desc:0 "自我们的[SCOPE.sP('province').GetGreatWork.GetName]建成之后，又一个五年过去了。去年我们忙于其他事务；或许今年我们能组织一个官方名义的节日？"
+ gw_existing.flavor.4.a:0 "这是举行庆典的好时机！"
+ gw_existing.flavor.4.b:1 "我们目前支付不起；最好把注意力放在别处。"
+
+ gw_existing.5.t:0 "[SCOPE.sP('province').GetGreatWork.GetName]人气猛涨"
+ gw_existing.5.desc:0 "[SCOPE.sP('province').GetGreatWork.GetName]着实雄伟辉煌，但它也带来了一些不幸的副作用；老百姓在闲谈的时候，越来越少提及我们的统治者付出了何等的辛劳，有着何等的功绩——话题更多地朝向了[SCOPE.sP('province').GetGreatWork.GetName]。"
+ gw_existing.flavor.5.a:1 "人民有讨论他们关心话题的自由。"
+ gw_existing.flavor.5.b:0 "当然，我们何以如沐春风地提醒一下，老百姓真正应该在意的是什么。"
+ gw_existing.flavor.5.c:0 "这很棒，我们应当接纳这样的行为。"
+
+ gw_existing.6.t:0 "[SCOPE.sP('province').GetGreatWork.GetName]吸引了旅游者"
+ gw_existing.6.desc:0 "[SCOPE.sP('province').GetGreatWork.GetName]的富丽堂皇吸引了这个地区来自四面八方的旅客；他们在此地度假，大批民众在此地狂欢以庆祝我们奇观带来的荣耀，这一切都非比寻常。"
+ gw_existing.flavor.6.a:0 "我们不允许我们的神圣纪念碑被外国人玷污。"
+ gw_existing.flavor.6.b:2 "这种风险一定伴随着赚钱的好机会。"
+ gw_existing.flavor.6.c:1 "我们的奇观是为了人民，他们可以免费参观。"
+
+ gw_existing.7.t:0 "维修"
+ gw_existing.7.desc:0 "卫兵和游客都指出，[SCOPE.sP('province').GetGreatWork.GetName]已经开始风蚀，这样的情况已经有一阵子了。现在，一位来自我们毗邻盟国的访客尖锐地指出，我们一度辉煌的地标开始了风蚀，有数个地方已经出现了损伤。这不仅影响了我国的士气，也削弱了我国在国际上的形象。"
+ gw_existing.flavor.7.a:1 "我们必须将我们的奇观修复如初。"
+ gw_existing.flavor.7.b:2 "顺其自然亦有其自己的风情所在。"
+ gw_existing.flavor.7.c:0 "检查一下我们的财务状况，看看是否能负担得起维修费。"
+
+ gw_existing.8.t:0 "[SCOPE.sP('province').GetGreatWork.GetName]追随者"
+ gw_existing.8.desc:0 "[religious_activist.GetName]有一股人数庞大的团体在[SCOPE.sP('province').GetGreatWork.GetName]的附近进行宗教活动。这些追随者们在巨型入口的阶梯处聚集了大批民众，举行他们自己的宗教仪式。没有任何迹象表明这样的仪式能带来任何好处，但好像也没什么坏处……"
+ gw_existing.flavor.8.a:0 "这是在瞎搞，国内已经有很多宗教场所了。"
+ gw_existing.flavor.8.b:0 "加强我们的宗教立场是有好处的。"
+ gw_existing.flavor.8.c:0 "[religious_activist.GetName]的影响力太大了。"
+
+ gw_existing.9.t:0 "[province.GetName]的繁荣！"
+ gw_existing.9.desc:0 "我们的大兴土木给[province.GetName]带来了意想不到的好处；如今，穿越集市区，目睹市民们欣欣向荣的街景，完全成为了一种纯粹的美的享受。我们之前预测过这个区域的市民氛围会高涨，但没想到到了这个地步！这给了我们一个将当前潮流转化为资本的好机会。"
+ gw_existing.flavor.9.a:0 "很好！提高税率！"
+ gw_existing.flavor.9.b:1 "这应该归功于我们的统治者，人民必须了解这一点！"
+ gw_existing.flavor.9.c:1 "这是一国之识，我们前来此处寻求指引。"
+
+ gw_existing.10.t:0 "动物聚集"
+ gw_existing.10.desc:0 "[province.GetName]发生了怪事。动物们聚集在[SCOPE.sP('province').GetGreatWork.GetName]周围，真是神奇！"
+ gw_existing.flavor.10.a:0 "这一定是神启！"
+ gw_existing.flavor.10.b:1 "我们可以卖动物饲料给游客用来投食！"
+ gw_existing.flavor.10.c:0 "至少人们暂时不会抱怨食物供应了。"
+
+ gw_not_existing.2.t:0 "[interesting_province.GetOwner.GetName]的嫉妒"
+ gw_not_existing.2.desc:0 "我们邻国的奇观成了我国国民嫉妒和敬畏的对象。人们不断地谈论着[interesting_province.GetOwner.GetName]的优越性。何其危险的对话！我们需要小心举措，安抚民众的心情，将他们的关注重心重新转移到我们自身的奇观项目。或者，要是实在做不到，我们还是可以出兵从邻国手里把[interesting_province.GetName]抢过来。"
+ gw_not_existing.flavor.2.a:0 "我们还有其他要事，这个不值得关注！"
+ gw_not_existing.flavor.2.b:0 "向民众保证，我们会对现有的一切心存感激。"
+ gw_not_existing.flavor.2.c:0 "我很确定那个属于我们……"
+

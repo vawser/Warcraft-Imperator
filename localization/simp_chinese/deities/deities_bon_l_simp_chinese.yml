@@ -1,0 +1,33 @@
+﻿l_simp_chinese:
+ ## Default ##
+ deity_gekho:0 "$omen_gekho$"
+ omen_gekho:0 "格阔"
+ omen_gekho_desc:0 "格阔在众多$tibetan$神灵中位列第一，是诸天与星辰之神。当地人呼求的神灵中，大部分都要在他面前俯首，他也因为会为信徒消灭作祟的邪灵而知名。通常要以牦牛、绵羊或黄金的奉献崇敬他，要献上祭品作为对他帮助的感谢。"
+
+ deity_tingnam_gyalmo:0 "$omen_tingnam_gyalmo$"
+ omen_tingnam_gyalmo:0 "登南嘉母"
+ omen_tingnam_gyalmo_desc:0 "登南嘉母是身穿蓝衣的海洋之神，古吉芒科的配偶。她是河流与海洋的保护神，在$bon_religion$信仰中扮演重要角色，广受崇敬。"
+
+ deity_drablai_gyalmo:0 "$omen_drablai_gyalmo$"
+ omen_drablai_gyalmo:0 "扎拉嘉母"
+ omen_drablai_gyalmo_desc:0 "扎拉嘉母是$bon_religion$信仰最重要的神灵之一，格阔的配偶，本身就是诸天之女神。女神有许多形象，可以是平静洁白的生命之神，或恐怖的死亡黑魔女，并常常与天体和自然现象相联系。"
+
+ deity_kuchi_mangke:0 "$omen_kuchi_mangke$"
+ omen_kuchi_mangke:0 "古吉芒科"
+ omen_kuchi_mangke_desc:0 "古吉芒科是与格阔有关的丰饶之神，登南嘉母的配偶。他通常被描绘为一名小小的神灵，据说他的身体和纺锤一样小，并肩负着保护儿童不受邪灵伤害的任务。"
+
+ deity_ati_muwer:0 "$omen_ati_muwer$"
+ omen_ati_muwer:0 "阿迪穆畏"
+ omen_ati_muwer_desc:0 "阿迪穆畏是一名战神，也是与格阔有关的神灵圈子中的重要成员。他常常被描绘为身着金甲或镀金铠甲，手持弓箭，骑马横跨天空。"
+
+ deity_phuwer:0 "$omen_phuwer$"
+ omen_phuwer:0 "佩威"
+ omen_phuwer_desc:0 "佩威是预言与占星之神，也是与格阔有关的神灵。这位神明通常被描绘为一位身着白衣的重要人物，身旁有三位女伴。$bon_religion$信徒崇敬这位神明时会用到羊羔的毛，彩带以及一只蝙蝠、一只鹤和一只杜鹃干瘪的心脏。"
+
+ deity_traphu:0 "$omen_traphu$"
+ omen_traphu:0 "扎佩"
+ omen_traphu_desc:0 "扎佩是一名$bon_religion$中的小神，通常与他来自的那片更北方的区域有关：那神秘的突厥之地。据说他生于一座水晶城堡，周围环绕着飞鸟、月光与日光。"
+
+ deity_the_elements:0 "$omen_the_elements$"
+ omen_the_elements:0 "四元素"
+ omen_the_elements_desc:0 "四元素在$bon_religion$信仰中发挥重要作用，甚至被人格化为小神。风地水火之中，气通常是最重要的，被描绘为骑着白鹿穿越大地。"

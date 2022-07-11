@@ -1,0 +1,85 @@
+﻿l_french:
+### GW Events
+ gw_completed.1.t:1 "Achèvement de la [SCOPE.sGreatWork('target').GetName]"
+ gw_completed.1.desc:1 "Merveille ! La [SCOPE.sGreatWork('target').GetName] est enfin achevée ! Notre dur labeur a enfin porté tous ses fruits. Une construction de cette importance est en elle-même une véritable merveille. L'intérieur en est décoré des plus magnifiques œuvres d'art, représentant la grandeur et la puissance de notre pays d'une manière telle que nul ne peut l'égaler. C'est là véritablement une œuvre des plus magnifiques à admirer !" # [LocEditor:AwaitingBatchUpdate]
+ gw_completed_flavor.1.a:2 "Ce succès est dû à la force de notre dirigeant"
+ gw_completed_flavor.1.b:0 "Tout l'honneur en revient à notre génial dirigeant" # [LocEditor:AwaitingBatchUpdate]
+ gw_completed_flavor.1.c:1 "C'est le dur labeur de notre peuple qui a permis cette œuvre grandiose"
+
+ gw_completed.2.t:1 "Achèvement de la [SCOPE.sGreatWork('target').GetName]"
+ gw_completed.2.desc:1 "Peu nombreux étaient ceux qui pensaient que ce jour finirait par arriver, mais enfin la construction de la [SCOPE.sGreatWork('target').GetName] est terminée. De tous les succès de [ROOT.GetCountry.GetName], assurément aucun ne surpasse celui-ci. Peu de pays, au cours de l'histoire du monde civilisé, ont pu accomplir une œuvre aussi parfaite. N'est-ce pas là la preuve indéniable de nos capacités ?"
+ gw_completed_flavor.2.a:0 "L'occasion est parfaite pour stabiliser et renforcer le pays"
+ gw_completed_flavor.2.b:0 "Nous prolongerons cet apogée autant que nous le pourrons" # [LocEditor:AwaitingBatchUpdate]
+
+ gw_completed.3.t:1 "Achèvement de la [SCOPE.sGreatWork('target').GetName]"
+ gw_completed.3.desc:1 "La [SCOPE.sGreatWork('target').GetName] est enfin achevée ! Il a fallu un temps et un labeur considérables, mais enfin la preuve de l'ambition sans bornes de notre pays est incarnée dans ce monument. À lui seul, il atteste de nos capacités. Rarement, pour ne pas dire jamais, l'homme n'a créé une œuvre semblable : la maîtrise architecturale et la perfection du travail sont sans égales. Le paysage en est changé, et l'air en est différent. Une ère nouvelle, de prospérité, s'ouvre pour [ROOT.GetCountry.GetName]."
+ gw_completed_flavor.3.a:0 "Sa présence imposante fera renaître notre valeur"
+ gw_completed_flavor.3.b:1 "C'est là le témoignage de ce que peut accomplir notre peuple"
+ gw_completed_flavor.3.c:1 "Cela n'a été possible que par les efforts et sacrifices consentis ensemble"
+
+ gw_existing.1.t:0 "[ROOT.GetCountry.Custom('00_great_work_event_01_loc')]"
+ 00_great_work_event_01_loc_1:0 "Romani ite domum"
+ 00_great_work_event_01_loc_fallback:0 "Écrit malveillant"
+ gw_existing.1.desc:0 "Hier, au cours d'une patrouille de nuit, des gardes ont trouvé une écriture faite sur la [SCOPE.sP('province').GetGreatWork.GetName]. Après une inspection plus poussée, le chef de la patrouille a remarqué que l'inscription n'était pas seulement indésirable, mais aussi incendiaire et mal écrite."
+ gw_existing.flavor.1.a:0 "Dans notre situation, nous ne pouvons rien faire"
+ gw_existing.flavor.1.b:0 "Faisons nettoyer cela et renforce la garde"
+ gw_existing.flavor.1.c:0 "Nous devons trouver le coupable pour en faire un exemple"
+ gw_existing.flavor.1.d:0 "Persuadons le peuple que c'est un cas isolé"
+
+ gw_existing.2.t:0 "Réjouissances"
+ gw_existing.2.desc:0 "Cinq ans ont passé depuis que nous avons célébré l'achèvement de la [SCOPE.sP('province').GetGreatWork.GetName]. Elle est désormais devenue une part intégrante du pays, et la vie sans elle semble désormais inimaginable. Avec quelques fonds de l'État, les réjouissances qui doivent avoir lieu pourraient fournir une diversion bienvenue pour le petit peuple."
+ gw_existing.flavor.2.a:1 "Mais naturellement !"
+ gw_existing.flavor.2.b:1 "Nos efforts et ressources seront mieux employés ailleurs"
+
+ gw_existing.3.t:0 "Réjouissances"
+ gw_existing.3.desc:0 "Cinq nouvelles années se sont écoulées depuis l'achèvement de la [SCOPE.sP('province').GetGreatWork.GetName] et le peuple se réjouit. Nous pourrions saisir cette occasion spontanée pour en faire une célébration officielle."
+ gw_existing.flavor.3.a:0 "Soutenons une fois encore ces festivités" # [LocEditor:AwaitingBatchUpdate]
+ gw_existing.flavor.3.b:0 "Nos efforts et ressources seront mieux employés ailleurs" # [LocEditor:AwaitingBatchUpdate]
+
+ gw_existing.4.t:0 "Réjouissances"
+ gw_existing.4.desc:0 "Cinq nouvelles années se sont écoulées depuis la création de la [SCOPE.sP('province').GetGreatWork.GetName]. La dernière fois nous avons consacré nos ressources à d'autres priorités ; peut-être cette fois-ci une fête officielle pourrait-elle être organisée ?"
+ gw_existing.flavor.4.a:0 "C'est l'occasion parfaite pour organiser des réjouissances"
+ gw_existing.flavor.4.b:1 "Nous ne pouvons toujours pas nous le permettre"
+
+ gw_existing.5.t:0 "Popularité croissante de la [SCOPE.sP('province').GetGreatWork.GetName]"
+ gw_existing.5.desc:0 "La [SCOPE.sP('province').GetGreatWork.GetName] est magnifique, mais elle a aussi des conséquences inattendues : il se dit de plus en plus que l'image de notre pays n'est pas façonnée par les efforts et les succès de notre dirigeant, mais bien davantage par la [SCOPE.sP('province').GetGreatWork.GetName]."
+ gw_existing.flavor.5.a:0 "Le peuple est libre de discuter ce qui lui plaît" # [LocEditor:AwaitingBatchUpdate]
+ gw_existing.flavor.5.b:0 "Informons la populace de ce qu'il convient de discuter vraiment"
+ gw_existing.flavor.5.c:0 "Magnifique, nous devons renforcer encore cette vision"
+
+ gw_existing.6.t:0 "La [SCOPE.sP('province').GetGreatWork.GetName] attire les voyageurs"
+ gw_existing.6.desc:0 "La magnificence de la [SCOPE.sP('province').GetGreatWork.GetName] attire des voyageurs venus de toute la région. Il n'est pas rare de les voir se rendre spécialement sur place, en grand nombre, pour admirer la gloire de notre merveille."
+ gw_existing.flavor.6.a:0 "Nous ne laisserons pas des étrangers souiller notre monument"
+ gw_existing.flavor.6.b:2 "Cela promet des gains financiers non négligeables"
+ gw_existing.flavor.6.c:0 "Notre merveille est faite pour le peuple, il peut donc l'admirer" # [LocEditor:AwaitingBatchUpdate]
+
+ gw_existing.7.t:0 "Entretien"
+ gw_existing.7.desc:0 "Les gardes et les visiteurs ont déjà noté, depuis quelque temps, que la [SCOPE.sP('province').GetGreatWork.GetName] a commencé à se détériorer. Un visiteur éminent, originaire d'un pays allié, a d'ailleurs ostensiblement relevé que notre monument autrefois si remarquable est désormais abîmé et endommagé par endroits. Non seulement cela affecte le moral du peuple, mais cela ternit aussi l'image que nous cherchons à imposer dans les autres pays."
+ gw_existing.flavor.7.a:1 "Quel qu'en soit le prix, nous devons restaurer notre monument"
+ gw_existing.flavor.7.b:2 "Il est charmant de laisser la nature et le temps suivre leurs cours"
+ gw_existing.flavor.7.c:0 "Examinons les finances pour voir si nous pouvons lancer des travaux"
+
+ gw_existing.8.t:0 "Les fidèles de la [SCOPE.sP('province').GetGreatWork.GetName]"
+ gw_existing.8.desc:0 "Un grand nombre de gens s'adonnent à des pratiques religieuses non loin de la [SCOPE.sP('province').GetGreatWork.GetName], rassemblés là par [religious_activist.GetName]. Ces fidèles organisent leurs propres cérémonies devant une large foule, sur les marches menant à l'entrée colossale. Aucune preuve n'a été rapportée que ces rites ont le moindre effet bénéfique, mais aucune preuve non plus du contraire…"
+ gw_existing.flavor.8.a:0 "Ce n'est là que distraction, nous avons déjà des lieux sacrés en quantité"
+ gw_existing.flavor.8.b:0 "Cela a au moins le mérite de raffermir notre foi"
+ gw_existing.flavor.8.c:0 "[religious_activist.GetName] a bien trop d'influence"
+
+ gw_existing.9.t:0 "Prospérité de [province.GetName]"
+ gw_existing.9.desc:0 "Notre œuvre colossale a des bénéfices inattendus pour [province.GetName]. Une véritable euphorie semble s'être emparée du quartier commerçant, et les citoyens prospèrent. Nous avions bien prévu que le moral de la population serait raffermi, mais pas à un tel point. Cela nous offre une occasion unique de tirer parti de cette ère de félicité."
+ gw_existing.flavor.9.a:0 "Merveilleux, augmentons les impôts !"
+ gw_existing.flavor.9.b:1 "Que le peuple sache que c'est à son dirigeant qu'il doit son bonheur"
+ gw_existing.flavor.9.c:1 "Ceci est une lumière pour le peuple, et il doit y trouver un guide"
+
+ gw_existing.10.t:0 "Rassemblement d'animaux"
+ gw_existing.10.desc:0 "Les choses les plus étranges se produisent à [province.GetName]. Des animaux se sont rassemblés autour de la [SCOPE.sP('province').GetGreatWork.GetName], donnant lieu à un tableau pour le moins spectaculaire."
+ gw_existing.flavor.10.a:0 "C'est assurément un signe des dieux"
+ gw_existing.flavor.10.b:1 "Vendons donc aux visiteurs de quoi nourrir ces animaux"
+ gw_existing.flavor.10.c:0 "Au moins, le peuple ne mourra pas de faim avant un moment"
+
+ gw_not_existing.2.t:0 "Jalousie envers [interesting_province.GetOwner.GetName]"
+ gw_not_existing.2.desc:0 "La merveille de nos voisins est l'objet de l'envie et de l'émerveillement de notre peuple. Il parle de la supériorité de [interesting_province.GetOwner.GetName]. C'est assurément un grand danger ! Nous aurions tout intérêt à l'écouter pour rediriger ses efforts afin de créer nous-mêmes une œuvre aussi monumentale. À moins, si nous n'en avons les moyens, de nous emparer de [interesting_province.GetName]."
+ gw_not_existing.flavor.2.a:0 "Ce n'est pas digne de notre attention, nous avons d'autres priorités"
+ gw_not_existing.flavor.2.b:0 "Assurons le peuple que nous devons apprécier ce que nous avons"
+ gw_not_existing.flavor.2.c:0 "Comment ça, cette merveille ne serait pas à nous ?"
+

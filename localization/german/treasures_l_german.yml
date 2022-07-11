@@ -1,0 +1,372 @@
+﻿l_german:
+ treasure_tomb_of_semele:0 "Grab von Semele"
+ treasure_tomb_of_semele_desc:0 "Semele ist die Mutter von Dionysos und eine eigenständige Gottheit unter den Thrakern und Phrygern. Ihr Grab war ein wichtiger Teil des Tempels in Theben."
+ treasure_sphinx_of_the_naxians:0 "Sphinx der Naxier"
+ treasure_sphinx_of_the_naxians_desc:0 "Die Sphinx der Naxier ist ein Denkmal, das die Einwohner von Naxos Delphi stifteten. Es hat die Form einer großen Sphinx, die auf einer Säule steht. Sie wurde im Apollo-Tempel in Delphi ausgestellt."
+ treasure_statue_of_athena_promachos:0 "Statue der Athena Promachos"
+ treasure_statue_of_athena_promachos_desc:1 "Diese gigantische Bronzestatue wurde von Phidias angefertigt und gehört zu den wichtigsten Denkmälern Athens. Sie wurde der Göttin gewidmet, nachdem die Athener mehrere Male die Perser aus ihrem Land vertrieben hatten."
+ treasure_statue_of_khryseis:0 "Statue der Khryseis"
+ treasure_statue_of_khryseis_desc:0 "Sie war eine der vielen Priesterinnen des Heraion und angeblich der Grund dafür, dass der ältere Tempel bis auf die Grundmauern niedergebrannt wurde. Trotzdem ist die Statue gut erhalten und wird noch immer verehrt."
+ treasure_statue_of_nike:0 "Statue der Nike"
+ treasure_statue_of_nike_desc:0 "Die als Nike von Samothrake bezeichnete Statue war eines der ersten Dinge, die die Besucher des Asklepieion in Epidauros sahen, wenn sie sich dem großen Bauwerk näherten."
+ treasure_hermes_of_olympia:0 "Hermes von Olympia"
+ treasure_hermes_of_olympia_desc:0 "Der Hermes von Olympia ist eine wunderschöne Statue, die von Praxiteles, dem bekannten attischen Bildhauer, für den Hera-Tempel in Olympia angefertigt wurde. "
+ treasure_axe_of_zalmoxis:0 "Zalmoxis' Axt"
+ treasure_axe_of_zalmoxis_desc:0 "Zalmoxis ist ein Philosoph, Ahn und Gott unter den Thrakern und Dakern und wird oft mit verschiedenen Waffen oder Werkzeugen dargestellt."
+ treasure_lady_of_ephesos:0 "Artemisstatue"
+ treasure_lady_of_ephesos_desc:0 "Eine schöne Holzstatue, die die Artemis von Ephesos darstellt."
+ treasure_serpent_column:0 "Schlangensäule"
+ treasure_serpent_column_desc:0 "Die griechischen Stadtstaaten brachten dem Apollo-Tempel nach dem Sieg in der Schlacht von Plataiai gegen die einfallenden Perser diese Weihgabe dar. Es ist eine riesige Säule mit einem goldenen Dreifuß, der die Spitze ziert."
+ treasure_men_icon:0 "Ikone von Men"
+ treasure_men_icon_desc:0 "Men ist ein von den Bewohnern Anatoliens verehrter Mondgott und diese Ikone seit Langem das Kernstück eines seiner Kulte."
+ treasure_copper_shield_of_athena:0 "Kupferschild der Athene"
+ treasure_copper_shield_of_athena_desc:0 "Der Kupferschild der Athene ist ein wichtiges Bestandteil des Giebeldreiecks des Athena-Tempels in Syrakus. Jeder Seemann sieht es, wenn er sich der reichen griechischen Stadt nähert."
+ treasure_lion_headed_tanit:0 "Tanit-Figur mit Löwenkopf"
+ treasure_lion_headed_tanit_desc:0 "Tanit ist eine der wichtigsten Gottheiten unter den Karthagern und wird gelegentlich mit einem Löwenkopf dargestellt, wenn man sie als Kriegergöttin präsentieren will."
+ treasure_stelae_baal_hammon:0 "Stele des Ba'al Hammon"
+ treasure_stelae_baal_hammon_desc:0 "Stelen sind Denkmäler, die in der ganzen karthagischen Welt zu finden sind. Sie werden oft als Opfergabe an eine Gottheit benutzt oder dienen als Grabstein. Widmungen an Ba'al Hammon, der eine der wichtigsten Gottheiten in Karthago ist, waren häufig eine beliebte Wahl, um in Stein eingemeißelt zu werden."
+ treasure_stone_of_sinifere:0 "Stein der Sinifere"
+ treasure_stone_of_sinifere_desc:0 "Sinifere ist eine Kriegsgöttin, die von den vielen numidischen und mauretanischen Stämmen in ganz Libyen angebetet wird. Dieser Stein war früher Teil eines größeren Steinkreises ihr zu Ehren."
+ treasure_chimaera_statue_iberic:0 "Statue einer Chimäre"
+ treasure_chimaera_statue_iberic_desc:0 "Diese uralte aus Kalkstein gefertigte Statue ist seit jeher Mittelpunkt eines lokalen Kultes in Iberien."
+ treasure_tomb_of_romulus:0 "Grab von Romulus"
+ treasure_tomb_of_romulus_desc:0 "Das Grab von Romulus ist ein antiker Schrein, der ursprünglich in Rom gelegen war und zu Ehren des antiken Stammvaters der Stadt erbaut wurde."
+ treasure_lady_baza_statue_iberic:0 "Statue der sitzenden Matriarchin"
+ treasure_lady_baza_statue_iberic_desc:0 "Die mehrfarbige Statue zeigt eine sitzende Matriarchin und stammt ursprünglich aus Iberien. Es ist unklar, ob die Statue eine lokale Gottheit darstellt, die seit ihrer Errichtung nicht mehr angebetet wird, oder ob sie eine lokale Matriarchin von besonderer Bedeutung zeigt."
+ treasure_altar_to_glanis:0 "Altar des Glanis"
+ treasure_altar_to_glanis_desc:0 "Der alte Steinaltar ist Glanis und den anderen Glanicae gewidmet, jenen Gottheiten, die die heilige Quelle in Südgallien beschützen."
+ treasure_sucellus_jar:0 "Sucellus' Krug"
+ treasure_sucellus_jar_desc:0 "Dieser alte Krug wird mit Sucellus in Verbindung gebracht, einer lokalen Fruchtbarkeitsgottheit, die im Land der aeduischen Stämme verehrt wurde."
+ treasure_brigantias_spear:0 "Brigantias Speer"
+ treasure_brigantias_spear_desc:0 "Dieser Speer wird seit Menschengedenken mit Brigantia in Verbindung gebracht. Die Legenden besagen, dass er an die örtlichen Stammeshäuptlinge weitergegeben wurde, die ihn wiederum an ihre Nachkommen vermachten."
+ treasure_dog_figurine:0 "Hundestatuette"
+ treasure_dog_figurine_desc:0 "Diese Skulptur wird mit der Göttin Nehalennia in Verbindung gebracht. Sie wurde oft mit einem Hund an ihrer Seite dargestellt."
+ treasure_silver_cauldron:0 "Kimbrischer Silberkessel"
+ treasure_silver_cauldron_desc:0 "Dieser reich verzierte Silberkessel ist ein Kunstwerk, das für den Norden Kimbriens - die Region, in der er hergestellt wurde - einzigartig ist."
+ treasure_sun_chariot:0 "Sonnenwagen-Skulptur"
+ treasure_sun_chariot_desc:0 "Diese uralte Skulptur zeigt ein Pferd, das eine große Bronzescheibe zieht. Sie wurde von den Kimbern hergestellt und wunderschön graviert."
+ treasure_spring_idols:0 "Frühlingsikonen"
+ treasure_spring_idols_desc:0 "Diese drei Ikonen stehen in Verbindung mit einem der heiligen Haine in Venetien, und jede von ihnen symbolisiert eine andere Gottheit: Frühling, Donner und Tod."
+ treasure_twig_of_the_oak:0 "Zweig der ewigen Eiche"
+ treasure_twig_of_the_oak_desc:0 "Unter den vielen heiligen Hainen in Venetien gibt es einen, der angeblich eine ewig grüne Eiche birgt. Dieser Zweig ist noch nicht verwelkt oder abgestorben und dadurch zu einem eigenen Objekt der Verehrung geworden."
+ treasure_bronze_hand_sabazios:0 "Bronzene Hand"
+ treasure_bronze_hand_sabazios_desc:0 "Die Hand ist ein wiederkehrendes ikonografisches Zeichen für Sabazios, den thrakischen Reiter, und dieses besondere Stück ist ein wunderschönes Kunstwerk aus Bronze."
+ treasure_warrior_image:0 "Abbild eines Kriegers"
+ treasure_warrior_image_desc:0 "Dieses aus Stein gehauene Abbild eines Kriegers wurde von einem kleineren skythischen Stamm zu Ehren seines lokalen Kriegsgottes angefertigt und ist inzwischen zu einer wichtigen religiösen Ikone auch außerhalb seines Ursprungslandes geworden."
+ treasure_scythian_altar:0 "Skythischer Altar"
+ treasure_scythian_altar_desc:0 "Dieser skythische Altar wurde im Lauf der Jahrhunderte errichtet, wobei mehrere Stämme und Generationen zu seiner Größe und seiner Kostbarkeit in Form zahlreicher Waffen und anderer Opfergaben beitrugen."
+ treasure_bronze_cauldron_of_shivini:0 "Bronzekessel von Shivini"
+ treasure_bronze_cauldron_of_shivini_desc:0 "Dieser wunderschön verzierte Bronzekessel ist seit den ruhmreichen Tagen des Urartäischen Reichs erhalten geblieben und wird bis heute von lebensechten Figuren geschmückt."
+ treasure_helmet_sarduri:0 "Helm von Sarduri"
+ treasure_helmet_sarduri_desc:0 "Dieser Helm ist einer der wenigen Überreste, die wir vom großen König Sarduri des urartäischen Volkes haben. Die wunderbaren Kunstwerke aus dem alten Königreich zu sehen, ist eine Inspiration für jeden, der sie betrachtet."
+ treasure_theispas_icon:0 "Ikone von Theispas"
+ treasure_theispas_icon_desc:0 "Diese Bronzeskulptur ist seit Menschengedenken ein wichtiger Bestandteil des religiösen Theispas-Kultes in Erebuni."
+ treasure_bone_figurines:0 "Knochenfiguren"
+ treasure_bone_figurines_desc:0 "Diese uralten Knochenfiguren schmücken seit den Tagen der Urartäer die Tempel und Schreine rund um den Aschtischat. Heutzutage sind die dargestellten Gottheiten allerdings längst vergessen."
+ treasure_dali_chalice:0 "Kelch von Dali"
+ treasure_dali_chalice_desc:0 "Dieser Kelch wurde von Jägern und lokalen Priestern benutzt, wenn sie der alten Jägerin der iberischen Wälder, Dali, Opfer darbrachten."
+ treasure_necklace_of_adgilis_deda:0 "Halskette von Adgilis Deda"
+ treasure_necklace_of_adgilis_deda_desc:0 "Adgilis Deda wurde oft als eine Gottheit dargestellt, die Schmuck trägt, und einige Mythen besagen, dass dies die Halskette war, die sie einst bereit war, an einen ihrer Anhänger zu verschenken."
+ treasure_silver_idol_ga:0 "Silberikone von Ga"
+ treasure_silver_idol_ga_desc:0 "Diese Ikone gehört zu einem Götzenpaar der beiden Gottheiten Ga und Gacim. Man sagt, die beiden seien Fruchtbarkeitsgottheiten und Schicksalsweber gewesen, und beide Götzen standen im Mittelpunkt religiöser Kulte. Diese beeindruckende Silberikone ist wegen ihrer großen Kunstfertigkeit weit über unsere Grenzen hinaus bekannt geworden."
+ treasure_gold_idol_gacim:0 "Goldikone von Gacim"
+ treasure_gold_idol_gacim_desc:0 "Diese Ikone gehört zu einem Götzenpaar der beiden Gottheiten Ga und Gacim. Man sagt, die beiden seien Fruchtbarkeitsgottheiten und Schicksalsweber gewesen, und beide Götzen standen im Mittelpunkt religiöser Kulte. Diese goldene Ikone ist für sich genommen schon ein Vermögen wert."
+ treasure_sarcophagus_ahiram:0 "Ahiram-Sarkophag"
+ treasure_sarcophagus_ahiram_desc:0 "Dies ist der Sarkophag eines alten Königs von Byblos, der einst eine wichtige Rolle in der phönizischen Welt spielte."
+ treasure_statue_sancus:0 "Sancus-Statue" #R2
+ treasure_statue_sancus_desc:0 "Hierbei handelt es sich um eine beeindruckende Kalksteinstatue, die Sancus darstellt, einen örtlichen Gott des Vertrauens und der Ehrlichkeit, der von den Römern und Sabinern verehrt wurde." #R2
+ treasure_statue_apollo_of_veii:0 "Apulu-Statue" #R2
+ treasure_statue_apollo_of_veii_desc:0 "Diese Statue ist eine Figur zu Ehren von Apulu, der etruskischen Version des bekannteren griechischen Apollon, die ursprünglich in Veii stand." #R2
+ treasure_statue_mars_of_todi:0 "Bronzener Laran" #R2
+ treasure_statue_mars_of_todi_desc:0 "Hierbei handelt es sich um eine große Bronzestatue, die den etruskischen Laran darstellt, der bei den Römern als Mars und bei den Griechen als Ares bekannt ist." #R2
+ treasure_warrior_frieze:0 "Krieger-Fries" #R2
+ treasure_warrior_frieze_desc:0 "Ein wunderschöner Fries mit der Darstellung siegreicher samnitischer Krieger, die nach Hause zurückkehren." #R2
+ treasure_seated_persephone:0 "Sitzende Persephone" #R2
+ treasure_seated_persephone_desc:0 "Die große Statue der sitzenden Persephone steht seit Menschengedenken im Mittelpunkt ihres Kultes in Lokroi." #R2
+ treasure_bendis_figurine:0 "Bendis-Figur" #R2
+ treasure_bendis_figurine_desc:0 "Eine kleine Figurine der thrakischen Göttin Bendis, die oft mit der griechischen Artemis in Verbindung gebracht wird." #R2
+ treasure_image_of_milo:0 "Bronzener Milon" #R2
+ treasure_image_of_milo_desc:0 "Diese Bronzestatue stellt den berühmten Ringkämpfer Milon, den Stolz von Kroton, dar." #R2
+ treasure_statue_of_youth:0 "Statue der Jugend" #R2
+ treasure_statue_of_youth_desc:0 "Eine wunderschöne Marmorstatue aus Sizilien, die Karthago im Zuge eines der vielen Sizilienkriege raubte." #R2
+ treasure_atlases_akragas:0 "Atlanten von Akragas" #R2
+ treasure_atlases_akragas_desc:0 "Eine Reihe riesiger Atlanten, die von einigen der Tempel rund um Akragas verwendet wurden." #R2
+ treasure_silenus_mask:0 "Silenos-Maske" #R2
+ treasure_silenus_mask_desc:0 "Eine Steinmaske des Satyrs Silenos, einem Mitglied des Gefolges von Dionysios." #R2
+ treasure_statue_apollo_karneios:0 "Statue von Apollon Karneios" #R2
+ treasure_statue_apollo_karneios_desc:0 "Die Statue des Apollon Karneios steht seit Langem im Mittelpunkt der Anbetung dieses Gottes in Kyrenaika, einem Kult, der seinen Ursprung in Sparta hat." #R2
+ treasure_animal_pottery:0 "Tier-Keramik" #R2
+ treasure_animal_pottery_desc:0 "Amisos hat den Ruf, wunderschöne Keramik nach dem Abbild exotischer Tiere herzustellen." #R2
+ treasure_ma_figure:0 "Ma-Figur" #R2
+ treasure_ma_figure_desc:0 "Eine Kultfigur von Ma, der Muttergöttin der Stadt Komana." #R2
+ treasure_crown_amisos:0 "Krone von Amisos" #R2
+ treasure_crown_amisos_desc:0 "Eine Krone, die von den großen Handwerkern aus Amisos vollständig aus Gold gefertigt wurde." #R2
+ treasure_sacred_fish_atargatis:0 "Heiliger Fisch von Atargatis" #R2
+ treasure_sacred_fish_atargatis_desc:0 "Dieses Becken voller heiliger Fische der Atargatis schmückt seit Langem ihr Heiligtum in Mabbog." #R2
+ treasure_bronze_athena_statue:0 "Bronzene Athene" #R2
+ treasure_bronze_athena_statue_desc:0 "Eine große Bronzestatue der Göttin Athene, die ursprünglich vor dem Athenatempel in Amphissa aufgestellt war." #R2
+ treasure_gilted_athena_statue:0 "Vergoldete Athene" #R2
+ treasure_gilted_athena_statue_desc:0 "Diese Statue wurde von den Megaranern in deren Heiligtum zu Ehren von Athene errichtet und mit einer dünnen Goldschicht überzogen." #R2
+ treasure_nemesis_statue:0 "Nemesis-Statue" #R2
+ treasure_nemesis_statue_desc:0 "Dies ist das Leitbild des Tempels in Rhamnous, das Nemesis, die Göttin der Vergeltung, darstellt und vom Meisterbildhauer Phidias geschaffen wurde." #R2
+ treasure_eros_statue:0 "Eros-Statue" #R2
+ treasure_eros_statue_desc:0 "Diese berühmte Eros-Statue wurde von dem Bildhauer Praxiteles auf Geheiß der Thespier geschaffen." #R2
+ treasure_aconical_statues_graces:0 "Statue der Grazien" #R2
+ treasure_aconical_statues_graces_desc:0 "Diese alte Statue stellt die Grazien dar und soll für Eteokles vom Himmel gefallen sein." #R2
+ treasure_veil_of_despoina:0 "Schleier der Despoina" #R2
+ treasure_veil_of_despoina_desc:0 "Ein wunderschönes Relief mit der Darstellung des Schleiers der Fruchtbarkeitsgöttin Despoina, ursprünglich ein Teil des Heiligtums der Göttin in Lykosura in der Nähe von Megalopolis." #R2
+ treasure_tomb_patreus:0 "Grabmal von Patreus" #R2
+ treasure_tomb_patreus_desc:0 "Das Grab des mythischen Gründers der Stadt Patras in Achäa." #R2
+ treasure_statue_of_asklepios:0 "Asklepios-Statue" #R2
+ treasure_statue_of_asklepios_desc:0 "Eine wunderschöne Statue von Asklepios, dem Gott der Medizin, die ursprünglich an der Agora in Elateia stand." #R2
+
+ treasure_palladium_of_troy:0 "Trojanisches Palladion"
+ treasure_palladium_of_troy_desc:0 "Das hölzerne Xoanon von Troja, das dem Bild des Pallas nachempfunden ist, wurde bei der Belagerung von Diomedes und Odysseus geplündert. Es soll in den Händen von Äneas schließlich den Weg nach Rom gefunden haben, wo es im Vesta-Tempel aufbewahrt wird."
+ treasure_xoanon_of_daedalus:0 "Xoanon des Herkules"
+ treasure_xoanon_of_daedalus_desc:0 "Dieses mit feinen Details verzierte, in Holz geschnitzte Abbild, das von Dädalus selbst angefertigt worden sein soll, stellt den nackten Herkules dar und wurde in der Stadt Korinth ausgestellt."
+ treasure_sprig_of_tyr:0 "Zweig von Tyr"
+ treasure_sprig_of_tyr_desc:0 "Dieser heilige Zweig soll dem Gott Tyr selbst gehört haben und stammt aus dem heiligsten Waldhain der Cherusker."
+ treasure_palladion_of_athena:0 "Palladion der Athena Polias"
+ treasure_palladion_of_athena_desc:0 "Das aus Holz geschnitzte Xoanon von Athena Polias ist eine antike Reliquie aus den frühesten Tagen Athens, die im Erechtheion der Akropolis untergebracht ist. Es soll vom Himmel gefallen sein und gilt als das allerheiligste Bild der Göttin."
+ treasure_hera_of_samos:0 "Xoanon von Samos"
+ treasure_hera_of_samos_desc:0 "Das Kultbild, das im Heraion von Samos aufbewahrt wird, ist ihre heiligste Darstellung. Es wird jedes Jahr rituell gewaschen, mit einer der Göttin gebührenden Pracht bekleidet und soll von Smilis selbst entworfen worden sein."
+ treasure_fetters_of_woden:0 "Fesseln des Waldes"
+ treasure_fetters_of_woden_desc:0 "Diese zeremoniellen Fesseln werden verwendet, um diejenigen zu binden, die in die heiligsten Haine hinabsteigen wollen, und sie repräsentieren ihre Unterwerfung unter die Gottheit."
+ treasure_thyrsus_of_zagreus:0 "Thyrsos von Zagreus"
+ treasure_thyrsus_of_zagreus_desc:0 "Dieser knorrige, mit einem Band verzierte und mit einem bedrohlichen Kiefernzapfen bestückte Stab wird von den Priestern des Dionysios als der ursprüngliche Thyrsos bezeichnet, den der Gott benutzte, bevor er nach Griechenland kam."
+ treasure_caduceus_of_hermes:0 "Hermesstab"
+ treasure_caduceus_of_hermes_desc:0 "Dieser uralte Stab, dessen gesamte Länge mit zwei Schlangen verziert ist, die ihn umschlingen, und dessen Spitze Flügel zieren, soll den Priestern von Hermes selbst geschenkt worden sein."
+ treasure_sistrum_of_hathor:0 "Sistrum der Hathor"
+ treasure_sistrum_of_hathor_desc:1 "Dies ist ein Sistrum, ein handgehaltenes Schlaginstrument von hoher Handwerkskunst. Es wurde angeblich von der Göttin der Musik selbst dem Tempel der Hathor vermacht."
+ treasure_chimera_of_arritim:0 "Chimäre von Arritim"
+ treasure_chimera_of_arritim_desc:0 "Eine meisterhafte etruskische Sammlung von Statuen, die in Bronze gegossen sind und den griechischen Helden Bellerophon bei seinem Sieg gegen die legendäre Chimäre darstellen."
+ treasure_stella_of_horus:0 "Cippus von Horus"
+ treasure_stella_of_horus_desc:0 "Diese detailliert behauene Stele stellt den jungen Horus dar, der allen wilden Tieren überlegen ist. Sie soll gefährliche Kreaturen abwehren und ihre Bisse und Stiche heilen."
+ treasure_tablets_of_velianus:0 "Tafeln von Velianus"
+ treasure_tablets_of_velianus_desc:0 "Drei goldene Tafeln mit einer Widmung des etruskischen Königs Thefarie Velianus an die phönizische Göttin Astarte in etruskischer und punischer Schrift."
+ treasure_book_of_orpheus:1 "Buch von Orpheus"
+ treasure_book_of_orpheus_desc:1 "Ein aus massiven Goldtafeln gemachter Bildband, der die Mythologie und die Lehren des hellenischen Kultes der Orphiker und die Reise ins Jenseits darstellt."
+ treasure_statue_of_nabu:0 "Statue des Nabû"
+ treasure_statue_of_nabu_desc:0 "Diese kolossale Statue stellt Nabû dar, den chaldäischen Gott des Lernens und der Weisheit. Sie wurde einmal im Jahr von Borsippa nach Babylon gebracht, um seine Vatergottheit Marduk zu ehren."
+ treasure_achilles_panoply:0 "Rüstung des Achilles"
+ treasure_achilles_panoply_desc:0 "Die Rüstung des großen homerischen Helden Achilles, um die nach seinem Tod Odysseus und Ajax der Große kämpften und die von Ersterem Neoptolemus, dem Sohn des Achilles und Gründer des Epirotenreiches, geschenkt wurde."
+ treasure_omphalos_stone:0 "Omphalos von Delphi"
+ treasure_omphalos_stone_desc:0 "Dieser Stein markiert den Nabel - oder Mittelpunkt - der Welt und wurde einst von Zeus in Delphi aufgestellt, wo sich zwei Adler trafen, die von entgegengesetzten Enden der Welt losgeschickt worden waren. Er stellt auch den gewickelten Stein dar, den Rhea Kronos gab, um ihren Sohn Zeus zu beschützen."
+ treasure_alexander_panoply:0 "Rüstung von Alexander"
+ treasure_alexander_panoply_desc:0 "Die königliche Medusa schmückte den Thorax, die vergoldeten Beinschienen und viele federgeschmückte böotische Helme des großen Königs Alexanders, und sie bilden zusammen mit einer wunderschön verzierten Kopis und einem eben solchen Aspis einen vollständigen Satz."
+ treasure_aphrodite_of_knidos:0 "Aphrodite von Knidos"
+ treasure_aphrodite_of_knidos_desc:0 "Eine für ihre Schönheit berühmte Statue der griechischen Göttin der erotischen Liebe, die von Praxiteles von Athen als Kultbild für den Aphrodite-Tempel in Knidos geschaffen wurde."
+ directors_cuirass:0 "Kommandantenkürass"
+ directors_cuirass_desc:0 "Dieser Kürass ist ein aufwendig verarbeiteter Ringpanzer und muss eindeutig jemandem gehört haben, der eine Vorliebe für Rammböcke hatte."
+ treasure_hoard_of_arethusa:0 "Schatz der Arethusa"
+ treasure_hoard_of_arethusa_desc:0 "Die Münzen aus Syrakus bilden schon lange die Schutzgottheit der Stadt ab - die Nymphe Arethusa -, und die Prägungen zählen zu den schönsten der Welt."
+ foundation_tablets_of_darius:0 "Gründungstafeln von Darius"
+ foundation_tablets_of_darius_desc:0 "Diese goldenen Tafeln enthalten eine Beschreibung des großen Achämenidenreiches in seiner Blütezeit unter Darius dem Großen, dem König der Könige, dem Sohn des Hystaspes."
+ babylonian_map_of_the_world:0 "Karte der Welt"
+ babylonian_map_of_the_world_desc:0 "Diese uralte Tontafel zeigt die mesopotamische Welt mit der Stadt Babylon in ihrem Zentrum und allen größeren Städten des Zweistromlands."
+ treasure_ark_of_the_covenant:0 "Bundeslade"
+ treasure_ark_of_the_covenant_desc:0 "Diese goldbeschlagene Truhe soll jene Steintafeln enthalten, die dem hebräischen Propheten Moses von Gott gegeben wurden."
+ treasure_flaminio_obelisk:1 "Obelisk von Ramses II."
+ treasure_flaminio_obelisk_desc:1 "Dieser riesige Obelisk stammt aus der Regierungszeit der Pharaonen Sethos I. und Ramses II. und wurde in der Stadt Heliopolis errichtet. Heutzutage ist er als Flaminio-Obelisk bekannt."
+ treasure_lateran_obelisk:1 "Obelisk von Thutmosis VI."
+ treasure_lateran_obelisk_desc:1 "Dieser Obelisk, der von Pharao Thutmosis III. für den großen Amun-Tempel in Karnak in Auftrag gegeben und von Thutmosis IV. errichtet wurde, ist einer der höchsten Obelisken, die je in Ägypten gebaut wurden. Heutzutage ist er als Lateranischer Obelisk bekannt."
+ treasure_hair_of_buddha:0 "Haar von Buddha"
+ treasure_hair_of_buddha_desc:0 "Diese Reliquie enthält Haarsträhnen von Buddha, die von seinen Schülern Trapusa und Bahalika zum Reliquienschrein von Girihandu gebracht wurden."
+ treasure_tooth_of_buddha:0 "Relikt eines Zahns von Buddha"
+ treasure_tooth_of_buddha_desc:0 "Dieses Relikt soll aus einem der Zähne Buddhas bestehen, der von seiner Schülerin Khema vor der Einäscherung gerettet wurde."
+ xerxes_lamasus:0 "Großer Lamassu"
+ xerxes_lamasus_desc:0 "Als Wächter des verlorenen Achämenidenreiches schmückten diese beiden riesigen Schutzgottheiten in Form einer Kreuzung aus einem geflügelten Stier, einem Vogel und einem Menschen einst das Tor aller Länder in Persepolis."
+ shahriar_and_the_lion:0 "Schahriar und der Löwe"
+ shahriar_and_the_lion_desc:0 "Dieses Fries war einst Teil der Paläste in Persepolis und stellt den Kampf des Helden-Königs Schahriar gegen einen übernatürlichen geflügelten Löwen dar: "Ahura Mazda half mir, dieses Land zu besiegen und die Ordnung wiederherzustellen.""
+ ishtar_gate:0 "Ischtar-Tor"
+ ishtar_gate_desc:0 "Die Mauern Babylons werden von einem großen Prozessionstor aus blau, gelb und braun glasierten Ziegeln geschmückt. Das Ischtar-Tor und die Mauern Babylons werden von vielen als eines der sieben Weltwunder angesehen und wurden von Nebukadnezar als Huldigung an Ischtar und die babylonischen Götter errichtet."
+ lion_rython:0 "Goldenes Löwen-Rhyton"
+ lion_rython_desc:0 "Dieses uralte Rhyton in Form eines Tierkopfes ist aus massivem Gold gefertigt und soll bis in die Zeit des Achämenidenreiches zurückreichen."
+ statue_of_aphrodite_of_aphrodisias:0 "Statue der Aphrodite"
+ statue_of_aphrodite_of_aphrodisias_desc:0 "Diese Marmorstatue, die Aphrodite darstellt, war einst Teil des Kultzentrums in Aphrodisias. Sie wurde aus dem Marmor nahe gelegener Steinbrüche gefertigt und durch die Spenden an das Pilgerzentrum selbst finanziert."
+ hemhem_crown_of_egypt:0 "Hemhem-Krone von Ägypten"
+ hemhem_crown_of_egypt_desc:0 "Die Kronen von Ober- und Unterägypten sind seit Jahrtausenden das Symbol der königlichen Herrschaft entlang des Nils. Diese Krone wurde zuletzt insbesondere von den griechischen Pharaonen Ägyptens getragen, doch ähnliche Kronen werden bereits seit der 18. Dynastie verwendet."
+ lion_capital:0 "Löwenkapitell"
+ lion_capital_desc:0 "Dieses Kapitell, das für den oberen Abschluss einer großen Säule gedacht ist, stellt vier Löwen dar, die auf einem Sockel mit Reliefs von Stieren, Löwen und einem Elefanten stehen. Gekrönt wird es von einem Dharma-Rad."
+ black_stone_of_kaaba:0 "Schwarzer Stein"
+ black_stone_of_kaaba_desc:0 "Der Ursprung dieses schwarzen Steines ist unbekannt, doch seine Verehrung in der Kaaba in Arabien reicht in undenkliche Zeiten zurück. Einige sagen, er sei einst vom Himmel gefallen, und er wird oft mit Fruchtbarkeitsritualen in Verbindung gebracht."
+ statue_of_marduk:0 "Statue von Marduk"
+ statue_of_marduk_desc:0 "Die goldene Statue von Marduk ist mehr als nur ein Symbol für einen Gott. Sie wird selbst für diesen Gott gehalten. Jahrhundertelang erhielten die babylonischen Könige ihre Krone durch die Hände dieser Statue."
+ benben_stone:0 "Benben-Stein"
+ benben_stone_desc:0 "Der göttliche, pyramidenförmige Benben-Stein stellt jenen Urhügel dar, auf dem Atum zum ersten Mal Land betrat. Jahrhundertelang wurde er im Zentrum des Ra-Tempels in Heliopolis aufbewahrt. Dieser Stein dient als Modell für alle Pyramidionen und die Spitzen der ägyptischen Obelisken."
+ lapis_manalis:0 "Manalis-Steine"
+ lapis_manalis_desc:0 "Die beiden heiligen Manalis-Steine unterscheiden sich zwar in ihrem Zweck, haben jedoch einen gemeinsamen Namen: Einer der Steine dient dazu, den Eingang zur Unterwelt zu versperren (Mundus Cereris), wohingegen der andere mit dem Kommen des Regens in Verbindung gebracht wird."
+ stone_of_jacob:0 "Jakobskissen"
+ stone_of_jacob_desc:0 "Der Stein, auf dem der hebräische Prophet Jakob einst sein Haupt bettete, ehe er im Schlaf Visionen von Gott sah. Er ist Teil des Haus Gottes Bet-El."
+ head_of_orpheus:0 "Kopf des Orpheus"
+ head_of_orpheus_desc:0 "Dies ist das, was vom Kopf des Dichter-Propheten Orpheus übrig geblieben ist, einem Mann, der mit seiner Musik und seiner Poesie alle bezaubern konnte. Im Tod soll der Kopf orakelhafte Eigenschaften gewonnen haben."
+ cybele_stone:0 "Kybele-Stein"
+ cybele_stone_desc:0 "Man glaubt, dass die aus Stein geborene Muttergöttin Kybele diesen schwarzen Eisenfelsen bewohnt, der seit Jahrhunderten im Rahmen des Kybele-Kultes in Phrygien verehrt wird."
+ elagabal_stone:0 "Elagabal-Stein"
+ elagabal_stone_desc:0 "Dieses kegelförmige schwarze Meteoritengestein wird der Sage nach von dem kanaanitischen Gott Elagabal, dem Gott des Berges, bewohnt."
+ sybilline_books:0 "Sibyllinische Bücher"
+ sybilline_books_desc:0 "Die von Tarquinius Superbus, dem letzten römischen König, nach Rom gebrachten sybillinischen Bücher sind eine Sammlung orakelhafter Schriften, die in Zeiten großer Not hilfreich sein sollen."
+ history_of_alexander:0 "Geschichten von Alexander"
+ history_of_alexander_desc:0 "Der vom Historiker Kleitarchos verfasste Text erinnert an das Leben Alexanders des Großen und beschreibt die Heldentaten des großen Königs und seiner Generäle."
+ treasure_sarcophagus_of_theseus:0 "Theseus' Sarkophag" #r2
+ treasure_sarcophagus_of_theseus_desc:0 "Die letzte Ruhestätte des Gründers von Athen, Theseus, die von Kimon aus Skyrus zurückgebracht wurde." #r2
+ treasure_splinter_of_the_argo:0 "Splitter der Argo" #r2
+ treasure_splinter_of_the_argo_desc:0 "Ein heiliger Holzsplitter, der vom berühmten Schiff der Argonauten stammen soll." #r2
+ treasure_shield_of_diomedes:0 "Diomedes' Schild" #r2
+ treasure_shield_of_diomedes_desc:0 "Der antike Schild von Diomedes, König von Argos, einer Berühmtheit der Ilias." #r2
+ treasure_statue_of_bucephalus:0 "Bukephalos-Statue" #r2
+ treasure_statue_of_bucephalus_desc:0 "Eine geschnitzte Statue von Alexanders Lieblingspferd, die ursprünglich in Boukephalia untergebracht war." #r2
+ treasure_rhyton_of_cadmus:0 "Rhyton von Kadmos" #r2
+ treasure_rhyton_of_cadmus_desc:0 "Ein goldenes Trinkhorn, von dem es heißt, es sei angeblich ein Hochzeitsgeschenk von Zeus an den Gründer von Theben gewesen." #r2
+ treasure_kouros_of_delos:0 "Kouros von Delos" #r2
+ treasure_kouros_of_delos_desc:0 "Eine kolossale Statue eines Jünglings, Apollon gewidmet und von den Naxiern nach Delos gebracht." #r2
+ treasure_tomb_of_neoptolemus:0 "Neoptolemus' Sarkophag" #r2
+ treasure_tomb_of_neoptolemus_desc:0 "Der Leichnam von Neoptolemus, Held der Ilias und Vorfahre des Stammes der Molosser aus Epirus." #r2
+ treasure_cup_of_odysseus:0 "Odysseus' Kelch" #r2
+ treasure_cup_of_odysseus_desc:0 "Ein prächtiger Kelch, aus dem, so heißt es, Antinoos getrunken haben soll und damit den Zorn des Odysseus auslöste." #r2
+ treasure_lion_of_chaeronea:0 "Löwe von Chaironeia" #r2
+ treasure_lion_of_chaeronea_desc:0 "Ein Denkmal für die Gefallenen der Heiligen Schar von Theben, das nach der Schlacht von Chaironeia errichtet wurde." #r2
+ treasure_tomb_of_leonidas:0 "Leonidas' Sarkophag" #r2
+ treasure_tomb_of_leonidas_desc:0 "Der Leichnam von König Leonidas I. von Sparta, der in der Schlacht bei den Thermopylen fiel." #r2
+ treasure_altar_of_philoctetes:0 "Altar von Philoktetes" #r2
+ treasure_altar_of_philoctetes_desc:0 "Ein mit einer Schlange geschmückter Bronzealtar zu Ehren von Philoktetes, einem Helden der Ilias." #r2
+ treasure_lion_of_amphipolis:0 "Löwe von Amphipolis" #r2
+ treasure_lion_of_amphipolis_desc:0 "Ein Denkmal für den Feldherrn Laomedon von Mytilene, General unter Alexander dem Großen und Satrap von Syrien, der durch Ptolemaios und Antigonos fiel." #r2
+ treasure_larnax_of_philip_ii:0 "Larnax von Philipp II." #r2
+ treasure_larnax_of_philip_ii_desc:0 "Der üppig verzierte Aschensarg und die Grabkrone Philipps II. von Makedonien." #r2
+ treasure_statue_of_ptolemy_soter:0 "Statue von Ptolemaios Soter" #r2
+ treasure_statue_of_ptolemy_soter_desc:0 "Eine Statue zu Ehren von Alexanders General Ptolemaios, dem Retter von Rhodos." #r2
+ treasure_tomb_of_minos:0 "Grab von Minos" #r2
+ treasure_tomb_of_minos_desc:0 "Der angebliche Sarg des legendären knossischen Königs, dessen Labyrinth den Minotaurus beherbergte." #r2
+ treasure_tomb_of_agapenor:0 "Agapenors Sarkophag" #r2
+ treasure_tomb_of_agapenor_desc:0 "Die letzte Ruhestätte von Agapenor, einem Helden der Ilias, der Paphos gegründet und den Schrein der Aphrodite gebaut haben soll." #r2
+ treasure_brazen_bull:0 "Messingstier des Phalaris" #r2
+ treasure_brazen_bull_desc:0 "Ein hohler Stier aus Messing, der von unten erhitzbar ist und im Auftrag des Tyrannen Phalaris als grausame Hinrichtungsvorrichtung entwickelt wurde." #r2
+ treasure_winnowing_oar:0 "Geglättetes Ruder" #r2
+ treasure_winnowing_oar_desc:0 "Dieses abgenutzte Ruder soll jenes sein, das Poseidon in der Odyssee Tiresias gab." #r2
+ treasure_armor_of_glaucus:0 "Rüstung des Glaukos" #r2
+ treasure_armor_of_glaucus_desc:0 "Die goldene Rüstung, die von Diomedes ertauscht und als Teil des Heldenkults verehrt wurde." #r2
+ treasure_lion_of_croesus:0 "Löwe von Krösus" #r2
+ treasure_lion_of_croesus_desc:0 "Ein goldener Löwe, den Krösus Apollons Pythia, dem einzig wahren Orakel, stiftete." #r2
+ treasure_gordian_knot:0 "Gordischer Knoten" #r2
+ treasure_gordian_knot_desc:0 "Der mythische Knoten, der von Alexander dem Großen durchschlagen wurde und so die Prophezeiung der Eroberung Asiens erfüllte." #r2
+ treasure_persian_spoils:0 "Persische Beute" #r2
+ treasure_persian_spoils_desc:0 "Eine Sammlung verschiedener Trophäen und Waffen, die von den Athenern nach ihren Siegen in den Persischen Kriegen in Delphi geweiht wurden." #r2
+ treasure_golden_fleece_strand:0 "Strang des Vlieses" #r2
+ treasure_golden_fleece_strand_desc:0 "Ein flachsfarbenes Stück Wolle, das von Iason aus dem Goldenen Vlies geschnitten worden sein soll." #r2
+ treasure_didyman_apollo:0 "Didyma des Apollon" #r2
+ treasure_didyman_apollo_desc:0 "Die Statue aus Bronze, die von den Persern aus Didyma gestohlen wurde, einem Konkurrenten Delphis um das größte Heiligtum Apollons in der Nähe von Milet." #r2
+ treasure_aphrodite_anadyomene:0 "Aphrodite Anadyomene" #r2
+ treasure_aphrodite_anadyomene_desc:0 "Ein Werk des berühmten Malers Apelles, das Aphrodite darstellt, wie sie dem Meer entsteigt. Es soll angeblich der Lieblingskonkubine von Alexander dem Großen, Kampaspe, nachempfunden sein." #r2
+ treasure_battle_of_issus:0 "Schlacht bei Issos" #r2
+ treasure_battle_of_issus_desc:0 "Ein Werk des berühmten Malers Philoxenos von Eretria, das Alexander den Großen darstellt, wie er Dareios III. in der Schlacht bei Issos angreift." #r2
+ treasure_lantern_of_diogenes:0 "Diogenes' Laterne" #r2
+ treasure_lantern_of_diogenes_desc:0 "Eine einfache Öllampe, die angeblich dem zynischen Philosophen Diogenes gehört haben soll, der Tag für Tag auf der Suche nach einem ehrlichen Menschen war." #r2
+ treasure_tomb_of_achilles:0 "Grab des Achilles" #r2
+ treasure_tomb_of_achilles_desc:0 "Die letzte Ruhestätte des größten Helden der Ilias, Achilles, und ein Zentrum für seinen weitreichenden Kult." #r2
+ treasure_icon_of_daedalus:0 "Ikone von Dädalus" #r2
+ treasure_icon_of_daedalus_desc:0 "Es heißt, dass Dädalus nach dem Fall von Ikarus in Gela landete und diese Statuen für seinen Kult anfertigte." #r2
+ treasure_statue_of_derzelas:0 "Derzelas-Statue" #r2
+ treasure_statue_of_derzelas_desc:0 "Eine hölzerne Statue von Derzelas, dem dakischen Gott der Unterwelt, aus seinem Tempel in Odessus." #r2
+ treasure_statue_of_hippolytus:0 "Hippolytos-Statue" #r2
+ treasure_statue_of_hippolytus_desc:0 "Die Statue des Sohnes des Theseus, der von seiner Stiefmutter Phädra ermordet wurde, nachdem er ihre Avancen zurückgewiesen hatte." #r2
+ treasure_statue_of_mithra:0 "Mithras-Statue" #r2
+ treasure_statue_of_mithra_desc:0 "Eine Statue des griechisch-persischen Gottes Mithra, die auf dem Berg Minthrios mit Blick auf Trapezous errichtet wurde." #r2
+ treasure_tomb_of_alcathous:0 "Grab des Alkathoos" #r2
+ treasure_tomb_of_alcathous_desc:0 "Der Leichnam von König Alkathoos, Sohn des Pelops, der die Tempel und Verteidigungsanlagen von Megara errichtete." #r2
+ treasure_tomb_of_pelops:0 "Gebeine von Pelops" #r2
+ treasure_tomb_of_pelops_desc:0 "Die sterblichen Überreste von König Pelops von Pisa, Sohn des Tantalos und Vater von Atrides, der die Olympischen Spiele zu Ehren seines Rivalen Oinomaos begann." #r2
+ treasure_pillar_of_oenomaus:0 "Säulen des Oinomaos" #r2
+ treasure_pillar_of_oenomaus_desc:0 "Ein verbrannter Holzpfeiler und die einzigen Überreste des Palastes von König Oinomaos nach einem Blitzschlag, der auch den Tod des Herrschers forderte." #r2
+ treasure_statue_of_anahit:0 "Anahit-Statue" #r2
+ treasure_statue_of_anahit_desc:0 "Eine große Steinstatue der Fruchtbarkeitsgöttin Anahit, die in ihrem Tempel in Eriza untergebracht war." #r2
+ treasure_philippeion_statues:0 "Statuen des Philippeion" #r2
+ treasure_philippeion_statues_desc:0 "Eine Reihe von chryselephantinen Statuen, die von dem Bildhauer Leochares stammen und die Familie von Philipp II. darstellen. Sie waren im Philippeion in Olympia aufgestellt, dem einzigen Gebäude, das einem Menschen geweiht war." #r2
+ treasure_hercules_of_lysippus:0 "Lysippische Statue des Herakles" #r2
+ treasure_hercules_of_lysippus_desc:0 "Eine meisterhafte Bronzestatue des Helden Herkules, gegossen von dem berühmten Bildhauer Lysipp." #r2
+ treasure_statue_of_hygieia:0 "Hygieia von Tegea" #r2
+ treasure_statue_of_hygieia_desc:0 "Eine berühmte Statue von Hygieia, die Skopas für den Tempel der Athene Alea in Tegea schuf." #r2
+ treasure_theodosian_obelisk:1 "Obelisk von Thutmosis III." #r2
+ treasure_theodosian_obelisk_desc:1 "Ein riesiger Obelisk, der von Pharao Thutmosis III. für den großen Tempel in Karnak in Auftrag gegeben wurde. Heutzutage ist er als Obelisk des Theodosius bekannt." #r2
+ treasure_pothos_of_scopas:0 "Eroten von Skopas" #r2
+ treasure_pothos_of_scopas_desc:0 "Ein Statuensatz von Pothos, Eros und Himeros, den Skopas für den Tempel der Aphrodite in Megara schuf." #r2
+ treasure_ashes_of_eumenes:0 "Eumenes' Asche" #r2
+ treasure_ashes_of_eumenes_desc:0 "Die sterblichen Überreste von Eumenes von Kardia, dem General Alexanders des Großen, der von Antigonos hingerichtet wurde, nachdem er von den Silberschilden verraten worden war." #r2
+ terrace_lions:0 "Terrasse der Löwen"
+ terrace_lions_desc:0 "Zwölf Löwen bewachen den heiligen Weg in Delos, ähnlich wie Sphinxe heilige Straßen in Ägypten bewachen." #r2
+ treasure_panoply_of_pyrrhos:0 "Rüstung des Pyrrhus"
+ treasure_panoply_of_pyrrhos_desc:0 "Der kühne König Pyrrhus wurde von vielen als eine nahezu göttliche Gestalt angesehen, die an die epische Strenge und die Tapferkeit Alexanders - vielleicht sogar Achilles' - erinnerte. Seine Rüstung, die von unbedeutenden Männern mit kleineren Schlitzen und Löchern übersät wurde, erinnert uns an seine Größe."
+ treasure_ploutos_serapis_statue:0 "Statue von Serapis"
+ treasure_ploutos_serapis_statue_desc:0 "Einst war dies eine gewöhnliche Statue des Pluton in Sinope, doch sie wurde von ptolemäischen Schmugglern nach Ägypten gebracht. Sie wird als der griechisch-ägyptische Gott Serapis gedeutet."
+ beleukos_statue:0 "Statue von Seleukos und Zeus Belos"
+ beleukos_statue_desc:0 "Eine Statue von Seleukos, dem Gründer der Seleukiden-Dynastie, in der Darstellung als Gottheit Zeus Belos."
+ treasure_partition_triparadeisos:0 "Vertrag von Triparadeisos"
+ treasure_partition_triparadeisos_desc:0 "Nach den ursprünglichen Feindseligkeiten in den Kriegen der Generäle Alexanders wurde von allen Ländern des Reiches eine offizielle Teilung vorgenommen. Dieser Vertrag ernennt Antipatros zum Regenten des Reiches und spricht jedem der noch lebenden Generäle einen Teil des Reiches zu, über das er herrschen darf. Diese Teilung erwies sich jedoch als flüchtig, und die meisten der Generäle sind längst tot. Von der Konferenz von Triparadeisos sind nur noch diese zerfallenden Protokolle übrig geblieben."
+ treasure_enquiry_into_plants:0 "Untersuchung von Pflanzen"
+ treasure_enquiry_into_plants_desc:0 "Verfasst von Aristoteles' Schüler Theophrastos beschreibt und klassifiziert dieses gigantische Werk aus 10 Büchern alle dem Menschen bekannten Pflanzen zusammen mit ihren Fundorten, ihrem Wuchs und ihrer medizinischen Verwendung. Diese Notizen wurden einst von Theophrastus selbst bei Vorträgen vor seinen Schülern verwendet."
+ treasure_history_of_animals:0 "Geschichte der Tiere"
+ treasure_history_of_animals_desc:0 "Geschrieben von Aristoteles, dem Lehrer und Ausbilder Alexanders des Großen, befassen sich diese 9 Bücher mit Beobachtungen zu Menschen und anderen Tiere, mit dem, was sie unterscheidet und was sie auszeichnet, sowie mit Einzelheiten über ihre Fortpflanzung, ihr Verhalten, ihre Krankheiten und ihre Organe."
+ treasure_indike:0 "Indike"
+ treasure_indike_desc:0 "Dies ist die schriftliche Erinnerung an die beschwerliche Reise von Admiral Nearchos von der Mündung des Indus in Indien bis zum Persischen Golf. In diesen Büchern werden die politische und militärische Geografie Indiens sowie die hier zu findenden Nutzpflanzen und seine Wirtschaft sehr detailliert beschrieben."
+ treasure_tragedies:0 "Athenische Tragödien"
+ treasure_tragedies_desc:0 "Dies sind die offiziellen Abschriften, die der Staat Athen von den Werken seiner berühmtesten Dramatiker anfertigen ließ. Die Stadt ist sehr stolz auf Namen wie Sophokles oder Aristophanes und hat beschlossen, ihre Werke für künftige Generationen zu bewahren."
+ treasure_stasanders_xyston:0 "Stasandros Xyston"
+ treasure_stasanders_xyston_desc:0 "Dieser Xyston soll die Waffe von Stasandros, dem ehemaligen Gefährten Alexanders des Großen und des Satrapen von Aria und Drangiana in Ostpersien gewesen sein. Zusammen mit seinem Bruder Stasanor, dem Satrapen von Baktrien und Sogdien, kontrollierte Stasandros die gesamte Ostgrenze des ehemaligen Reiches, ehe er von Antigonus Monophtalmos besiegt wurde."
+ treasure_silver_shield:0 "Schild der Argyraspiden"
+ treasure_silver_shield_desc:0 "Ein versilberter Schild, der einst von Nikanor, dem Anführer der "Silberschilde" genannten Kriegergruppe getragen worden sein soll. Nachdem sie die Elite der Infanterie Alexanders gebildet hatte, soll sie in vielen Schlachten der Nachfolger eine entscheidende Rolle gespielt haben."
+ treasure_arms_of_alexander:0 "Waffen von Alexander"
+ treasure_arms_of_alexander_desc:1 "Ein Schwert, das angeblich von Alexander dem Großen selbst getragen und von seinem Leichnam getrennt wurde, als dieser Babylon verließ, um nach Makedonien transportiert zu werden. Auf dem Konzil von Babylon wurden dieses Schwert und die Rüstung Alexanders auf seinen Stuhl gelegt, um seine Anwesenheit am Tisch selbst nach seinem Tod zu symbolisieren."
+ treasure_armor_of_alexander:0 "Rüstung von Alexander"
+ treasure_armor_of_alexander_desc:1 "Brustpanzer und Schild, die mutmaßlich vom großen König Alexander selbst benutzt worden sind. Sie wurden vom Leichnam Alexanders getrennt, bevor dieser im Katafalk in Richtung Makedonien gebracht wurde, und später zusammen mit dem Leichnam nach Ägypten transportiert, nachdem Ptolemäus es der Kontrolle der Perdikkaner entrissen hatte."
+ treasure_ashes_of_hephaiston:0 "Asche von Hephaistion"
+ treasure_ashes_of_hephaiston_desc:1 "Hierbei handelt sich um die eingeäscherten sterblichen Überreste von Hephaistion, dem engsten Freund Alexanders des Großen. Der Scheiterhaufen, auf dem der Leichnam verbrannt wurde, soll bis in den Himmel gereicht haben und das Begräbnis dem eines Königs würdig gewesen sein. Alexander führte die Prozession persönlich an und gab ein Vermögen für die damit verbundenen Zeremonien und Spiele aus."
+ treasure_sarcophagus_polyxena:0 "Sarkophag von Polyxena"
+ treasure_sarcophagus_polyxena_dec:1 "Dies ist der Sarkophag von Polyxena, der Tochter des Priamos von Troja. An den Seiten befindet sich ein Relief mit der Darstellung ihres Opfers durch von Neoptolemos vor dem Grab des Achilles. Daneben sind eine Reihe anderer griechischer Männer und trojanischer Frauen abgebildet."
+ treasure_tomb_of_payava:0 "Grab von Payava"
+ treasure_tomb_of_payava_desc:1 "Wer Payava wirklich war, ist längst vergessen, doch dieses aus der achämenidischen Epoche stammende lykische Steingrab ist vom Stil her recht ungewöhnlich und ähnelt den Gräbern in den Höhlentempeln Nordindiens mehr als denen in Anatolien oder außerhalb von Lykien."
+ treasure_wolf_statue:0 "Wolfsstatuette"
+ treasure_wolf_statue_desc:0 "Diese Votivstatue, die einen Wolf darstellt, der seine Zähne zeigt, stammt aus Armenien, wo das Tier zusammen mit Hunden mit der Auferstehung und der Heilung der Wunden gefallener Krieger in Verbindung gebracht wird."
+ treasure_sarcophagus_seti:0 "Sarkophag von Seti I."
+ treasure_sarcophagus_seti_desc:0 "Die endgültige Ruhestätte von Pharao Seti I, des zweiten Pharaos der 19. Dynastie und Eroberers von Kadesch. Dieser Alabastersarkophag ist mit Hieroglyphen überzogen, die seinem Besitzer den Zugang in die Unterwelt ermöglichen sollen."
+ treasure_crocodile_mummy:0 "Krokodil von Krokodilopolis"
+ treasure_crocodile_mummy_desc:0 "Dieses große Krokodil mit dem Namen Souchous war einst das heilige Tier der Stadt Krokodilopolis in der Region Fayyum. Nach einem Leben voller ehrerbietiger Anbetung wurde es für die Nachwelt in Papyri mumifiziert."
+ treasure_obelisk_seti:0 "Obelisken von Seti I."
+ treasure_obelisk_seti_desc:0 "Drei große Obelisken, die mit Hieroglyphen über Seti I, dem zweiten Pharao der 19. Dynastie, und seinen königlichen Titel beschriftet sind."
+ treasure_colossi_pharaohs:0 "Kolosse der Pharaonen"
+ treasure_colossi_pharaohs_desc:1 "Diese riesigen sitzenden Steinkolosse wurden ursprünglich während der Herrschaft von Ramses II. oder Seti I. erbaut und sollten womöglich als Teil eines Königskultes verehrt werden. Heute erinnern sie an die große Autorität der inzwischen verlorenen ägyptischen Pharaonen."
+ treasure_book_of_the_dead:0 "Buch der Toten"
+ treasure_book_of_the_dead_desc:0 "Diese antike Sammlung von Schriftrollen ist eines der ältesten uns bekannten Beispiele für das ägyptische "Buch der Toten", das angeblich aus der 13. Dynastie stammt. Es ist eine Art schriftlicher Wegweiser, eine Sammlung von Beschreibungen jener Rituale, die nötig sind, um ins Jenseits zu gelangen."
+ treasure_amun_statue:0 "Amun-Statue"
+ treasure_amun_statue_desc:0 "Dies ist eine Statue von Amun, die König Taharqa in Form eines Widders beschützt, einer heiligen Kreatur, die in ganz Ägypten und Nubien eng mit diesem Gott und seiner Verehrung verbunden ist."
+ treasure_meroitic_stellae:0 "Meroitische Stele"
+ treasure_meroitic_stellae_desc:0 "Diese große Stele aus Sandstein ist mit einem meroitischen Text überzogen und erzählt die Geschichte der kuschitischen Herrschaft von Königin Amanirenas und Prinz Akinidad, von den Gefangenen, die sie gemacht haben, und von ihren Interaktionen mit ägyptischen Gottheiten."
+ treasure_head_of_amenhotep:0 "Kopf von Amenhotep III."
+ treasure_head_of_amenhotep_desc:0 "Dieser kolossale Quarzkopf muss einst an einer großen Quarzstatue befestigt gewesen sein und aus dem Totentempel von Amenhotep III. in Luxor stammen. Der Kopf genießt jedoch auch ohne den Körper noch immer die Verehrung vieler, die ihn sehen."
+ treasure_darius_body:0 "Leichnam von Dareios"
+ treasure_darius_body_desc:0 "Der einbalsamierte Leichnam des achämenidischen Königs Dareios, der das Reich auf seinem Höhepunkt regierte und in Griechenland einmarschierte, wird im alten Reich noch immer von vielen verehrt, sogar von einigen nicht-persischen Gruppen wie den Juden von Judäa."
+ treasure_ceremonial_acinaces:0 "Zeremonieller Akinakes"
+ treasure_ceremonial_acinaces_desc:0 "Dieses goldene Schwert soll als Zeichen der Gunst von Xerxes dem Großen überreicht worden sein."
+ treasure_derafsh:0 "Derafsch"
+ treasure_derafsh_desc:0 "Dieses Derafsch-Banner soll das persönliche Banner von Dareios III. und das Banner des Achämenidenreiches sein. Das Derafsch ist ein königliches, religiöses und militärisches Symbol, das in der iranischen Geschichte lange zurückreicht und von Griechenland bis Indien als Banner der Achäminiden bekannt ist."
+ treasure_mask_of_sargon:0 "Maske von Sargon"
+ treasure_mask_of_sargon_desc:0 "Diese große Bronzemaske soll das Bildnis des längst verstorbenen Herrschers von Akkad Sargon des Großen tragen. Als Teil des Königskultes wurde die Maske im Rahmen des Ikonoklasmus späterer Generationen verstümmelt: Ihr fehlt ein Auge und sie wurde von dem Körper abgetrennt, der sie wahrscheinlich einst begleitete."
+ treasure_victory_stele:0 "Sieges-Stele"
+ treasure_victory_stele_desc:0 "Diese Stele aus Kalkstein erinnert an die Siege von Naram-Sin, dem Herrscher von Akkad, in seinen Kriegen gegen die Völker des Zagrosgebirges. Der König selbst ist als göttliche Gestalt dargestellt, mit einem stierhörnigen Helm und dem Gesicht eines Löwen."
+ treasure_gilgamesh:0 "Epos von Gilgamesch"
+ treasure_gilgamesh_desc:1 "Diese Steintafeln sollen Tausende von Jahren alt sein und erzählen die Geschichte des Heldenkönigs Gilgamesch und seiner Abenteuer. Die Sage ist in jener alten Keilschrift verfasst, wie sie nur in Mesopotamien bekannt ist."
+ treasure_black_obelisk:0 "Schwarzer Obelisk"
+ treasure_black_obelisk_desc:0 "Dieser Schwarze Obelisk aus Nimrud in Assyrien schildert die Geschichte von 'Yaw', einem König Israels sowie seinen Umgang mit den Persern. "
+ treasure_white_obelisk:0 "Weißer Obelisk"
+ treasure_white_obelisk_desc:0 "Dieser große Obelisk aus Kalkstein ist mit den Feldzügen und Jagden der alten assyrischen Könige geschmückt und soll über tausend Jahre alt sein."
+ treasure_babylonian_chronicles:0 "Babylonische Chroniken"
+ treasure_babylonian_chronicles_desc:0 "Bis heute beschreiben babylonische Schriftgelehrte die wichtigsten Ereignisse der Geschichte ihrer Stadt so, wie sie sie erleben. Ihre Erinnerung an diese Ereignisse ist in diesen Tafeln in Keilschrift festgehalten, die von zukünftigen Generationen studiert werden sollen."
+ treasure_alexander_helmet:0 "Helm von Alexander"
+ treasure_alexander_helmet_desc:0 "Dies ist der berühmte böotische Helm von Alexander dem Großen, dem König der Könige und Eroberer der bekannten Welt."
+ treasure_anthology:0 "Philosophische Anthologie"
+ treasure_anthology_desc:0 "Diese Büchersammlung enthält die Worte der größten Denker unserer Zeit sowie einige überlebende Schriften aus jenen Epochen, die uns vorangingen. Sie erzählen all jenen die Geschichte unserer Zeit, die sich vielleicht eines Tages über die Ereignisse wundern, die sich bei uns zugetragen haben."
+ lysippos_companions_statue:0 "Lysipps Gefährten"
+ lysippos_companions_statue_desc:0 "Ein meisterhaftes, lebensgroßes Bronzedenkmal für die fünfundzwanzig Reitergefährten Alexanders des Großen, die in der Schlacht von Granikos getötet wurden. Es wurde vom großen König in Auftrag gegeben und von dem berühmten Bildhauer Lysipp von Sikyon geschaffen."
+ treasure_colossus_head:0 "Kopf von Helios"
+ treasure_colossus_head_desc:0 "Der große bronzene Kopf des Helios-Kolosses, der von den Rhodiern zu Ehren ihres Sieges über Demetrius bei der großen Belagerung ihrer Stadt errichtet wurde, wurde von den Antigoniden entfernt und wird als Symbol der rhodischen Torheit aufbewahrt."
+ anti_personnel_rooftile:0 "Glücksdachziegel"
+ anti_personnel_rooftile_desc:0 "Dieser Dachziegel, der den großen Pyrrhus von Epirus nach seiner erfolgreichen Belagerung von Argos erschlug, wurde angeblich von der Mutter eines argivischen Soldaten geworfen und hat eine düstere, aber sagenumwobene Geschichte."

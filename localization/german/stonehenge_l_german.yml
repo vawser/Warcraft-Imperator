@@ -1,0 +1,24 @@
+﻿l_german:
+ stonehenge.1.t:0 "In grauer Vorzeit ..."
+ stonehenge.1.desc:0 "Nach monatelanger Reise im fernen Britannien hat [druid.GetName] eine obszöne Form der Gewandung für sich angenommen. [druid.GetHerHis|U] Haar hängt bis zu den Schultern, [druid.GetHerHis]e Tunika ist mit etwas bestickt, was wie der Brustkorb eines Skeletts aussieht, doch am schlimmsten ist die anzügliche barbarische Hose, die derart eng ist, dass [druid.GetSheHe] sich kaum darin bewegen kann.\n\n„Die druidischen Rituale der Briten sind wie Musik in meinen Ohren, und ich denke, wir müssen einige ihrer Praktiken übernehmen“, sagt [druid.GetSheHe] und reicht [sthubbins.GetName] einen schmutzigen Lappen mit einer verwaschenen Skizze eines steinernen Denkmals, auf der eine Handvoll grober Maße eingezeichnet sind. [druid.GetSheHe|U] beugt sich vor und flüstert: „Stonehenge“."
+ stonehenge.1.a:0 "[ROOT.GetCountry.GetName] wird dies unterstützen."
+ stonehenge.1.b:0 "Los, [druid.GetName], los!"
+ stonehenge.1.c:0 "Es ist spirituell wichtig, aber wir haben nicht die Ausrüstung!"
+
+ ### Stonehenge construction
+ stonehenge.2.t:0 "Vor dem Anbruch der Geschichte ..."
+ stonehenge.2.desc:0 "Die Zeremonien in [ROOT.GetCountry.GetName] werden in letzter Zeit immer schlechter besucht, und [sthubbins.GetName] versucht jedes Mal aufs Neue, die Bühne erfinderischer zu gestalten, um die Aufmerksamkeit der Öffentlichkeit zu erregen. Nachdem nun der Bühnenbildner bei der letzten Aufführung in einer mannshohen Blume gefangen wurde und verhungerte, ist Stonehenge die einzige Hoffnung für [ROOT.GetCountry.GetName].\n\nEin paar Monate nach der Übergabe der Baupläne an die Architekten besuchen [sthubbins.GetName] und [druid.GetName] die Baustelle. Nach wenigen Schritten strauchelt und stürzt [druid.GetName] jedoch. Es scheint, dass [druid.GetSheHe] über einen kniehohen Haufen flacher Steine gestolpert ist - das Monument allerdings ist nirgends zu entdecken. Erst nach und nach dämmert es [sthubbins.GetName], dass dieser Haufen Steine das Denkmal darstellen soll.\n\n[druid.GetName] wirkt indes unbeeindruckt: „Machen wir morgen noch Stonehenge?“"
+ stonehenge.2.a:0 "Natürlich - machen wir keine große Sache daraus."
+ stonehenge.2.b:0 "Nein, es ist nur eine Elle hoch!"
+ stonehenge.2.b.tt:0 "Es sollten achtzehn Ellen sein!"
+
+ ###
+ stonehenge.3.t:0 "Die Panflöte"
+ stonehenge.3.desc:0 "Nur wenige Augenblicke vor der Enthüllungszeremonie von Stonhenge auf dem großen Markt von [main_stage.GetName] wird berichtet, dass die angeheuerten Musiker, die während der Veranstaltung für Stimmung sorgen sollten, bei einem ungewöhnlichen Unfall in den Hängenden Gärten von Babylon tragisch ums Leben gekommen sind. Nur [sthubbins.GetName] und [druid.GetName] sind noch übrig, um das Stück aufzuführen. Mit einer Lyra in der Hand und mit einer Barbarenhose bekleidet ahmt [sthubbins.GetName] die Haltung von [druid.GetName] nach - die Beine so weit wie möglich gespreizt.\n\n„[sthubbins.GetName] an der Lyra!“, ruft [druid.GetName] der Menge zu, die sich aus der Garnison von [main_stage.GetName] zusammensetzt und sich um den winzigen Steinkreis geschart hat."
+ stonehenge.3.a:0 "Stonehenge! Wo die Dämonen hausen!"
+ stonehenge.3.b:0 "Stonehenge! Wo ein Mann noch ein Mann ist!"
+ stonehenge.3.c:0 "Stonehenge! Wo die Jungfrauen warten!"
+ 
+ 
+ 
+ stonehenge.4.desc:0 "Die Zeremonien in [ROOT.GetCountry.GetName] werden in letzter Zeit immer schlechter besucht, und [sthubbins.GetName] versucht jedes Mal aufs Neue, die Bühne erfinderischer zu gestalten, um die Aufmerksamkeit der Öffentlichkeit zu erregen. Nachdem nun der Bühnenbildner bei der letzten Aufführung in einer mannshohen Blume gefangen wurde und verhungerte, ist Stonehenge die einzige Hoffnung für [ROOT.GetCountry.GetName].\n\nEin paar Monate nach der Übergabe der Baupläne an die Architekten von [ROOT.GetCountry.GetName] besuchen [sthubbins.GetName] und [druid.GetName] die Baustelle. Nach wenigen Schritten strauchelt und stürzt [druid.GetName] jedoch. Es scheint, dass [druid.GetSheHe] über einen kniehohen Haufen flacher Steine gestolpert ist - das Denkmal ist allerdings nirgends zu entdecken. Erst nach und nach dämmert es [sthubbins.GetName], dass dieser Haufen Steine das Denkmal darstellen soll.\n\n[druid.GetName] wirkt indes unbeeindruckt: „Machen wir morgen noch Stonehenge?“"

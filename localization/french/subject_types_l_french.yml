@@ -1,0 +1,18 @@
+﻿l_french:
+ protectorate:0 "Protectorat"
+ CANCEL_TITLE:0 "Révoquer le statut de la dépendance"
+ subject_merc_city_state_cost_modifier:0 "Revenus des États mercenaires"
+ MERC_CITY_STATE_EFFECT_TT:0 "[SCOPE.GetRootScope.GetProvince.GetName|Y] va devenir une cité indépendante, gouvernée par un mercenaire local.\nElle sera notre dépendance, et bénéficiera d'un avantage sur les effectifs de base.\n\n"
+ SYR_merc_state_title:0 "Créer une cité-État mercenaire"
+ SYR_merc_state_desc:0 "Voulez-vous vraiment  créer une cité-État mercenaire ? [SCOPE.GetRootScope.GetProvince.GetName|Y] va alors devenir une dépendance."
+ recruit_character_mg_syr_cost_modifier:0 "Modif. de coût pour élire un commandant"
+ goes_here_becomes_king_tt:0 "[SCOPE.sChar('target').GetPraenomen|Y] se rend à [SCOPE.sC('actor').GetName|Y] pour devenir [SCOPE.sC('actor').GetRulerTitle|Y]."
+ mg_recruit_cooldown_string:0 "Nous ne pouvons faire à nouveau cela avant [SCOPE.sC('actor').GetVariableExpiry('mg_recruit_cooldown')|Y]"
+ recruit_character_mg_syr:0 "Élire un roi mercenaire"
+ create_merc_state_price:0 "Créer un État mercenaire"
+ owned_by_us_tt:0 "Possédé par nous."
+ MERC_CITY_MONARCHY_EFFECT:0 "Si nous avons un régime politique #Y monarchique#!, une fois tous les #Y 5#! ans nous pouvons décider de déposer notre dirigeant actuel pour le faire remplacer par un dirigeant appartenant à l'un de nos #Y États mercenaires#!. Cela peut se faire par une #Y décision liée aux personnages#!, et nécessite que la loi des #Y contrats mercenaires#! ait été promulguée.\n\n"
+ LEAGUE_CITY_STATE_EFFECT_TT:0 "[SCOPE.GetRootScope.GetProvince.GetName|Y] va devenir une cité liguée indépendante, dirigée par un gouvernement républicain.\nElle sera notre dépendance, avec un avantage sur les routes commerciales de l'État et la production de marchandises. Elle ne participera pas à nos guerres, mais ne coûtera pas une relation diplomatique et ne pourra être intégrée."
+ league_city_title:0 "Créer une cité liguée"
+ league_city_desc:0 "Voulez-vous vraiment créer une cité liguée ? Cela va faire de [SCOPE.GetRootScope.GetProvince.GetName|Y] une dépendance."
+ 

@@ -1,0 +1,33 @@
+﻿l_german:
+ ## Default ##
+ deity_gekho:0 "$omen_gekho$"
+ omen_gekho:0 "Gekhö"
+ omen_gekho_desc:0 "Gekhö ist der höchste der vielen $tibetan$en Gottheiten und ein Gott des Himmels und der Sterne. Die meisten anderen Götter, die von den Einheimischen angerufen werden, verneigen sich vor ihm, und er ist dafür bekannt, böse Geister zu besiegen, die seine Gläubigen belästigen könnten. Er wird für gewöhnlich durch das Opfern von Yaks, Schafen oder Gold - Geschenken, die als Dank für seine Hilfe dargebracht werden - verehrt."
+
+ deity_tingnam_gyalmo:0 "$omen_tingnam_gyalmo$"
+ omen_tingnam_gyalmo:0 "Tingnam Gyalmo"
+ omen_tingnam_gyalmo_desc:0 "Tingnam Gyalmo ist eine blau gekleidete Göttin des Ozeans und die Gemahlin von Kuchi Mangke. Als Beschützerin der Meere und Flüsse spielt sie eine wichtige Rolle für die $bon_religion$en Gläubigen und wird hoch geschätzt."
+
+ deity_drablai_gyalmo:0 "$omen_drablai_gyalmo$"
+ omen_drablai_gyalmo:0 "Drablai Gyalmo"
+ omen_drablai_gyalmo_desc:0 "Drablai Gyalmo ist eine der wichtigsten Gottheiten des $bon_religion$en Glaubens, die Gemahlin von Gekhö und selbst auch eine Himmelsgöttin. Sie ist dafür bekannt, viele Aspekte anzunehmen, sei es eine ruhige weiße Göttin des Lebens oder eine furchterregende schwarze Hexe des Todes. Oft wird sie auch mit Himmelskörpern und Naturphänomenen in Verbindung gebracht."
+
+ deity_kuchi_mangke:0 "$omen_kuchi_mangke$"
+ omen_kuchi_mangke:0 "Kuchi Mangke"
+ omen_kuchi_mangke_desc:0 "Kuchi Mangke ist ein Fruchtbarkeitsgott, der mit Gekhö und der Gemahlin von Tingnam Gyalmo in Verbindung gebracht wird. Er wird in der Regel als winziger Gott dargestellt. Manche behaupten sogar, er sei so klein wie eine Spindel. Kuchi Mangke hat die Aufgabe, Kinder vor bösen Geistern zu schützen, die ihnen Schaden zufügen könnten."
+
+ deity_ati_muwer:0 "$omen_ati_muwer$"
+ omen_ati_muwer:0 "Ati Muwer"
+ omen_ati_muwer_desc:0 "Ati Muwer ist ein eigenständiger Kriegsgott, ein wichtiges Mitglied des Götterkreises und wird oft mit Gekhö in Verbindung gebracht. Er wird meistens in goldener oder vergoldeter Rüstung, mit einem Bogen in der Hand und über den Himmel reitend dargestellt."
+
+ deity_phuwer:0 "$omen_phuwer$"
+ omen_phuwer:0 "Phuwer"
+ omen_phuwer_desc:0 "Phuwer ist ein Gott der Weissagung und Astrologie und gehört zum engsten Kreis von Gekhö. Die Gottheit wird gewöhnlich als eindrucksvolle Figur in weißen Gewändern zusammen mit drei Gefährtinnen dargestellt. Die $bon_religion$en Gläubigen verehren den Gott mit Lammfell, farbigen Bändern und den getrockneten Herzen einer Fledermaus, eines Kranichs und eines Kuckucks."
+
+ deity_traphu:0 "$omen_traphu$"
+ omen_traphu:0 "Traphu"
+ omen_traphu_desc:0 "Traphu ist eine niedere Gottheit des $bon_religion$en Glaubens, die gewöhnlich mit den nördlicheren Regionen in Verbindung gebracht wird, aus denen sie ursprünglich stammt: den mythischen Ländern von Drugu. Es heißt, Traphu sei in einem Kristallschloss geboren worden, umgeben von Vögeln sowie Mond- und Sonnenstrahlen."
+
+ deity_the_elements:0 "$omen_the_elements$"
+ omen_the_elements:0 "Die Elemente"
+ omen_the_elements_desc:0 "Die vier Elemente spielen eine wichtige Rolle für den $bon_religion$en Glauben und werden oft sogar als niedere Gottheiten dargestellt. Von den vier Elementen - Luft, Erde, Wasser und Feuer - war die Luft in der Regel das wichtigste und wurde auf einem weißen Hirsch durch das Land reitend dargestellt."

@@ -1,0 +1,57 @@
+﻿l_german:
+##### GW event modifiers
+ vandalized_work_modifier:1 "Verwüstetes Denkmal"
+ desc_vandalized_work_modifier:0 "Eines der Denkmäler unserer Nation wurde verunstaltet und zum Teil zerstört, weshalb unser Volk entmutigt ist und unsere Fähigkeit zu regieren infrage stellt."
+
+ great_work_celebration:1 "Denkmal-Feierlichkeiten"
+ desc_great_work_celebration:0 "Es gibt Feierlichkeiten zu Ehren eines großen Denkmals, das in dieser Region errichtet wurde und die allgemeine Bevölkerung inspiriert."
+
+ great_work_no_celebration:0 "Unzufriedene Bevölkerung"
+ desc_great_work_no_celebration:0 "Die Bevölkerung dieser Region ist unzufrieden und stellt unsere Herrschaft infrage."
+
+ great_work_celebration_2:1 "Wiederkehrende Denkmal-Feierlichkeiten"
+ desc_great_work_celebration_2:0 "$desc_great_work_celebration$"
+
+ great_work_no_celebration_2:0 "Zunehmend unzufriedene Bevölkerung"
+ desc_great_work_no_celebration_2:0 "$desc_great_work_no_celebration$"
+
+ great_work_completed:1 "Denkmal vollendet"
+ desc_great_work_completed:0 "Wir haben endlich den Bau eines beeindruckenden Denkmals abgeschlossen, das die Legitimität unserer Herrschaft sicherstellt, während sich Geschichten über seine Schönheit und Größe wie ein Lauffeuer verbreiten."
+
+ great_work_completed_great:1 "Denkmal vollendet"
+ desc_great_work_completed_great:0 "Der Bau eines wahrhaft großen Denkmals wurde beendet und lässt die Bevölkerung in Ehrfurcht erstarren."
+
+ great_work_completed_bad:0 "Denkmal vollendet"
+ desc_great_work_completed_bad:0 "$desc_great_work_completed_great$"
+
+ xenophobe_response:0 "Fremdenfeindlicher Herrscher"
+ desc_xenophobe_response:0 "Unsere Taten haben uns bei der örtlichen Bevölkerung den Ruf eingebracht, fremdenfeindlich zu sein."
+
+ great_work_renovation:1 "Denkmal-Renovierung"
+ desc_great_work_renovation:0 "Wir haben erhebliche Mittel in die Instandsetzung eines örtlichen Denkmals investiert."
+
+ great_work_small_renovation:0 "Finanzielle Unterstützung"
+ desc_great_work_small_renovation:0 "Wir haben einige Mittel zur Verfügung gestellt, um die Einheimischen bei der Instandsetzung eines Denkmals innerhalb des Territoriums zu unterstützen."
+
+ great_work_dirty:1 "Verdrecktes Denkmal"
+ desc_great_work_dirty:0 "Mangelnde Pflege hat dazu geführt, dass das örtliche Denkmal verdreckt und verunstaltet ist und nicht mehr wie das aussieht, was es einst darstellen sollte."
+
+ happy_gw_province:0 "Aufblühende Provinz"
+ desc_happy_gw_province:0 "Dieses Territorium hat einen unerwarteten wirtschaftlichen Aufschwung erlebt, nachdem wir in der Nähe ein Denkmal errichtet haben."
+
+ praise_the_animals:0 "Lobet die Tiere"
+ desc_praise_the_animals:0 "Unsere Auguren haben erklärt, dass wiederkehrende Tiersichtungen bei einem unserer Denkmäler ein Beweis dafür sind, dass wir durch das Göttliche gesegnet wurden."
+
+ embrace_great_works_religion:0 "Förderung der Religion"
+ desc_embrace_great_works_religion:0 "Wir haben Gelder beiseitegelegt, um einen örtlichen Glauben zu fördern, der um eines unserer beeindruckenderen Denkmäler herum entstanden ist."
+
+ great_work_more_guards:0 "Mehr Wachen"
+ desc_great_work_more_guards:0 "Wir haben mehr Wachen um ein örtliches Denkmal herum stationiert, um sicherzustellen, dass niemand es verunstaltet oder zerstört."
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ great_work_loss_unrest:0 "Weltwunder-Gedenkstätte"
+ great_work_omen_power_from_burial:0 "Verstorbener Herrscher"
+ great_work_omen_power_from_burial_powerful:0 "Verstorbener Herrscher"
+ great_work_omen_power_from_burial_sad_pops:0 "Verstorbener Herrscher"
+ great_work_omen_power_from_burial_powerful_sad_pops:0 "Verstorbener Herrscher"
+ embrace_gw_religion:0 "Religiöse Zusammenarbeit"

@@ -1,0 +1,85 @@
+﻿l_german:
+### GW Events
+ gw_completed.1.t:1 "[SCOPE.sGreatWork('target').GetName] wurde fertiggestellt!"
+ gw_completed.1.desc:2 "Seht! [SCOPE.sGreatWork('target').GetName] ist endlich vollendet und unsere harte Arbeit hat Früchte getragen. Die Errichtung eines Gebäudes dieser Größe ist an und für sich schon eine Leistung, noch beeindruckender jedoch ist, dass das Innere mit den schönsten Kunstwerken unseres Volkes geschmückt wurde. Dieses Bauwerk verkörpert die Größe und die Macht unserer Nation. Ein wahrlich herrlicher Anblick!"
+ gw_completed_flavor.1.a:2 "Die Stärke unseres Anführers hat uns diese Leistung vollbringen lassen!"
+ gw_completed_flavor.1.b:1 "Der Genialität unseres Herrschers muss Tribut gezollt werden!"
+ gw_completed_flavor.1.c:1 "Die harte Arbeit unseres Volkes hat dieses kolossale Bauwerk vervollkommnet!"
+
+ gw_completed.2.t:1 "[SCOPE.sGreatWork('target').GetName] wurde fertiggestellt!"
+ gw_completed.2.desc:1 "Nur wenige glaubten, dass dieser Tag kommen würde, doch endlich ist die Konstruktion von [SCOPE.sGreatWork('target').GetName] abgeschlossen. Von allen Errungenschaften, die [ROOT.GetCountry.GetName] gelungen sind, gibt es sicherlich keine größere als diese. Nur wenige Nationen in der Geschichte der zivilisierten Welt haben etwas derart Makelloses geschaffen. Sicherlich wird dies der Welt unser wahres Potenzial offenbaren!"
+ gw_completed_flavor.2.a:0 "Eine ausgezeichnete Gelegenheit, unsere Nation zu stabilisieren und zu stärken!"
+ gw_completed_flavor.2.b:1 "Alle Anstrengungen sollten darauf gerichtet sein, diesen Schwung aufrechtzuerhalten!"
+
+ gw_completed.3.t:1 "[SCOPE.sGreatWork('target').GetName] wurde fertiggestellt!"
+ gw_completed.3.desc:1 "Endlich ist [SCOPE.sGreatWork('target').GetName] fertiggestellt! Es hat viel Zeit und Mühe gekostet, doch dies spricht nur umso mehr für den unerbittlichen Ehrgeiz unserer Nation. Allein die Größe des Monuments zeugt von unseren Fähigkeiten. Selten hat die Menschheit etwas derart Großes geschaffen: Architektur und Handwerkskunst sind unübertroffen, die Landschaft sieht anders aus und selbst die Luft fühlt sich anders an. Es hat wahrlich eine neue Ära des Wohlstands für [ROOT.GetCountry.GetName] begonnen."
+ gw_completed_flavor.3.a:0 "Die Imposanz dieses Monuments wird unsere Tapferkeit neu entfachen!"
+ gw_completed_flavor.3.b:1 "Dieses Monument ist ein Zeugnis dessen, was unser Volk erreichen kann!"
+ gw_completed_flavor.3.c:1 "Unsere gemeinsamen Bemühungen und Opfer haben dies möglich gemacht."
+
+ gw_existing.1.t:0 "[ROOT.GetCountry.Custom('00_great_work_event_01_loc')]"
+ 00_great_work_event_01_loc_1:0 "Romani Ite Domum"
+ 00_great_work_event_01_loc_fallback:0 "Böswillige Kritzelei"
+ gw_existing.1.desc:0 "Gestern, während einer routinemäßigen Nachtpatrouille, fanden Wachen eine Kritzelei an unserem Weltwunder [SCOPE.sP('province').GetGreatWork.GetName]. Bei näherer Betrachtung stellte der Patrouillenleiter fest, dass diese nicht nur mutwillig angebracht war, sondern auch provokant und falsch geschrieben."
+ gw_existing.flavor.1.a:0 "Angesichts des Zustands, in dem wir uns befinden, können wir nichts tun."
+ gw_existing.flavor.1.b:0 "Arbeiter sollen diese Schweinerei beseitigen. Stellt auch mehr Wachen auf."
+ gw_existing.flavor.1.c:0 "Wir müssen die Täter finden und an ihnen ein Exempel statuieren!"
+ gw_existing.flavor.1.d:0 "Überzeugt die Menge davon, dass dies ein Einzelfall war."
+
+ gw_existing.2.t:0 "Feierlichkeiten!"
+ gw_existing.2.desc:0 "Fünf Jahre sind vergangen, seit wir zum ersten Mal die Fertigstellung unseres Weltwunders [SCOPE.sP('province').GetGreatWork.GetName] gefeiert haben. Das Bauwerk fühlt sich bereits wie ein natürlicher Teil unserer Nation an, und ein Leben ohne es scheint unvorstellbar. Mit etwas Unterstützung aus der Staatskasse könnten die aus diesem Anlass entstandenen Feierlichkeiten eine willkommene Abwechslung für das Volk bieten."
+ gw_existing.flavor.2.a:1 "Natürlich sollten wir sie unterstützen!"
+ gw_existing.flavor.2.b:1 "Unsere Bemühungen und Ressourcen sind anderswo besser genutzt."
+
+ gw_existing.3.t:0 "Feierlichkeiten!"
+ gw_existing.3.desc:0 "Seit der Fertigstellung unseres Weltwunders [SCOPE.sP('province').GetGreatWork.GetName] sind weitere fünf Jahre vergangen, und unser Volk feiert! Wir könnten diese spontane Stimmung aufgreifen und sie in etwas Offizielles umwandeln."
+ gw_existing.flavor.3.a:1 "Wir werden erneut unsere Unterstützung für die Feierlichkeiten zeigen!"
+ gw_existing.flavor.3.b:1 "Unsere Bemühungen und Ressourcen sind anderswo besser genutzt."
+
+ gw_existing.4.t:0 "Feierlichkeiten!"
+ gw_existing.4.desc:0 "Seit dem Bau unseres Weltwunders [SCOPE.sP('province').GetGreatWork.GetName] sind weitere fünf Jahre vergangen. Vergangenes Jahr haben wir unsere Ressourcen anderen Belangen gewidmet. Vielleicht sollten daher dieses Jahr zumindest offizielle Feierlichkeiten ausgerichtet werden?"
+ gw_existing.flavor.4.a:0 "Dies ist eine großartige Gelegenheit zum Feiern!"
+ gw_existing.flavor.4.b:1 "Wir können uns das derzeit nicht leisten. Unsere Bemühungen sind anderswo besser gelegen."
+
+ gw_existing.5.t:0 "[SCOPE.sP('province').GetGreatWork.GetName] gewinnt an Beliebtheit"
+ gw_existing.5.desc:0 "Unser Weltwunder [SCOPE.sP('province').GetGreatWork.GetName] ist großartig, zeigt aber auch die unerfreuliche Nebenwirkung, dass das allgemeine Gerede innerhalb unserer Nation immer weniger davon handelt, welche Bemühungen und Errungenschaften unser Herrscher vorzuweisen hat, sondern alleinig von unserem Weltwunder [SCOPE.sP('province').GetGreatWork.GetName]."
+ gw_existing.flavor.5.a:1 "Unser Volk kann über alles reden, was auch immer es für bedeutsam hält."
+ gw_existing.flavor.5.b:0 "Sicherlich können wir die Bevölkerung sanft an das erinnern, was wirklich wichtig ist."
+ gw_existing.flavor.5.c:0 "Das ist großartig! Wir sollten uns das zu eigen machen."
+
+ gw_existing.6.t:0 "[SCOPE.sP('province').GetGreatWork.GetName] zieht Reisende an"
+ gw_existing.6.desc:0 "Die schiere Größe von [SCOPE.sP('Provinz').GetGreatWork.GetName] zieht Reisende aus der ganzen Region an, und es ist nicht ungewöhnlich, dass sie diese Gelegenheit auch gleich zum Anlass nehmen, hier Urlaub zu machen, um im Glanz unseres Wunders zu schwelgen."
+ gw_existing.flavor.6.a:0 "Wir werden nicht zulassen, dass unser göttliches Monument von Fremdländern beschmutzt wird."
+ gw_existing.flavor.6.b:2 "Es muss einen finanziellen Gewinn geben, der sich aus dieser Lage ziehen lässt."
+ gw_existing.flavor.6.c:1 "Unser Wunder ist für das Volk. Es steht ihm frei, herzukommen."
+
+ gw_existing.7.t:0 "Instandhaltung"
+ gw_existing.7.desc:0 "Unsere Wachen und Besucher weisen schon seit geraumer Zeit darauf hin, dass unser Weltwunder [SCOPE.sP('province').GetGreatWork.GetName] zu zerfallen begonnen hat. Nun hat ein sehr prominenter Besucher unseres Verbündeten darauf hingewiesen, dass unser einst stolzestes Wahrzeichen verfallen und an einigen Stellen beschädigt ist. Dies beeinträchtigt nicht nur die Moral unserer Nation, sondern auch die Art und Weise, wie wir uns anderen Nationen gegenüber präsentieren."
+ gw_existing.flavor.7.a:1 "Wir müssen unserem Denkmal zu seinem früheren Glanz zurückverhelfen."
+ gw_existing.flavor.7.b:2 "Es hat einen gewissen Reiz, der Natur und der Zeit ihren Lauf zu lassen."
+ gw_existing.flavor.7.c:0 "Prüft unsere Finanzen und seht, ob wir uns die Reparaturen leisten können."
+
+ gw_existing.8.t:0 "Die Anhänger von [SCOPE.sP('province').GetGreatWork.GetName]"
+ gw_existing.8.desc:0 "Es gibt eine starke religiöse Anhängerschaft rund um unser Weltwunder [SCOPE.sP('province').GetGreatWork.GetName], die sich um [religious_activist.GetName] schart, und diese Gruppe hält ihre eigenen Zeremonien auf den Stufen des kolossalen Eingangsbereichs ab. Es gibt keinen Beweis dafür, dass Zeremonien dieser Art einen Nutzen haben, aber es gibt auch keinen Beweis dafür, dass das Gegenteil der Fall ist ..."
+ gw_existing.flavor.8.a:0 "Das ist eine Ablenkung für unser Volk. Es gibt bereits viele andere religiöse Orte."
+ gw_existing.flavor.8.b:0 "Es hat Vorteile, unsere religiöse Haltung zu stärken."
+ gw_existing.flavor.8.c:0 "[religious_activist.GetName] bekommt zu viel Einfluss."
+
+ gw_existing.9.t:0 "[province.GetName] blüht auf!"
+ gw_existing.9.desc:0 "Unser kolossales Bauwerk in [Provinz.GetName] hat unerwartete Vorteile gebracht: Ein jeder ist erfreut, das Marktviertel zu durchqueren, und wo man auch hinsieht, gedeihen unsere Bürger. Wir hatten erwartet, dass die Moral in der Region gestärkt würde, doch in diesem Ausmaß hat sich das niemand vorgestellt! Dies gibt uns eine tolle Gelegenheit, den Schwung, den wir haben, zu nutzen."
+ gw_existing.flavor.9.a:0 "Ausgezeichnet! Erhöht die Steuern!"
+ gw_existing.flavor.9.b:1 "Unser Herrscher ist der Grund dafür, und das Volk muss das wissen!"
+ gw_existing.flavor.9.c:1 "Das ist ein Leuchtfeuer unserer Nation, anhand dessen es ihr Streben ausrichtet."
+
+ gw_existing.10.t:0 "Versammlung der Tiere"
+ gw_existing.10.desc:0 "In [province.GetName] tragen sich die merkwürdigsten Dinge zu. Tiere haben sich um unser Weltwunder [SCOPE.sP('province').GetGreatWork.GetName] herum versammelt. Ein äußerst ungewöhnlicher Anblick!"
+ gw_existing.flavor.10.a:0 "Das muss ein Zeichen der Götter sein!"
+ gw_existing.flavor.10.b:1 "Wir könnten Tierfutter an die Besucher verkaufen!"
+ gw_existing.flavor.10.c:0 "Zumindest werden sich die Menschen eine Zeit lang nicht über die Lebensmittelversorgung beschweren müssen."
+
+ gw_not_existing.2.t:0 "Neid von ganz [interesting_province.GetOwner.GetName]"
+ gw_not_existing.2.desc:0 "Das Wunder unseres Nachbarn ist innerhalb unserer eigenen Bevölkerung ein Gegenstand von Neid und Ehrfurcht, und das Volk spricht bereits von der Überlegenheit von [interesting_province.GetOwner.GetName]. Gefährliches Gerede! Wir täten gut daran, der Stimmung des Volkes Aufmerksamkeit zu schenken und seine Tatkraft auf die Schaffung unseres eigenen monumentalen Bauwerkes umzulenken. Im schlimmsten Fall könnten wir stattdessen unserem Nachbarn [interesting_province.GetName] auch einfach abnehmen."
+ gw_not_existing.flavor.2.a:0 "Wir haben andere Prioritäten. Das ist unserer Aufmerksamkeit nicht würdig!"
+ gw_not_existing.flavor.2.b:0 "Versichert dem Volk, dass wir wertschätzen sollten, was wir haben."
+ gw_not_existing.flavor.2.c:0 "Ich bin mir ziemlich sicher, dass das uns gehört ..."
+

@@ -1,0 +1,80 @@
+﻿l_russian:
+ OUTLINER_SHOWHIDE_TOOLTIP:1 "#T Активация планировщика#!\nПланировщик обеспечивает быстрый доступ к различным важным элементам (ваши армии, флотилии, бои, неблагонадёжные персонажи и многое другое) и позволяет просмотреть информацию об их статусе."
+ OUTLINER_SETTINGS:0 "#T Конфигурация планировщика#!\nОткрывает меню, которое позволяет вам выбрать желаемую конфигурацию вашего планировщика."
+ OUTLINER_CATEGORY_PLAYER_NAVIES:0 "Флоты под контролем"
+ OUTLINER_CATEGORY_PLAYER_ARMIES:0 "Армии под контролем"
+ OUTLINER_CATEGORY_AUTOMATED_NAVIES:0 "Флотилии ИИ"
+ OUTLINER_CATEGORY_AUTOMATED_ARMIES:0 "Армии ИИ"
+ OUTLINER_CATEGORY_PROVINCIAL_ARMIES:0 "Провинц. армии"
+ OUTLINER_CATEGORY_DISLOYAL_ARMIES:0 "Неблагонадёжные армии"
+ OUTLINER_CATEGORY_FAVORITE_CHARACTERS:0 "Избранные персонажи"
+ OUTLINER_CATEGORY_PLAYER_NAVIES_TOOLTIP:0 "Это флотилии под вашим непосредственным контролем."
+ OUTLINER_CATEGORY_PLAYER_ARMIES_TOOLTIP:0 "Это армии под вашим непосредственным контролем."
+ OUTLINER_CATEGORY_AUTOMATED_NAVIES_TOOLTIP:0 "Эти флотилии получили цели от ИИ."
+ OUTLINER_CATEGORY_AUTOMATED_ARMIES_TOOLTIP:0 "Эти армии получили цели от ИИ."
+ OUTLINER_CATEGORY_PROVINCIAL_ARMIES_TOOLTIP:0 "Эти армии назначены в провинцию и не могут её покинуть."
+ OUTLINER_CATEGORY_DISLOYAL_ARMIES_TOOLTIP:0 "Сухопутные войска, полководцы которых стали неблагонадёжны, действуют по своему усмотрению."
+ OUTLINER_CATEGORY_FAVORITE_CHARACTERS_TOOLTIP:0 "Вы пометили этих персонажей как #Y избранных#!."
+
+ OUTLINER_CATEGORY_ARMIES:0 "Сухопутные войска"
+ OUTLINER_CATEGORY_ARMIES_TOOLTIP:0 "Сухопутные войска."
+ OUTLINER_CATEGORY_NAVIES:0 "Флот"
+ OUTLINER_CATEGORY_NAVIES_TOOLTIP:0 "Флот."
+ OUTLINER_ITEM_UNIT:1 "[UNIT.GetTooltip]\n[UNIT.GetLocation.GetName|Y]"
+
+ OUTLINER_CATEGORY_COMBATS:0 "Сражения"
+ OUTLINER_CATEGORY_COMBATS_TOOLTIP:0 "Сражения."
+ OUTLINER_ITEM_COMBAT_TOOLTIP:0 "[COMBAT.GetName]."
+  
+ OUTLINER_CATEGORY_SIEGES_OFFENSIVE:0 "Осаждаем мы"
+ OUTLINER_CATEGORY_SIEGES_OFFENSIVE_TOOLTIP:0 "Осаждаем мы."
+ OUTLINER_CATEGORY_SIEGES_DEFENSIVE:0 "Осаждают нас"
+ OUTLINER_CATEGORY_SIEGES_DEFENSIVE_TOOLTIP:0 "Осаждают нас."
+ OUTLINER_ITEM_SIEGE_TOOLTIP:1 "#T [SIEGE.GetName]#!\n$DATA$."
+
+ OUTLINER_CATEGORY_DISLOYAL_CHARACTERS:0 "Неблагонадёжные"
+ OUTLINER_CATEGORY_DISLOYAL_CHARACTERS_TOOLTIP:0 "Эти персонажи неблагонадёжны или стоят на пороге утраты верности."
+ OUTLINER_ITEM_DISLOYAL_CHARACTER_TOOLTIP:3 "#T [CHARACTER.GetName]#!\n[CHARACTER.GetRelevantDescription]\n[CHARACTER.GetLoyaltyNonTitleToolTip]"
+  
+ OUTLINER_CATEGORY_CONSTRUCTIONS_MILITARY:0 "Создание подразделений"
+ OUTLINER_CATEGORY_CONSTRUCTIONS_MILITARY_TOOLTIP:0 "Создание подразделений."
+ OUTLINER_CATEGORY_CONSTRUCTIONS_BUILDINGS:0 "Строительство зданий"
+ OUTLINER_CATEGORY_CONSTRUCTIONS_BUILDINGS_TOOLTIP:0 "Строительство зданий."
+ OUTLINER_ITEM_CONSTRUCTION_DAYS_LEFT:0 "$DAYS|0$ дн."
+ OUTLINER_ITEM_CONSTRUCTION_DAYS_LEFT_QUEUED:0 "$DAYS$ дн. (+$QUEUED$)"
+ 
+ OUTLINER_CATEGORY_PROVINCEMODIFIER:0 "Активность на территории"
+ OUTLINER_CATEGORY_PROVINCEMODIFIER_TOOLTIP:0 "Текущее строительство городов и метрополий, а также ваши попытки распространить цивилизацию."
+ 
+ OUTLINER_CATEGORY_ACTIVE_DIPLOMACY:0 "Активная дипломатия"
+ OUTLINER_CATEGORY_DIPLOMACY_TOOLTIP:0 "Все наши активные дипломатические задачи."
+ INTEGRATION_TEXT_OUTLINER:0 "$CURR|Y$/$NEED$"
+ INTEGRATE_OUTLINER_TT:1 "Интеграция продвигается на $SPEED|+=/$ каждый месяц по причине:\n$WHY$\nЗавершение интеграции ожидается к $WHEN|Y$."
+
+ CLAIM_TEXT_OUTLINER:0 "$PERC|Y2%$"
+ CLAIM_OUTLINER_TT:1 "Ежемесячно фабрикация претензии продвигается на $SPEED|+=/%$ по причине:\n$WHY$\nЗавершение процесса ожидается к $WHEN|Y$."
+
+ 
+ OUTLINER_CATEGORY_ACTIVE_WARS:0 "Текущие войны"
+ OUTLINER_CATEGORY_ACTIVE_WARS_TOOLTIP:1 "Войны, которые мы ведем на данный момент."
+ OUTLINER_ITEM_WAR:0 "[WAR.GetName]"
+  
+ OUTLINER_CATEGORY_HUMAN_PLAYERS:0 "Игроки-люди"
+ OUTLINER_CATEGORY_HUMAN_PLAYERS_TOOLTIP:0 "Игроки-люди."
+ OUTLINER_ITEM_HUMAN_PLAYER_TOOLTIP:0 "$NAME$ ($USER$) играет за державу @[COUNTRY.GetTag]! [COUNTRY.GetName]."
+ OUTLINER_ITEM_HUMAN_PLAYER_OBSERVER_TOOLTIP:0 "$NAME$ ($USER$) играет за наблюдателя."
+ 
+ OUTLINER_CATEGORY_DISLOYAL_STATES:0 "Нелояльные провинции"
+ OUTLINER_CATEGORY_DISLOYAL_STATES_TOOLTIP:0 "Эти провинции нелояльны или стоят на пороге утраты верности."
+ OUTLINER_ITEM_DISLOYAL_STATE_TOOLTIP:0 "[STATE.GetLoyaltyTooltip]"
+ 
+ OUTLINER_CATEGORY_STATE_INFRASTRUCTURE:0 "Инвестиции в провинции"
+ OUTLINER_CATEGORY_STATE_INFRASTRUCTURE_TOOLTIP:0 "В эти провинции в данный момент делаются инвестиции."
+ OUTLINER_ITEM_STATE_INFRASTRUCTURE_STATUS:0 "#G [STATE.GetTimedModifier('state_modification_in_progress').GetProgress|2]%#!"
+ OUTLINER_ITEM_STATE_INFRASTRUCTURE_STATUS_TOOLTIP:0 "Мы делаем инвестиции в эту провинцию."
+
+
+ OUTLINER_CATEOGRY_GREAT_WORK:0 "Чудеса света"
+ OUTLINER_CATEOGRY_GREAT_WORK_TOOLTIP:0 "Чудеса света"
+ OUTLINER_GREAT_WORKS_EVENT_CONSTRUCTION:0 "Строится"
+ OUTLINER_GREAT_WORK_STATUS_HALTED:0 "#R Приостановлено#!"

@@ -1,0 +1,6 @@
+﻿l_french:
+ Johan_event.1.t:0 "Le titre à Jojo"
+ Johan_event.1.d:0 "[ROOT.Char.GetName] a [ROOT.Char.GetAge] ans et vit en [ROOT.Char.GetCountry.GetName]"
+ Johan_event.1.a:0 "C'est parti mon kiki !"
+ animated_text_effect:0 "À [ROOT.GetProvince.GetName], qu'est-ce qu'on s'emm..."
+ 

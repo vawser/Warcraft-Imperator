@@ -1,0 +1,16 @@
+﻿l_german:
+ END_GAME_VIEW_LOSING_TITLE:0 "Game Over"
+ END_GAME_VIEW_LOSING_TEXT:0 "Die glorreiche Ära von [COUNTRY.GetName] fand am $DATE$ ein schmachvolles Ende durch die Hand von [TARGET_COUNTRY.GetRuler.GetName] und dem [TARGET_COUNTRY.GetAdjective]en Volk.\n\nIm Laufe der Zeit wird unser stolzes Volk in der Geschichte verloren gehen und wir werden nur als Randnotiz in den epischen Gedichten der Erfolge unseres Feindes erwähnt werden."
+  
+ END_GAME_VIEW_SURVIVING_TITLE:1 "Ein geringfügiger Anhang der Geschichtsschreibung"
+ END_GAME_VIEW_SURVIVING_TEXT:1 "Unsere stolze Nation überlebte Jahrhunderte voller Bemühungen, Krieg und Widrigkeit, und dennoch erreichte das [COUNTRY.GetAdjective]e Volk wenig Bedeutsames. In einer Welt voller gigantischer Zivilisationen und Kämpfe sind wir nichts weiter als eine Randnotiz."
+  
+ END_GAME_VIEW_IMPERIAL_GLORY_TITLE:0 "Ein Imperium der Ewigkeit"
+ END_GAME_VIEW_IMPERIAL_GLORY_TEXT:1 "Das [COUNTRY.GetAdjective]e Volk hat ein Reich errichtet, das als Höchstes unter seinesgleichen in Erinnerung bleiben wird. Trotz stetiger Mühen gedeiht [COUNTRY.GetName] prächtig und wird dies sicher auf absehbare Zeit weiterhin tun."
+  
+ END_GAME_VIEW_GREATEST_EMPIRE_TITLE:0 "Das größte Reich in der Geschichte"
+ END_GAME_VIEW_GREATEST_EMPIRE_TEXT:1 "Das [COUNTRY.GetAdjective]e Volk sollte von den Göttern selbst bejubelt werden, denn das Reich, das es errichtet hat, übertrifft sogar das Alexanders des Großen.\n\nWir werden nicht nur als Eroberer in die Geschichtsbücher eingehen, sondern als Überbringer von Zivilisation und Wahrheit an alle Enden der Welt."
+ 
+ OBSERVE:0 "Im Zuschauermodus fortfahren"
+ CONTINUE_PAST_END_DATE:0 "Weiterspielen (Errungenschaften sind deaktiviert)"
+ 

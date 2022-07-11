@@ -1,0 +1,123 @@
+﻿l_french:
+ ### Basic Party Stuff
+ # Optimates
+ optimates_party:0 "Optimates"
+ optimates_party_description:0 "Les optimates sont l'élite du pays, des sénateurs riches et puissants qui veulent se répartir entre eux le pouvoir au sein de la République plutôt sans laisser le petit peuple décider des lois.\n\nIls approuvent les changements faits en faveur des grandes familles et des puissants, et regardent avec dédain les parvenus populistes."
+ optimates_party_influence:1 "Approbation mensuelle des optimates"
+ monthly_optimates_party_conviction:0 "Adhésion mensuelle aux optimates"
+
+ # Populares
+ populares_party:0 "Populares"
+ populares_party_description:0 "Les populares sont les sénateurs œuvrant pour l'homme du commun, ou prétendant à tout le moins le faire pour assurer leur popularité et faire valoir leur programme politique. Les généraux populaires et politiciens corrompus ont souvent tendance à rejoindre ce parti, car il leur permet de s'attaquer aux traditions anciennes qui pourraient empêcher leur propre ascension.\n\nIls approuvent tout ce qui permet de limiter l'influence des optimates, et sont en désaccord avec tout ce qui renforce le contrôle des élites sur la société."
+ populares_party_influence:1 "Approbation mensuelle des populares"
+ monthly_populares_party_conviction:0 "Adhésion mensuelle aux populares"
+
+ # Boni
+ boni_party:0 "Boni"
+ boni_party_description:0 "Les boni sont des aristocrates fermement convaincus de l'utilité des traditions anciennes, ne participant pas aux conflits de classes comme les optimates ou populares. Ils cherchent à trouver un équilibre entre les besoins des humbles et la stabilité du pays, par le biais de réformes progressives.\n\nIls approuvent les dirigeants qui font tout pour préserver la paix intérieure, et s'opposent à ce qui mettrait fin aux équilibres actuels."
+ boni_party_influence:1 "Approbation mensuelle des boni"
+ monthly_boni_party_conviction:0 "Adhésion mensuelle aux boni"
+
+ # Oligarchic
+ oligarchic_party:0 "Oligarques"
+ oligarchic_party_description:0 "Les oligarques sont les anciens nobles du pays et leurs partisans, qui aspirent à dominer la scène politique afin d'en tirer parti. En conséquence, au mieux ils tolèrent, mais souvent rejettent la participation du peuple à la vie politique car cela constituerait une menace pour leur statut."
+ oligarchic_party_influence:1 "Approbation mensuelle des oligarques"
+ monthly_oligarchic_party_conviction:0 "Adhésion mensuelle aux oligarques"
+
+ # Democratic
+ democratic_party:0 "Démocrates"
+ democratic_party_description:0 "Les démocrates sont partisans d'une répartition plus juste du pouvoir et de la participation politique dans le pays, et protègent donc les intérêts des citoyens comme des non-citoyens lorsque cela les arrange. Ils font tout pour réduire la domination des oligarques fermement implantés sur la scène politique, même si leurs motifs sont aussi souvent tortueux et leurs membres ambitieux."
+ democratic_party_influence:1 "Approbation mensuelle des démocrates"
+ monthly_democratic_party_conviction:0 "Adhésion mensuelle aux démocrates"
+
+ # Traditionalist
+ traditionalist_party:0 "Traditionalistes"
+ traditionalist_party_description:0 "Les traditionalistes ne s'intéressent généralement guère aux questions politiques qui opposent oligarques et démocrates. Ils cherchent à ne pas mécontenter les dieux, et souhaitent essentiellement protéger les traditions anciennes et les privilèges des prêtres mis à mal par les réformes politiques et les querelles."
+ traditionalist_party_influence:1 "Approbation mensuelle des traditionalistes"
+ monthly_traditionalist_party_conviction:0 "Adhésion mensuelle aux traditionalistes"
+
+ ### Empower Button ###
+ # Optimates
+ republic_button_empower_faction_loc_optimates:0 "Modifier les Assemblées"
+ republic_button_empower_faction_desc_loc_optimates:0 "Les optimates cherchent toujours à faire balancer les assemblées dans leur sens afin de s'assurer d'une plus grande influence sur la République. En changeant le nombre d'électeurs dans les différentes assemblées, les élites aristocratiques pourraient ainsi s'assurer de détenir la majorité sans avoir à lutter contre l'influence des humbles.\n\nCela peut être fait tous les 10 ans, et seulement si nous n'avons pas déjà usé de $republic_button_empower_faction_loc_populares$."
+ empowered_optimates_party_gui_mod:0 "Soutien des optimates au Sénat"
+ optimates_party_empower_button_effect_tooltip:1 "\nTous les #Y chefs des grandes familles#! vont gagner #G 5#! en @loyalty_icon!loyauté durant #Y 60#! mois.\n\n"
+ empower_button_optimates_loyalty_modifier:0 "Grandes familles favorisées par les optimates"
+
+ # Populares
+ republic_button_empower_faction_loc_populares:0 "Distribution de terres publiques"
+ republic_button_empower_faction_desc_loc_populares:0 "Les vétérans et les plus humbles au sein du peuple constituent un vivier de partisans pour les populares, qui est entretenu par les concessions occasionnelles de lopins de terre.\n\nCela peut être fait tous les 10 ans, et seulement si nous n'avons pas déjà usé de $republic_button_empower_faction_loc_optimates$."
+ empowered_populares_party_gui_mod:0 "Soutien des populares au Sénat"
+ populares_party_empower_button_effect_tooltip:1 "En échange de notre soutien, la prochaine question traitée par le Sénat sera mise au vote par les #Y populares#! à l'Assemblée, ce qui permettra de se passer de l'approbation du Sénat.\n\n"
+ senatorial_bypass_spent_tt:0 "Cette question ne sera PAS amenée devant le Sénat puisque les #Y populares#! la feront étudier par l'Assemblée en lieu et place.\n\n"
+# populares_party_empower_button_effect_tooltip:0 "#Y [THIS.GetProvince.GetName]#! receives #Y 5#! [player.GetReligion.GetName] [player.GetPrimaryCulture.GetName] Freemen.\n\n"
+
+ # Boni
+ republic_button_empower_faction_loc_boni:0 "Soutien aux traditions [SCOPE.GetRootScope.GetCharacter.GetEmployer.GetPrimaryCulture.GetName]"
+ republic_button_empower_faction_desc_loc_boni:1 "Les boni sont connus pour rejeter les modes et idées novatrices en faveur des anciennes. Ils considèrent les usages [SCOPE.GetRootScope.GetCharacter.GetEmployer.GetPrimaryCulture.GetName] antiques comme un modèle absolu. Ils mettent régulièrement à disposition de ceux qui partagent leur vue une part de leur fortune, ce qui est souvent populaire parmi les humbles qui les considèrent comme des philanthropies.\n\nCela peut être fait tous les 10 ans."
+ empowered_boni_party_gui_mod:0 "Soutien des boni"
+
+ # Oligarchs
+ republic_button_empower_faction_loc_oligarchic:0 "Manipuler les candidats"
+ republic_button_empower_faction_desc_loc_oligarchic:0 "Les oligarques cherchent en premier lieu à protéger leur propre statut et la puissance qu'il leur confère au sein de la société [SCOPE.GetRootScope.GetCharacter.GetEmployer.GetAdjective]. Ils n'hésitent pas à recourir à des méthodes pour le moins douteuses pour défendre ou faire avancer leurs intérêts.\n\nCela peut être fait tous les 10 ans, et seulement si nous n'avons pas déjà usé de $republic_button_empower_faction_loc_democratic$."
+ empowered_oligarchic_party_gui_mod:0 "Domination oligarchique"
+ oligarchs_party_empower_button_effect_tooltip:0 "$optimates_party_empower_button_effect_tooltip$"
+ empower_button_oligarchs_loyalty_modifier:0 "Grandes familles favorisées par les oligarques"
+
+# Democrats
+ republic_button_empower_faction_loc_democratic:0 "Défendre des réformes législatives"
+ republic_button_empower_faction_desc_loc_democratic:1 "Les démocrates sont fermement convaincus que protéger les droits des citoyens, mais aussi du reste de la population, est indispensable pour préserver l'équilibre politique et l'équité – pour le plus grand contentement du peuple [SCOPE.GetRootScope.GetCharacter.GetEmployer.GetAdjective] et de ceux qui n'ont pas le droit de vote.\n\nCela peut être fait une fois tous les 10 ans, et seulement si nous n'avons pas déjà usé de $republic_button_empower_faction_loc_oligarchic$."
+ empowered_democratic_party_gui_mod:0 "Domination démocrate"
+ democrats_party_empower_button_effect_tooltip:1 "Cette réforme permettrait que jusqu'à [SCOPE.ScriptValue('scripted_gui_country_rank_svalue')|0] #Y [player.GetReligion.GetName]#! #Y [player.GetPrimaryCulture.GetName]#! soient promus #Y citoyens#!, mais dans aucune cité du pays les #Y [player.GetReligion.GetName]#! #Y [player.GetPrimaryCulture.GetName]#! ne sont majoritaires.\n\n"
+
+# Traditionalist
+ republic_button_empower_faction_loc_traditionalist:0 "Défense des privilèges religieux"
+ republic_button_empower_faction_desc_loc_traditionalist:1 "Les traditionalistes cherchent à protéger les antiques traditions de nos aïeux et veillent à la vitalité des institutions religieuses [SCOPE.GetRootScope.GetCharacter.GetEmployer.GetReligion.GetName] afin de défendre leurs intérêts et de satisfaire leurs partisans.\n\nCela peut être fait tous les 10 ans."
+ empowered_traditonalist_party_gui_mod:0 "Traditionalistes apaisés"
+
+ ### Other Tooltips
+ price_democratic_party_action:0 "$republic_button_empower_faction_loc_democratic$"
+ price_optimates_party_action:0 "$republic_button_empower_faction_loc_optimates$"
+ optimates_disapproval_tooltip:0 "#R Les optimates vont désapprouver cela. (Désapprobation mensuelle)#!"
+ populares_disapproval_tooltip:0 "#R Les populares vont désapprouver cela. (Désapprobation mensuelle)#!"
+ oligarchic_disapproval_tooltip:0 "#R Les oligarques vont désapprouver cela. (Désapprobation mensuelle)#!"
+ democratic_disapproval_tooltip:0 "#R Les démocrates vont désapprouver cela. (Désapprobation mensuelle)#!"
+ ### Approval Modifiers ###
+ # Ruler Modifiers
+ APPROVAL_MODIFIER_RULER_TOOLTIP:1 "Membre des [actor.GetParty.GetName] (#Y [SCOPE.GetRootScope.GetCountry.GetRuler.GetName]#!) est [SCOPE.GetRootScope.GetCountry.GetRulerTitle] de [SCOPE.GetRootScope.GetCountry.GetName] : $VALUE|+=$"
+ APPROVAL_MODIFIER_CO_RULER_TOOLTIP:1 "Membre des [actor.GetParty.GetName] (#Y [SCOPE.GetRootScope.GetCountry.GetCoRuler.GetName]#!) est [SCOPE.GetRootScope.GetCountry.GetCoRulerTitle] de [SCOPE.GetRootScope.GetCountry.GetName] : $VALUE|+=$"
+ APPROVAL_MODIFIER_RULER_PARTY_LEADER_TOOLTIP:0 "Le chef des [actor.GetParty.GetName][actor.Custom('approval_modifier_co_ruler_party_member_loc')] est [SCOPE.GetRootScope.GetCountry.GetRulerTitle] de [SCOPE.GetRootScope.GetCountry.GetName] : $VALUE|+=$"
+ APPROVAL_MODIFIER_OTHER_RULER_TOOLTIP:0 "Un membre des [SCOPE.GetRootScope.GetCountry.GetRuler.GetParty.GetName] (#Y [SCOPE.GetRootScope.GetCountry.GetRuler.GetName]#!) est [SCOPE.GetRootScope.GetCountry.GetRulerTitle] de [SCOPE.GetRootScope.GetCountry.GetName] : $VALUE|+=$"
+ APPROVAL_MODIFIER_OTHER_RULER_PARTY_LEADER_TOOLTIP:0 "Le chef des [SCOPE.GetRootScope.GetCountry.GetRuler.GetParty.GetName] (#Y [SCOPE.GetRootScope.GetCountry.GetRuler.GetName]#!) est [SCOPE.GetRootScope.GetCountry.GetRulerTitle] de [SCOPE.GetRootScope.GetCountry.GetName] : $VALUE|+=$"
+ APPROVAL_MODIFIER_CO_OTHER_RULER_TOOLTIP:0 "Aucun des [SCOPE.GetRootScope.GetCountry.GetRulerTitle] de [SCOPE.GetRootScope.GetCountry.GetName] n'est membre des [actor.GetParty.GetName] : $VALUE|+=$"
+ # Other Modifiers
+ APPROVAL_MODIFIER_SCORNED_FAMILY:0 "Familles méprisées de [SCOPE.GetRootScope.GetCountry.GetName] : $VALUE|+=$"
+ APPROVAL_MODIFIER_GRATEFUL_FAMILY:0 "Familles reconnaissantes de [SCOPE.GetRootScope.GetCountry.GetName] : $VALUE|+=$"
+ APPROVAL_MODIFIER_PEACE:0 "[SCOPE.GetRootScope.GetCountry.GetName] en paix : $VALUE|+=$"
+ APPROVAL_MODIFIER_WAR:0 "[SCOPE.GetRootScope.GetCountry.GetName] en guerre : $VALUE|+=$"
+ APPROVAL_MODIFIER_WAR_EXHAUSTION:0 "[SCOPE.GetRootScope.GetCountry.GetName] souffre de @war_exhaustion!lassitude de guerre : $VALUE|+=$"
+ APPROVAL_MODIFIER_HIGH_STABILITY:0 "[SCOPE.GetRootScope.GetCountry.GetName] a une @stability!stabilité élevée : $VALUE|+=$"
+ APPROVAL_MODIFIER_LOW_STABILITY:0 "[SCOPE.GetRootScope.GetCountry.GetName] a une @stability!stabilité faible : $VALUE|+=$"
+ APPROVAL_MODIFIER_MAJOR_CHARACTER_IMPRISON:0 "#Y [SCOPE.ScriptValue('approval_modifier_major_character_imprison_svalue')|0]#! [SCOPE.GetRootScope.GetCountry.Custom('approval_modifier_major_character_imprison_loc')] majeur emprisonné : $VALUE|+=$"
+ APPROVAL_MODIFIER_MINOR_CHARACTER_IMPRISON:0 "#Y [SCOPE.ScriptValue('approval_modifier_minor_character_imprison_svalue')|0]#! [SCOPE.GetRootScope.GetCountry.Custom('approval_modifier_minor_character_imprison_loc')] secondaire emprisonné : $VALUE|+=$"
+ APPROVAL_MODIFIER_STACKED_PANTHEON:0 "Toutes les divinités du panthéon appartiennent à la religion officielle (#Y [SCOPE.GetRootScope.GetCountry.GetReligion.GetName]#!) : $VALUE|+=$"
+ APPROVAL_MODIFIER_MINOR_MIXED_PANTHEON:0 "Le panthéon compte des divinités étrangères (non #Y [SCOPE.GetRootScope.GetCountry.GetReligion.GetName]#!) : $VALUE|+=$"
+ APPROVAL_MODIFIER_MINOR_FAMILY_RULER:0 "Le [SCOPE.GetRootScope.GetCountry.GetRulerTitle] (#Y [SCOPE.GetRootScope.GetCountry.GetRuler.GetName]#!) n'appartient pas à une grande famille : $VALUE|+=$"
+ APPROVAL_MODIFIER_GREAT_FAMILY_RULER:0 "Le [SCOPE.GetRootScope.GetCountry.GetRulerTitle] (#Y [SCOPE.GetRootScope.GetCountry.GetRuler.GetName]#!) appartient à une grande famille (#Y [SCOPE.GetRootScope.GetCountry.GetRuler.GetFamily.GetName]#!) : $VALUE|+=$"
+ APPROVAL_MODIFIER_TYRANNY_POSITIVE:0 "[SCOPE.GetRootScope.GetCountry.GetName] est @tyranny!tyrannique : $VALUE|+=$"
+ APPROVAL_MODIFIER_TYRANNY_NEGATIVE:0 "$APPROVAL_MODIFIER_TYRANNY_POSITIVE$"
+ APPROVAL_MODIFIER_IRRELIGIOUS_LEADER:0 "Le [SCOPE.GetRootScope.GetCountry.GetRulerTitle] (#Y [SCOPE.GetRootScope.GetCountry.GetRuler.GetName]#!) est impie : $VALUE|+=$"
+ APPROVAL_MODIFIER_CORRUPTION_POSITIVE:0 "Le [SCOPE.GetRootScope.GetCountry.GetRulerTitle] (#Y [SCOPE.GetRootScope.GetCountry.GetRuler.GetName]#!) est @corruption_icon!corrompu : $VALUE|+=$"
+ APPROVAL_MODIFIER_CORRUPTION_NEGATIVE:0 "$APPROVAL_MODIFIER_CORRUPTION_POSITIVE$"
+ APPROVAL_MODIFIER_CONVERTED_CAPITAL:0 "La religion officielle (#Y [SCOPE.GetRootScope.GetCountry.GetReligion.GetName]#!) est minoritaire dans la capitale : $VALUE|+=$"
+ APPROVAL_MODIFIER_CAPITAL_CULTURE:0 "La culture dominante (#Y [SCOPE.GetRootScope.GetCountry.GetPrimaryCulture.GetName]#!) est minoritaire dans la capitale : $VALUE|+=$"
+ APPROVAL_MODIFIER_PARTY_LEADER_GREAT_FAMILY:0 "Tous les chefs de partis sont membres d'une grande famille : $VALUE|+=$"
+ APPROVAL_MODIFIER_PARTY_LEADER_MINOR_FAMILY:0 "N'importe quel chef de parti est membre d'une famille mineure : $VALUE|+=$"
+ APPROVAL_MODIFIER_LEADER_WRONG_RELIGION:0 "Le [SCOPE.GetRootScope.GetCountry.GetRulerTitle] n'est pas de la culture dominante (#Y [SCOPE.GetRootScope.GetCountry.GetPrimaryCulture.GetName]#!) : $VALUE|+=$"
+ APPROVAL_MODIFIER_LEADER_WRONG_CULTURE:0 "Le [SCOPE.GetRootScope.GetCountry.GetRulerTitle] ne pratique pas la religion officielle (#Y [SCOPE.GetRootScope.GetCountry.GetReligion.GetName]#!) : $VALUE|+=$"
+ # Custom Loc
+ approval_modifier_co_ruler_party_member_loc_1:0 " (#Y [ROOT.GetCharacter.GetEmployer.GetRuler.GetName]#!)"
+ approval_modifier_co_ruler_party_member_loc_2:0 " (#Y [ROOT.GetCharacter.GetEmployer.GetCoRuler.GetName]#!)"
+ approval_modifier_co_ruler_party_member_loc_fallback:0 " "
+ approval_modifier_character_imprison_loc_1:0 "personnage"
+ approval_modifier_character_imprison_loc_2:0 "personnages"

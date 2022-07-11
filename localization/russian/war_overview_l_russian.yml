@@ -1,0 +1,24 @@
+﻿l_russian:
+ WAR_OVERVIEW_SUE_FOR_PEACE:0 "Предложить мир"
+ WAR_OVERVIEW_SUE_FOR_PEACE_TOOLTIP:0 "Предложить мир"
+ WARGOAL_IS_CONQUEST:0 "#T Военная цель принудительно достигнута#!\n"
+ WARGOAL_IS_SAFE:0 "#T Военная цель защищена#!\n"
+
+ WAR_OVERVIEW_DATE_TOOLTIP:0 "Война началась [WarOverview.GetWar.GetStartDate]"
+ WAR_OVERVIEW_WAR_GOAL_TOOLTIP:0 "Эту войну начала держава [WarOverview.GetWar.GetOriginalAttacker.GetName] против державы [WarOverview.GetWar.GetOriginalDefender.GetName].\n[WarOverview.GetWar.GetWarGoal.GetDescription]"
+ 
+ WAR_OVERVIEW_WINLOSE_VS:1 "@[COUNTRY.GetFlag]! $NUM$ — @[TARGET_COUNTRY.GetFlag]! $TARGET_NUM$"
+ WAR_OVERVIEW_RESULT_WIN:0 "#G Победа#!"
+ WAR_OVERVIEW_RESULT_LOSS:0 "#R Поражение#!"
+
+ WAR_OVERVIEW_BLOCKADED_PERCENT_TOOLTIP:0 "$NUM$ из $MAX$ портов находятся в блокаде в державе @[COUNTRY.GetFlag]! [COUNTRY.GetName]"
+
+ WAR_OVERVIEW_BATTLES_WON:1 "Выиграно боёв"
+ WAR_OVERVIEW_BATTLES_LOST:1 "Выиграно боёв"
+ 
+ WAR_OVERVIEW_LOSSES_FRIENDLY_LAND_TOOLTIP:0 "#T Потери нашей армии#!"
+ WAR_OVERVIEW_LOSSES_FRIENDLY_NAVAL_TOOLTIP:0 "#T Наши морские потери#!"
+ WAR_OVERVIEW_LOSSES_ENEMY_LAND_TOOLTIP:0 "#T Потери противника на суше#!"
+ WAR_OVERVIEW_LOSSES_ENEMY_NAVAL_TOOLTIP:0 "#T Потери противника на море#!"
+ WAR_OVERVIEW_LOSSES_TOOLTIP_LINE:0 "[BATTLE_SIDE.GetLosses|Y0*] потеряно в битве [BATTLE_RESULT.GetName]"
+ GREAT_CONQUEST_MAPTEXT:0 "@aggressive_expansion! $AE$\n@war_exhaustion! $EXHAUSTION$"

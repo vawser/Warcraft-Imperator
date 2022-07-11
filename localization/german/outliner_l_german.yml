@@ -1,0 +1,80 @@
+﻿l_german:
+ OUTLINER_SHOWHIDE_TOOLTIP:1 "#T Schnellauswahl umschalten#!\nDie Schnellauswahl enthält Schnellzugriffe und Statusinformationen zu wichtigen Dingen wie Armeen, Flotten, Gefechte, illoyale Charaktere und vieles mehr."
+ OUTLINER_SETTINGS:0 "#T Schnellauswahl-Einstellungen#!\nÖffnet ein Menü, in dem Ihr konfigurieren könnt, was in Eurer Schnellauswahl angezeigt werden soll."
+ OUTLINER_CATEGORY_PLAYER_NAVIES:0 "Kontrollierte Flotten"
+ OUTLINER_CATEGORY_PLAYER_ARMIES:0 "Kontrollierte Armeen"
+ OUTLINER_CATEGORY_AUTOMATED_NAVIES:0 "Automatische Flotten"
+ OUTLINER_CATEGORY_AUTOMATED_ARMIES:0 "Automatische Armeen"
+ OUTLINER_CATEGORY_PROVINCIAL_ARMIES:0 "Provinzarmeen"
+ OUTLINER_CATEGORY_DISLOYAL_ARMIES:0 "Illoyale Armeen"
+ OUTLINER_CATEGORY_FAVORITE_CHARACTERS:0 "Favorisierte Charaktere"
+ OUTLINER_CATEGORY_PLAYER_NAVIES_TOOLTIP:0 "Dies sind die Flotten, die Ihr direkt unter Kontrolle habt."
+ OUTLINER_CATEGORY_PLAYER_ARMIES_TOOLTIP:0 "Dies sind die Armeen, die Ihr direkt unter Kontrolle habt."
+ OUTLINER_CATEGORY_AUTOMATED_NAVIES_TOOLTIP:0 "Dies sind die Flotten, denen Ihr KI-Ziele zugewiesen habt."
+ OUTLINER_CATEGORY_AUTOMATED_ARMIES_TOOLTIP:0 "Dies sind die Armeen, denen Ihr KI-Ziele zugewiesen habt."
+ OUTLINER_CATEGORY_PROVINCIAL_ARMIES_TOOLTIP:0 "Diese Armeen sind einer Provinz zugeordnet und können diese Provinz nicht verlassen."
+ OUTLINER_CATEGORY_DISLOYAL_ARMIES_TOOLTIP:0 "Diese von einem Kommandanten befehligten Armeen sind illoyal und verfolgen ihre eigenen Ziele."
+ OUTLINER_CATEGORY_FAVORITE_CHARACTERS_TOOLTIP:0 "Dies sind Charaktere, die als #Y Favoriten#! markiert wurden."
+
+ OUTLINER_CATEGORY_ARMIES:0 "Armeen"
+ OUTLINER_CATEGORY_ARMIES_TOOLTIP:0 "Armeen"
+ OUTLINER_CATEGORY_NAVIES:0 "Flotten"
+ OUTLINER_CATEGORY_NAVIES_TOOLTIP:0 "Flotten"
+ OUTLINER_ITEM_UNIT:1 "[UNIT.GetTooltip]\nIn [UNIT.GetLocation.GetName|Y]"
+
+ OUTLINER_CATEGORY_COMBATS:0 "Schlachten"
+ OUTLINER_CATEGORY_COMBATS_TOOLTIP:0 "Schlachten"
+ OUTLINER_ITEM_COMBAT_TOOLTIP:0 "[COMBAT.GetName]"
+  
+ OUTLINER_CATEGORY_SIEGES_OFFENSIVE:0 "Unsere Belagerungen"
+ OUTLINER_CATEGORY_SIEGES_OFFENSIVE_TOOLTIP:0 "Unsere Belagerungen"
+ OUTLINER_CATEGORY_SIEGES_DEFENSIVE:0 "Feindliche Belagerungen"
+ OUTLINER_CATEGORY_SIEGES_DEFENSIVE_TOOLTIP:0 "Feindliche Belagerungen"
+ OUTLINER_ITEM_SIEGE_TOOLTIP:1 "#T [SIEGE.GetName]#!\n$DATA$"
+
+ OUTLINER_CATEGORY_DISLOYAL_CHARACTERS:0 "Illoyale Charaktere"
+ OUTLINER_CATEGORY_DISLOYAL_CHARACTERS_TOOLTIP:0 "Dies sind die Charaktere, die derzeit nicht loyal sind oder kurz davor sind, illoyal zu werden."
+ OUTLINER_ITEM_DISLOYAL_CHARACTER_TOOLTIP:3 "#T [CHARACTER.GetName]#!\n[CHARACTER.GetRelevantDescription]\n[CHARACTER.GetLoyaltyNonTitleToolTip]"
+  
+ OUTLINER_CATEGORY_CONSTRUCTIONS_MILITARY:0 "Einheiten im Bau"
+ OUTLINER_CATEGORY_CONSTRUCTIONS_MILITARY_TOOLTIP:0 "Einheiten im Bau"
+ OUTLINER_CATEGORY_CONSTRUCTIONS_BUILDINGS:0 "Gebäude im Bau"
+ OUTLINER_CATEGORY_CONSTRUCTIONS_BUILDINGS_TOOLTIP:0 "Gebäude im Bau"
+ OUTLINER_ITEM_CONSTRUCTION_DAYS_LEFT:0 "$DAYS|0$ Tag(e)"
+ OUTLINER_ITEM_CONSTRUCTION_DAYS_LEFT_QUEUED:0 "$DAYS$ Tag(e) (+$QUEUED$)"
+ 
+ OUTLINER_CATEGORY_PROVINCEMODIFIER:0 "Territorialaktivitäten"
+ OUTLINER_CATEGORY_PROVINCEMODIFIER_TOOLTIP:0 "Der aktuelle Aufbau von Städten und Metropolen und Eure aktuellen Zivilisierungsbemühungen."
+ 
+ OUTLINER_CATEGORY_ACTIVE_DIPLOMACY:0 "Aktive Diplomatie"
+ OUTLINER_CATEGORY_DIPLOMACY_TOOLTIP:0 "Aktive Diplomatie, die wir derzeit ausführen."
+ INTEGRATION_TEXT_OUTLINER:0 "$CURR|Y$/$NEED$"
+ INTEGRATE_OUTLINER_TT:1 "Die Integration schreitet monatlich um $SPEED|+=/$ voran, aufgrund von:\n$WHY$\nEs wird erwartet, dass die Integration am $WHEN|Y$ beendet ist."
+
+ CLAIM_TEXT_OUTLINER:0 "$PERC|Y2%$"
+ CLAIM_OUTLINER_TT:1 "Die Anspruchfingierung schreitet monatlich um $SPEED|+=/%$ voran, aufgrund von:\n$WHY$\nEs wird erwartet, dass der Anspruch am $WHEN|Y$ fingiert sein wird."
+
+ 
+ OUTLINER_CATEGORY_ACTIVE_WARS:0 "Aktive Kriege"
+ OUTLINER_CATEGORY_ACTIVE_WARS_TOOLTIP:1 "Dies sind die Kriege, in denen wir momentan kämpfen"
+ OUTLINER_ITEM_WAR:0 "[WAR.GetName]"
+  
+ OUTLINER_CATEGORY_HUMAN_PLAYERS:0 "Menschliche Spieler"
+ OUTLINER_CATEGORY_HUMAN_PLAYERS_TOOLTIP:0 "Menschliche Spieler"
+ OUTLINER_ITEM_HUMAN_PLAYER_TOOLTIP:0 "$NAME$ ($USER$) spielt als @[COUNTRY.GetFlag]! [COUNTRY.GetName]"
+ OUTLINER_ITEM_HUMAN_PLAYER_OBSERVER_TOOLTIP:0 "$NAME$ ($USER$) spielt im Zuschauermodus"
+ 
+ OUTLINER_CATEGORY_DISLOYAL_STATES:0 "Illoyale Provinzen"
+ OUTLINER_CATEGORY_DISLOYAL_STATES_TOOLTIP:0 "Dies sind die Provinzen, die derzeit illoyal sind oder kurz davor stehen, illoyal zu werden."
+ OUTLINER_ITEM_DISLOYAL_STATE_TOOLTIP:0 "[STATE.GetLoyaltyTooltip]"
+ 
+ OUTLINER_CATEGORY_STATE_INFRASTRUCTURE:0 "Provinz-Investitionen"
+ OUTLINER_CATEGORY_STATE_INFRASTRUCTURE_TOOLTIP:0 "Dies sind die Provinzen, in denen derzeit Gebäude gebaut werden."
+ OUTLINER_ITEM_STATE_INFRASTRUCTURE_STATUS:0 "#G [STATE.GetTimedModifier('state_modification_in_progress').GetProgress|2]%#!"
+ OUTLINER_ITEM_STATE_INFRASTRUCTURE_STATUS_TOOLTIP:0 "Wir bauen derzeit ein Gebäude in dieser Provinz."
+
+
+ OUTLINER_CATEOGRY_GREAT_WORK:0 "Weltwunder"
+ OUTLINER_CATEOGRY_GREAT_WORK_TOOLTIP:0 "Weltwunder"
+ OUTLINER_GREAT_WORKS_EVENT_CONSTRUCTION:0 "Im Bau"
+ OUTLINER_GREAT_WORK_STATUS_HALTED:0 "#R Angehalten#!"

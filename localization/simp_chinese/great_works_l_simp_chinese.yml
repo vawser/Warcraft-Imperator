@@ -1,0 +1,304 @@
+﻿l_simp_chinese:
+### GW Interface
+
+ GW_BUILD_WINDOW_DEFAULT_TITLE:0 "伟大奇观"
+ GW_SELECT_EFFECT_TT:0 "选择效果"
+ GW_BUILD_BUTTON:0 "建造伟大奇观"
+ GW_BUILD_BUTTON_TOOLTIP:0 "打开建造界面"
+ GW_CONSTRUCTION_TITLE:0 "建造概况"
+ GW_COST_LABEL_GOLD:0 "金钱花费： "
+ GW_COST_LABEL_WORK:0 "工作花费： "
+ GW_COST_LABEL_TIME:0 "时间花费： "
+ GW_COST_LABEL_WORK_RATE:0 "工作效率： "
+ GW_PRESTIGE_LABEL:0 "威望： "
+ GW_MAX_TIER_LEVEL_LABEL:0 "最大等级： "
+ GW_EFFECT_TIER_NAME:0 "等级"
+ GW_ALREADY_PRESENT_IN_PROVINCE:0 "这里已经有一座伟大奇观"
+ GW_EDIT_BUTTON:0 "变更"
+ GW_EDIT_TOOLTIP:0 "#T 编辑奇观#!\n$CHANGES$"
+ GW_EDIT_NO_CHANGE_TOOLTIP:0 "无变更"
+ GREAT_WORK_SELECT_LEADER_HEADER:0 "任命施工负责人"
+ GREAT_WORK_NO_LEADER_TT:0 "未任命负责人\n@time!修建时间：$VALUE|-=%^$"
+
+ GW_BUILD_BUTTON_REASON:0 "#T 开始修建$NAME|V$#!\n$REASONS$"
+ GW_LACKING_PRESTIGE_FOR_EFFECT:2 "@trigger_no!$EFFECT$$TIER$需要至少$EFFECT_PRESTIGE$威望。"
+ GW_LACKING_EFFECTS:0 "@trigger_no!你必须选择至少一项效果。"
+ GW_LACKING_GOLD:0 "@trigger_no!修建需要$COST|-2$@gold!"
+ GW_LACKING_GOLD_EDIT:0 "@trigger_no!该变更需要$COST|-2$@gold!"
+ GW_LACKING_BUILDING_SLOTS:0 "@trigger_no!$NAME$没有可用的建筑槽。"
+ GW_GOLD_COST:0 "$COST|+2$@gold!"
+ GW_POLITICAL_COST:0 "$COST|+$@political_influence_icon!"
+ GW_STABILITY_COST:0 "$COST|+$@stability!"
+ GW_DUPLICATE_EFFECT_SELF:0 "@trigger_no!$EFFECT$只能选择一次。"
+ GW_DUPLICATE_EFFECT_OTHER:0 "@trigger_no!$EFFECT$被另一座奇观使用。"
+
+
+ GW_LACKING_INFLUENCE_EDIT:0 "@trigger_no!该变更需要$COST|-2$政治影响力"
+
+ GW_CANNOT_CHANGE_LEADER:0 "伟大奇观的负责人在$DAYS$天以内不能变更。"
+ GW_CHARACTER_ALREADY_LEADING:0 "$NAME$已经在指挥$OTHER_WORK$的修建"
+
+ GW_REMOVE_LEADER:0 "撤销[CHARACTER.GetName]的施工负责人职位"
+ GW_ASSIGN_LEADER:0 "任命[CHARACTER.GetName]为施工负责人"
+ GW_CURRENTLY_LEADING:0 "[CHARACTER.GetName]正在负责施工"
+
+ GREAT_WORK_EFFECT:0 "$LOCATION|Y$获得以下增益：\n$EFFECTS$\n\n"
+ GREAT_WORK_EFFECT_CHANGE:0 "将$OLD_EFFECT|V$更改为$NEW_EFFECT|V$"
+ GREAT_WORK_EFFECT_ADDED:0 "添加$NEW_EFFECT|V$"
+ GREAT_WORK_EFFECT_REMOVE:0 "移除$EFFECT|V$"
+ GREAT_WORK_TT:0 "#T $NAME$#!\n$EFFECTS$"
+ GREAT_WORK_LOCATION_TT:0 "#T $NAME$#!\n位于$LOCATION|Y$\n$EFFECTS$"
+ GREAT_WORK_CONSTRUCTION_TT:0 "$NAME|Y$将于$WHEN|Y$完工。"
+ GREAT_WORK_CONSTRUCTION_ANCIENT_TT:0 "正在建造[GREAT_WORK.GetName|Y]。"
+ GREAT_WORK_CONSTRUCTION_NEVER_TT:0 "$NAME|Y$永远不会完工。"
+ GREAT_WORK_TT_PROVINCE:2 "[PROVINCE.GetName]的[PROVINCE.GetRank.GetName]拥有[GREAT_WORK.GetName|Y]奇观"
+
+ GREAT_WORK_PRESTIGE_BAR_TT:0 "#T 建造威望#!\n伟大奇观的年岁愈长，以及使用建材的品质提升，都会增加伟大奇观的建造威望。高威望能够启用更加强力的效果。 \n\n威望阈值：\n等级 I: #G 0#!\n等级 II: #G 35#!\n等级 III: #G 75#!\n等级 IV: #G 140#!\n\n当前威望：#G $PRESTIGE$#!"
+ GREAT_WORK_EFFECT_TIER_TT:0 "$LEVEL$级需要$THRESHOLD$威望"
+
+ CANCEL_OR_DESTROY_GW_CONFIRMATION_TITLE:0 "$ADJECTIVE$$NAME$"
+ CANCEL_OR_DESTROY_GW_CONFIRMATION_CANCEL_TEXT:0 "确定要取消建造$PROVINCE|Y$的$GREATWORK|Y$？你无法回收任何建造成本。"
+ CANCEL_OR_DESTROY_GW_CONFIRMATION_DESTROY_TEXT:0 "确定要摧毁$PROVINCE|Y$的$GREATWORK|Y$？你无法回收任何建筑成本。"
+
+ CANCEL_OR_DESTROY_GW_ADJECTIVE_CANCEL:0 "取消"
+ CANCEL_OR_DESTROY_GW_ADJECTIVE_DESTROY:0 "摧毁"
+
+ CANCEL_OR_DESTROY_GW_ACTION_CANCEL:0 "取消建造"
+ CANCEL_OR_DESTROY_GW_ACTION_DESTROY:0 "永久性摧毁"
+
+ CANCEL_OR_DESTROY_GW_BUTTON_CANCEL_LABEL:0 "取消建造"
+ CANCEL_OR_DESTROY_GW_BUTTON_DESTROY_LABEL:0 "摧毁伟大奇观"
+ CANCEL_OR_DESTROY_GW_BUTTON_CANCEL_TOOLTIP:0 "这项目就是个错误"
+ CANCEL_OR_DESTROY_GW_BUTTON_DESTROY_TOOLTIP:0 "拆"
+
+ GREAT_WORK_DETACH_LEADER_TITLE:0 "施工负责人 "
+ GREAT_WORK_NO_LEADER_TO_DETACH:0 "未任命负责人"
+ GREAT_WORK_LEADER_DETACH_TT:1 "撤销[CHARACTER.GetName]的负责人职位"
+ CANT_LEAD_CONSTRUCTION:1 "[CHARACTER.GetName]无法指挥这项建造\n$REASON$"
+ GW_CONSTRUCTION_LEADER_TITLE:0 "$SHORT_TITLE$：$GW_NAME$"
+
+ GW_ALERT_NO_LEADER:0 "#T 缺少施工负责人#!\n以下伟大奇观缺少施工负责人"
+ GW_ALERT_NO_GOODS:0 "#T 缺少贸易品#!\n以下问题阻碍了施工"
+ GW_ALERT_NO_GOODS_DETAIL:0 "$NAME$需要$GOODS$"
+ GW_ALERT_CAN_UPGRADE:0 "#T 可用的伟大奇观升级#!\n以下伟大奇观能够升级，并获得更加强力的效果"
+
+ GW_STABILITY_DECREASE_REASON:0 "更改为$NAME$"
+ GW_INFLUENCE_DECREASE_REASON:0 "更改为$NAME$"
+
+ GW_CONSTRUCTION_HALTED:0 "施工受阻"
+ GW_CONSTRUCTION_HALTED_REASON:0 "#X 施工受阻#!\n$REASON$"
+ GW_PROGRESS_HALT_REASON_MISSING_GOODS:0 "@trigger_no!缺少贸易品"
+ GW_PROGRESS_HALT_REASON_NO_WORKFORCE:0 "@trigger_no!缺少劳力"
+ GW_CONSTRUCTION_MISSING_TRADE_GOOD:0 "\t@$TRADEGOOD_KEY$!$TRADEGOOD_NAME|UY$"
+
+ GW_DESIGN_BUTTON_TEXT:0 "建造奇观"
+
+ GW_CYCLE_BUTTON_TOOLTIP:0 "点击这里在诸伟大奇观间循环切换"
+
+ GW_GOODS_REQ_TT:0 "需要贸易品"
+
+ GW_RANDOM_NAME_BUTTON_TT:0 "生成新名称"
+ GW_MISSING_TRADEGOODS_TT:0 "由于缺少贸易品，建造会陷入停滞！"
+
+ GW_WINDOW_SELECT_MODULE:0 "$TYPE$"
+ GW_WINDOW_SELECT_MATERIAL:0 "$TYPE$"
+ GW_WINDOW_SELECT_TEMPLATE:0 "模板"
+ GW_WINDOW_SELECT_EFFECT:0 "选择效果"
+ GW_WINDOW_CHANGE_COMPONENT_TT:0 "变更$CATEGORY_SLOT|Y$"
+ GW_WINDOW_CHANGE_MATERIAL_TT:0 "变更$CATEGORY_SLOT|Y$材料"
+
+ GW_CHANGE_NAME_TT:0 "将$OLD_NAME|Y$更名为$NEW_NAME|Y$"
+
+ GW_EFFECTS_TITLE:0 "效果"
+ GW_EFFECTS_REMOVE_TT:0 "移除效果"
+ GW_EFFECT_REMOVE_TT:0 "移除$EFFECT|Y$"
+ GW_EFFECT_NAME:0 "$TIER$级$NAME$"
+
+ GW_WORKFORCE_TOOLTIP_T:0 "#T 建造时间#!"
+ GW_WORKFORCE_IN_STATE:0 "$STATE|V$的可用劳力"
+ GW_WORKFORCE_POP:0 "@$ICON$!$AMOUNT$：$EFF|+%$"
+ GW_CONSTRUCTION_TIME_NO_LEADER:0 "无施工负责人"
+ GW_CONSTRUCTION_TIME_NO_LEADER_DESC:0 "目前未任命施工负责人。\n这会产生以下影响：\n@time!修建时间：$VALUE|=-%^$"
+ GW_CONSTRUCTION_TIME_LEADER:0 "施工负责人"
+ GW_CONSTRUCTION_TIME_LEADER_DESC:0 "$NAME|V$被任命为施工负责人。\n这会产生以下影响："
+ GW_CONSTRUCTION_TIME_FINESSE:0 "@civic_icon!修建时间：$VALUE|-%/^$"
+ GW_CONSTRUCTION_COMPLETION_DATE:0 "完工日期：$DATE|V$"
+ GW_CONSTRUCTION_COMPLETION_TIME:0 "建造时间：$DAYS|V$天"
+
+ GW_BUILD_CONFIRMATION_TITLTE:0 "修建奇观"
+ GW_BUILD_CONFIRMATION_DESC:0 "要开始$PROVINCE|V$的$WONDER|V$的建造吗？这会花费$PRICE$"
+ GW_BUILD_CONFIRMATION_COST:0 " $GOLD_VALUE|+2$@gold! $PI_VALUE|+0$@political_influence_icon!"
+
+ GW_EDIT_CONFIRMATION_TITLE:0 "升级奇观"
+
+## GW triggers
+ PROVINCE_HAS_GREAT_WORK_TRIGGER:0 "[PROVINCE.GetName|Y]拥有一座伟大奇观。"
+ PROVINCE_HAS_NOT_GREAT_WORK_TRIGGER:0 "[PROVINCE.GetName|Y]未拥有一座伟大奇观。"
+ COUNTRY_HAS_GREAT_WORK_TRIGGER:0 "[COUNTRY.GetName|Y]拥有一座伟大奇观。"
+ COUNTRY_HAS_NOT_GREAT_WORK_TRIGGER:0 "[COUNTRY.GetName|Y]未拥有一座伟大奇观。"
+ STATE_HAS_GREAT_WORK_TRIGGER:0 "[STATE.GetName|Y]拥有一座伟大奇观。"
+ STATE_HAS_NOT_GREAT_WORK_TRIGGER:0 "[STATE.GetName|Y]未拥有一座伟大奇观。"
+ HAS_GW_CATEGORY_TRIGGER:0 "属于$CAT$。"
+ HAS_NOT_GW_CATEGORY_TRIGGER:0 "不属于$CAT$。"
+ HAS_GW_ONLY_MATERIAL_TRIGGER:0 "完全使用$MAT$建造。"
+ HAS_NOT_GW_ONLY_MATERIAL_TRIGGER:0 "未完全使用$MAT$建造。"
+ HAS_GW_ANY_MATERIAL_TRIGGER:0 "使用$MAT$建造。"
+ HAS_NOT_GW_ANY_MATERIAL_TRIGGER:0 "未使用$MAT$建造。"
+ GREAT_WORK_NOT_MIN_EFFECT_TIER_TRIGGER:0 "最低效果等级不$COMPARATOR$$NUM|Y$"
+ GREAT_WORK_MIN_EFFECT_TIER_TRIGGER:0 "最低效果等级$COMPARATOR$$NUM|Y$"
+ GREAT_WORK_NOT_BUILT_BY_TRIGGER:0 "不是由[COUNTRY.GetName|Y]建造。"
+ GREAT_WORK_BUILT_BY_TRIGGER:0 "由[COUNTRY.GetName|Y]建造。"
+ any_great_work_in_province_trigger:0 "拥有一座伟大奇观"
+ GW_IS_NOT_ANCIENT_TRIGGER:0 "$WORK$不是古代奇观"
+ GW_IS_ANCIENT_TRIGGER:0 "$WORK$是古代奇观"
+ GREAT_WORK_LOCATOR_IS_FREE:0 "建造奇观空间足够"
+ GREAT_WORK_LOCATOR_IS_NOT_FREE:0 "建造奇观空间不足"
+
+ BUILD_GREAT_WORK_EFFECT:0 "$NAME|Y$将会在[PROVINCE.GetName|Y]建造"
+ BEGIN_GREAT_WORK_CONSTRUCTION_EFFECT:0 "开始[PROVINCE.GetName|Y]内$NAME|Y$的建造"
+ FINISH_GREAT_WORK_CONSTRUCTION_EFFECT:0 "完成[PROVINCE.GetName|Y]内$NAME|Y$的建造"
+
+ GW_CONSTRUCTION_IN_PROGESS:0 "正在建造[GreatWork.GetName]！"
+### GW Categories
+ tower:0 "塔"
+ pyramid:0 "金字塔"
+ building:0 "建筑"
+ GW_CATEGORY_TEMPLATE:0 "模板"
+ GW_CATEGORY_TEMPLATE_SLOT:0 "模板"
+
+
+### GW Categories Slot
+ gw_category_pyramid_0:0 "地基"
+ gw_category_pyramid_1:0 "金字塔身"
+ gw_category_pyramid_2:0 "金字塔顶"
+
+ gw_category_tower_0:0 "地基"
+ gw_category_tower_1:0 "塔身"
+ gw_category_tower_2:0 "塔顶"
+
+ gw_category_building_0:0 "地基"
+ gw_category_building_1:0 "立柱"
+ gw_category_building_2:0 "屋顶"
+
+
+
+
+### GW Materials
+ copper:0 "铜"
+ gold:0 "黄金"
+ ebony:0 "乌木"
+ silver:0 "白银"
+ ivory:0 "象牙"
+
+ GW_MATERIAL_TOOLTIP:0 "#T $MATERIAL$#!\n需要@$TRADEGOOD_KEY$!$TRADEGOOD_NAME|UY$"
+
+### GW Modules
+ gw_pyramid_01_bottom:0 "石室坟墓地基"
+ gw_pyramid_02_bottom:0 "金字形神塔地基"
+ gw_pyramid_03_bottom:0 "库施式金字塔地基"
+
+ gw_pyramid_01_mid:0 "金字塔平截头体"
+ gw_pyramid_02_mid:0 "阶梯金字塔"
+ gw_pyramid_03_mid:0 "库施式金字塔平截头体"
+
+ gw_pyramid_01_top:0 "小金字塔"
+ gw_pyramid_02_top:0 "金字形神塔庙宇"
+ gw_pyramid_03_top:0 "平顶"
+
+ gw_tower_01_bottom:0 "柱廊"
+ gw_tower_02_bottom:0 "多边地基"
+ gw_tower_03_bottom:0 "圆形地基"
+ gw_tower_04_bottom:0 "凯尔特式墙体"
+
+ gw_tower_01_mid:0 "法罗斯灯塔"
+ gw_tower_02_mid:0 "阶梯塔"
+ gw_tower_03_mid:0 "方形灯塔"
+ gw_tower_04_mid:0 "圆形灯塔"
+
+ gw_tower_01_top:0 "开窗塔顶"
+ gw_tower_02_top:0 "柱廊塔顶"
+ gw_tower_03_top:0 "八角塔顶"
+ gw_tower_04_top:0 "锥形塔顶"
+
+ gw_building_01_base:0 "神殿"
+ gw_building_03_base:0 "陵墓"
+ gw_building_05_base:0 "圆屋"
+
+ gw_building_01_pillar:0 "伊奥尼亚柱式"
+ gw_building_02_pillar:0 "多利安柱式附圆柱顶板"
+ gw_building_03_pillar:0 "伊奥尼亚柱式附雕像"
+ gw_building_04_pillar:0 "伊奥尼亚柱式附狮像"
+ gw_building_05_pillar:0 "多利安柱式"
+
+ gw_building_01_roof:0 "瓦檐饰屋顶"
+ gw_building_03_roof:0 "檐壁屋顶"
+ gw_building_05_roof:0 "雕像底座屋顶"
+
+ GW_MODULE_TT:0 "#T $MODULE$#!"
+
+#Templates
+ great_work_template_01:0 "1级金字塔"
+ great_work_template_01_TT:0 "一座附带1级效果的金字塔。"
+ great_work_template_02:0 "2级金字塔"
+ great_work_template_02_TT:0 "一座附带2级效果的金字塔。"
+ great_work_template_03:0 "3级金字塔"
+ great_work_template_03_TT:0 "一座附带3级效果的金字塔。"
+ great_work_template_04:0 "1级塔"
+ great_work_template_04_TT:0 "一座附带1级效果的塔。"
+ great_work_template_05:0 "2级塔"
+ great_work_template_05_TT:0 "一座附带2级效果的塔。"
+ great_work_template_06:0 "3级塔"
+ great_work_template_06_TT:0 "一座附带3级效果的塔。"
+ great_work_template_07:0 "1级建筑"
+ great_work_template_07_TT:0 "一座附带1级效果的建筑。"
+ great_work_template_08:0 "2级建筑"
+ great_work_template_08_TT:0 "一座附带2级效果的建筑。"
+ great_work_template_09:0 "3级建筑"
+ great_work_template_09_TT:0 "一座附带3级效果的建筑。"
+
+###############
+#### NAMES ####
+###############
+
+## Territory
+ gw_name_lighthouse:0 "$ADJ$$PROVINCE$灯塔"
+ gw_name_lantern:0 "$ADJ$$PROVINCE$灯台"
+ gw_name_beacon:0 "$ADJ$$PROVINCE$烽火台"
+ gw_name_spire:0 "$ADJ$$PROVINCE$尖塔"
+ gw_name_column:0 "$ADJ$$PROVINCE$柱"
+ gw_name_tower:0 "$ADJ$$PROVINCE$塔"
+ gw_name_pyramid:0 "$ADJ$$PROVINCE$金字塔"
+ gw_name_monolith:0 "$ADJ$$PROVINCE$巨石"
+ gw_name_library:0 "$ADJ$$PROVINCE$图书馆"
+ gw_name_oracle:0 "$ADJ$$PROVINCE$神谕所"
+ gw_name_acropolis:0 "$ADJ$$PROVINCE$卫城"
+ gw_name_temple:0 "$ADJ$$PROVINCE$神殿"
+ gw_name_edifice_province:0 "$ADJ$$PROVINCE$建筑群"
+
+## Ruler
+ gw_name_mausoleum:0 "$ADJ$$FAMILY$陵墓"
+ gw_name_memorial:0 "$ADJ$$FAMILY$纪念碑"
+ gw_name_tomb:0 "$ADJ$$FAMILY$之墓"
+ gw_name_edifice_ruler:0 "$ADJ$$FAMILY$建筑群"
+
+#### Names Adjectives ####
+ GW_NAME_ADJ:0 "$ADJ$"
+
+ gw_adj_01:0 " "
+
+###############
+## MODIFIERS ##
+###############
+
+ MODIFIER_GREAT_WORK_TOTAL_WORKRATE_CHARACTER:1 "伟大奇观建造速率"
+ MODIFIER_GREAT_WORK_SLAVES_WORKRATE_CHARACTER:1 "伟大奇观奴隶建造速率"
+ MODIFIER_GREAT_WORK_TRIBALS_WORKRATE_CHARACTER:1 "伟大奇观部落民建造速率"
+ MODIFIER_GREAT_WORK_FREEMEN_WORKRATE_CHARACTER:1 "伟大奇观自由民建造速率"
+ MODIFIER_GREAT_WORK_FIXED_PRESTIGE_CHARACTER:1 "完成伟大奇观获得威望量"
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ FREEMEN_WORK_POWER_TT:0 "#T 自由民#!\n[Province.GetState.GetName|Y]的[GreatWork.GetFreemenWorkforce]自由民\n\n#TF 省份内的人口数量将影响奇观的建造速度。#!"
+ TRIBESMEN_WORK_POWER_TT:0 "#T 部落民#!\n[Province.GetState.GetName|Y]的[GreatWork.GetTribesmenWorkforce]部落民\n\n#TF 省份内的人口数量将影响奇观的建造速度。#!"
+ SLAVES_WORK_POWER_TT:0 "#T 奴隶#!\n[Province.GetState.GetName|Y]的[GreatWork.GetSlaveWorkforce]奴隶\n\n#TF 省份内的人口数量将影响奇观的建造速度。#!"
+ CANCEL_OR_DESTROY_GW_CONFIRMATION__CANCEL_TEXT:0 "确定要取消建造$PROVINCE|Y$内的$GREATWORK|Y$？你将无法回收任何建造成本。"
+ CANCEL_OR_DESTROY_GW_CONFIRMATION__DESTROY_TEXT:0 "确定要彻底摧毁$PROVINCE|Y$内的$GREATWORK|Y$？你将无法回收任何建造成本。"

@@ -1,0 +1,5 @@
+﻿l_french:
+ HAS_DLC_TRIGGER:0 "A le DLC $DLC|Y$."
+ HAS_NOT_DLC_TRIGGER:0 "N'a pas le DLC $DLC|Y$."
+ MISSING_DLCS:0 "DLC manquants :"
+ AlphaTestDLC:0 "Test DLC Alpha"

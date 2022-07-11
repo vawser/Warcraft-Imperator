@@ -1,0 +1,5 @@
+﻿l_german:
+ provincial_events.1.t:0 "Lokale Spannungen"
+ provincial_events.1.desc:1 "Die Spannungen zwischen [ROOT.GetCountry.GetPrimaryCulture.GetName]en Kolonisten und Einheimischen aus [SCOPE.sP('colonial_province').GetName] sind in letzter Zeit gestiegen. Die Einheimischen behaupten, dass unsere Siedler lokale Traditionen und akzeptierte Machtstrukturen missachten. Unsere Kolonisten hingegen behaupten, dass die Einheimischen nur Angst davor haben, dass unsere neue [ROOT.GetCountry.GetPrimaryCulture.GetName]e Siedlung die bestehende Metropole der Region übertrifft."
+ provincial_events.1.a:0 "Unterstützt die [ROOT.GetCountry.GetPrimaryCulture.GetName]en Interessen."
+ provincial_events.1.b:0 "Verteidigt die Rechte der Einheimischen."

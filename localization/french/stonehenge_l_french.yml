@@ -1,0 +1,24 @@
+﻿l_french:
+ stonehenge.1.t:0 "Dans les temps anciens..."
+ stonehenge.1.desc:0 "Après des mois de voyage dans la lointaine Bretagne, [druid.GetName] a adopté une manière de se vêtir particulièrement obscène. Ses cheveux lui tombent jusqu'aux épaules, sa tunique est brodée pour ressembler à ce qui ressemble aux côtes d'un squelette, et pire encore : [druid.GetSheHe] arbore de ces braies barbares et prétentieuses, si étroites qu'[druid.GetSheHe] peut à peine se déplacer.\n\n« Les rituels druidiques des Bretons sont de la musique à mes oreilles, aussi ai-je décidé d'adopter certaines de leurs pratiques. » Il tend à [sthubbins.GetName] un torchon sale portant un rapide dessein d'un monument de pierre et orné de quelques mesures notées en toute hâte. Il se penche en avant, et murmure : « Stonehenge »."
+ stonehenge.1.a:0 "[ROOT.GetCountry.GetName] va vous prendre la main"
+ stonehenge.1.b:0 "Allez [druid.GetName], allez !"
+ stonehenge.1.c:0 "Nous savons ce que c'est, mais nous n'avons pas le matériel pour"
+
+ ### Stonehenge construction
+ stonehenge.2.t:0 "Avant la naissance de l'histoire..."
+ stonehenge.2.desc:0 "Les cérémonies de [ROOT.GetCountry.GetName] sont de moins en moins populaires ces derniers temps, même si [sthubbins.GetName] a bien tenté chaque fois de se montrer inventif pour attirer davantage de spectateurs. Mais après que le concepteur retenu est mort de faim après être tombé dans une fleur de la taille d'un homme restée du dernier spectacle, Stonehenge est le seul espoir de [ROOT.GetCountry.GetName].\n\nQuelques mois après avoir donné le schéma des druides de Bretagne aux architectes, [sthubbins.GetName] et [druid.GetName] visitent le chantier. Après avoir fait quelques pas, [druid.GetName] trébuche et s'affale de tout son long. [druid.GetSheHe|U] semble s'être cogné dans une pile de cailloux plats entassés jusqu'à hauteur de genou. Quant au monument, il n'est visible nulle part. [sthubbins.GetName] se rend compte, peu à peu, que ce sont ces cailloux qui sont censés en faire office.\n\n[druid.GetName] ne semble pas perturbé pour autant : « On continue Stonehenge demain ? »"
+ stonehenge.2.a:0 "Naturellement, mieux vaut éviter de voir trop grand"
+ stonehenge.2.b:0 "Mais cela ne fait qu'une coudée de haut !"
+ stonehenge.2.b.tt:0 "Le monument devrait faire mesurer dix-huit coudées de hauteur"
+
+ ###
+ stonehenge.3.t:0 "Les flûtes de Pan"
+ stonehenge.3.desc:0 "Quelques instants seulement avant la cérémonie de dévoilement de Stonehenge, sur le marché central de [main_stage.GetName], on a appris que les musiciens recrutés pour égayer l'atmosphère avaient tragiquement péri lors d'un accident bête survenu dans les jardins suspendus de Babylone. Il ne reste que [sthubbins.GetName] et [druid.GetName] pour les remplacer. Après avoir pris une lyre, [sthubbins.GetName], dans une paire de braies barbares, prend la même posture que [druid.GetName] : les jambes aussi écartées que possible.\n\n« À la lyre, [sthubbins.GetName] ! » crie [druid.GetName] à la foule, composée pour l'essentiel de la garnison de [main_stage.GetName] et entassée tout autour du petit cercle de pierre."
+ stonehenge.3.a:0 "Stonehenge ! Là où vivent les démons !"
+ stonehenge.3.b:0 "Stonehenge ! Là où un homme est un homme !"
+ stonehenge.3.c:0 "Stonehenge ! Là où les vierges sont couchées !"
+ 
+ 
+ 
+ stonehenge.4.desc:0 "Les cérémonies de [ROOT.GetCountry.GetName] sont de moins en moins populaires ces derniers temps, même si [sthubbins.GetName] a bien tenté chaque fois de se montrer inventif pour attirer davantage de spectateurs. Mais après que le concepteur retenu est mort de faim après être tombé dans une fleur de la taille d'un homme restée du dernier spectacle, Stonehenge est le seul espoir de [ROOT.GetCountry.GetName].\n\nQuelques mois après avoir donné le schéma des druides de Bretagne aux architectes, [sthubbins.GetName] et [druid.GetName] visitent le chantier. Après avoir fait quelques pas, [druid.GetName] trébuche et s'affale de tout son long. [druid.GetSheHe|U] semble s'être cogné dans une pile de cailloux plats entassés jusqu'à hauteur de genou. Quant au monument, il n'est visible nulle part. [sthubbins.GetName] se rend compte, peu à peu, que ce sont ces cailloux qui sont censés en faire office.\n\n[druid.GetName] ne semble pas perturbé pour autant : « On continue Stonehenge demain ? »"

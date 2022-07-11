@@ -1,0 +1,100 @@
+﻿l_german:
+ # Header
+ PROVINCE_TOOLTIP:4 "#t [PROVINCE.Custom('get_city_status_cloc')] [PROVINCE.GetName|Y] in [PROVINCE.GetArea.GetName]#! $OWNERSHIP$"
+ IMPASSIBLE_COLORED_PROVINCE_TOOLTIP:1 "#T Unpassierbares Terrain#! [PROVINCE.GetName|T]"
+ IMPASSIBLE_UNCOLORED_PROVINCE_TOOLTIP:1 "#T Unpassierbares Terrain#! [PROVINCE.GetName|T]"
+ UNINHABITABLE_PROVINCE_TOOLTIP:1 "#T Unbewohnbar#! [PROVINCE.GetName|T]"
+ SEA_PROVINCE_TOOLTIP:2 "#T Meer#! [PROVINCE.GetName|T]\n[Player.GetNavalRangeTooltip(PROVINCE.GetProvince)]"
+ LAKE_PROVINCE_TOOLTIP:1 "#T See#! [PROVINCE.GetName|T]"
+ RIVER_PROVINCE_TOOLTIP:2 "#T Fluss#! [PROVINCE.GetName|T]\n[Player.GetNavalRangeTooltip(PROVINCE.GetProvince)]"
+ PROVINCE_OWNER:1 "(@[PROVINCE.GetOwner.GetFlag]! [PROVINCE.GetOwner.GetName])"
+ PROVINCE_OCCUPIED:2 "(@[PROVINCE.GetOwner.GetFlag]! [PROVINCE.GetOwner.GetName])\nBesetzt von @[PROVINCE.GetController.GetFlag]! [PROVINCE.GetOccupierInfo]"
+ PROVINCE_OWNER_REPLAY:0 " in @$OWNER_TAG$! $OWNER$"
+ PROVINCE_OCCUPIED_REPLAY:1 ", Teil von @$OWNER_TAG$! $OWNER$, aber besetzt von @$CONTROLLER_TAG$! $CONTROLLER$"
+ PROVINCE_BARB_INFO_OCCUPIED:0 "Die #Y $NAME$e#! Horde"
+ PIRATE_HAVEN_MAP_TT:0 "#T Piratenhafen#!\nDieser Hafen ist ein Piratenhafen und unterstützt Überfälle von Piraten."
+ 
+ # Debug Footer
+ CHARACTER_DEBUG:0 "$NAME$ #D ( ID: $ID$ )#!"
+ PROVINCE_DEBUG:0 "\n\n#D ID: [PROVINCE.GetId] [PROVINCE.GetTag], [PROVINCE.GetOwner.GetName] ([PROVINCE.GetOwner.GetDebugTag] (Flag: [PROVINCE.GetOwner.GetFlag]) [PROVINCE.GetOwner.GetId])\n [PROVINCE.GetArea.GetName] ([PROVINCE.GetArea.GetTag]), [PROVINCE.GetArea.GetRegion.GetName] ([PROVINCE.GetArea.GetRegion.GetName])\n [PROVINCE.GetDominantReligion.GetName] [PROVINCE.GetDominantCulture.GetName]\nGröße: [PROVINCE.GetSize]#!"
+ INVISIBLE_TO_AI:0 "\n#T (Für KI unsichtbar)#!"
+ MIXED_VISIBILITY_TO_AI:0 "\n#T (Gemischte KI-Sichtbarkeit)#!"
+
+ # -- Map Modes --
+ 
+ # Terrain
+ PROVINCE_TOOLTIP_terrain:0 "Terrain: [PROVINCE.GetTerrainName|V]"
+ UNINHABITABLE_PROVINCE_TOOLTIP_terrain:0 "Terrain: [PROVINCE.GetTerrainName|V]"
+ SEA_PROVINCE_TOOLTIP_terrain:0 "Terrain: [PROVINCE.GetTerrainName|V]"
+ RIVER_PROVINCE_TOOLTIP_terrain:0 "Terrain: [PROVINCE.GetTerrainName|V]"
+
+ 
+ # Simple Terrain
+ PROVINCE_TOOLTIP_simple_terrain:0 "Terrain: [PROVINCE.GetTerrainName|V]"
+ UNINHABITABLE_PROVINCE_TOOLTIP_simple_terrain:0 "Terrain: [PROVINCE.GetTerrainName|V]"
+ SEA_PROVINCE_TOOLTIP_simple_terrain:0 "Terrain: [PROVINCE.GetTerrainName|V]"
+ RIVER_PROVINCE_TOOLTIP_simple_terrain:0 "Terrain: [PROVINCE.GetTerrainName|V]"
+ 
+ # Political
+ PROVINCE_TOOLTIP_political:0 "Terrain: [PROVINCE.GetTerrainName|V]"
+ SEA_PROVINCE_TOOLTIP_political:0 "Terrain: [PROVINCE.GetTerrainName|V]"
+ RIVER_PROVINCE_TOOLTIP_political:0 "Terrain: [PROVINCE.GetTerrainName|V]"
+ 
+ # Players
+ PROVINCE_TOOLTIP_players:2 "[GetPlayerName(PROVINCE.GetOwner)]\n\nHaltung: [PROVINCE.GetOwner.GetDiplomaticStance.GetName|v]\nSchatzkammer: [PROVINCE.GetOwner.GetTreasury|0v] @gold! \nRekrutenreserve: [PROVINCE.GetOwner.GetManpower|v]\nKohorten: [PROVINCE.GetOwner.GetTotalNumOfCohorts|0v]\nSchiffe: [PROVINCE.GetOwner.GetTotalNumOfShips|v]\n\nStabilität: [PROVINCE.GetOwner.GetStability|v0]\nTerritorien: [PROVINCE.GetOwner.GetOwnedProvinceCount|v]\nBewohner: [PROVINCE.GetOwner.GetTotalPopulation|v]"
+ 
+ # Religion
+ PROVINCE_TOOLTIP_religion:1 "[PROVINCE.GetReligionBreakdown]\nDominante Religion: [PROVINCE.GetReligion.GetName|Y]"
+ 
+ # Culture
+ PROVINCE_TOOLTIP_culture:1 "[PROVINCE.GetCultureBreakdown]\nDominante Kultur: [PROVINCE.GetCulture.GetName|Y]\nKulturgruppe: [PROVINCE.GetCulture.GetCultureGroup.GetName|Y]"
+ 
+ # Diplomacy
+ PROVINCE_TOOLTIP_diplomacy:0 ""
+ 
+ # Barbarian Power
+ PROVINCE_TOOLTIP_barbarian_power:0 "[PROVINCE.GetBarbarianPowerShortTooltip]"
+ IMPASSIBLE_COLORED_PROVINCE_TOOLTIP_barbarian_power:1 "[PROVINCE.GetBarbarianPowerShortTooltip]"
+ IMPASSIBLE_UNCOLORED_PROVINCE_TOOLTIP_barbarian_power:1 "[PROVINCE.GetBarbarianPowerShortTooltip]"
+ UNINHABITABLE_PROVINCE_TOOLTIP_barbarian_power:1 "[PROVINCE.GetBarbarianPowerShortTooltip]"
+ 
+ # Forticiation
+ PROVINCE_TOOLTIP_fortifications:0 "[PROVINCE.GetFortificationTooltip]"
+ FORTMAP_NEUTRAL_FORT:0 "$WHO|Y$ hat eine #Y neutrale#! Befestigung der Stufe $LEVEL|Y$"
+ FORTMAP_FRIENDLY_FORT:0 "$WHO|Y$ hat eine #G freundliche#! Befestigung der Stufe $LEVEL|Y$"
+ FORTMAP_ENEMY_FORT:0 "$WHO|Y$ hat eine #R feindliche#! Befestigung der Stufe $LEVEL|Y$"
+ FORTMAP_IN_FRIENDLY_ZOC:0 "$WHO|Y$ befindet sich innerhalb der Kontrollzone der befreundeten Festung in $NAME|Y$."
+ FORTMAP_IN_HOSTILE_ZOC:0 "$WHO|Y$ befindet sich innerhalb der Kontrollzone der feindlichen Festung in $NAME|Y$."
+ 
+ # Civ
+ PROVINCE_TOOLTIP_civilization:0 "[PROVINCE.GetCivilizationMapTooltip]"
+ 
+ # Unrest
+ PROVINCE_TOOLTIP_unrest_loyalty:1 "Unruhe: [PROVINCE.GetUnrest|-2]%\n[PROVINCE.GetShortUnrestDescription]"
+
+ # Area
+ PROVINCE_TOOLTIP_area:0 ""
+ 
+ # Trade Goods
+ PROVINCE_TOOLTIP_tradegoods:2 "#T [PROVINCE.GetTradeGoods.GetName]#!\n[PROVINCE.GetTradeGoods.GetLocalDescription][PROVINCE.GetTradeGoods.GetBonusDescription]"
+ 
+ # Population
+ PROVINCE_TOOLTIP_population:1 "Adlige: [PROVINCE.GetPopulation('nobles')|Y]\nBürger: [PROVINCE.GetPopulation('citizen')|Y]\nFreie Männer: [PROVINCE.GetPopulation('freemen')|Y]\nStammesmitglieder: [PROVINCE.GetPopulation('tribesmen')|Y]\nSklaven: [PROVINCE.GetPopulation('slaves')|Y]\n"
+ 
+ # Trade Routes
+ PROVINCE_TOOLTIP_trade_routes:0 "Eingehende Handelsrouten: [PROVINCE.GetState.GetNumIncomingTrades|Y]\nAusgehende Handelsrouten: [PROVINCE.GetState.GetNumOutgoingTrades|Y]\nUnbenutzte Handelsrouten: [PROVINCE.GetState.GetNumUnusedTradeRoutes|Y]\n"
+
+ # Naval Range
+ #PROVINCE_TOOLTIP_naval_range:0 "Naval range: [Player.GetNavalRange(PROVINCE.GetProvince)]"
+ #SEA_PROVINCE_TOOLTIP_naval_range:0 "[Player.GetNavalRangeTooltip(PROVINCE.GetProvince)]"
+ #LAKE_PROVINCE_TOOLTIP_naval_range:0 "[Player.GetNavalRangeTooltip(PROVINCE.GetProvince)]"
+ #RIVER_PROVINCE_TOOLTIP_naval_range:0 "[Player.GetNavalRangeTooltip(PROVINCE.GetProvince)]"
+
+# Holdings
+ PROVINCE_TOOLTIP_holdings:1 "Besitztümer"
+
+# Province Rank
+ PROVINCE_TOOLTIP_province_rank:0 ""
+
+# Government
+ PROVINCE_TOOLTIP_government:0 "[PROVINCE.GetOwner.GetName] hat die Regierungsform #Y [PROVINCE.GetOwner.GetGovernment.GetName]#!."

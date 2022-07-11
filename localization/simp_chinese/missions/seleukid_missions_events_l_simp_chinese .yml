@@ -1,0 +1,366 @@
+﻿l_simp_chinese:
+ # 1
+ me_seleukid_01_babylon.1.t:0 "$seleukid_mission_01_babylonia_task_1$——消息"
+ me_seleukid_01_babylon.1.desc:0 "我们刚打算面见巴比伦的祭司的时候，我们就收到了一份来自祭司长的消息。尽管他们对我们采取举措保证他们在巴比伦的地位一事心存感激，他们仍然希望让他们中的一位侍僧与我们的统治者在私下会面，以决定[ROOT.GetCountry.GetRuler.GetPraenomen]是否为统治这座城市的正当之人。"
+ me_seleukid_01_babylon.1.a:0 "很公平。"
+
+ me_seleukid_01_babylon.2.t:0 "$seleukid_mission_01_babylonia_task_1$——[babylonian_priest_character.GetPraenomen]的到访"
+ me_seleukid_01_babylon.2.desc:0 "[babylonian_priest_character.GetPraenomen]带着一小批仆人，于傍晚时分造访了我们位于[ROOT.GetCountry.GetCapital.GetName]的宫廷。[babylonian_priest_character.GetSheHe|U]很快安置妥当，不消几小时立马与[ROOT.GetCountry.GetRuler.GetPraenomen]开始商谈宗教事务。看来[babylonian_priest_character.GetPraenomen]会给我们的宫廷带来全新的视点，因为显然这二位大人并没有一拍即合。"
+ me_seleukid_01_babylon.2.a:0 "让我们看看这位祭司擅长什么。"
+ me_seleukid_01_babylon.2.a.tt:0 "使命任务“#Y $seleukid_mission_01_babylonia_task_1$#!”现已#G 完成#!！"
+
+ me_seleukid_01_babylon.3.t:0 "$seleukid_mission_01_babylonia_task_2$"
+ me_seleukid_01_babylon.3.desc:0 "随着[babylonian_priest_character.GetPraenomen]在宫廷里坐稳了[babylonian_priest_character.GetHerHis]的新位子，[babylonian_priest_character.GetSheHe]也确保了祭司群体对当前政权的忠诚。一旦这座城市的领袖站到了我们这边，我们就可以放开手脚飞速地拓展影响力，这一切得多亏了[babylonian_priest_character.GetPraenomen]。"
+ me_seleukid_01_babylon.3.a:0 "看来，[babylonian_priest_character.GetSheHe]还是有两把刷子的。"
+ me_seleukid_01_babylon.3.a.tt:0 "使命任务“#Y $seleukid_mission_01_babylonia_task_2$#!”现已#G 完成#!！"
+
+ me_seleukid_01_babylon.4.t:0 "$seleukid_mission_01_babylonia_task_3$——订造雕像"
+ me_seleukid_01_babylon.4.desc:0 "[babylonian_priest_character.GetPraenomen]最近想出了一个点子，将[GetCharacter('(int32)24').GetPraenomen]——[ROOT.GetCountry.GetName]的第一位统治者——的形象做成一尊酷似宙斯·柏罗斯——一位最近获得了颇高人气的融合神祇——的雕像。看来[babylonian_priest_character.GetPraenomen]很清楚谁最适合这份工作，并且已经联系了那人。"
+ me_seleukid_01_babylon.4.a:0 "[babylonian_priest_character.GetPraenomen]会事无巨细地负责到底的吧？"
+
+ me_seleukid_01_babylon.5.t:0 "$seleukid_mission_01_babylonia_task_3$——雕像完工"
+ me_seleukid_01_babylon.5.desc:0 "最终，为[babylonian_priest_character.GetPraenomen]效力的雕刻工带着完工的作品来到了我们的宫廷。当作品最终揭晓的时候，一大堆人群聚集在周围，被雕像的鬼斧神工震慑。无论我们决定把雕像放在哪里，它都能夺得人气。"
+ me_seleukid_01_babylon.5.a:0 "我们应该问问[babylonian_sculptor_character.GetPraenomen][babylonian_sculptor_character.GetSheHe]是否希望留任。"
+ me_seleukid_01_babylon.5.a.tt:0 "#Y [babylonian_sculptor_character.GetName]#!将会留在我们的宫廷。"
+ me_seleukid_01_babylon.5.a.tt.2:0 "使命任务“#Y $seleukid_mission_01_babylonia_task_3$#!”现已#G 完成#!！"
+ me_seleukid_01_babylon.5.b:0 "现在我们只需要弄清楚这座雕像应该放在哪里。"
+ me_seleukid_01_babylon.5.b.tt:0 "#Y [babylonian_sculptor_character.GetName]#!将会离开我们的宫廷。"
+ me_seleukid_01_babylon.5.b.tt.2:0 "使命任务“#Y $seleukid_mission_01_babylonia_task_3$#!”现已#G 完成#!！"
+
+ me_seleukid_01_babylon.6.t:0 "$seleukid_mission_01_babylonia_task_5$"
+ me_seleukid_01_babylon.6.desc:0 "随着雄城[GetProvince('(int32)918').GetName]恢复如初，以及[GetProvince('(int32)911').GetName]的完工，我们拥有了两座堡垒，可以阻挡任何妄图进犯或对巴比伦的土地图谋不轨的宵小之辈。当前区域的两座首府城市已经完工，我们现在需要着眼恢复总督区的剩余部分。"
+ me_seleukid_01_babylon.6.a:0 "一步，一个脚印。"
+ me_seleukid_01_babylon.6.a.tt:0 "使命任务“#Y $seleukid_mission_01_babylonia_task_5$#!”现已#G 完成#!！"
+
+ me_seleukid_01_babylon.7.t:0 "$seleukid_mission_01_babylonia_task_6$"
+ me_seleukid_01_babylon.7.desc:0 "随着我们将民权的理念逐步拓展到这一区域的村庄和市镇，越来越多的巴比伦人对我们的统治和领导已经习以为常了。尽管我们的治下有着需多操不同语言、不同文化的人，彼此之间隔阂很重，但我们找到了全新的方法来监管我们的全体臣民。"
+ me_seleukid_01_babylon.7.a:0 "不管是希腊人、巴比伦人、还是亚兰人，都要顺从我们的统治。"
+ me_seleukid_01_babylon.7.a.tt:0 "使命任务“#Y $seleukid_mission_01_babylonia_task_6$#!”现已#G 完成#!！"
+
+ me_seleukid_01_babylon.8.t:0 "$seleukid_mission_01_babylonia_task_7$"
+ me_seleukid_01_babylon.8.desc:0 "由于[GetCharacter('(int32)37').GetPraenomen]入侵我们的总督区，巴比伦的全部区域都生灵涂炭，直到我们伟大的[ROOT.GetCountry.GetRulerTitle][ROOT.GetCountry.GetRuler.GetPraenomen]决定将这些古城一个一个地恢复。现在，他们终于开始找回了旧日的荣耀，并成为我们政府重要的税收中心和兵源地。"
+ me_seleukid_01_babylon.8.a:0 "这一切激励了我们的臣民对我们的忠诚。"
+ me_seleukid_01_babylon.8.a.tt:0 "使命任务“#Y $seleukid_mission_01_babylonia_task_7$#!”现已#G 完成#!！"
+
+ me_seleukid_01_babylon.9.t:0 "$seleukid_mission_01_babylonia_task_8$"
+ me_seleukid_01_babylon.9.desc:0 "我们已经将两座雄城，[GetProvince('(int32)918').GetName]和[GetProvince('(int32)911').GetName]的行政管理机构重组完毕，并将影响力传播至旧总督区的剩余部分。尽管因为治下人口众多，纷繁杂乱，偶尔会有一些小的问题，我们也逐渐学会如何更有效地进行处理了。"
+ me_seleukid_01_babylon.9.a:0 "从现在起，一切会变得愈来愈好。"
+ me_seleukid_01_babylon.9.a.tt:0 "使命任务“#Y $seleukid_mission_01_babylonia_task_8$#!”现已#G 完成#!！"
+
+ me_seleukid_01_babylon.10.t:0 "$seleukid_mission_01_babylonia_task_9$——派遣[current_steward.GetPraenomen]"
+ me_seleukid_01_babylon.10.desc:0 "在与我们的现任[GetOffice('office_steward').GetCulturalName(SCOPE.GetRootScope.GetCountry)]就如何增加我们在民众间的人气进行一番洽谈之后，我们决定派遣[current_steward.GetHerHim]前往当地省份，看看[current_steward.GetSheHe]能做什么。[current_steward.GetSheHe|U]宣称自己对于如何激励农村地区的臣民有几点自己的想法，需要一些时间和资源将自己的想法付诸实现。"
+ me_seleukid_01_babylon.10.a:0 "祝好运，[current_steward.GetPraenomen]。"
+
+ me_seleukid_01_babylon.11.t:0 "$seleukid_mission_01_babylonia_task_9$——巴比伦的信仰"
+ me_seleukid_01_babylon.11.desc:0 "自打我们将[current_steward.GetPraenomen]派遣至巴比伦激发当地臣民忠诚心之后已经过了半年，现在我们终于收到了好消息。看来我们投入的这项任务开始有了回报，我们在整片区域的人气愈发高涨。"
+ me_seleukid_01_babylon.11.a:0 "这只是第一步。"
+ me_seleukid_01_babylon.11.a.tt:0 "使命任务“#Y $seleukid_mission_01_babylonia_task_9$#!”现已#G 完成#!！"
+
+ me_seleukid_01_babylon.12.t:0 "$seleukid_mission_01_babylonia_task_10$"
+ me_seleukid_01_babylon.12.desc:0 "和平能够带来忠心与繁荣，即使是巴比伦最遥远和最偏僻的地方，但凡在我们的控制之下，就能见得人口和财富的增长。贸易蓬勃，财源滚滚，从极南之地的[GetProvince('(int32)963').GetName]，沿着幼法拉底河和底格里斯河，能够直达北边的[GetProvince('(int32)883').GetName]和[GetProvince('(int32)829').GetName]。"
+ me_seleukid_01_babylon.12.a:0 "又出色地完成了一件工作。"
+ me_seleukid_01_babylon.12.a.tt:0 "使命任务“#Y $seleukid_mission_01_babylonia_task_10$#!”现已#G 完成#!！"
+
+ me_seleukid_01_babylon.13.t:0 "$seleukid_mission_01_babylonia_task_4$"
+ me_seleukid_01_babylon.13.desc:0 "我们无需再担心巴比伦的市民和贵族不会予以我们支持，因为我们已经给整片地区带来和平与稳定，保证了他们财富的增长。尽管他们时不时对于一名外国统治者还是心存芥蒂，但他们知道我们为他们做了很多，并且尊重他们的传统和文化。"
+ me_seleukid_01_babylon.13.a:0 "任何[ROOT.GetCountry.GetRulerTitle]都应该做到这样。"
+ me_seleukid_01_babylon.13.a.tt:0 "使命任务“#Y $seleukid_mission_01_babylonia_task_4$#!”现已#G 完成#!！"
+
+ me_seleukid_01_babylon.14.t:0 "$seleukid_mission_01_babylonia_task_final$"
+ me_seleukid_01_babylon.14.desc:0 "随着巴比伦周边的整个区域都置于我们的统治之下，同时我们还把和平带给了当地人，我们毫无疑问地确保了当地平民和贵族的信仰。总督区目前忠于[GetCharacter('(int32)24').GetPraenomen]，我们也希望它将来能够继续为我们的事业添砖加瓦，作为我们政府的中心，并成为[ROOT.GetCountry.GetName]的未来。"
+ me_seleukid_01_babylon.14.a:0 "他们终于认清了自己的地位。"
+ me_seleukid_01_babylon.14.a.tt:0 "使命任务“#Y $seleukid_mission_01_babylonia_task_final$#!”现已#G 完成#!！"
+
+ me_seleukid_01_babylon.15.t:0 "$seleukid_mission_01_babylonia$"
+ me_seleukid_01_babylon.15.desc:0 "巴比伦已经恢复了旧日的荣耀，后者因为[GetCharacter('(int32)37').GetPraenomen]毁灭性的征战而被长期遗忘。现在整个总督区的民众将我们的宗族和他们的当地信仰联系在一起，我们的人气达到了前所未有的新高度。\n\n巴比伦不可置疑地忠于我们的事业，是时候我们着眼于其他符合利益的地区了。"
+ me_seleukid_01_babylon.15.a:0 "持巴比伦者，为[GetCharacter('(int32)39').GetPraenomen]之真主。"
+ me_seleukid_01_babylon.15.a.tt:0 "使命“#Y $seleukid_mission_01_babylonia$#!”现已#G 完成#!！"
+
+ me_seleukid_01_babylon.16.t:0 "巴比伦的祭司"
+ me_seleukid_01_babylon.16.desc:0 "由于没有人在宫廷里和他们意见一致，巴比伦的祭司团决定向我们再派遣一名代表。[babylonian_priest_character.GetPraenomen]看上去教养良好，一旦[babylonian_priest_character.GetSheHe]安顿好就能为我们所用。"
+ me_seleukid_01_babylon.16.a:0 "欢迎[babylonian_priest_character.GetSheHe|U]在此地留任。"
+ me_seleukid_01_babylon.16.a.tt:0 "[babylonian_priest_character.GetPraenomen]受邀加入我们的宫廷。"
+ me_seleukid_01_babylon.16.b:0 "我们对他们的探子可没兴趣。"
+ me_seleukid_01_babylon.16.b.tt:0 "[babylonian_priest_character.GetPraenomen]被赶出我们的宫廷。"
+ me_seleukid_01_babylon.16.c:0 "告诉他们，不要再派遣他们的祭司到[ROOT.GetCountry.GetCapital.GetName]来。"
+ me_seleukid_01_babylon.16.c.tt:0 "巴比伦的祭祀团不会再像我们派遣任何祭司。"
+
+ # 2
+ me_seleukid_02_syria.1.t:0 "$seleukid_mission_02_syria_task_1$——筹备战争"
+ me_seleukid_02_syria.1.desc:0 "建国之初，我们只是专注于巴比伦尼亚的小小总督领，与地中海，以及许多敌人和盟友隔绝。从那时起，我们就认识到一个西方的港口，以及来自希腊的定居者的重要性。\n\n我们将目光投向叙利亚周边区域，这里常常被那些大国遗忘，毕竟他们一直在盯着旧亚历山大帝国的富裕区域。"
+ me_seleukid_02_syria.1.a:0 "我们很快就会整备好军队去夺取那片地区。"
+
+ me_seleukid_02_syria.2.t:0 "$seleukid_mission_02_syria_task_1$——战争行动"
+ me_seleukid_02_syria.2.desc:0 "我们的军队已整装待发，即将开始夺取叙利亚的行动，我们渴望控制这里已经太久了。曾经的安提柯首都[GetProvince('(int32)790').GetName]在等着我们。"
+ me_seleukid_02_syria.2.a:0 "这里迟早都将属于我们。"
+ me_seleukid_02_syria.2.a.tt:0 "使命任务“#Y $seleukid_mission_02_syria_task_1$#!”现已#G 完成#!！"
+
+ me_seleukid_02_syria.3.t:0 "$seleukid_mission_02_syria_task_2$"
+ me_seleukid_02_syria.3.desc:0 "我们已征服了叙利亚区域的沿海地区，安提柯的旧都，以及沿奥龙特斯河直至大海的其他村庄和城市。"
+ me_seleukid_02_syria.3.a:0 "他们最终会习惯我们的统治。"
+ me_seleukid_02_syria.3.a.tt:0 "使命任务“#Y $seleukid_mission_02_syria_task_2$#!”现已#G 完成#!！"
+
+ me_seleukid_02_syria.4.t:0 "$seleukid_mission_02_syria_task_3$"
+ me_seleukid_02_syria.4.desc:0 "我们已控制了叙利亚与幼发拉底河的交界部分，以及奥龙特斯河最东方的部分。最近几十年来，希腊定居者在[GetProvince('(int32)810').GetArea.GetName]建立了众多小村镇，这里也因此，以及坐落于这片区域的古老亚兰城市闻名。"
+ me_seleukid_02_syria.4.a:0 "我们需要按照双方各自的方式来和他们打交道。"
+ me_seleukid_02_syria.4.a.tt:0 "使命任务“#Y $seleukid_mission_02_syria_task_3$#!”现已#G 完成#!！"
+
+ me_seleukid_02_syria.5.t:0 "$seleukid_mission_02_syria_task_4$"
+ me_seleukid_02_syria.5.desc:0 "随着我们新建立了许多城市，我们开始着手施行一套行政机制来治理这个区域。尽管我们对于巴比伦尼亚人的习性已经十分熟悉，我们仍然需要发展一套新的方式，以叙利亚人感到舒适的方式来统治他们。"
+ me_seleukid_02_syria.5.a:0 "迟早会变成那样的。"
+ me_seleukid_02_syria.5.a.tt:0 "使命任务“#Y $seleukid_mission_02_syria_task_4$#!”现已#G 完成#!！"
+
+ me_seleukid_02_syria.6.t:0 "$seleukid_mission_02_syria_task_5$"
+ me_seleukid_02_syria.6.desc:0 "人们开始自安提柯的旧都如潮水般涌入我们新建立的[GetProvince('(int32)789').GetName]城。如同[GetProvince('(int32)911').GetName]作为一座王家[ROOT.GetCountry.GetAdjective]城市管理巴比伦尼亚一样，[GetProvince('(int32)789').GetName]在叙利亚发挥着类似的功能。"
+ me_seleukid_02_syria.6.a:0 "这是一座新立的伟大城市的曙光。"
+ me_seleukid_02_syria.6.a.tt:0 "使命任务“#Y $seleukid_mission_02_syria_task_5$#!”现已#G 完成#!！"
+
+ me_seleukid_02_syria.7.t:0 "$seleukid_mission_02_syria_task_6$"
+ me_seleukid_02_syria.7.desc:0 "我们终于完成了我们在[GetProvince('(int32)789').GetArea.GetName]的[GetProvince('(int32)789').GetName]进行的工作，现在此地已经被改建成为了一座地中海沿岸的港口。随着新的定居者涌入，以及我们最近向这里投入了大量时间，许多人已经开始将这里当作[ROOT.GetCountry.GetName]新的首都。"
+ me_seleukid_02_syria.7.a:0 "那不是个坏主意，真的……"
+ me_seleukid_02_syria.7.a.tt:0 "使命任务“#Y $seleukid_mission_02_syria_task_6$#!”现已#G 完成#!！"
+ me_seleukid_02_syria.7.b:0 "但我们的首都永远是[ROOT.GetCountry.GetCapital.GetName]。"
+ me_seleukid_02_syria.7.c:0 "我们不是已经把这里当作首都了吗？"
+
+ me_seleukid_02_syria.8.t:0 "$seleukid_mission_02_syria_task_8$——提议"
+ me_seleukid_02_syria.8.desc:0 "我们已经派遣特使，吸引[GetProvince('(int32)416').GetArea.GetRegion.GetName]、[GetProvince('(int32)379').GetArea.GetRegion.GetName]以及[GetProvince('(int32)290').GetArea.GetRegion.GetName]的希腊定居者前往我们的国家。他们在地中海沿岸定居殖民已经有很长一段历史，我们希望最新的提议能够吸引他们中的大多数人于我们在[GetProvince('(int32)789').GetArea.GetRegion.GetName]的城市中定居。"
+ me_seleukid_02_syria.8.a:0 "他们中的每一位都会得到妥善的照顾和款待。"
+
+ me_seleukid_02_syria.9.t:0 "$seleukid_mission_02_syria_task_8$"
+ me_seleukid_02_syria.9.desc:0 "我们已经注意到一大批新定居者来到了我们的几座城市，随时准备为我们效劳，提供税收和兵源。随着忠诚的希腊定居者打散分布到当地人之间，我们确保了任何不满和叛乱在它们能够发生之前就被妥当处理。"
+ me_seleukid_02_syria.9.a:0 "定居者是无价的。"
+ me_seleukid_02_syria.9.a.tt:0 "使命任务“#Y $seleukid_mission_02_syria_task_8$#!”现已#G 完成#!！"
+ me_seleukid_move_pop_tt_1:0 "#Y [THIS.GetProvince.GetName]#!获得了#Y [THIS.GetProvince.MakeScope.GetVariable('seleukid_pop_move_variable').GetValue|0]#!人口。"
+ me_seleukid_move_pop_tt_2:0 "#Y [THIS.GetProvince.GetName]#!获得了#Y [THIS.GetProvince.MakeScope.GetVariable('seleukid_pop_move_variable').GetValue|0]#!人口。"
+
+ me_seleukid_02_syria.10.t:0 "$seleukid_mission_02_syria_task_7$"
+ me_seleukid_02_syria.10.desc:0 "我们的[ROOT.GetCountry.GetRulerTitle][ROOT.GetCountry.GetRuler.GetPraenomen]开始着手在这个区域全境设置一套防御工事，来保护当地不受外来入侵者的荼毒。考虑到这块新地已经成为帝国重要的一部分，我们必须确保当地的安全，并让这块地区尽可能快地成为高产的地区。"
+ me_seleukid_02_syria.10.a:0 "一次搬一块石头。"
+ me_seleukid_02_syria.10.a.tt:0 "使命任务“#Y $seleukid_mission_02_syria_task_7$#!”现已#G 完成#!！"
+
+ me_seleukid_02_syria.11.t:0 "$seleukid_mission_02_syria_task_9$"
+ me_seleukid_02_syria.11.desc:0 "[GetProvince('(int32)789').GetArea.GetName]的西边是[GetProvince('(int32)1880').GetArea.GetName]，而另一侧则是[GetProvince('(int32)8021').GetName]和[GetProvince('(int32)1870').GetName]。此地长期来有希腊定居者不断地涌入，其中有几个古老的希腊城市和村镇靠近丰饶的滨海。\n\n现在这块区域处于我们控制之下，我们可以征召更多的希腊人进入我们的军队，如果我们打算进攻其他希腊国家我们则需要更加依赖他们。"
+ me_seleukid_02_syria.11.a:0 "他们是我们军队所需的主心骨。"
+ me_seleukid_02_syria.11.a.tt:0 "使命任务“#Y $seleukid_mission_02_syria_task_9$#!”现已#G 完成#!！"
+
+ me_seleukid_02_syria.12.t:0 "$seleukid_mission_02_syria_task_10$"
+ me_seleukid_02_syria.12.desc:0 "我们在[GetProvince('(int32)1880').GetName]的工作即将结束，人民开始将我们称作一位新的摩普索斯，神话中这座城市的建立者。我们从各方各面将此地重建成为了一座新式城市，一座我们可以依赖的城市。"
+ me_seleukid_02_syria.12.a:0 "让我们命名它，这是理所应当的。"
+ me_seleukid_02_syria.12.a.tt:0 "使命任务“#Y $seleukid_mission_02_syria_task_10$#!”现已#G 完成#!！"
+
+ me_seleukid_02_syria.13.t:0 "$seleukid_mission_02_syria_task_11$"
+ me_seleukid_02_syria.13.desc:0 "随着我们恢复了[GetProvince('(int32)1881').GetName]周边的圣地，我们也确保了这个地区的神谕处得以重建。这些神秘过去的地位很高，然而随着神庙衰败并开始四分五裂，此地的威严也日薄西山。\n\n如今这个地区已经恢复了往日的为王，神谕处向我们承诺会不断送来吉报，祭司们看上去对我们的援手心存感激。"
+ me_seleukid_02_syria.13.a:0 "我们希望能很快收到一些吉报。"
+ me_seleukid_02_syria.13.a.tt:0 "使命任务“#Y $seleukid_mission_02_syria_task_11$#!”现已#G 完成#!！"
+
+ me_seleukid_02_syria.14.t:0 "$seleukid_mission_02_syria_task_final$"
+ me_seleukid_02_syria.14.desc:0 "我们终于完成了在叙利亚的目标，此地现今已经成为我们帝国重要的一部分。新建立的定居点和城市星罗棋布地分布在这个地区，我们知道我们已经开始了某种在世界的这个部分数十年都未曾见过的事物。"
+ me_seleukid_02_syria.14.a:0 "帝国的另一大步。"
+ me_seleukid_02_syria.14.a.tt:0 "使命任务“#Y $seleukid_mission_02_syria_task_final$#!”现已#G 完成#!！"
+
+ me_seleukid_02_syria.15.t:0 "$seleukid_mission_02_syria$"
+ me_seleukid_02_syria.15.desc:0 "当我们着手征服新的利益之地时，我们知道自己已经在叙利亚留下了一套优秀的行政系统帮助我们保证此地的安全。尽管这套系统有点背离我们在巴比伦尼亚的人民和利益，但是它在重要性上丝毫不减。我们终于在地中海沿岸有了港口，我们可以再一次跻身于争夺亚历山大帝国遗产的政治风云之中。"
+ me_seleukid_02_syria.15.a:0 "不论是好是坏，这事都已经发生了。"
+ me_seleukid_02_syria.15.a.tt:0 "使命“#Y $seleukid_mission_02_syria$#!”现已#G 完成#!！"
+
+ me_seleukid_02_syria.17.t:0 "在[GetProvince('(int32)789').GetArea.GetRegion.GetName]内定居"
+ me_seleukid_02_syria.17.desc:0 "我们有数量庞大的人民最近被愚弄了，被承诺道能够在[GetProvince('(int32)789').GetArea.GetRegion.GetName]的新建立的诸多城市中的一个开始一段崭新的生活。他们将个人的财产，还有家园尽数抛下前往东方，而他们在定居后能够被给予新的房屋和工作。"
+ me_seleukid_02_syria.17.a:0 "至少，我们可以把他们抛下的东西拿来换点钱吧？"
+ me_seleukid_move_pop_tt_3:0 "#Y [THIS.GetProvince.MakeScope.GetVariable('seleukid_pop_move_variable').GetValue|0]#!人口离开了#Y [THIS.GetProvince.GetName]#!。"
+ me_seleukid_move_pop_tt_4:0 "#Y [THIS.GetProvince.MakeScope.GetVariable('seleukid_pop_move_variable').GetValue|0]#!人口离开了#Y [THIS.GetProvince.GetName]#!。"
+
+ me_seleukid_02_syria.18.t:0 "马罗斯神谕所"
+ me_seleukid_02_syria.18.desc:0 "我们收到了来自马罗斯神谕所的消息，当时一名信使正冲进我们的大殿。自我们上次从神谕所收到消息已经有一阵子了，每个人都在心怀激动地等待，信使开始复述信息。\n\n"
+ me_seleukid_02_syria.18.desc.1:0 "$me_seleukid_02_syria.18.desc$显然神谕所带来了有关我们的首都，[ROOT.GetCountry.GetCapital.GetArea.GetName]的[ROOT.GetCountry.GetCapital.GetName]的好消息，整个地区都生机勃勃，开始繁荣起来。"
+ me_seleukid_02_syria.18.desc.2:0 "$me_seleukid_02_syria.18.desc$显然神谕所看到了有大量的新士兵来自我们的首都，[ROOT.GetCountry.GetCapital.GetArea.GetName]的[ROOT.GetCountry.GetCapital.GetName]，因为这个地区的人民受到了我们的领袖以及[ROOT.GetCountry.GetRulerTitle][ROOT.GetCountry.GetRuler.GetName]的鼓舞。"
+ me_seleukid_02_syria.18.desc.3:0 "$me_seleukid_02_syria.18.desc$显然神谕所带来了有关我们的首都，[ROOT.GetCountry.GetCapital.GetArea.GetName]的[ROOT.GetCountry.GetCapital.GetName]的好消息，当地人口正在增多，在可预见的未来都会对我们忠心耿耿。"
+ me_seleukid_02_syria.18.desc.4:0 "$me_seleukid_02_syria.18.desc$显然神谕所带来了有关我国的好消息，整个国家生机勃勃，开始繁荣起来。"
+ me_seleukid_02_syria.18.desc.5:0 "$me_seleukid_02_syria.18.desc$显然神谕所带来了有关我国的好消息，神谕所注意到我们的子民集结在我方旌旗之下，在可预见的未来为我们提供了充足的兵源。"
+ me_seleukid_02_syria.18.desc.6:0 "$me_seleukid_02_syria.18.desc$显然神谕所带来了有关我国的好消息，整个国家人口正在增多，在可预见的未来都会对我们忠心耿耿。"
+ me_seleukid_02_syria.18.a:0 "繁荣昌盛，是吧？"
+ me_seleukid_02_syria.18.b:0 "是时候出重拳了。"
+ me_seleukid_02_syria.18.c:0 "对我们所有人来说都是好消息。"
+ me_seleukid_02_syria.18.d:0 "$me_seleukid_02_syria.18.a$。"
+ me_seleukid_02_syria.18.e:0 "$me_seleukid_02_syria.18.b$"
+ me_seleukid_02_syria.18.f:0 "$me_seleukid_02_syria.18.c$"
+
+ # 3
+ me_seleukid_03_anatolia.1.t:0 "$seleukid_mission_03_anatolia_task_1$"
+ me_seleukid_03_anatolia.1.desc:0 "旧弗里吉亚总督区的核心，一度是[GetCharacter('(int32)37').GetPraenomen]的基地，被[GetProvince('(int32)1936').GetName]城围绕着。这是一个位于[GetProvince('(int32)1936').GetArea.GetRegion.GetName]深处的古弗里吉亚人城市，在很长一段时间都是重要的行政中心。\n\n随着我们征服了这个地区，我们也打算将这个旧首都作为我们的行政中心。"
+ me_seleukid_03_anatolia.1.a:0 "如果[GetCharacter('(int32)37').GetPraenomen]能够看到[GetCharacter('(int32)37').GetHerHis]的王国的今日，[GetCharacter('(int32)37').GetSheHe]必定也会落泪吧。"
+ me_seleukid_03_anatolia.1.a.tt:0 "使命任务“#Y $seleukid_mission_03_anatolia_task_1$#!”现已#G 完成#!！"
+
+ me_seleukid_03_anatolia.2.t:0 "$seleukid_mission_03_anatolia_task_2$"
+ me_seleukid_03_anatolia.2.desc:0 "[GetCharacter('(int32)37').GetPraenomen]的旧都被纳入我们的统治之下，我们花了大量的时间和物力来重建这座城市，希望它能够作为我们在[GetProvince('(int32)1936').GetArea.GetRegion.GetName]的行政中心。现在我们重建城市的工作几近尾声，我们希望能够为其选择一个合适的名字。"
+ me_seleukid_03_anatolia.2.a:0 "我们已经有个想法了。"
+ me_seleukid_03_anatolia.2.a.tt:0 "使命任务“#Y $seleukid_mission_03_anatolia_task_2$#!”现已#G 完成#!！"
+
+ me_seleukid_03_anatolia.3.t:0 "$seleukid_mission_03_anatolia_task_3$"
+ me_seleukid_03_anatolia.3.desc:0 "[GetProvince('(int32)1928').GetArea.GetName]内有一座月神[men_deity.GetName]的古代神坛，位于[GetProvince('(int32)1928').GetName]这个小城。我们以这个重要的当地神坛作为重点，以我们皇家的城市作为蓝图重建了这座城市，并顺势在这个区域建立了当地的行政机构。"
+ me_seleukid_03_anatolia.3.a:0 "他们应该对我们心存感激，真的。"
+ me_seleukid_03_anatolia.3.a.tt:0 "使命任务“#Y $seleukid_mission_03_anatolia_task_3$#!”现已#G 完成#!！"
+
+ me_seleukid_03_anatolia.4.t:0 "$seleukid_mission_03_anatolia_task_4$"
+ me_seleukid_03_anatolia.4.desc:0 "一大批新城市和堡垒沿着皇家大道向西在[GetProvince('(int32)1936').GetArea.GetRegion.GetName]全境拔地而起，我们建立了一套全新的行政机构来管理整个区域，这片土地在我们的统治下将持续地繁荣。"
+ me_seleukid_03_anatolia.4.a:0 "安全地统治一片区域得要有所投入，毕竟。"
+ me_seleukid_03_anatolia.4.a.tt:0 "使命任务“#Y $seleukid_mission_03_anatolia_task_4$#!”现已#G 完成#!！"
+
+ me_seleukid_03_anatolia.5.t:0 "$seleukid_mission_03_anatolia_task_5$"
+ me_seleukid_03_anatolia.5.desc:0 "我们花费了大量物力和时间将[GetProvince('(int32)1936').GetName]打造成为一个我们统治之下的雄伟的皇家城市，并同时开始整合当地的人口。尽管当我们初到此地时，这些人对我们来说是外国人，我们现在对他们有了很多的了解，他们在我们统治安纳托利亚的过程中也积极参与了我们的行政构建。"
+ me_seleukid_03_anatolia.5.a:0 "看来这是互惠互利的关系。"
+ me_seleukid_03_anatolia.5.a.tt:0 "使命任务“#Y $seleukid_mission_03_anatolia_task_5$#!”现已#G 完成#!！"
+
+ me_seleukid_03_anatolia.6.t:0 "$seleukid_mission_03_anatolia_task_6$"
+ me_seleukid_03_anatolia.6.desc:0 "[GetProvince('(int32)1883').GetArea.GetRegion.GetName]的北边是[GetProvince('(int32)1799').GetArea.GetRegion.GetName]，向东边延伸则是[GetProvince('(int32)1936').GetArea.GetRegion.GetName]，这些区域通常被放着自生自灭，因为他们不像自己的毗邻区域那样有价值。我们现在已经控制了这个地区，开始调查当地并设立一个置于我们管辖之下的行政机构。"
+ me_seleukid_03_anatolia.6.a:0 "我们祖先没做到的，我们会完成。"
+ me_seleukid_03_anatolia.6.a.tt:0 "使命任务“#Y $seleukid_mission_03_anatolia_task_6$#!”现已#G 完成#!！"
+
+ me_seleukid_03_anatolia.7.t:0 "$seleukid_mission_03_anatolia_task_7$"
+ me_seleukid_03_anatolia.7.desc:0 "我们的目光朝向了[GetProvince('(int32)177').GetName]，作为我们在这个地区设置行政机构是一个颇有潜力的地方。我们现在已经在这个地区建立了一座位置妥当的城市，当地人也支持我们的事业，我们应该着眼于其他有利益的地区，这样我们才能夺得整个区域。"
+ me_seleukid_03_anatolia.7.a:0 "相对于我们投入的物力，这是物有所值。"
+ me_seleukid_03_anatolia.7.a.tt:0 "使命任务“#Y $seleukid_mission_03_anatolia_task_7$#!”现已#G 完成#!！"
+
+ me_seleukid_03_anatolia.8.t:0 "$seleukid_mission_03_anatolia_task_8$"
+ me_seleukid_03_anatolia.8.desc:0 "在[GetProvince('(int32)1934').GetName]和[GetProvince('(int32)1951').GetName]我们有两座年代久远的城市，其历史可以追溯到神话和传说的时代。现在这两座城市位于我们治下，假以时日整个区域也将会屈服于我们的影响力之下。"
+ me_seleukid_03_anatolia.8.a:0 "我们希望他们对我们的所作所为心存感激。"
+ me_seleukid_03_anatolia.8.a.tt:0 "使命任务“#Y $seleukid_mission_03_anatolia_task_8$#!”现已#G 完成#!！"
+
+ me_seleukid_03_anatolia.9.t:0 "$seleukid_mission_03_anatolia_task_9$"
+ me_seleukid_03_anatolia.9.desc:0 "我们在安纳托利亚的波斯御道往东面延伸的地方建立了一系列城市和堡垒，并控制了[GetProvince('(int32)1883').GetArea.GetRegion.GetName]北部的绝大多数区域。我们在这个地区的行政机构已经开始扎根，让我们可以将工作中心和资源转移到其他地方。"
+ me_seleukid_03_anatolia.9.a:0 "他们的工作令人钦佩。"
+ me_seleukid_03_anatolia.9.a.tt:0 "使命任务“#Y $seleukid_mission_03_anatolia_task_9$#!”现已#G 完成#!！"
+
+ me_seleukid_03_anatolia.10.t:0 "$seleukid_mission_03_anatolia_task_10$"
+ me_seleukid_03_anatolia.10.desc:0 "尽管[cappadocia_country.GetName]一度是希腊人[GetCharacter('(int32)408').GetPraenomen]的总督领，之后又是一个当地人作为统治者的王国，它还是在困难的年代不可避免地在衰落。我们现在和当地人精诚合作，恢复其独立身份，然后他们会建立一个新的王国作为我们的附庸。"
+ me_seleukid_03_anatolia.10.a:0 "只要他们认为自己是独立的，又有什么问题呢？"
+ me_seleukid_03_anatolia.10.a.tt:0 "使命任务“#Y $seleukid_mission_03_anatolia_task_10$#!”现已#G 完成#!！"
+
+ me_seleukid_03_anatolia.11.t:0 "$seleukid_mission_03_anatolia_task_11$"
+ me_seleukid_03_anatolia.11.desc:0 "随着[GetProvince('(int32)1936').GetArea.GetRegion.GetName]和[GetProvince('(int32)1951').GetArea.GetRegion.GetName]的部分落入我们控制，我们正以希腊海岸为目标不断西进。我们现在正在研究如何围绕[GetProvince('(int32)292').GetArea.GetName]和[GetProvince('(int32)1952').GetArea.GetName]，在安纳托利亚的西部建立统治。"
+ me_seleukid_03_anatolia.11.a:0 "终于，我们接近目标了。"
+ me_seleukid_03_anatolia.11.a.tt:0 "使命任务“#Y $seleukid_mission_03_anatolia_task_11$#!”现已#G 完成#!！"
+
+ me_seleukid_03_anatolia.12.t:0 "$seleukid_mission_03_anatolia_task_12$"
+ me_seleukid_03_anatolia.12.desc:0 "对于大多数统治安纳托利亚的帝国来说，[GetProvince('(int32)292').GetName]一直是一座位于西面的重要都城，尤其是对于波斯人、[GetCharacter('(int32)39').GetPraenomen]、或者[GetCharacter('(int32)37').GetPraenomen]。为了继续这个趋势，我们确保了当地人民对我们的忠诚心，并大规模地扩建了这座城市，这样有利于我们在此地建立行政机构尽管管理这个地区。"
+ me_seleukid_03_anatolia.12.a:0 "最终，我们走到了路的尽头。"
+ me_seleukid_03_anatolia.12.a.tt:0 "使命任务“#Y $seleukid_mission_03_anatolia_task_12$#!”现已#G 完成#!！"
+
+ me_seleukid_03_anatolia.13.t:0 "$seleukid_mission_03_anatolia_task_13$"
+ me_seleukid_03_anatolia.13.desc:0 "我们在安纳托利亚的波斯御道往西面延伸的地方建立了一系列城市和堡垒，此地距离希腊的[GetProvince('(int32)1973').GetArea.GetRegion.GetName]海岸十分靠近。由于他们离我们更近，文化背景也更加相似，我们在管理他们和整合他们进入我们帝国方面的工作比对付东边的那群蛮子要容易多了。"
+ me_seleukid_03_anatolia.13.a:0 "我们距离马其顿又近了一步。"
+ me_seleukid_03_anatolia.13.a.tt:0 "使命任务“#Y $seleukid_mission_03_anatolia_task_13$#!”现已#G 完成#!！"
+
+ me_seleukid_03_anatolia.14.t:0 "$seleukid_mission_03_anatolia_task_14$"
+ me_seleukid_03_anatolia.14.desc:0 "[GetProvince('(int32)1973').GetArea.GetName]的[GetProvince('(int32)1973').GetName]附近坐落着狄底马的神坛，是[apollo_deity.GetName]中最为宏伟的一座，其规模仅仅逊色于[GetProvince('(int32)424').GetName]和[GetProvince('(int32)1835').GetName]的神殿。狄底马的神谕所从我国收到了数次捐赠，因为[GetCharacter('(int32)24').GetFamily.GetName]家族认为自己是这位神祇的后代，正如[GetCharacter('(int32)24').GetPraenomen]宣称的那样。"
+ me_seleukid_03_anatolia.14.a:0 "我们现在控制了[GetProvince('(int32)1973').GetName]，我们现在可以保护这座神殿了。"
+ me_seleukid_03_anatolia.14.a.tt:0 "使命任务“#Y $seleukid_mission_03_anatolia_task_14$#!”现已#G 完成#!！"
+
+ me_seleukid_03_anatolia.15.t:0 "$seleukid_mission_03_anatolia_task_15$"
+ me_seleukid_03_anatolia.15.desc:0 "我们对狄底马的神谕所周边的神庙建筑进行了扩建，获得了这个地区当地人的忠诚和尊敬。对这个神谕所进行妥善的照顾一直是我们的[SCOPE.GetRootScope.GetCountry.GetRulerTitle][SCOPE.GetRootScope.GetCountry.GetRuler.GetPraenomen]的目标，因为[SCOPE.GetRootScope.GetCountry.GetRuler.GetHerHis]的家族就是这位神祇的后代。"
+ me_seleukid_03_anatolia.15.a:0 "我们的祖先会自豪的。"
+ me_seleukid_03_anatolia.15.a.tt:0 "使命任务“#Y $seleukid_mission_03_anatolia_task_15$#!”现已#G 完成#!！"
+
+ me_seleukid_03_anatolia.16.t:0 "$seleukid_mission_03_anatolia_task_16$"
+ me_seleukid_03_anatolia.16.desc:0 "自巴比伦尼亚的[GetProvince('(int32)911').GetName]到地中海沿岸的[GetProvince('(int32)789').GetName]，被赋予塞琉刻亚之名的城市在我们国家一直扮演者重要的角色。我们现在正在计划于[GetProvince('(int32)1966').GetArea.GetName]建立一座新的塞琉刻亚，希望这座城市能够成为这个区域的中心，正如同在它之前的其他同名城市一样。"
+ me_seleukid_03_anatolia.16.a:0 "我们统治下的又一个皇家城市。"
+ me_seleukid_03_anatolia.16.a.tt:0 "使命任务“#Y $seleukid_mission_03_anatolia_task_16$#!”现已#G 完成#!！"
+
+ me_seleukid_03_anatolia.17.t:0 "$seleukid_mission_03_anatolia_task_final$"
+ me_seleukid_03_anatolia.17.desc:0 "我们终于控制了通往[GetProvince('(int32)292').GetName]的一条通道，并在沿路周边设立了坚实的行政机构和防御性的工事堡垒。只要我们继续向西一路征服的努力，我们就可以前往希腊沿岸，以及我们的家乡马其顿了。"
+ me_seleukid_03_anatolia.17.a:0 "不过我们的工作尚未结束。"
+ me_seleukid_03_anatolia.17.a.tt:0 "使命任务“#Y $seleukid_mission_03_anatolia_task_final$#!”现已#G 完成#!！"
+
+ me_seleukid_03_anatolia.18.t:0 "$seleukid_mission_03_anatolia$"
+ me_seleukid_03_anatolia.18.desc:0 "我们已经征服了所有前往[GetProvince('(int32)1973').GetArea.GetRegion.GetName]海岸的道路，我们的梦想终于实现了。安纳托利亚最重要的港口、以及波斯御道现在已经落到了我们手中，我们通向[GetCharacter('(int32)39').GetPraenomen]的旧帝国所有区域的道路都打通了。"
+ me_seleukid_03_anatolia.18.a:0 "每一片区域我们都触手可及。"
+ me_seleukid_03_anatolia.18.a.tt:0 "使命“#Y $seleukid_mission_03_anatolia$#!”现已#G 完成#!！"
+
+ # 4
+ me_seleukid_04_palestine.1.t:0 "$seleukid_mission_04_palestine_task_1$"
+ me_seleukid_04_palestine.1.desc:0 "尽管我们的目光朝向了南方，朝向了[GetProvince('(int32)687').GetArea.GetRegion.GetName]的大地，我们心里很清楚要想把军队朝这个方向开进，我们首先得控制道路。[GetProvince('(int32)789').GetArea.GetRegion.GetName]已经基本上被纳入我们的版图了，我们现在只需要加强对这个区域的控制。"
+ me_seleukid_04_palestine.1.a:0 "我们已经等待这个很久了。"
+ me_seleukid_04_palestine.1.a.tt:0 "使命任务“#Y $seleukid_mission_04_palestine_task_1$#!”现已#G 完成#!！"
+
+ me_seleukid_04_palestine.2.t:0 "$seleukid_mission_04_palestine_task_2$"
+ me_seleukid_04_palestine.2.desc:0 "[GetProvince('(int32)687').GetArea.GetRegion.GetName]和[GetProvince('(int32)789').GetArea.GetRegion.GetName]之间的许多商务、贸易和旅行都需要穿过两个区域之间的隘口、山峰和山脉。现在我们已经控制了这些隘口，我们的士兵可以安全地向北边或南边开进，一旦这个区域被敌人进攻我们也有坚实的防御工事和措施进行防范。"
+ me_seleukid_04_palestine.2.a:0 "我们为南方战役所作的另一项准备。"
+ me_seleukid_04_palestine.2.a.tt:0 "使命任务“#Y $seleukid_mission_04_palestine_task_2$#!”现已#G 完成#!！"
+
+ me_seleukid_04_palestine.3.t:0 "来自腓尼基的海军"
+ me_seleukid_04_palestine.3.desc:0 "我们与腓尼基诸城的领袖们保持着联系，这样的情况已经持续了一段时间，因为我们希望从他们处得到一支海军。现在我们已经将他们所需要的所用东西都准备好了，于是我们派遣了一名信使阐明我们的要求。"
+ me_seleukid_04_palestine.3.a:0 "毕竟，他们拥有已知世界内最好的造船匠。"
+
+ me_seleukid_04_palestine.4.t:0 "$seleukid_mission_04_palestine_task_3$"
+ me_seleukid_04_palestine.4.desc:0 "我们从[GetProvince('(int32)779').GetName]收到消息，他们已经完成了我们需要建造的舰船，这些舰船正在[GetProvince('(int32)779').GetArea.GetName]的滩头待命。我们的监工们报告说，这些舰船的质量无与伦比，与他们之前见到的任何舰船都不能同日而语。"
+ me_seleukid_04_palestine.4.a:0 "棒极了。"
+ me_seleukid_04_palestine.4.a.tt:0 "使命任务“#Y $seleukid_mission_04_palestine_task_3$#!”现已#G 完成#!！"
+
+ me_seleukid_04_palestine.5.t:0 "$seleukid_mission_04_palestine_task_4$"
+ me_seleukid_04_palestine.5.desc:0 "[GetProvince('(int32)789').GetArea.GetRegion.GetName]已经完全纳入我们的版图，我们现在着眼于南边的[GetProvince('(int32)687').GetArea.GetRegion.GetName]。我们的军队已经枕戈待旦，随时准备开拔作战，开疆扩土，如同我们长期以来计划的那样。\n\n现在万事俱备，只待我们向南边的邻国宣战，发动战争。"
+ me_seleukid_04_palestine.5.a:0 "理所当然。"
+ me_seleukid_04_palestine.5.a.tt:0 "使命任务“#Y $seleukid_mission_04_palestine_task_4$#!”现已#G 完成#!！"
+
+ me_seleukid_04_palestine.6.t:0 "$seleukid_mission_04_palestine_task_5$"
+ me_seleukid_04_palestine.6.desc:0 "我们已经确保了沿海的腓尼基人以及他们诸多城市的忠心，从北边的[GetProvince('(int32)747').GetName]一直到南边的[GetProvince('(int32)659').GetName]和[GetProvince('(int32)660').GetName]。现在这个区域已经落入我们的控制，我们在着眼于其他地方时必须先采取相应措施妥当地保护这个区域。"
+ me_seleukid_04_palestine.6.a:0 "一次成功，但是我们还有很多工作要做。"
+ me_seleukid_04_palestine.6.a.tt:0 "使命任务“#Y $seleukid_mission_04_palestine_task_5$#!”现已#G 完成#!！"
+
+ me_seleukid_04_palestine.7.t:0 "$seleukid_mission_04_palestine_task_6$"
+ me_seleukid_04_palestine.7.desc:0 "[GetProvince('(int32)659').GetName]以及其周边区域的人民，对于我们在改善当地神坛和神殿方面所做的工作心存感激。他们膜拜的一位主要神祇，[GetDeityDefinition('omen_hadad').GetName]神，神祇开始在我们自己人的宫廷内开始流行起来。"
+ me_seleukid_04_palestine.7.a:0 "你是说[GetDeityDefinition('omen_hadad').GetName]？"
+ me_seleukid_04_palestine.7.a.tt:0 "使命任务“#Y $seleukid_mission_04_palestine_task_6$#!”现已#G 完成#!！"
+
+ me_seleukid_04_palestine.8.t:0 "$seleukid_mission_04_palestine_task_7$"
+ me_seleukid_04_palestine.8.desc:0 "我们花了很大的精力，整合和同化[GetProvince('(int32)659').GetArea.GetRegion.GetName]的当地人口，他们现在终于习惯我们的统治了。当地的军官们发来报告，我们的[ROOT.GetCountry.GetPrimaryCulture.GetName]行政官员和当地人之间的矛盾相较于几个月前已经有了显著的减少。"
+ me_seleukid_04_palestine.8.a:0 "我们希望这个趋势能够延续下去。"
+ me_seleukid_04_palestine.8.a.tt:0 "使命任务“#Y $seleukid_mission_04_palestine_task_7$#!”现已#G 完成#!！"
+
+ me_seleukid_04_palestine.9.t:0 "$seleukid_mission_04_palestine_task_8$"
+ me_seleukid_04_palestine.9.desc:0 "我们已经完全控制了这个区域的主要城市和定居点，我们这个区域的行政机关终于普及到了区域全境。尽管这些官僚还是新手，他们发过来的报告还是表示形势一切大好。"
+ me_seleukid_04_palestine.9.a:0 "我们在这个区域投入了如此的精力，希望一切能够奏效。"
+ me_seleukid_04_palestine.9.a.tt:0 "使命任务“#Y $seleukid_mission_04_palestine_task_8$#!”现已#G 完成#!！"
+
+ me_seleukid_04_palestine.10.t:0 "$seleukid_mission_04_palestine_task_9$"
+ me_seleukid_04_palestine.10.desc:0 "我们的手下已经完全控制了[GetProvince('(int32)733').GetArea.GetName]、[GetProvince('(int32)687').GetArea.GetName]以及[GetProvince('(int32)681').GetArea.GetName]省份，这是我们控制整个[GetProvince('(int32)687').GetArea.GetRegion.GetName]区域战役的一部分。这些地区出了名的不好控制，但是又是这个区域最为富饶的几个省份。"
+ me_seleukid_04_palestine.10.a:0 "所以我们一定要控制住这些地方。"
+ me_seleukid_04_palestine.10.a.tt:0 "使命任务“#Y $seleukid_mission_04_palestine_task_9$#!”现已#G 完成#!！"
+
+ me_seleukid_04_palestine.11.t:0 "$seleukid_mission_04_palestine_task_10$"
+ me_seleukid_04_palestine.11.desc:0 "我们将努力的重心放在了控制[GetProvince('(int32)687').GetArea.GetName]周边土地上，形势变得十分明朗，我们必须同南边的纳巴泰人达成一些协议。我们的人民最终同意了一份协议，一批年轻的纳巴泰人将来到[ROOT.GetCountry.GetAdjective]的土地，欢迎我们的[ROOT.GetCountry.GetRulerTitle][ROOT.GetCountry.GetRuler.GetPraenomen]。"
+ me_seleukid_04_palestine.11.a:0 "毕竟，他们才是沙漠的主人。"
+ me_seleukid_04_palestine.11.a.tt:0 "使命任务“#Y $seleukid_mission_04_palestine_task_10$#!”现已#G 完成#!！"
+
+ me_seleukid_04_palestine.12.t:0 "希腊定居者"
+ me_seleukid_04_palestine.12.desc:0 "我们正在安排信使，希望吸引[GetProvince('(int32)416').GetArea.GetRegion.GetName]、[GetProvince('(int32)379').GetArea.GetRegion.GetName]和[GetProvince('(int32)290').GetArea.GetRegion.GetName]的人民们前往[GetProvince('(int32)732').GetArea.GetName]定居。随着大批量的新定居者不断涌入这个省份，我们能够利用起当地肥沃的土地，其效率相较于当前的当地人口有了大幅度的提高。"
+ me_seleukid_04_palestine.12.a:0 "我们希望有许多人对这个提议感兴趣。"
+
+ me_seleukid_04_palestine.13.t:0 "$seleukid_mission_04_palestine_task_11$"
+ me_seleukid_04_palestine.13.desc:0 "当地的行政官通知我们，有一大批希腊定居者在[GetProvince('(int32)732').GetArea.GetName]的各地定居下来，他们指望我们提供给他们房屋、新权利和保护。大概我们现在终于可以更好地利用起这个省份了。"
+ me_seleukid_04_palestine.13.a:0 "他们会证明自己对我们是无价的。"
+ me_seleukid_04_palestine.13.a.tt:0 "使命任务“#Y $seleukid_mission_04_palestine_task_11$#!”现已#G 完成#!！"
+ me_seleukid_move_pop_palestine_tt_1:0 "#Y [THIS.GetProvince.GetName]#!获得了#Y [THIS.GetProvince.MakeScope.GetVariable('seleukid_pop_palestine_move_variable').GetValue|0]#!人口。"
+ me_seleukid_move_pop_palestine_tt_2:0 "#Y [THIS.GetProvince.GetName]#!获得了#Y [THIS.GetProvince.MakeScope.GetVariable('seleukid_pop_palestine_move_variable').GetValue|0]#!人口。"
+
+
+ me_seleukid_04_palestine.14.t:0 "$seleukid_mission_04_palestine_task_12$"
+ me_seleukid_04_palestine.14.desc:0 "尽管我们花了大量人力物力组建[GetProvince('(int32)687').GetArea.GetName]的行政机构，当地人还是不断地掀起争端，试图脱离当地政府的控制。我们政府的很多顾问都生成形势会自然而然地好转，但是我们自己却说不准。"
+ me_seleukid_04_palestine.14.a:0 "行政人员会想出办法的。大概吧。"
+ me_seleukid_04_palestine.14.a.tt:0 "使命任务“#Y $seleukid_mission_04_palestine_task_12$#!”现已#G 完成#!！"
+ me_seleukid_04_palestine.14.b:0 "自由之邦，他们要的就这？给给给，全给他们。"
+ me_seleukid_04_palestine.14.b.tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!会将#Y [GetProvince('(int32)687').GetArea.GetName]#!释放为#Y 仆从国#!。"
+
+ me_seleukid_04_palestine.15.t:0 "$seleukid_mission_04_palestine_task_final$"
+ me_seleukid_04_palestine.15.desc:0 "[GetProvince('(int32)687').GetArea.GetRegion.GetName]全境已经落入我们的控制，我们开始着眼于下一个我们能够进军的地方。尽管我们已经打开了位于南方的[GetProvince('(int32)4619').GetArea.GetRegion.GetName]的大门，这片土地却非常难以控制和穿越。另一个选项则是向西进军埃及三角洲，这里是我们长久以来的渴望之地。"
+ me_seleukid_04_palestine.15.a:0 "时机合适的时候，我们会重启战端。"
+ me_seleukid_04_palestine.15.a.tt:0 "使命任务“#Y $seleukid_mission_04_palestine_task_final$#!”现已#G 完成#!！"
+
+ me_seleukid_04_palestine.16.t:0 "$seleukid_mission_04_palestine$"
+ me_seleukid_04_palestine.16.desc:0 "我们终于完成了控制[GetProvince('(int32)687').GetArea.GetRegion.GetName]和[GetProvince('(int32)789').GetArea.GetRegion.GetName]全境，以及[GetProvince('(int32)516').GetArea.GetRegion.GetName]和[GetProvince('(int32)1883').GetArea.GetRegion.GetName]边界的战役。现在腓尼基的船匠被我们控制，这个区域的许多港口也在为我们的事业效力，我们可以再一次地加强对尚未兼并的[GetCharacter('(int32)39').GetPraenomen]帝国旧领土的影响能力。"
+ me_seleukid_04_palestine.16.a:0 "毕竟，这是一次扎实的成功。"
+ me_seleukid_04_palestine.16.a.tt:0 "使命“#Y $seleukid_mission_04_palestine$#!”现已#G 完成#!！"
+
+ me_seleukid_04_palestine.18.t:0 "得卡波利斯之旅"
+ me_seleukid_04_palestine.18.desc:0 "来自东方的信使访问了我们的几座城市之后，我们的一大群子民都被劝诱前往被称作[GetProvince('(int32)732').GetArea.GetName]的地区，当地统治者承诺赋予他们特殊的权利和新的房屋。"
+ me_seleukid_04_palestine.18.a:0 "把这些叛乱留下的东西卖掉换钱。"
+ me_seleukid_move_pop_palestine_tt_3:0 "#Y [THIS.GetProvince.MakeScope.GetVariable('seleukid_pop_palestine_move_variable').GetValue|0]#!人口离开了#Y [THIS.GetProvince.GetName]#!。"
+ me_seleukid_move_pop_palestine_tt_4:0 "#Y [THIS.GetProvince.MakeScope.GetVariable('seleukid_pop_palestine_move_variable').GetValue|0]#!人口离开了#Y [THIS.GetProvince.GetName]#!。"

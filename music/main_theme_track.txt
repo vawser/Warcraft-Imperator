@@ -1,0 +1,5 @@
+﻿main_theme_track = {
+	music = "event:/MUSIC/BaseGame/MainMenu/mx_maintheme_01"
+	can_be_interrupted = yes
+
+}

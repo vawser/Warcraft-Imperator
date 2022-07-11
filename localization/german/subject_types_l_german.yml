@@ -1,0 +1,18 @@
+﻿l_german:
+ protectorate:0 "Protektorat"
+ CANCEL_TITLE:0 "Untertanenstatus widerrufen"
+ subject_merc_city_state_cost_modifier:0 "Einkommen (Söldnerstaat)"
+ MERC_CITY_STATE_EFFECT_TT:0 "[SCOPE.GetRootScope.GetProvince.GetName|Y] wird eine freie Stadt und von einem lokalen Söldner regiert.\nEs wird unser Untertan und erhält einen Bonus auf seine Grundrekrutenreserve.\n\n"
+ SYR_merc_state_title:0 "Söldnerstadtstaat gründen"
+ SYR_merc_state_desc:0 "Seid Ihr sicher, dass Ihr einen Söldnerstadtstaat gründen möchtet? Dies wird einen Untertan aus [SCOPE.GetRootScope.GetProvince.GetName] machen."
+ recruit_character_mg_syr_cost_modifier:0 "Aktionskosten (Anführer ernennen)"
+ goes_here_becomes_king_tt:0 "[SCOPE.sChar('target').GetPraenomen|Y] geht nach [SCOPE.sC('actor').GetName|Y] und wird dort [SCOPE.sC('actor').GetRulerTitle|Y]."
+ mg_recruit_cooldown_string:0 "Ihr könnt diese Aktion bis zum [SCOPE.sC('actor').GetVariableExpiry('mg_recruit_cooldown')|Y] nicht erneut durchführen"
+ recruit_character_mg_syr:0 "Söldnerkönig ernennen"
+ create_merc_state_price:0 "Söldnerstaat gründen"
+ owned_by_us_tt:0 "Wir besitzen ihn."
+ MERC_CITY_MONARCHY_EFFECT:0 "Wenn Ihr den Regierungstyp #Y Monarchie#! habt, könnt Ihr alle #Y 5#! Jahre Euren derzeitigen Herrscher absetzen und durch einen Herrscher aus einem Eurer #Y Söldnerstaaten#! ersetzen. Dies geschieht per #Y Charakterinteraktion#! und setzt voraus, dass das Gesetz #Y Söldnervertrag#! erlassen wurde.\n\n"
+ LEAGUE_CITY_STATE_EFFECT_TT:0 "[SCOPE.GetRootScope.GetProvince.GetName|Y] wird eine unabhängige Bundstadt, die von einer republikanischen Regierung geführt wird.\nSie wird unser Untertan und erhält einen Bonus auf ihre Handelsrouten und produzierten Handelswaren. Sie wird sich uns nicht in Kriegen anschließen, kostet aber auch keinen diplomatischen Beziehungsplatz und kann nicht integriert werden."
+ league_city_title:0 "Bundstadt gründen"
+ league_city_desc:0 "Seid Ihr sicher, dass Ihr eine Bundstadt gründen möchtet? Dies wird einen Untertan aus [SCOPE.GetRootScope.GetProvince.GetName] machen."
+ 

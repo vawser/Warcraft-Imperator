@@ -1,0 +1,29 @@
+﻿l_simp_chinese:
+
+ ## Dacian Deities ##
+ deity_pleistoros:0 "$omen_pleistoros$"
+ omen_pleistoros:1 "普雷斯托洛斯"
+ omen_pleistoros_desc:4 "普雷斯托洛斯是达契亚部落尊崇的冷酷战神。他们经常献祭奴隶和战俘来纪念他，希望在发动战争时能继续得到他的祝福。"
+ deity_zalmoxis:0 "$omen_zalmoxis$“"
+ omen_zalmoxis:1 "扎尔莫克西斯"
+ omen_zalmoxis_desc:4 "扎尔莫克西斯，某些人称为革柏勒最斯，是一名说服了达契亚人信从他的信仰和信理的智者。尽管他某段时间被认为是一个人，各部落现在将他作为指引亡者的神明崇拜，实际上成为了他们的亡灵指引者。"
+
+ ## Thracian Deities ##
+ deity_sabazios:0 "$omen_sabazios$“"
+ omen_sabazios:1 "萨巴兹乌斯"
+ omen_sabazios_desc:4 "萨巴兹乌斯是受色雷斯各部落崇拜的众多战神之一，但却是唯一在他们家乡之外也受欢迎的色雷斯神明，崇敬他的教派在弗里吉亚人和吕底亚人的土地上如雨后春笋般出现。在某些故事中，萨巴兹乌斯被描绘为一位色雷斯骑手，知名度已经越过了色雷斯海岸之外。"
+ deity_derzelas:0 "$omen_derzelas$"
+ omen_derzelas:1 "得耳泽拉斯"
+ omen_derzelas_desc:4 "得耳泽拉斯在色雷斯人中受尊崇，相信他是地下世界、丰收和健康之神。他通常与一支丰饶之角一起出现，象征着他作为各部落供给者的角色。他的崇拜者以他的名义举办运动会，与希腊人那更为出名的运动会很相似。"
+ deity_zibelthiurdos:0 "$omen_zibelthiurdos$"
+ omen_zibelthiurdos:1 "最贝尔提乌耳多斯"
+ omen_zibelthiurdos_desc:4 "最贝尔提乌耳多斯是天空、雷电和雨神，被许多希腊人认为是色雷斯的宙斯。他通常被描绘为身侧有一道霹雳，是色雷斯各部落的主要神明之一。"
+ deity_bassareus:0 "$omen_bassareus$"
+ omen_bassareus:1 "巴萨柔斯"
+ omen_bassareus_desc:4 "$dionysus_description$"
+ deity_bendis:0 "$omen_bendis$"
+ omen_bendis:1 "本狄斯"
+ omen_bendis_desc:4 "本狄斯是色雷斯的狩猎与丰收之神，通常与萨堤耳和迈那得斯一起出现。希腊人中她有时也会与另一位狩猎女神阿耳特弥斯相关联，但后来本狄斯在他们的土地上自己成为了一位受欢迎的女神。本狄得亚节就以她的名义举办。"
+ deity_semele:0 "$omen_semele$"
+ omen_semele:1 "塞墨勒"
+ omen_semele_desc:4 "塞墨勒是一位在全色雷斯备受尊崇的母神，也是巴萨柔斯的母亲。有人说对她的崇拜起源于弗里吉亚，但之后她吸收了更多的希腊和色雷斯元素，现在在这些地方她备受欢迎。她通常和她的儿子一起被崇拜，在色雷斯人中是巴萨柔斯，在希腊人中是狄俄倪索斯，有着他们自己的教派。"

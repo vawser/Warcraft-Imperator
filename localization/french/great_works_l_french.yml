@@ -1,0 +1,302 @@
+﻿l_french:
+### GW Interface
+
+ GW_BUILD_WINDOW_DEFAULT_TITLE:0 "Grande merveille"
+ GW_SELECT_EFFECT_TT:0 "Choix de l'effet"
+ GW_BUILD_BUTTON:0 "Construire une grande merveille"
+ GW_BUILD_BUTTON_TOOLTIP:0 "Ouvrir l'interface de construction"
+ GW_CONSTRUCTION_TITLE:0 "Aperçu de la construction"
+ GW_COST_LABEL_GOLD:0 "Coût financier : "
+ GW_COST_LABEL_WORK:0 "Coût en travail : "
+ GW_COST_LABEL_TIME:0 "Coût en temps : "
+ GW_COST_LABEL_WORK_RATE:0 "Taux de travail : "
+ GW_PRESTIGE_LABEL:0 "Prestige : "
+ GW_MAX_TIER_LEVEL_LABEL:0 "Niveau maximal : "
+ GW_EFFECT_TIER_NAME:0 "Niveau"
+ GW_ALREADY_PRESENT_IN_PROVINCE:0 "Il y a déjà une grande merveille ici"
+ GW_EDIT_BUTTON:0 "Modifier"
+ GW_EDIT_TOOLTIP:0 "#T Modifier la merveille#!\n$CHANGES$"
+ GW_EDIT_NO_CHANGE_TOOLTIP:0 "Aucune modification"
+ GREAT_WORK_SELECT_LEADER_HEADER:0 "Nommer un responsable pour la construction"
+ GREAT_WORK_NO_LEADER_TT:0 "Aucun responsable nommé\n@time!Temps de construction $VALUE|-=%^$"
+
+ GW_BUILD_BUTTON_REASON:0 "#T Lancer la construction de la $NAME|V$#!\n$REASONS$"
+ GW_LACKING_PRESTIGE_FOR_EFFECT:2 "@trigger_no! $EFFECT$ $TIER$ nécessite un prestige d'au moins $EFFECT_PRESTIGE$."
+ GW_LACKING_EFFECTS:0 "@trigger_no! Au moins un effet doit être choisi."
+ GW_LACKING_GOLD:0 "@trigger_no! La construction coûte $COST|-2$@gold!"
+ GW_LACKING_GOLD_EDIT:0 "@trigger_no! Cette modification coûte $COST|-2$@gold!"
+ GW_LACKING_BUILDING_SLOTS:0 "@trigger_no! Aucun emplacement constructible à $NAME$."
+ GW_GOLD_COST:0 "$COST|+2$@gold!"
+ GW_POLITICAL_COST:0 "$COST|+$@political_influence_icon!"
+ GW_STABILITY_COST:0 "$COST|+$@stability!"
+ GW_DUPLICATE_EFFECT_SELF:0 "@trigger_no! $EFFECT$ ne peut être choisi qu'une seule fois."
+ GW_DUPLICATE_EFFECT_OTHER:0 "@trigger_no! $EFFECT$ est déjà utilisé par une autre merveille."
+
+
+ GW_LACKING_INFLUENCE_EDIT:0 "@trigger_no! Cette modification coûte $COST|-2$ en influence politique."
+
+ GW_CANNOT_CHANGE_LEADER:0 "Le responsable d'une grande merveille ne peut être remplacé avant $DAYS$ jours."
+ GW_CHARACTER_ALREADY_LEADING:0 "$NAME$ est déjà responsable de la construction de la $OTHER_WORK$"
+
+ GW_REMOVE_LEADER:0 "Décharger [CHARACTER.GetName] de la responsabilité de la construction"
+ GW_ASSIGN_LEADER:0 "Confier à [CHARACTER.GetName] la construction de la construction"
+ GW_CURRENTLY_LEADING:0 "[CHARACTER.GetName] dirige actuellement la construction"
+
+ GREAT_WORK_EFFECT:0 "Avantages assurés à $LOCATION|Y$ :\n$EFFECTS$\n\n"
+ GREAT_WORK_EFFECT_CHANGE:0 "Fait passer de $OLD_EFFECT|V$ à $NEW_EFFECT|V$"
+ GREAT_WORK_EFFECT_ADDED:0 "Ajoute $NEW_EFFECT|V$"
+ GREAT_WORK_EFFECT_REMOVE:0 "Retire $EFFECT|V$"
+ GREAT_WORK_TT:0 "#T $NAME$#!\n$EFFECTS$"
+ GREAT_WORK_LOCATION_TT:0 "#T $NAME$#!\nSituée à $LOCATION|Y$\n$EFFECTS$"
+ GREAT_WORK_CONSTRUCTION_TT:0 "La $NAME|Y$ sera terminée le $WHEN|Y$."
+ GREAT_WORK_CONSTRUCTION_ANCIENT_TT:0 "La [GREAT_WORK.GetName|Y] est en cours de construction."
+ GREAT_WORK_CONSTRUCTION_NEVER_TT:0 "La $NAME|Y$ ne sera jamais achevée."
+ GREAT_WORK_TT_PROVINCE:2 "La [PROVINCE.GetRank.GetName] de [PROVINCE.GetName] a la grande merveille [GREAT_WORK.GetName|Y]"
+
+ GREAT_WORK_PRESTIGE_BAR_TT:0 "#T Prestige de construction#!\nLe prestige de construction s'accroît à mesure que la grande merveille vieillit et si des matériaux de meilleure qualité sont utilisés. Un prestige plus élevé alloue des effets plus importants.\n\nSeuils de prestige :\nNiveau I : #G 0#!\nNiveau II : #G 35#!\nNiveau III : #G 75#!\nNiveau IV : #G 140#!\n\nPrestige actuel : #G $PRESTIGE$#!"
+ GREAT_WORK_EFFECT_TIER_TT:0 "Le niveau $LEVEL$ nécessite un prestige de $THRESHOLD$"
+
+ CANCEL_OR_DESTROY_GW_CONFIRMATION_TITLE:0 "$NAME$ $ADJECTIVE$"
+ CANCEL_OR_DESTROY_GW_CONFIRMATION_CANCEL_TEXT:0 "Annuler la construction de la $GREATWORK|Y$ de $PROVINCE|Y$ ? Aucun coût engagé dans la construction ne pourra être récupéré."
+ CANCEL_OR_DESTROY_GW_CONFIRMATION_DESTROY_TEXT:0 "Détruire à tout jamais la $GREATWORK|Y$ de $PROVINCE|Y$ ? Aucun coût engagé dans la construction ne pourra être récupéré."
+
+ CANCEL_OR_DESTROY_GW_ADJECTIVE_CANCEL:0 "Annuler"
+ CANCEL_OR_DESTROY_GW_ADJECTIVE_DESTROY:0 "Détruire"
+
+ CANCEL_OR_DESTROY_GW_ACTION_CANCEL:0 "Annuler la construction de"
+ CANCEL_OR_DESTROY_GW_ACTION_DESTROY:0 "Détruire à jamais"
+
+ CANCEL_OR_DESTROY_GW_BUTTON_CANCEL_LABEL:0 "Annuler la construction"
+ CANCEL_OR_DESTROY_GW_BUTTON_DESTROY_LABEL:0 "Détruire la grande merveille"
+ CANCEL_OR_DESTROY_GW_BUTTON_CANCEL_TOOLTIP:0 "Ce projet était une erreur"
+ CANCEL_OR_DESTROY_GW_BUTTON_DESTROY_TOOLTIP:0 "Abattons tout cela"
+
+ GREAT_WORK_DETACH_LEADER_TITLE:0 "Responsable de la construction "
+ GREAT_WORK_NO_LEADER_TO_DETACH:0 "Aucun responsable nommé"
+ GREAT_WORK_LEADER_DETACH_TT:1 "Décharger [CHARACTER.GetName] de la responsabilité"
+ CANT_LEAD_CONSTRUCTION:1 "[CHARACTER.GetName] ne peut diriger cette construction\n$REASON$"
+ GW_CONSTRUCTION_LEADER_TITLE:0 "$SHORT_TITLE$ : $GW_NAME$"
+
+ GW_ALERT_NO_LEADER:0 "#T Aucun responsable pour la construction#!\nCes grandes merveilles n'ont aucun responsable en charge de leur construction"
+ GW_ALERT_NO_GOODS:0 "#T Manque de marchandises#!\nCes problèmes retardent la construction"
+ GW_ALERT_NO_GOODS_DETAIL:0 "La $NAME$ nécessite d'avoir accès à $GOODS$"
+ GW_ALERT_CAN_UPGRADE:0 "#T Amélioration de la grande merveille disponible#!\nCes merveilles peuvent être améliorées afin de bénéficier d'effets plus prestigieux"
+
+ GW_STABILITY_DECREASE_REASON:0 "modifications apportées à la $NAME$"
+ GW_INFLUENCE_DECREASE_REASON:0 "modifications apportées à la $NAME$"
+
+ GW_CONSTRUCTION_HALTED:0 "Construction interrompue"
+ GW_CONSTRUCTION_HALTED_REASON:0 "#X Construction interrompue#!\n$REASON$"
+ GW_PROGRESS_HALT_REASON_MISSING_GOODS:0 "@trigger_no! Marchandises manquantes"
+ GW_PROGRESS_HALT_REASON_NO_WORKFORCE:0 "@trigger_no! Aucun travailleur"
+ GW_CONSTRUCTION_MISSING_TRADE_GOOD:0 "\t@$TRADEGOOD_KEY$!$TRADEGOOD_NAME|UY$"
+
+ GW_DESIGN_BUTTON_TEXT:0 "Construire une merveille"
+
+ GW_CYCLE_BUTTON_TOOLTIP:0 "Faire défiler les grandes merveilles présentes ici"
+
+ GW_GOODS_REQ_TT:0 "Marchandises requises"
+
+ GW_RANDOM_NAME_BUTTON_TT:0 "Générer un nouveau nom"
+ GW_MISSING_TRADEGOODS_TT:0 "La construction va être interrompue à cause de marchandises manquantes."
+
+ GW_WINDOW_SELECT_MODULE:0 "Pièce de $TYPE$"
+ GW_WINDOW_SELECT_MATERIAL:0 "Matériau $TYPE$"
+ GW_WINDOW_SELECT_TEMPLATE:0 "Modèle"
+ GW_WINDOW_SELECT_EFFECT:0 "Choix de l'effet"
+ GW_WINDOW_CHANGE_COMPONENT_TT:0 "Modifier $CATEGORY_SLOT|Y$"
+ GW_WINDOW_CHANGE_MATERIAL_TT:0 "Modifier le matériau $CATEGORY_SLOT|Y$"
+
+ GW_CHANGE_NAME_TT:0 "Change le nom de la $OLD_NAME|Y$ en $NEW_NAME|Y$"
+
+ GW_EFFECTS_TITLE:0 "Effets"
+ GW_EFFECTS_REMOVE_TT:0 "Retirer un effet"
+ GW_EFFECT_REMOVE_TT:0 "Retirer $EFFECT|Y$"
+ GW_EFFECT_NAME:0 "$NAME$ $TIER$"
+
+ GW_WORKFORCE_TOOLTIP_T:0 "#T Durée de construction #!"
+ GW_WORKFORCE_IN_STATE:0 "Main-d'œuvre disponible en $STATE|V$"
+ GW_WORKFORCE_POP:0 "$VALUE$@$ICON$!: $EFF|+%$"
+ GW_CONSTRUCTION_TIME_NO_LEADER:0 "Aucun responsable de la construction"
+ GW_CONSTRUCTION_TIME_NO_LEADER_DESC:0 "Aucun responsable n'a été nommé pour la construction.\nCela a pour conséquences :\n@time!Durée de construction : $VALUE|=-%^$"
+ GW_CONSTRUCTION_TIME_LEADER:0 "Responsable de la construction"
+ GW_CONSTRUCTION_TIME_LEADER_DESC:0 "$NAME|V$ a été nommé comme responsable de la construction.\nCela a pour conséquences :"
+ GW_CONSTRUCTION_TIME_FINESSE:0 "@civic_icon!Durée de construction : $VALUE|-%/^$"
+ GW_CONSTRUCTION_COMPLETION_DATE:0 "Date d'achèvement : $DATE|V$"
+ GW_CONSTRUCTION_COMPLETION_TIME:0 "Durée de construction : $DAYS|V$ jours"
+
+ GW_BUILD_CONFIRMATION_TITLTE:0 "Construire une merveille"
+ GW_BUILD_CONFIRMATION_DESC:0 "Lancer la construction de la $WONDER|V$ à $PROVINCE|V$ ? Cela va coûter $PRICE$"
+ GW_BUILD_CONFIRMATION_COST:0 " $GOLD_VALUE|+2$ @gold! $PI_VALUE|+0$ @political_influence_icon!"
+
+ GW_EDIT_CONFIRMATION_TITLE:0 "Améliorer la merveille"
+
+## GW triggers
+ PROVINCE_HAS_GREAT_WORK_TRIGGER:0 "[PROVINCE.GetName|Y] a une grande merveille."
+ PROVINCE_HAS_NOT_GREAT_WORK_TRIGGER:0 "[PROVINCE.GetName|Y] n'a pas de grande merveille."
+ COUNTRY_HAS_GREAT_WORK_TRIGGER:0 "[COUNTRY.GetName|Y] a une grande merveille."
+ COUNTRY_HAS_NOT_GREAT_WORK_TRIGGER:0 "[COUNTRY.GetName|Y] n'a pas de grande merveille."
+ STATE_HAS_GREAT_WORK_TRIGGER:0 "[STATE.GetName|Y] a une grande merveille."
+ STATE_HAS_NOT_GREAT_WORK_TRIGGER:0 "[STATE.GetName|Y] n'a pas de grande merveille."
+ HAS_GW_CATEGORY_TRIGGER:0 "Appartient à la catégorie $CAT$."
+ HAS_NOT_GW_CATEGORY_TRIGGER:0 "N'appartient pas à la catégorie $CAT$."
+ HAS_GW_ONLY_MATERIAL_TRIGGER:0 "Est entièrement construite en $MAT$."
+ HAS_NOT_GW_ONLY_MATERIAL_TRIGGER:0 "N'est pas entièrement construite en $MAT$."
+ HAS_GW_ANY_MATERIAL_TRIGGER:0 "A été construite en $MAT$."
+ HAS_NOT_GW_ANY_MATERIAL_TRIGGER:0 "N'a pas été construite en $MAT$."
+ GREAT_WORK_NOT_MIN_EFFECT_TIER_TRIGGER:0 "Le niveau d'effet minimal n'est PAS $COMPARATOR$ $NUM|Y$"
+ GREAT_WORK_MIN_EFFECT_TIER_TRIGGER:0 "Le niveau d'effet minimal est $COMPARATOR$ $NUM|Y$"
+ GREAT_WORK_NOT_BUILT_BY_TRIGGER:0 "N'a pas été construite par [COUNTRY.GetName|Y]."
+ GREAT_WORK_BUILT_BY_TRIGGER:0 "A été construite par [COUNTRY.GetName|Y]."
+ any_great_work_in_province_trigger:0 "A une grande merveille"
+ GW_IS_NOT_ANCIENT_TRIGGER:0 "La $WORK$ n'est pas une ancienne merveille"
+ GW_IS_ANCIENT_TRIGGER:0 "La $WORK$ est une ancienne merveille"
+ GREAT_WORK_LOCATOR_IS_FREE:0 "A l'espace nécessaire pour cette merveille"
+ GREAT_WORK_LOCATOR_IS_NOT_FREE:0 "N'a pas l'espace nécessaire pour cette merveille"
+
+ BUILD_GREAT_WORK_EFFECT:0 "La $NAME|Y$ va être construite à [PROVINCE.GetName|Y]"
+ BEGIN_GREAT_WORK_CONSTRUCTION_EFFECT:0 "Lance la construction de la $NAME|Y$ à [PROVINCE.GetName|Y]"
+ FINISH_GREAT_WORK_CONSTRUCTION_EFFECT:0 "Achève la construction de la $NAME|Y$ à [PROVINCE.GetName|Y]"
+
+ GW_CONSTRUCTION_IN_PROGESS:0 "La construction de la [GreatWork.GetName] est en cours."
+### GW Categories
+ tower:0 "Tours"
+ pyramid:0 "Pyramides"
+ building:0 "Bâtiments"
+ GW_CATEGORY_TEMPLATE:0 "Modèles"
+ GW_CATEGORY_TEMPLATE_SLOT:0 "Modèle"
+
+
+### GW Categories Slot
+ gw_category_pyramid_0:0 "Base"
+ gw_category_pyramid_1:0 "Milieu"
+ gw_category_pyramid_2:0 "Sommet"
+
+ gw_category_tower_0:0 "Base"
+ gw_category_tower_1:0 "Milieu"
+ gw_category_tower_2:0 "Sommet"
+
+ gw_category_building_0:0 "Base"
+ gw_category_building_1:0 "Piliers"
+ gw_category_building_2:0 "Toit"
+
+
+
+
+### GW Materials
+ copper:0 "Cuivre"
+ gold:0 "Or"
+ ebony:0 "Ébène"
+ silver:0 "Argent"
+ ivory:0 "Ivoire"
+
+ GW_MATERIAL_TOOLTIP:0 "#T $MATERIAL$ #!\nNécessite @$TRADEGOOD_KEY$!$TRADEGOOD_NAME|UY$"
+
+### GW Modules
+ gw_pyramid_01_bottom:0 "Base de mastaba"
+ gw_pyramid_02_bottom:0 "Base de ziggourat"
+ gw_pyramid_03_bottom:0 "Base kouchite"
+
+ gw_pyramid_01_mid:0 "Pyramide tronquée"
+ gw_pyramid_02_mid:0 "Pyramide à degrés"
+ gw_pyramid_03_mid:0 "Pyramide kouchite tronquée"
+
+ gw_pyramid_01_top:0 "Pyramidion"
+ gw_pyramid_02_top:0 "Temple de ziggourat"
+ gw_pyramid_03_top:0 "Plateforme supérieure"
+
+ gw_tower_01_bottom:0 "Stoa"
+ gw_tower_02_bottom:0 "Base polygonale"
+ gw_tower_03_bottom:0 "Base circulaire"
+ gw_tower_04_bottom:0 "Appareil celtique"
+
+ gw_tower_01_mid:0 "Phare de Pharos"
+ gw_tower_02_mid:0 "Tour à degrés"
+ gw_tower_03_mid:0 "Phare carré"
+ gw_tower_04_mid:0 "Broch"
+
+ gw_tower_01_top:0 "Sommet fenêtré"
+ gw_tower_02_top:0 "Sommet à portique"
+ gw_tower_03_top:0 "Sommet octogonal"
+ gw_tower_04_top:0 "Toit conique"
+
+ gw_building_01_base:0 "Naos"
+ gw_building_03_base:0 "Mausolée"
+ gw_building_05_base:0 "Tholos"
+
+ gw_building_01_pillar:0 "Ionique"
+ gw_building_02_pillar:0 "Dorique avec abaques"
+ gw_building_03_pillar:0 "Ionique avec statues"
+ gw_building_04_pillar:0 "Ionique avec lions"
+ gw_building_05_pillar:0 "Dorique"
+
+ gw_building_01_roof:0 "Toit à antéfixes"
+ gw_building_03_roof:0 "Toit à frise"
+ gw_building_05_roof:0 "Toit à acrotères"
+
+ GW_MODULE_TT:0 "#T $MODULE$#!"
+
+#Templates
+ great_work_template_01:0 "Pyramide de niveau 1"
+ great_work_template_01_TT:0 "Une pyramide ayant des effets de niveau 1."
+ great_work_template_02:0 "Pyramide de niveau 2"
+ great_work_template_02_TT:0 "Une pyramide ayant des effets de niveau 2."
+ great_work_template_03:0 "Pyramide de niveau 3"
+ great_work_template_03_TT:0 "Une pyramide ayant des effets de niveau 3."
+ great_work_template_04:0 "Tour de niveau 1"
+ great_work_template_04_TT:0 "Une tour ayant des effets de niveau 1."
+ great_work_template_05:0 "Tour de niveau 2"
+ great_work_template_05_TT:0 "Une tour ayant des effets de niveau 2."
+ great_work_template_06:0 "Tour de niveau 3"
+ great_work_template_06_TT:0 "Une tour ayant des effets de niveau 3."
+ great_work_template_07:0 "Bâtiment de niveau 1"
+ great_work_template_07_TT:0 "Un bâtiment ayant des effets de niveau 1."
+ great_work_template_08:0 "Bâtiment de niveau 2"
+ great_work_template_08_TT:0 "Un bâtiment ayant des effets de niveau 2."
+ great_work_template_09:0 "Bâtiment de niveau 3"
+ great_work_template_09_TT:0 "Un bâtiment ayant des effets de niveau 3."
+
+###############
+#### NAMES ####
+###############
+
+## Territory
+ gw_name_lighthouse:0 "$ADJ$Phare de $PROVINCE$"
+ gw_name_lantern:0 "$ADJ$Lanterne de $PROVINCE$"
+ gw_name_beacon:0 "$ADJ$Fanal de $PROVINCE$"
+ gw_name_spire:0 "$ADJ$Flèche de $PROVINCE$"
+ gw_name_column:0 "$ADJ$Colonne de $PROVINCE$"
+ gw_name_tower:0 "$ADJ$Tour de $PROVINCE$"
+ gw_name_pyramid:0 "$ADJ$Pyramide de $PROVINCE$"
+ gw_name_monolith:0 "$ADJ$Monolithe de $PROVINCE$"
+ gw_name_library:0 "$ADJ$Bibliothèque de $PROVINCE$"
+ gw_name_oracle:0 "$ADJ$Oracle de $PROVINCE$"
+ gw_name_acropolis:0 "$ADJ$Acropole de $PROVINCE$"
+ gw_name_temple:0 "$ADJ$Temple de $PROVINCE$"
+ gw_name_edifice_province:0 "$ADJ$Édifice de $PROVINCE$"
+
+## Ruler
+ gw_name_mausoleum:0 "$ADJ$Mausolée des $FAMILY$"
+ gw_name_memorial:0 "$ADJ$Mémorial des $FAMILY$"
+ gw_name_tomb:0 "$ADJ$Tombe des $FAMILY$"
+ gw_name_edifice_ruler:0 "$ADJ$Édifice des $FAMILY$"
+
+#### Names Adjectives ####
+ GW_NAME_ADJ:0 "$ADJ$"
+
+ gw_adj_01:0 "La "
+
+###############
+## MODIFIERS ##
+###############
+
+ MODIFIER_GREAT_WORK_TOTAL_WORKRATE_CHARACTER:1 "Construction de la grande merveille"
+ MODIFIER_GREAT_WORK_SLAVES_WORKRATE_CHARACTER:1 "Construction de la grande merveille par les esclaves"
+ MODIFIER_GREAT_WORK_TRIBALS_WORKRATE_CHARACTER:0 "Construction de la grande merveille par les tribaux" # [LocEditor:AwaitingBatchUpdate]
+ MODIFIER_GREAT_WORK_FREEMEN_WORKRATE_CHARACTER:0 "Construction de la grande merveille par les hommes libres" # [LocEditor:AwaitingBatchUpdate]
+ MODIFIER_GREAT_WORK_FIXED_PRESTIGE_CHARACTER:1 "Prestige à l'achèvement de la grande merveille"
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ CANCEL_OR_DESTROY_GW_CONFIRMATION__CANCEL_TEXT:0 "Annuler la construction de la $GREATWORK|Y$ de $PROVINCE|Y$ ? Nous ne pourrons récupérer aucun des frais engagés lors de la construction."
+ CANCEL_OR_DESTROY_GW_CONFIRMATION__DESTROY_TEXT:0 "Détruire à tout jamais la $GREATWORK|Y$ de $PROVINCE|Y$ ? Nous ne pourrons récupérer aucun des frais engagés lors de la construction."
+ CANCEL_OR_DESTROY_GW_CONFIRMATION_TEXT:0 "$ACTION$ la $GREATWORK|Y$ à $PROVINCE|Y$ ? Aucun des coûts de construction ne pourra être recouvré."

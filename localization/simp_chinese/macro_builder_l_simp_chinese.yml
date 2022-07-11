@@ -1,0 +1,54 @@
+﻿l_simp_chinese:
+
+ # CONSTRUCT BUILDINGS
+ construct_buildings_TOOLTIP:1 "#t 修建定居点建筑#!"
+ construct_buildings:1 "修建定居点建筑"
+ MACROBUILDER_BUILDING_PRICE:1 "#t 在[PROVINCE.GetName]建造$NAME$#!\n在[PROVINCE.GetName]建造$NAME|Y$将花费[COUNTRY.GetName] $VALUE$，并将给予以下加成：\n$DESC$\n[PROVINCE.GetPopulationInfo]"
+ MACRO_BUILDER_BUILD_BUILDING_TOOLTIP:0 "#t 建造$NAME$#!\n$DESC$"
+ MACRO_BUILD_BUILD_COST:0 "$VAL|2$@gold!"
+ MARCO_BUILDER_BUILD_BUILDING_INSTRUCTIONS_TOOLTIP:0 "\n#G 左键点击#!将修建建筑。\n#G 右键点击#!将取消队列中的建筑，如果未处于排队状态将摧毁现有建筑。"
+ #Construct City Buildings
+ construct_city_buildings_TOOLTIP:0 "#t 修建城市建筑#!"
+ construct_city_buildings:0 "修建城市建筑"
+ 
+ # RECRUIT COHORTS
+ recruit_units:1 "征募部队"
+ recruit_units_TOOLTIP:2 "#t $recruit_units$#!"
+ MACROBUILDER_UNIT_PRICE:2 "#t 在[PROVINCE.GetName]建造$NAME$#!\n在[PROVINCE.GetName]建造$NAME|Y$将花费[COUNTRY.GetName] $VALUE$"
+ MACRO_BUILDER_BUILD_UNIT_TOOLTIP:0 "#t 招募$NAME$#!\n$DESC$"
+
+ MACRO_UNIT_BUILD_COST:0 "$VAL|2$@gold!"
+ 
+ # RECRUIT SHIPS
+ recruit_naval_units:2 "建造船只"
+ recruit_naval_units_TOOLTIP:1 "#t $recruit_naval_units$#!"
+ 
+ # PROMOTE POPS
+ promote_pops:0 "升级人口"
+ promote_pops_TOOLTIP:1 "#t $promote_pops$#!"
+ MACROBUILDER_PROMOTE_POP_TOOLTIP:1 "#t 升级$NAME$#!\n将一个$NAME$升级为$TARGET_NAME|Y$：\n$TARGET_DESC$"
+ MACROBUILDER_PROMOTE_POP_NOTARGET_TOOLTIP:0 "$NAME$无法被升级。"
+ MACROBUILDER_PROMOTE_POP_PRICE:1 "#t 将一个[PROVINCE.GetName]的$NAME$升级为$TARGET_NAME$#!\n在[PROVINCE.GetName]升级一个$NAME$为$TARGET_NAME|Y$将花费[COUNTRY.GetName] $VALUE$\n[PROVINCE.GetPopulationInfo]"
+ 
+ # CONVERT POPS
+ convert_pops:0 "皈依人口"
+ convert_pops_TOOLTIP:1 "#t $convert_pops$#!"
+ MACROBUILDER_CONVERT_POP_TOOLTIP:1 "#t 皈依$NAME$#!\n让一个$NAME$皈依[COUNTRY.GetReligion.GetName|Y]"
+ MACROBUILDER_CONVERT_POP_PRICE:1 "#t 皈依一个$NAME$到[COUNTRY.GetReligion.GetName]#!\n在[PROVINCE.GetName]皈依一个$NAME$到[COUNTRY.GetReligion.GetName|Y]将花费[COUNTRY.GetName] $VALUE$\n\n[PROVINCE.GetReligionBreakdown]"
+
+ # ASSIMILATE POPS
+ assimilate_pops:0 "同化人口"
+ assimilate_pops_TOOLTIP:1 "#t $assimilate_pops$#!"
+ MACROBUILDER_ASSIMILATE_POP_TOOLTIP:1 "#t 同化$NAME$#!\n将一个$NAME$转化为[COUNTRY.GetPrimaryCulture.GetName|Y]人"
+ MACROBUILDER_ASSIMILATE_POP_PRICE:1 "#t 在[PROVINCE.GetName]将一$NAME$同化为[COUNTRY.GetPrimaryCulture.GetName]#!\n在[PROVINCE.GetName]转化一个$NAME$至[COUNTRY.GetPrimaryCulture.GetName|Y]需要花费[COUNTRY.GetName] $VALUE$\n\n[PROVINCE.GetCultureBreakdown]"
+
+ # IMPORT TRADE GOODS
+ import_tradegood:0 "进口贸易品"
+ import_tradegood_TOOLTIP:1 "#t $import_tradegood$#!"
+ MACRO_BUILDER_TRADE_GOOD_TOOLTIP:0 "#t 进口[TRADE_GOOD.GetName]#!\n[TRADE_GOOD.GetLongDescription]"
+
+ MACRO_BUILDER_COST:0 "#t 花费#!\n[MacroBuilderProvinceBuildable.GetPriceTooltip]"
+ 
+ # SORTING
+ MACRO_BUILDER_SORT_PROVINCE_NAME_TT:0 "#t 按省份名称排序#!"
+ MACRO_BUILDER_SORT_BUILD_AMOUNT_TT:0 "#t 按可建造数量排序#!"

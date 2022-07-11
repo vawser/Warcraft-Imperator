@@ -1,0 +1,49 @@
+﻿l_french:
+##### GW event modifiers
+ vandalized_work_modifier:1 "Monument vandalisé"
+ desc_vandalized_work_modifier:0 "L'un des monuments de la nation a été dégradé et vandalisé, ce qui décourage le peuple et lui fait se poser quelques questions sur notre autorité."
+
+ great_work_celebration:1 "Monument célébré"
+ desc_great_work_celebration:0 "Une célébration est en cours autour d'un monument qui a été érigé dans la contrée, ce qui réjouit grandement le petit peuple."
+
+ great_work_no_celebration:0 "Population mécontente"
+ desc_great_work_no_celebration:0 "La population de cette contrée est mécontente et s'interroge sur notre droit à gouverner."
+
+ great_work_celebration_2:1 "Célébrations pour l'anniversaire du monument"
+ desc_great_work_celebration_2:0 "$desc_great_work_celebration$"
+
+ great_work_no_celebration_2:0 "Mécontents de plus en plus nombreux"
+ desc_great_work_no_celebration_2:0 "$desc_great_work_no_celebration$"
+
+ great_work_completed:1 "Monument achevé"
+ desc_great_work_completed:0 "Nous avons enfin achevé la construction d'un monument particulièrement impressionnant, qui renforce la légitimité de notre gouvernement à mesure que les récits sur sa beauté et ses dimensions prodigieuses se répandent jusque fort loin."
+
+ great_work_completed_great:1 "Monument achevé"
+ desc_great_work_completed_great:0 "Un monument véritablement grandiose a été achevé tout près, émerveillant la population locale."
+
+ great_work_completed_bad:0 "Monument achevé"
+ desc_great_work_completed_bad:0 "$desc_great_work_completed_great$"
+
+ xenophobe_response:0 "Dirigeant xénophobe"
+ desc_xenophobe_response:0 "Nos actions nous ont donné au sein du peuple la réputation d'être xénophobes."
+
+ great_work_renovation:1 "Rénovation du monument"
+ desc_great_work_renovation:0 "Nous avons consacré des ressources considérables à la rénovation d'un monument local."
+
+ great_work_small_renovation:0 "Aide financière"
+ desc_great_work_small_renovation:0 "Nous avons réservé des ressources pour aider les populations locales à rénover un monument situé dans cette localité."
+
+ great_work_dirty:1 "Monument dégradé"
+ desc_great_work_dirty:0 "Par manque de soin, ce monument s'est dégradé et est devenu bien moins impressionnant qu'il ne l'était par le passé."
+
+ happy_gw_province:0 "Province prospère"
+ desc_happy_gw_province:0 "Cette localité a connu une prospérité inattendue après que nous y avons érigé un monument."
+
+ praise_the_animals:0 "Louange aux animaux"
+ desc_praise_the_animals:0 "Les augures ont déclaré que les nombreux animaux aperçus non loin de l'un de nos monuments sont la preuve que nous avons été bénis par le divin."
+
+ embrace_great_works_religion:0 "Adoption de la religion"
+ desc_embrace_great_works_religion:0 "Nous réservons des fonds pour aider une foi locale à se répandre autour de l'un de nos monuments les plus impressionnants."
+
+ great_work_more_guards:0 "Patrouilles renforcées"
+ desc_great_work_more_guards:0 "Nous avons posté davantage de gardes à proximité du monument local pour qu'ils s'assurent que nul ne le vandalise ou ne le dégrade."

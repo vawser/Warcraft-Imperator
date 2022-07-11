@@ -1,0 +1,16 @@
+﻿l_french:
+ END_GAME_VIEW_LOSING_TITLE:0 "Fin de la partie"
+ END_GAME_VIEW_LOSING_TEXT:0 "L'ère de gloire de [COUNTRY.GetName] s'est achevée brutalement le $DATE$, lorsque [TARGET_COUNTRY.GetRuler.GetName] et le peuple [TARGET_COUNTRY.GetAdjective] mirent un terme à son existence.\n\nÀ mesure que les années passeront, son fier peuple se trouvera enfoui dans les soubresauts de l'histoire, et n'apparaîtra guère plus par la suite que dans des commentaires en note de bas de page des ouvrages reproduisant les poèmes épiques de leurs vainqueurs."
+  
+ END_GAME_VIEW_SURVIVING_TITLE:1 "Un détail de l'histoire"
+ END_GAME_VIEW_SURVIVING_TEXT:1 "Le fier peuple [COUNTRY.GetAdjective] a survécu à des siècles d'adversité et de conflits. Malgré cela, il n'a guère pu donner sa pleine mesure. Dans un monde dominé par des colosses et des titans, il ne sera guère rappelé que dans quelques notes de bas de page obscures."
+  
+ END_GAME_VIEW_IMPERIAL_GLORY_TITLE:0 "Un empire glorieux"
+ END_GAME_VIEW_IMPERIAL_GLORY_TEXT:1 "Le peuple [COUNTRY.GetAdjective] a bâti un empire qui sera rappelé par les annales comme le plus puissant parmi ses pairs. Car, en dépit de toutes les épreuves qu'il a traversées, [COUNTRY.GetName] continue de prospérer, et le fera assurément jusqu'à la fin des temps."
+  
+ END_GAME_VIEW_GREATEST_EMPIRE_TITLE:0 "Le plus vaste empire de l'histoire"
+ END_GAME_VIEW_GREATEST_EMPIRE_TEXT:1 "Le peuple [COUNTRY.GetAdjective] est salué tels les dieux eux-mêmes, après avoir réussi à fonder un empire surpassant même celui du grand Alexandre.\n\nL'histoire nous honorera non seulement pour nos conquêtes, mais aussi pour avoir su porter la civilisation et la vérité jusqu'aux recoins les plus éloignés du monde connu."
+ 
+ OBSERVE:0 "Poursuivre en mode observateur"
+ CONTINUE_PAST_END_DATE:0 "Poursuivre la partie (succès désactivés)"
+ 

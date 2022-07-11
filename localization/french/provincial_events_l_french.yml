@@ -1,0 +1,5 @@
+﻿l_french:
+ provincial_events.1.t:0 "Tensions locales"
+ provincial_events.1.desc:1 "Des tensions sont apparues entre les colons [ROOT.GetCountry.GetPrimaryCulture.GetName] de [SCOPE.sP('colonial_province').GetName] et les autochtones. Ces derniers prétendent que les colons ne visent qu'à détruire leurs traditions et refusent de reconnaître leurs autorités ; quant aux colons eux-mêmes, ils protestent que cette animosité des indigènes s'explique seulement par le fait que la colonie [ROOT.GetCountry.GetPrimaryCulture.GetName] a commencé à surpasser leur ville…"
+ provincial_events.1.a:0 "Nous devons soutenir nos colons"
+ provincial_events.1.b:0 "Nous devons défendre les droits des indigènes"

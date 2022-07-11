@@ -1,0 +1,18 @@
+﻿l_russian:
+ protectorate:0 "Протекторат"
+ CANCEL_TITLE:0 "Отменить зависимость"
+ subject_merc_city_state_cost_modifier:0 "Доход государства-наёмника"
+ MERC_CITY_STATE_EFFECT_TT:0 "[SCOPE.GetRootScope.GetProvince.GetName|Y] станет свободным городом, возглавляемым местным наёмником.\nОна будет нашей зависимой державой, получив бонус к максимальному числу людских ресурсов.\n\n"
+ SYR_merc_state_title:0 "Создать наёмный город-государство"
+ SYR_merc_state_desc:0 "Вы действительно хотите создать наёмный город-государство? Будет создана зависимая держава из провинции [SCOPE.GetRootScope.GetProvince.GetName|Y]."
+ recruit_character_mg_syr_cost_modifier:0 "Модификатор стоимости избрания лидера"
+ goes_here_becomes_king_tt:0 "Переехав в державу [SCOPE.sC('actor').GetName|Y], [SCOPE.sChar('target').GetPraenomen|Y] теперь её [SCOPE.sC('actor').GetRulerTitle|Y]."
+ mg_recruit_cooldown_string:0 "Это действие нельзя выполнить повторно до [SCOPE.sC('actor').GetVariableExpiry('mg_recruit_cooldown')|Y]"
+ recruit_character_mg_syr:0 "Выбрать царя-наёмника"
+ create_merc_state_price:0 "Создать государство-наёмник"
+ owned_by_us_tt:0 "Находится в нашем владении."
+ MERC_CITY_MONARCHY_EFFECT:0 "Если у вас тип правления #Y монархия#!, раз в #Y 5#! лет вы сможете сместить своего текущего правителя, заменив его на правителя одного из ваших #Y государств-наёмников#!. Это можно сделать через #Y взаимодействие с персонажем#!, должен быть принят #Y Закон о наёмниках#!.\n\n"
+ LEAGUE_CITY_STATE_EFFECT_TT:0 "[SCOPE.GetRootScope.GetProvince.GetName|Y] станет свободным городом союза, возглавляемым республиканским правительством.\nОн будет зависим от нас и получит бонус к государственным торговым путям и производству товаров. Во время войны город не будет выступать на нашей стороне, но не займёт ячейку дипломатических отношений. Он не может быть поглощён."
+ league_city_title:0 "Создать город союза"
+ league_city_desc:0 "Вы действительно хотите создать город союза? Будет создана зависимая держава из провинции [SCOPE.GetRootScope.GetProvince.GetName|Y]."
+ 

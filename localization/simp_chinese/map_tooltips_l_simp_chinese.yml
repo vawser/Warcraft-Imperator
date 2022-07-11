@@ -1,0 +1,100 @@
+﻿l_simp_chinese:
+ # Header
+ PROVINCE_TOOLTIP:4 "$OWNERSHIP$—#t [PROVINCE.GetArea.GetName]—[PROVINCE.Custom('get_city_status_cloc')][PROVINCE.GetName]#!"
+ IMPASSIBLE_COLORED_PROVINCE_TOOLTIP:1 "#T 不可通行的地形#![PROVINCE.GetName|T]"
+ IMPASSIBLE_UNCOLORED_PROVINCE_TOOLTIP:1 "#T 不可通行的地形#![PROVINCE.GetName|T]"
+ UNINHABITABLE_PROVINCE_TOOLTIP:1 "#T 不适于居住#! [PROVINCE.GetName|T]"
+ SEA_PROVINCE_TOOLTIP:2 "#T 海洋#!：[PROVINCE.GetName|T]\n[Player.GetNavalRangeTooltip(PROVINCE.GetProvince)]"
+ LAKE_PROVINCE_TOOLTIP:1 "#T 湖泊#!：[PROVINCE.GetName|T]"
+ RIVER_PROVINCE_TOOLTIP:2 "#T 河流#!：[PROVINCE.GetName|T]\n[Player.GetNavalRangeTooltip(PROVINCE.GetProvince)]"
+ PROVINCE_OWNER:1 "[PROVINCE.GetState.GetShortName]（@[PROVINCE.GetOwner.GetFlag]! [PROVINCE.GetOwner.GetName]）"
+ PROVINCE_OCCUPIED:2 "在[PROVINCE.GetState.GetName]\n@[PROVINCE.GetOwner.GetFlag]! [PROVINCE.GetOwner.GetName]的一部分，但目前被@[PROVINCE.GetController.GetFlag]! [PROVINCE.GetOccupierInfo]占领"
+ PROVINCE_OWNER_REPLAY:0 "  在@$OWNER_TAG$! $OWNER$内"
+ PROVINCE_OCCUPIED_REPLAY:1 "，是@$OWNER_TAG$! $OWNER$的一部分，但是现在由@$CONTROLLER_TAG$! $CONTROLLER$占领"
+ PROVINCE_BARB_INFO_OCCUPIED:0 "$NAME|Y$部落"
+ PIRATE_HAVEN_MAP_TT:0 "#T 海盗庇护所#!\n这个港口有一个海盗庇护所，为附近劫掠的海盗提供了支援。"
+ 
+ # Debug Footer
+ CHARACTER_DEBUG:0 "$NAME$#D （ID：$ID$）#!"
+ PROVINCE_DEBUG:0 "\n\n#D ID: [PROVINCE.GetId] [PROVINCE.GetTag], [PROVINCE.GetOwner.GetName] ([PROVINCE.GetOwner.GetDebugTag] (Flag: [PROVINCE.GetOwner.GetFlag]) [PROVINCE.GetOwner.GetId])\n [PROVINCE.GetArea.GetName] ([PROVINCE.GetArea.GetTag]), [PROVINCE.GetArea.GetRegion.GetName] ([PROVINCE.GetArea.GetRegion.GetName])\n [PROVINCE.GetDominantReligion.GetName] [PROVINCE.GetDominantCulture.GetName]\n规模：[PROVINCE.GetSize]#!"
+ INVISIBLE_TO_AI:0 "\n#T （对AI不可见）#!"
+ MIXED_VISIBILITY_TO_AI:0 "\n#T （混合AI可见性）#!"
+
+ # -- Map Modes --
+ 
+ # Terrain
+ PROVINCE_TOOLTIP_terrain:0 "地形：[PROVINCE.GetTerrainName|V]"
+ UNINHABITABLE_PROVINCE_TOOLTIP_terrain:0 "地形：[PROVINCE.GetTerrainName|V]"
+ SEA_PROVINCE_TOOLTIP_terrain:0 "地形：[PROVINCE.GetTerrainName|V]"
+ RIVER_PROVINCE_TOOLTIP_terrain:0 "地形：[PROVINCE.GetTerrainName|V]"
+
+ 
+ # Simple Terrain
+ PROVINCE_TOOLTIP_simple_terrain:0 "地形：[PROVINCE.GetTerrainName|V]"
+ UNINHABITABLE_PROVINCE_TOOLTIP_simple_terrain:0 "地形：[PROVINCE.GetTerrainName|V]"
+ SEA_PROVINCE_TOOLTIP_simple_terrain:0 "地形：[PROVINCE.GetTerrainName|V]"
+ RIVER_PROVINCE_TOOLTIP_simple_terrain:0 "地形：[PROVINCE.GetTerrainName|V]"
+ 
+ # Political
+ PROVINCE_TOOLTIP_political:0 "地形：[PROVINCE.GetTerrainName|V]"
+ SEA_PROVINCE_TOOLTIP_political:0 "地形：[PROVINCE.GetTerrainName|V]"
+ RIVER_PROVINCE_TOOLTIP_political:0 "地形：[PROVINCE.GetTerrainName|V]"
+ 
+ # Players
+ PROVINCE_TOOLTIP_players:2 "[GetPlayerName(PROVINCE.GetOwner)]\n\n立场：[PROVINCE.GetOwner.GetDiplomaticStance.GetName]\n财富：[PROVINCE.GetOwner.GetTreasury|0Y] @gold!\n人力：[PROVINCE.GetOwner.GetManpower|Y]\n陆军：[PROVINCE.GetOwner.GetTotalNumOfCohorts|Y]\n海军：[PROVINCE.GetOwner.GetTotalNumOfShips|Y]\n\n稳定度：[PROVINCE.GetOwner.GetStability|0Y]\n领土数量：[PROVINCE.GetOwner.GetOwnedProvinceCount|Y]\n人口：[PROVINCE.GetOwner.GetTotalPopulation|Y]"
+ 
+ # Religion
+ PROVINCE_TOOLTIP_religion:1 "[PROVINCE.GetReligionBreakdown]\n主流宗教：[PROVINCE.GetReligion.GetName|Y]"
+ 
+ # Culture
+ PROVINCE_TOOLTIP_culture:1 "[PROVINCE.GetCultureBreakdown]\n主流文化：[PROVINCE.GetCulture.GetName|Y]\n文化组：[PROVINCE.GetCulture.GetCultureGroup.GetName|Y]"
+ 
+ # Diplomacy
+ PROVINCE_TOOLTIP_diplomacy:0 ""
+ 
+ # Barbarian Power
+ PROVINCE_TOOLTIP_barbarian_power:0 "[PROVINCE.GetBarbarianPowerTooltip]"
+ IMPASSIBLE_COLORED_PROVINCE_TOOLTIP_barbarian_power:1 "[PROVINCE.GetBarbarianPowerTooltip]"
+ IMPASSIBLE_UNCOLORED_PROVINCE_TOOLTIP_barbarian_power:1 "[PROVINCE.GetBarbarianPowerTooltip]"
+ UNINHABITABLE_PROVINCE_TOOLTIP_barbarian_power:1 "[PROVINCE.GetBarbarianPowerTooltip]"
+ 
+ # Forticiation
+ PROVINCE_TOOLTIP_fortifications:0 "[PROVINCE.GetFortificationTooltip]"
+ FORTMAP_NEUTRAL_FORT:0 "$WHO|Y$拥有#Y 中立方的#! $LEVEL|Y$ 级防御工事"
+ FORTMAP_FRIENDLY_FORT:0 "$WHO|Y$拥有#G 友方的#! $LEVEL|Y$ 级防御工事"
+ FORTMAP_ENEMY_FORT:0 "$WHO|Y$拥有#R 敌方的#! $LEVEL|Y$ 级防御工事"
+ FORTMAP_IN_FRIENDLY_ZOC:0 "$WHO|Y$处于$NAME|Y$的友方要塞的控制区域内。"
+ FORTMAP_IN_HOSTILE_ZOC:0 "$WHO|Y$处于$NAME|Y$的敌方要塞的控制区域内。"
+ 
+ # Civ
+ PROVINCE_TOOLTIP_civilization:0 "[PROVINCE.GetCivilizationMapTooltip]"
+ 
+ # Unrest
+ PROVINCE_TOOLTIP_unrest_loyalty:1 "不满值：[PROVINCE.GetUnrest|-2]%\n[PROVINCE.GetShortUnrestDescription]"
+
+ # Area
+ PROVINCE_TOOLTIP_area:0 ""
+ 
+ # Trade Goods
+ PROVINCE_TOOLTIP_tradegoods:2 "#T [PROVINCE.GetTradeGoods.GetName]#!\n[PROVINCE.GetTradeGoods.GetLocalDescription][PROVINCE.GetTradeGoods.GetBonusDescription]"
+ 
+ # Population
+ PROVINCE_TOOLTIP_population:1 "公民：[PROVINCE.GetPopulation('citizen')|Y]\n自由民：[PROVINCE.GetPopulation('freemen')|Y]\n部落民：[PROVINCE.GetPopulation('tribesmen')|Y]\n奴隶：[PROVINCE.GetPopulation('slaves')|Y]\n"
+ 
+ # Trade Routes
+ PROVINCE_TOOLTIP_trade_routes:0 "进口贸易路线：[PROVINCE.GetState.GetNumIncomingTrades|Y]\n出口贸易路线：[PROVINCE.GetState.GetNumOutgoingTrades|Y]\n未使用的贸易路线：[PROVINCE.GetState.GetNumUnusedTradeRoutes|Y]\n"
+
+ # Naval Range
+ #PROVINCE_TOOLTIP_naval_range:0 "Naval range: [Player.GetNavalRange(PROVINCE.GetProvince)]"
+ #SEA_PROVINCE_TOOLTIP_naval_range:0 "[Player.GetNavalRangeTooltip(PROVINCE.GetProvince)]"
+ #LAKE_PROVINCE_TOOLTIP_naval_range:0 "[Player.GetNavalRangeTooltip(PROVINCE.GetProvince)]"
+ #RIVER_PROVINCE_TOOLTIP_naval_range:0 "[Player.GetNavalRangeTooltip(PROVINCE.GetProvince)]"
+
+# Holdings
+ PROVINCE_TOOLTIP_holdings:1 "地产"
+
+# Province Rank
+ PROVINCE_TOOLTIP_province_rank:0 ""
+
+# Government
+ PROVINCE_TOOLTIP_government:0 "[PROVINCE.GetOwner.GetName]的政体是#Y [PROVINCE.GetOwner.GetGovernment.GetName]#!。"

@@ -1,0 +1,54 @@
+﻿l_russian:
+
+ # CONSTRUCT BUILDINGS
+ construct_buildings_TOOLTIP:1 "#t Построить здания поселения#!"
+ construct_buildings:1 "Построить здания поселения"
+ MACROBUILDER_BUILDING_PRICE:1 "#t Построить $NAME$ в провинции [PROVINCE.GetName]#!\nСтроительство такого здания, как $NAME|Y$, в провинции [PROVINCE.GetName] обойдётся державе [COUNTRY.GetName] в $VALUE$ и даст следующие преимущества:\n$DESC$\n[PROVINCE.GetPopulationInfo]"
+ MACRO_BUILDER_BUILD_BUILDING_TOOLTIP:0 "#t Построить: $NAME$#!\n$DESC$"
+ MACRO_BUILD_BUILD_COST:0 "$VAL|2$ @gold!"
+ MARCO_BUILDER_BUILD_BUILDING_INSTRUCTIONS_TOOLTIP:0 "\n#G Щёлкните левой кнопкой мыши#!, чтобы построить здание.\n#G Щёлкните правой кнопкой мыши#!, чтобы отменить поставленное в очередь строительство или разрушить здание, если очередь пуста."
+ #Construct City Buildings
+ construct_city_buildings_TOOLTIP:0 "#t Построить городские здания#!"
+ construct_city_buildings:0 "Построить городские здания"
+ 
+ # RECRUIT COHORTS
+ recruit_units:1 "Вербовать когорты"
+ recruit_units_TOOLTIP:2 "#t $recruit_units$#!"
+ MACROBUILDER_UNIT_PRICE:2 "$NAME$: постройка в городе [PROVINCE.GetName] будет стоить для державы [COUNTRY.GetName] $VALUE$"
+ MACRO_BUILDER_BUILD_UNIT_TOOLTIP:0 "#t Завербовать: $NAME$#!\n$DESC$"
+
+ MACRO_UNIT_BUILD_COST:0 "$VAL|2$ @gold!"
+ 
+ # RECRUIT SHIPS
+ recruit_naval_units:2 "Построить корабли"
+ recruit_naval_units_TOOLTIP:1 "#t $recruit_naval_units$#!"
+ 
+ # PROMOTE POPS
+ promote_pops:0 "Повысить группы населения"
+ promote_pops_TOOLTIP:1 "#t $promote_pops$#!"
+ MACROBUILDER_PROMOTE_POP_TOOLTIP:1 "#t Повышение среди $NAME$#!\nОдин представитель группы $NAME$ поднимется до категории $TARGET_NAME|Y$:\n$TARGET_DESC$"
+ MACROBUILDER_PROMOTE_POP_NOTARGET_TOOLTIP:0 "$NAME$ не могут быть повышены."
+ MACROBUILDER_PROMOTE_POP_PRICE:1 "#t Повышение единицы населения из группы $NAME$ до категории $TARGET_NAME$ в городе [PROVINCE.GetName]#!\nПовышение единицы населения из группы $NAME$ до категории $TARGET_NAME|Y$ в городе [PROVINCE.GetName] обойдется державе [COUNTRY.GetName] в $VALUE$ \n[PROVINCE.GetPopulationInfo]"
+ 
+ # CONVERT POPS
+ convert_pops:0 "Обратить группы населения"
+ convert_pops_TOOLTIP:1 "#t $convert_pops$#!"
+ MACROBUILDER_CONVERT_POP_TOOLTIP:1 "#t $NAME$ принимают новую веру#!\nОдна единица населения из группы $NAME$ примет [COUNTRY.GetReligion.GetName|Y]"
+ MACROBUILDER_CONVERT_POP_PRICE:1 "#t Обращение одной единицы населения из группы $NAME$ в [COUNTRY.GetReligion.GetName]#!\nОбращение одной единицы населения из группы $NAME$ в [COUNTRY.GetReligion.GetName|Y] в городе [PROVINCE.GetName] обойдется державе [COUNTRY.GetName] в $VALUE$\n\n[PROVINCE.GetReligionBreakdown]"
+
+ # ASSIMILATE POPS
+ assimilate_pops:0 "Ассимилировать население"
+ assimilate_pops_TOOLTIP:1 "#t $assimilate_pops$#!"
+ MACROBUILDER_ASSIMILATE_POP_TOOLTIP:1 "1 группа населения $NAME$ обращается в такую культуру, как [COUNTRY.GetPrimaryCulture.GetName|Y]. "
+ MACROBUILDER_ASSIMILATE_POP_PRICE:1 "Обращение 1 группы населения $NAME$ в такую культуру, как [COUNTRY.GetPrimaryCulture.GetName|Y], в городе [PROVINCE.GetName] будет стоить для державы [COUNTRY.GetName] $VALUE$"
+
+ # IMPORT TRADE GOODS
+ import_tradegood:0 "Импорт товаров"
+ import_tradegood_TOOLTIP:1 "#t $import_tradegood$#!"
+ MACRO_BUILDER_TRADE_GOOD_TOOLTIP:0 "#t Импортировать: [TRADE_GOOD.GetName]#!\n[TRADE_GOOD.GetLongDescription]"
+
+ MACRO_BUILDER_COST:0 "#t Цена#!\n[MacroBuilderProvinceBuildable.GetPriceTooltip]"
+ 
+ # SORTING
+ MACRO_BUILDER_SORT_PROVINCE_NAME_TT:0 "#t По названию провинции#!"
+ MACRO_BUILDER_SORT_BUILD_AMOUNT_TT:0 "#t Сортировать по количеству, которое можно построить#!"

@@ -1,0 +1,54 @@
+﻿l_german:
+
+ # CONSTRUCT BUILDINGS
+ construct_buildings_TOOLTIP:1 "#t Siedlungsgebäude errichten#!"
+ construct_buildings:1 "Siedlungsgebäude errichten"
+ MACROBUILDER_BUILDING_PRICE:1 "#t $NAME$ In [PROVINCE.GetName] bauen#!\n$NAME|Y$ in [PROVINCE.GetName] zu bauen, kostet [COUNTRY.GetName] $VALUE$ und hat folgende Vorteile:\n$DESC$\n[PROVINCE.GetPopulationInfo]"
+ MACRO_BUILDER_BUILD_BUILDING_TOOLTIP:0 "#t $NAME$ Bauen#!\n$DESC$"
+ MACRO_BUILD_BUILD_COST:0 "$VAL|2$ @gold!"
+ MARCO_BUILDER_BUILD_BUILDING_INSTRUCTIONS_TOOLTIP:0 "\nEin #G Linksklick#! errichtet ein Gebäude.\nEin #G Rechtsklick#! bricht ein in der Warteschlange befindliches Gebäude ab oder zerstört ein Gebäude, wenn keines in der Warteschlange steht."
+ #Construct City Buildings
+ construct_city_buildings_TOOLTIP:0 "#t Stadtgebäude errichten#!"
+ construct_city_buildings:0 "Stadtgebäude errichten"
+ 
+ # RECRUIT COHORTS
+ recruit_units:1 "Kohorten rekrutieren"
+ recruit_units_TOOLTIP:2 "#t $recruit_units$#!"
+ MACROBUILDER_UNIT_PRICE:2 "#t $NAME$ In [PROVINCE.GetName] bauen#!\nEs wird [COUNTRY.GetName] $VALUE$ kosten, um $NAME|Y$ in [PROVINCE.GetName] zu bauen"
+ MACRO_BUILDER_BUILD_UNIT_TOOLTIP:0 "#t $NAME$ Rekrutieren#!\n$DESC$"
+
+ MACRO_UNIT_BUILD_COST:0 "$VAL|2$ @gold!"
+ 
+ # RECRUIT SHIPS
+ recruit_naval_units:2 "Schiffe bauen"
+ recruit_naval_units_TOOLTIP:1 "#t $recruit_naval_units$#!"
+ 
+ # PROMOTE POPS
+ promote_pops:0 "Bewohner aufwerten"
+ promote_pops_TOOLTIP:1 "#t $promote_pops$#!"
+ MACROBUILDER_PROMOTE_POP_TOOLTIP:1 "#t $NAME$ Aufwerten#!\nEin Bewohner des Typs $NAME$ wird zum Typ $TARGET_NAME|Y$ aufgewertet\n$TARGET_DESC$"
+ MACROBUILDER_PROMOTE_POP_NOTARGET_TOOLTIP:0 "$NAME$ können nicht aufgewertet werden."
+ MACROBUILDER_PROMOTE_POP_PRICE:1 "#t $NAME$ Zu $TARGET_NAME$ in [PROVINCE.GetName] aufwerten#!\nEs wird [COUNTRY.GetName] $VALUE$ kosten, um in [PROVINCE.GetName] einen Bewohner des Typs $NAME$ zum Typ $TARGET_NAME|Y$ aufzuwerten\n[PROVINCE.GetPopulationInfo]"
+ 
+ # CONVERT POPS
+ convert_pops:0 "Bewohner konvertieren"
+ convert_pops_TOOLTIP:1 "#t $convert_pops$#!"
+ MACROBUILDER_CONVERT_POP_TOOLTIP:1 "#t $NAME$ Konvertieren#!\nEin Bewohner des Typs $NAME$ konvertiert zum #Y [COUNTRY.GetReligion.GetName]en#! Glauben"
+ MACROBUILDER_CONVERT_POP_PRICE:1 "#t $NAME$ Zum [COUNTRY.GetReligion.GetName]en Glauben konvertieren#!\nEs wird [COUNTRY.GetName] $VALUE$ kosten, um in [PROVINCE.GetName] einen Bewohner des Typs $NAME$ zum #Y [COUNTRY.GetReligion.GetName]en#! Glauben zu konvertieren\n\n[PROVINCE.GetReligionBreakdown]"
+
+ # ASSIMILATE POPS
+ assimilate_pops:0 "Bewohner assimilieren"
+ assimilate_pops_TOOLTIP:1 "#t $assimilate_pops$#!"
+ MACROBUILDER_ASSIMILATE_POP_TOOLTIP:1 "#t $NAME$ Assimilieren#!\nEin Bewohner des Typs $NAME$ konvertiert zur #Y [COUNTRY.GetPrimaryCulture.GetName]en#! Kultur"
+ MACROBUILDER_ASSIMILATE_POP_PRICE:1 "#t $NAME$ In [PROVINCE.GetName] zur [COUNTRY.GetPrimaryCulture.GetName]en Kultur assimilieren#!\nEs wird [COUNTRY.GetName] $VALUE$ kosten, um einen Bewohner des Typs $NAME$ in [PROVINCE.GetName] zur #Y [COUNTRY.GetPrimaryCulture.GetName]en#! Kultur zu konvertieren\n\n[PROVINCE.GetCultureBreakdown]"
+
+ # IMPORT TRADE GOODS
+ import_tradegood:0 "Handelsgüter importieren"
+ import_tradegood_TOOLTIP:1 "#t $import_tradegood$#!"
+ MACRO_BUILDER_TRADE_GOOD_TOOLTIP:0 "#t [TRADE_GOOD.GetName] importieren#!\n[TRADE_GOOD.GetLongDescription]"
+
+ MACRO_BUILDER_COST:0 "#t Kosten#!\n[MacroBuilderProvinceBuildable.GetPriceTooltip]"
+ 
+ # SORTING
+ MACRO_BUILDER_SORT_PROVINCE_NAME_TT:0 "#t Nach Provinzname sortieren#!"
+ MACRO_BUILDER_SORT_BUILD_AMOUNT_TT:0 "#t Nach baubarer Anzahl sortieren#!"

@@ -1,0 +1,315 @@
+﻿l_simp_chinese:
+ # 1
+ seleukid_mission_01_babylonia:0 "巴比伦尼亚总督领"
+ seleukid_mission_01_babylonia_DESCRIPTION:0 "巴比伦尼亚坐落于我国的心脏地带，曾是[GetCharacter('(int32)24').GetPraenomen]的总督领。一场由[GetCharacter('(int32)37').GetPraenomen]指挥的毁灭性战役摧毁了它，我们直到现在仍在承受由此产生的后果。\n\n这里是波斯帝国和亚历山大帝国中最富裕的总督领之一，我们理应留出时间来恢复这片区域往日的荣光。"
+ seleukid_mission_01_babylonia_CRITERIA_DESCRIPTION:0 "当我们重建巴比伦及周边区域后，该使命完成。"
+ seleukid_mission_01_babylonia_BUTTON_TOOLTIP:0 "巴比伦尼亚坐落于我国的心脏地带，这片区域直到今日仍在遭受[GetCharacter('(int32)37').GetPraenomen]的入侵。这里是波斯帝国和亚历山大帝国中最富裕的总督领之一，我们理应留出时间来恢复这片区域往日的荣光。"
+ seleukid_mission_01_babylonia_task_1:0 "马尔杜克祭司"
+ seleukid_mission_01_babylonia_task_2:0 "确保忠诚"
+ seleukid_mission_01_babylonia_task_3:0 "王室崇拜"
+ seleukid_mission_01_babylonia_task_4:0 "巴比伦尼亚的支持"
+ seleukid_mission_01_babylonia_task_5:0 "巴比伦尼亚屏障"
+ seleukid_mission_01_babylonia_task_6:0 "巴比伦尼亚的人民"
+ seleukid_mission_01_babylonia_task_7:0 "重建总督领"
+ seleukid_mission_01_babylonia_task_8:0 "重组行政机构"
+ seleukid_mission_01_babylonia_task_9:0 "本地的正统性"
+ seleukid_mission_01_babylonia_task_10:0 "从亚述到伊卡洛斯"
+ seleukid_mission_01_babylonia_task_11:0 "从巴比伦尼亚到塞琉刻亚"
+ seleukid_mission_01_babylonia_task_final:0 "忠诚的总督领"
+
+ seleukid_mission_01_babylonia_task_1_DESC:0 "在巴比伦，处于金字塔顶端的是马尔杜克的祭司，他们是强大的宗教领袖阶层，决定着城市的日常事务。许多国王在违犯了他们的命令后就失去了对巴比伦的控制。"
+ seleukid_mission_01_babylonia_task_2_DESC:0 "在赢得祭司的支持后，我们就可以开始采取行动，把他们的信仰与[ROOT.GetCountry.GetRuler.GetPraenomen]的家族，以及我们对巴比伦尼亚的持续统治绑定在一起。"
+ seleukid_mission_01_babylonia_task_3_DESC:0 "既然祭司们已经接受了我们对他们家园的合法统治，我们可以继续把他们的信仰和我们自己的信仰，以及我们的[ROOT.GetCountry.GetRulerTitle][ROOT.GetCountry.GetRuler.GetPraenomen]结合起来。"
+ seleukid_mission_01_babylonia_task_4_DESC:0 "在我们治下，整个巴比伦尼亚得到了和平与繁荣，这座古老城市的贵族和公民无疑将继续支持我们。"
+ seleukid_mission_01_babylonia_task_5_DESC:0 "在幼发拉底河畔坐落着巴比伦，而在底格里斯河畔我们建立了大城塞琉刻亚。它们互为犄角，防御着那些试图穿越巴比伦尼亚大地的人。"
+ seleukid_mission_01_babylonia_task_6_DESC:0 "尽管我们将许多自己人迁入了巴比伦周边的区域，尽管很大一部分巴比伦人已接受了我们的统治，仍有一些人在时刻反对我们。"
+ seleukid_mission_01_babylonia_task_7_DESC:0 "在塞琉古重新征服巴比伦尼亚，夺回属于他的总督领后，安提柯派来一支军队掠夺并摧毁了他失去的城市。虽然在我们可敬的统治下，巴比伦大部分已得到重建，但仍需要采取一些措施才能恢复它过去的荣光。"
+ seleukid_mission_01_babylonia_task_8_DESC:0 "自我们从大流士三世手中夺走这块总督领以来，这里的行政机构几乎未作出任何改变。一些[ROOT.GetCountry.GetPrimaryCulture.GetName]式的调整应该能让这里更习惯、更适合我们的统治。"
+ seleukid_mission_01_babylonia_task_9_DESC:0 "在我们[GetOffice('office_steward').GetCulturalName(SCOPE.GetRootScope.GetCountry)]的帮助下，我们将会在巴比伦尼亚总督领撒下忠诚的种子，以确保波斯与亚历山大帝国最富裕区域之一的持续支持。"
+ seleukid_mission_01_babylonia_task_10_DESC:0 "和平孕育着忠诚，所以我们会确保在我们的统治下，整片区域都被我们的军队保护，从北方的亚述边境到南方的波西斯边境。"
+ seleukid_mission_01_babylonia_task_final_DESC:0 "尽管巴比伦尼亚曾被独眼安提柯的军队攻占，但在整个过程中，它一直对塞琉古忠心耿耿。现在这块总督领已与[ROOT.GetCountry.GetRuler.GetFamily.GetName]家族紧紧绑在一起，我们可以依靠它来获取税收和征召兵。"
+
+ missing_governor_mesopotamia_tt:0 "#Y $mesopotamia_region$#!区域缺少总督。"
+ missing_office_holder_seleukid:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!没有#Y [GetOffice('office_steward').GetCulturalName(SCOPE.GetRootScope.GetCountry)]#!。"
+
+ seleukid_mission_01_babylonia_task_2_trigger_tt:0 "#Y [THIS.GetCharacter.GetName]#!的忠诚度至少为#Y [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_2_total_svalue')|0]#!。[THIS.GetCharacter.GetEmployer.Custom('seleukid_mission_01_babylonia_task_2_loc')]"
+ seleukid_mission_01_babylonia_task_2_loc_1:0 "（#R [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_2_current_svalue')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_2_total_svalue')|0]#!）"
+ seleukid_mission_01_babylonia_task_2_loc_2:0 "（#Y [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_2_current_svalue')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_2_total_svalue')|0]#!）"
+ seleukid_mission_01_babylonia_task_2_trigger_tt_monarchy:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!的#Y [GetOffice('office_high_priest_monarchy').GetCulturalName(SCOPE.GetRootScope.GetCountry)]#!拥有人物修正#Y $priest_of_babylon_char_modifier$#!。"
+ seleukid_mission_01_babylonia_task_2_trigger_tt_republic:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!的#Y [GetOffice('office_pontifex').GetCulturalName(SCOPE.GetRootScope.GetCountry)]#!拥有人物修正#Y $priest_of_babylon_char_modifier$#!。"
+ seleukid_mission_01_babylonia_task_2_trigger_tt_tribal:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!的#Y [GetOffice('office_high_priest').GetCulturalName(SCOPE.GetRootScope.GetCountry)]#!拥有人物修正#Y $priest_of_babylon_char_modifier$#!。"
+
+ seleukid_mission_01_babylonia_task_3_trigger_tt:0 "我们宫廷中的任一人物拥有#Y $priest_of_babylon_char_modifier$#!人物修正。"
+
+ seleukid_mission_01_babylonia_task_5_trigger_tt_seleukeia:0 "#Y [THIS.GetProvince.GetName]#!拥有至少#Y [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_5_total_building_seleukeia')|0]#!座建筑。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_01_babylonia_task_5_seleukeia')]"
+ seleukid_mission_01_babylonia_task_5_seleukeia_1:0 "（#R [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_5_current_building_seleukeia')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_5_total_building_seleukeia')|0]#!）"
+ seleukid_mission_01_babylonia_task_5_seleukeia_2:0 "（#Y [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_5_current_building_seleukeia')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_5_total_building_seleukeia')|0]#!）"
+
+ seleukid_mission_01_babylonia_task_5_trigger_tt_babylonia:0 "#Y [THIS.GetProvince.GetName]#!拥有至少#Y [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_5_total_building_babylonia')|0]#!座建筑。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_01_babylonia_task_5_babylonia')]"
+ seleukid_mission_01_babylonia_task_5_babylonia_1:0 "（#R [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_5_current_building_babylonia')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_5_total_building_babylonia')|0]#!）"
+ seleukid_mission_01_babylonia_task_5_babylonia_2:0 "（#Y [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_5_current_building_babylonia')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_5_total_building_babylonia')|0]#!）"
+
+ seleukid_mission_01_babylonia_task_6_trigger_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!在#Y $mesopotamia_region$#!区域拥有的#Y [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_6_absolute_total')|0]#!人口，至少#Y 90%#!为#Y [SCOPE.GetRootScope.GetCountry.GetPrimaryCulture.GetName]#!文化或者某一已整合文化。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_01_babylonia_task_6_loc')]"
+ seleukid_mission_01_babylonia_task_6_loc_1:0 "（#R [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_6_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_6_total')|0]#!）"
+ seleukid_mission_01_babylonia_task_6_loc_2:0 "（#Y [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_6_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_6_total')|0]#!）"
+
+ seleukid_mission_01_babylonia_task_7_tt_trigger:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!在#Y $mesopotamia_region$#!区域拥有至少#Y [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_7_total')|0]#!座建筑。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_01_babylonia_task_7_loc')] [SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_01_babylonia_task_7_construction_loc')]"
+ seleukid_mission_01_babylonia_task_7_loc_1:0 "（#R [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_7_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_7_total')|0]#!）"
+ seleukid_mission_01_babylonia_task_7_loc_2:0 "（#Y [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_7_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_7_total')|0]#!）"
+ seleukid_mission_01_babylonia_task_7_construction_loc_1:0 "\n    @trigger_no!#Y [SCOPE.GetRootScope.GetCountry.GetName]#!在#Y $mesopotamia_region$#!区域有正在进行中的建造。"
+ seleukid_mission_01_babylonia_task_7_construction_loc_2:0 ""
+
+ seleukid_mission_01_babylonia_task_10_trigger_tt:0 "#Y [THIS.GetProvince.GetState.GetName]#!的省份忠诚度至少为#Y [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_10_total')|0]#!。[THIS.GetProvince.Custom('seleukid_mission_01_babylonia_task_10_loc')]"
+ seleukid_mission_01_babylonia_task_10_loc_1:0 "（#R [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_10_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_01_babylonia_task_10_total')|0]#!）"
+ seleukid_mission_01_babylonia_task_10_loc_2:0 ""
+
+ seleukid_mission_01_babylonia_task_final_effect_tt:0 "#Y 5#!人口宗教为[SCOPE.GetRootScope.GetCountry.GetReligion.GetName]、文化为[SCOPE.GetRootScope.GetCountry.GetPrimaryCulture.GetName]的公民出现在[THIS.GetProvince.GetName]。"
+
+ ### 2
+ # Base Info
+ seleukid_mission_02_syria:0 "叙利亚雄心"
+ seleukid_mission_02_syria_DESCRIPTION:0 "大多数继业者国家都位于地中海区域，以这样或那样的方式彼此相连，但我们却被隔绝在东方的巴比伦尼亚。叙利亚一直被我们视作通往西方的新港，而我们的对手们也一直对这里不予重视。"
+ seleukid_mission_02_syria_CRITERIA_DESCRIPTION:0 "在我们控制叙利亚，并将其建成我们治下新的重要区域后，该使命完成。"
+ seleukid_mission_02_syria_BUTTON_TOOLTIP:0 "我们将叙利亚视作通往西方的新港。"
+
+ seleukid_mission_02_syria_task_1:0 "叙利亚之梦"
+ seleukid_mission_02_syria_task_2:0 "安提柯的老家"
+ seleukid_mission_02_syria_task_3:0 "阿马诺斯山下"
+ seleukid_mission_02_syria_task_4:0 "叙利亚的管理"
+ seleukid_mission_02_syria_task_5:0 "西方的塞琉刻亚"
+ seleukid_mission_02_syria_task_6:0 "位于地中海的首都"
+ seleukid_mission_02_syria_task_7:0 "确保控制"
+ seleukid_mission_02_syria_task_8:0 "希腊定居者"
+ seleukid_mission_02_syria_task_9:0 "通过叙利亚之门"
+ seleukid_mission_02_syria_task_10:0 "摩普索斯之地"
+ seleukid_mission_02_syria_task_11:0 "马罗斯神谕所"
+ seleukid_mission_02_syria_task_final:0 "第二家园"
+
+ seleukid_mission_02_syria_task_1_DESC:0 "在向[GetProvince('(int32)789').GetArea.GetRegion.GetName]进军之前，我们需要先整备军队，打一场无准备的仗是相当危险的。"
+ seleukid_mission_02_syria_task_2_DESC:0 "希腊人的定居点和村庄，安提柯的旧都，都坐落于西海岸。我们的首要目标之一就是控制奥龙特斯河下游地区。"
+ seleukid_mission_02_syria_task_3_DESC:0 "[GetProvince('(int32)789').GetArea.GetRegion.GetName]的东侧坐落着古老的亚兰城市和村庄，以及不时出现的希腊人新定居点。这里一直是阻挠我们通往富裕的安提柯领地的屏障，如果我们想建立从巴比伦尼亚到地中海海岸的安全路线，就必须拿下这里。"
+ seleukid_mission_02_syria_task_4_DESC:0 "在兴建新城市并向[GetProvince('(int32)789').GetArea.GetRegion.GetName]移民时，我们还要确保周边农村地区的控制。我们将修建一道城市网，以此管理整个区域。"
+ seleukid_mission_02_syria_task_5_DESC:0 "我们打算修建一座类似巴比伦尼亚的[GetProvince('(int32)911').GetName]的新王城，这样我们就能在帝国西部建立我们的王室行政机构。"
+ seleukid_mission_02_syria_task_6_DESC:0 "我们正筹划着向[GetProvince('(int32)789').GetName]方向扩张，因为此地在规模上和人口上能够和地中海范围内最重要的城市匹敌。它会成为[ROOT.GetCountry.GetAdjective]军力和财富的光耀昭示。"
+ seleukid_mission_02_syria_task_7_DESC:0 "我们的另一个目标是通过道路网连接防备森严的城市和定居点，借此来控制整个区域，并且确保任何胆敢进犯之人都要为了找到安全的通道而花很大一番功夫。"
+ seleukid_mission_02_syria_task_8_DESC:0 "为了真正地将[GetProvince('(int32)789').GetArea.GetRegion.GetName]打造成我们理想中的模样，我们需要寻找新的定居者在其城市和定居点定居。我们一直希望能有更多的希腊人应召进入我们的军队，现在我们有了一个地中海的港口，我们终于可以这么做了。"
+ seleukid_mission_02_syria_task_9_DESC:0 "[GetProvince('(int32)1880').GetArea.GetRegion.GetName]位于西面，这是又一个桀骜不驯之地，但是蕴含着很大的潜力，在很多方面都和[GetProvince('(int32)789').GetArea.GetRegion.GetName]类似。尽管当前我们的重心主要放在了[GetProvince('(int32)789').GetArea.GetRegion.GetName]周边，我们还是应该寻找一些能在这个区域强化我们影响力的举措。"
+ seleukid_mission_02_syria_task_10_DESC:0 "[GetProvince('(int32)1880').GetName]是一处我们着眼的地方，我们可以通过重建一座有潜力的城市来显耀我们的统治王朝。其发展成为一座重要城市的潜力非常大，能够控制住向东边延伸的[GetProvince('(int32)1880').GetArea.GetRegion.GetName]。"
+ seleukid_mission_02_syria_task_11_DESC:0 "我们听说了一个在[GetProvince('(int32)1881').GetName]周边区域十分活跃的古老神谕的传说故事。尽管当地人饱受贫穷和诸多问题的困扰，如果我们能够重建这个地区的神殿和圣地，或许我们可以使这个神谕为我们所用？"
+ seleukid_mission_02_syria_task_final_DESC:0 "我们终于达成了在[GetProvince('(int32)789').GetArea.GetRegion.GetName]的目标，这里已是我国第二重要的区域，仅次于巴比伦尼亚。"
+
+ # Triggers
+ seleukid_mission_02_syria_task_4_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!在#Y [GetProvince('(int32)790').GetArea.GetName]#!和#Y [GetProvince('(int32)810').GetArea.GetName]#!拥有至少#Y [SCOPE.ScriptValue('seleukid_mission_02_syria_task_4_total')|0]#!座城市。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_02_syria_task_4_loc')]"
+ seleukid_mission_02_syria_task_4_loc_1:0 "（#R [SCOPE.ScriptValue('seleukid_mission_02_syria_task_4_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_02_syria_task_4_total')|0]#!）"
+ seleukid_mission_02_syria_task_4_loc_2:0 "（#Y [SCOPE.ScriptValue('seleukid_mission_02_syria_task_4_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_02_syria_task_4_total')|0]#!）"
+
+ seleukid_mission_02_syria_task_6_population_trigger_tt:0 "#Y [THIS.GetProvince.GetName]#!拥有至少#Y [SCOPE.ScriptValue('seleukid_mission_02_syria_task_6_population_total')|0]#!人口。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_02_syria_task_6_population_loc')]"
+ seleukid_mission_02_syria_task_6_loc_1:0 "（#R [SCOPE.ScriptValue('seleukid_mission_02_syria_task_6_population_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_02_syria_task_6_population_total')|0]#!）"
+ seleukid_mission_02_syria_task_6_loc_2:0 "（#Y [SCOPE.ScriptValue('seleukid_mission_02_syria_task_6_population_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_02_syria_task_6_population_total')|0]#!）"
+
+ seleukid_mission_02_syria_task_6_buildings_trigger_tt:0 "#Y [THIS.GetProvince.GetName]#!拥有至少#Y [SCOPE.ScriptValue('seleukid_mission_02_syria_task_6_buildings_total')|0]#!座建筑。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_02_syria_task_6_buildings_loc')] [SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_02_syria_task_6_building_check_loc')]"
+ seleukid_mission_02_syria_task_6_buildings_loc_1:0 "（#R [SCOPE.ScriptValue('seleukid_mission_02_syria_task_6_buildings_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_02_syria_task_6_buildings_total')|0]#!）"
+ seleukid_mission_02_syria_task_6_buildings_loc_2:0 "（#Y [SCOPE.ScriptValue('seleukid_mission_02_syria_task_6_buildings_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_02_syria_task_6_buildings_total')|0]#!）"
+ seleukid_mission_02_syria_task_6_building_check_loc_1:0 "\n    @trigger_no! #Y [GetProvince('(int32)789').GetName]#!有正在进行中的建造。"
+ seleukid_mission_02_syria_task_6_building_check_loc_2:0 ""
+
+ seleukid_mission_02_syria_task_7_trigger_tt:0 "#Y [THIS.GetProvince.GetState.GetShortName]#!省份由#Y [SCOPE.GetRootScope.GetCountry.GetName]#!持有，且省份忠诚度至少为#Y [SCOPE.ScriptValue('seleukid_mission_02_syria_task_7_total')|0]#!。[THIS.GetProvince.Custom('seleukid_mission_02_syria_task_7_loc')]"
+ seleukid_mission_02_syria_task_7_loc_1:0 ""
+ seleukid_mission_02_syria_task_7_loc_2:0 "（#R [SCOPE.ScriptValue('seleukid_mission_02_syria_task_7_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_02_syria_task_7_total')|0]#!）"
+ seleukid_mission_02_syria_task_7_loc_3:0 ""
+
+ seleukid_mission_02_syria_task_7_fort_trigger_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!在#Y [GetProvince('(int32)790').GetArea.GetName]#!和#Y [GetProvince('(int32)810').GetArea.GetName]#!省份拥有至少#Y [SCOPE.ScriptValue('seleukid_mission_02_syria_task_7_fort_total')|0]#!座#Y 要塞#!。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_02_syria_task_7_fort_loc')]"
+ seleukid_mission_02_syria_task_7_fort_loc_1:0 "（#R [SCOPE.ScriptValue('seleukid_mission_02_syria_task_7_fort_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_02_syria_task_7_fort_total')|0]#!）"
+ seleukid_mission_02_syria_task_7_fort_loc_2:0 "（#Y [SCOPE.ScriptValue('seleukid_mission_02_syria_task_7_fort_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_02_syria_task_7_fort_total')|0]#!）"
+
+ seleukid_mission_02_syria_task_10_tt:0 "#Y [THIS.GetProvince.GetName]#!拥有至少#Y [SCOPE.ScriptValue('seleukid_mission_02_syria_task_10_total')|0]#!座建筑。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_02_syria_task_10_buildings_loc')] [SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_02_syria_task_10_building_check_loc')]"
+ seleukid_mission_02_syria_task_10_buildings_loc_1:0 "（#R [SCOPE.ScriptValue('seleukid_mission_02_syria_task_10_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_02_syria_task_10_total')|0]#!）"
+ seleukid_mission_02_syria_task_10_buildings_loc_2:0 "（#Y [SCOPE.ScriptValue('seleukid_mission_02_syria_task_10_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_02_syria_task_10_total')|0]#!）"
+ seleukid_mission_02_syria_task_10_building_check_loc_1:0 "\n    @trigger_no! #Y [GetProvince('(int32)1880').GetName]#!有正在进行中的建造。"
+ seleukid_mission_02_syria_task_10_building_check_loc_2:0 ""
+
+ # Effects
+ seleukid_mission_02_syria_task_1_effect_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!获得#Y [THIS.GetProvince.GetArea.GetName]#!省份所有领土的宣称。"
+
+ seleukid_mission_02_syria_task_5_effect_tt:0 "#Y [SCOPE.ScriptValue('seleukid_mission_02_syria_task_5_population_effect_svalue')|0]#!人口从#Y [GetProvince('(int32)790').GetName]#!移动至#Y [GetProvince('(int32)789').GetName]#!。"
+
+ seleukid_mission_02_syria_task_6_effect_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!将可以选择迁都至#Y [GetProvince('(int32)789').GetName]#!。"
+
+ seleukid_mission_02_syria_task_8_effect_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!将呼吁#Y [GetProvince('(int32)416').GetArea.GetRegion.GetName]#!、#Y [GetProvince('(int32)379').GetArea.GetRegion.GetName]#!和#Y [GetProvince('(int32)290').GetArea.GetRegion.GetName]#!的[SCOPE.GetRootScope.GetCountry.GetPrimaryCulture.GetCultureGroup.GetName]人口迁移至#Y [GetProvince('(int32)789').GetArea.GetName]#!和#Y [GetProvince('(int32)810').GetArea.GetName]#!的[SCOPE.GetRootScope.GetCountry.GetAdjective]城市。"
+
+ seleukid_mission_02_syria_task_11_effect_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!将从#Y [GetProvince('(int32)1881').GetName]#!的神谕所获得各种临时增益。"
+
+ ### 3
+ # Base Info
+ seleukid_mission_03_anatolia:0 "西进之梦"
+ seleukid_mission_03_anatolia_DESCRIPTION:0 "尽管我们是巴比伦尼亚总督领的后人，我们很清楚，如果我们不能亲自统治马其顿那么我们永远不会被认作继承了亚历山大的衣钵。为了重返马其顿，我们首先需要控制漫长的波斯御道，从萨耳得斯到尽头的安纳托利亚。"
+ seleukid_mission_03_anatolia_CRITERIA_DESCRIPTION:0 "在我们完全控制波斯御道，并在安纳托利亚建立行政机构和防御措施后，该使命完成。"
+ seleukid_mission_03_anatolia_BUTTON_TOOLTIP:0 "我们望向西方，望向马其顿。然而，第一步应该是完全控制波斯御道的西路。"
+
+ seleukid_mission_03_anatolia_task_1:0 "弗里吉亚总督领"
+ seleukid_mission_03_anatolia_task_2:0 "收复刻莱奈"
+ seleukid_mission_03_anatolia_task_3:0 "古老之人"
+ seleukid_mission_03_anatolia_task_4:0 "弗里吉亚行政"
+ seleukid_mission_03_anatolia_task_5:0 "安提柯的都城"
+ seleukid_mission_03_anatolia_task_6:0 "陶鲁斯山之下"
+ seleukid_mission_03_anatolia_task_7:0 "金底里亚行政"
+ seleukid_mission_03_anatolia_task_8:0 "双城古记"
+ seleukid_mission_03_anatolia_task_9:0 "东方行政"
+ seleukid_mission_03_anatolia_task_10:0 "卡帕多基亚总督领"
+ seleukid_mission_03_anatolia_task_11:0 "向西进发"
+ seleukid_mission_03_anatolia_task_12:0 "波斯御道的尽头"
+ seleukid_mission_03_anatolia_task_13:0 "西方行政"
+ seleukid_mission_03_anatolia_task_14:0 "塞琉古之梦"
+ seleukid_mission_03_anatolia_task_15:0 "狄底马神谕所"
+ seleukid_mission_03_anatolia_task_16:0 "另一个塞琉刻亚"
+ seleukid_mission_03_anatolia_task_final:0 "从波斯波利斯到萨耳得斯"
+
+ seleukid_mission_03_anatolia_task_1_DESC:0 "当我们着眼于西进的潜在路线时，我们特别看中了[GetProvince('(int32)1936').GetName]城的周边区域，此处在过去是[GetProvince('(int32)1936').GetArea.GetRegion.GetName]的旧都。"
+ seleukid_mission_03_anatolia_task_2_DESC:0 "我们正着眼于重建[GetProvince('(int32)1936').GetName]城，让它作为我们管理这个地区的首府，并在旧的[GetProvince('(int32)1936').GetArea.GetRegion.GetName]总督领和我们的统治之间构筑一座桥梁。"
+ seleukid_mission_03_anatolia_task_3_DESC:0 "我们对小城[GetProvince('(int32)1928').GetName]有很大的兴趣，当地的神坛对周边地区很重要。"
+ seleukid_mission_03_anatolia_task_4_DESC:0 "如果我们希望此地日后成为[ROOT.GetCountry.GetName]重要的一部分，在[GetProvince('(int32)1936').GetArea.GetRegion.GetName]新立的政府机构周边建造基础设施就是一件很重要的事情。"
+ seleukid_mission_03_anatolia_task_5_DESC:0 "继续我们在[GetProvince('(int32)1936').GetName]的工作可以鼓舞当地人口，让他们对我们的态度更加友善，更加忠于我们的统治，这些工作同[GetCharacter('(int32)37').GetPraenomen]曾经在[GetProvince('(int32)1936').GetArea.GetRegion.GetName]总督领做的十分类似。"
+ seleukid_mission_03_anatolia_task_6_DESC:0 "[GetProvince('(int32)1883').GetArea.GetRegion.GetName]的北边坐落着[GetProvince('(int32)1799').GetArea.GetRegion.GetName]，而向东边延伸则是[GetProvince('(int32)1936').GetArea.GetRegion.GetName]，这些区域通常被统治着放着自生自灭，因为它们不像其他毗邻省份那么有价值。"
+ seleukid_mission_03_anatolia_task_7_DESC:0 "我们已经选定了一座小定居点，[GetProvince('(int32)177').GetArea.GetName]的[GetProvince('(int32)177').GetName]，我们相信可以将此地重建成为重要的城市，如同北边的古城[GetProvince('(int32)1934').GetName]一样。"
+ seleukid_mission_03_anatolia_task_8_DESC:0 "我们的顾问相信我们应当对两座古城，[GetProvince('(int32)1934').GetArea.GetName]的[GetProvince('(int32)1934').GetName]城，以及[GetProvince('(int32)1951').GetArea.GetName]的[GetProvince('(int32)1951').GetName]城倾斜资源，这片区域的其他部分会做出相应对策。"
+ seleukid_mission_03_anatolia_task_9_DESC:0 "尽管相较于西边的邻居没有那么多人口，这个区域仍然十分需要有能力的政府机构进驻，以及配套的基础设施来涵盖方方面面。如果我们能够处理好这个问题，将来会有回报的。"
+ seleukid_mission_03_anatolia_task_10_DESC:0 "[GetProvince('(int32)1799').GetArea.GetRegion.GetName]的土地对于外来者来说是相当难以控制的，这就是为什么先于我们统治此地的人会设立一个相对独立的总督领来控制这片区域。"
+ seleukid_mission_03_anatolia_task_11_DESC:0 "御道的西部尽头是希腊人的海岸，以及[GetProvince('(int32)292').GetArea.GetRegion.GetName]的土地，这个区域经常举起叛旗反对其远在天边的统治者。"
+ seleukid_mission_03_anatolia_task_12_DESC:0 "[GetProvince('(int32)292').GetArea.GetName]的[GetProvince('(int32)292').GetName]在统治这片土地中是扮演着重要角色的诸城之一，此地年代久远，当地住民既有安纳托利亚人，也有希腊人。"
+ seleukid_mission_03_anatolia_task_13_DESC:0 "如果我们打算控制这个地区，我们必须小心不再重蹈前任统治者的覆辙。我们会依照我们新设立的行政机构在这个区域的城市和堡垒之间设置一张道路网。"
+ seleukid_mission_03_anatolia_task_14_DESC:0 "根据[GetCharacter('(int32)24').GetPraenomen]的说法，我们的统治者家族可以上溯到阿波罗本人，并且一直是狄底马神谕所——一座位于[GetProvince('(int32)1973').GetName]城近郊的神殿——的忠实追随者。"
+ seleukid_mission_03_anatolia_task_15_DESC:0 "确保狄底马神谕所的重心一直以来就是[GetCharacter('(int32)24').GetFamily.GetName]家族的梦想，此地位于[GetProvince('(int32)1973').GetName]城近郊。"
+ seleukid_mission_03_anatolia_task_16_DESC:0 "绝大多数的大塞琉刻亚城都是以我国的建立者，[GetCharacter('(int32)24').GetPraenomen]，的名字命名，并且在我国的统治中起着重要的作用。我们希望在西方边陲的安纳托利亚也建立一座这样的雄城。"
+ seleukid_mission_03_anatolia_task_final_DESC:0 "如果我们希望完成自己的梦想，控制旧[GetCharacter('(int32)39').GetPraenomen]帝国的西部领地，我们必须控制住从[GetProvince('(int32)4799').GetName]到[GetProvince('(int32)292').GetName]的全部御道。"
+
+ # Triggers
+ seleukid_mission_03_anatolia_buildings_tt:0 "#Y [THIS.GetProvince.GetName]#!拥有至少#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_buildings_total')|0]#!座建筑。[THIS.GetProvince.Custom('seleukid_mission_03_anatolia_buildings_loc')] [THIS.GetProvince.Custom('seleukid_mission_03_anatolia_buildings_check_loc')]"
+ seleukid_mission_03_anatolia_buildings_loc_01:0 "（#R [SCOPE.ScriptValue('seleukid_mission_03_anatolia_buildings_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_buildings_total')|0]#!）"
+ seleukid_mission_03_anatolia_buildings_loc_02:0 "（#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_buildings_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_buildings_total')|0]#!）"
+ seleukid_mission_03_anatolia_buildings_check_loc_01:0 "\n    @trigger_no! #Y #Y [ROOT.GetProvince.GetName]#!#!有正在进行中的建造。"
+ seleukid_mission_03_anatolia_buildings_check_loc_02:0 ""
+
+ seleukid_mission_03_anatolia_province_loyalty:0 "#Y [THIS.GetProvince.GetArea.GetName]#!的省份忠诚度至少为#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_province_loyalty_total')|0]#!。[THIS.GetProvince.Custom('seleukid_mission_03_anatolia_province_loyalty_loc')]"
+ seleukid_mission_03_anatolia_province_loyalty_01:0 "（#R [SCOPE.ScriptValue('seleukid_mission_03_anatolia_province_loyalty_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_province_loyalty_total')|0]#!）"
+ seleukid_mission_03_anatolia_province_loyalty_02:0 ""
+
+ seleukid_mission_03_anatolia_task_4_forts_trigger_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!在#Y [GetProvince('(int32)1931').GetArea.GetName]#!、#Y [GetProvince('(int32)1942').GetArea.GetName]#!和#Y [GetProvince('(int32)1928').GetArea.GetName]#!拥有至少#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_4_fort_total')|0]#!座要塞建筑。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_03_anatolia_task_4_forts_trigger_loc')]"
+ seleukid_mission_03_anatolia_task_4_forts_trigger_loc_01:0 "（#R [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_4_fort_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_4_fort_total')|0]#!）"
+ seleukid_mission_03_anatolia_task_4_forts_trigger_loc_02:0 "（#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_4_fort_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_4_fort_total')|0]#!）"
+
+ seleukid_mission_03_anatolia_task_4_cities_trigger_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!在#Y [GetProvince('(int32)1931').GetArea.GetName]#!、#Y [GetProvince('(int32)1942').GetArea.GetName]#!和#Y [GetProvince('(int32)1928').GetArea.GetName]#!拥有至少#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_4_cities_total')|0]#!座城市。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_03_anatolia_task_4_cities_trigger_loc')]"
+ seleukid_mission_03_anatolia_task_4_cities_trigger_loc_01:0 "（#R [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_4_cities_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_4_cities_total')|0]#!）"
+ seleukid_mission_03_anatolia_task_4_cities_trigger_loc_02:0 "（#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_4_cities_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_4_cities_total')|0]#!）"
+
+ seleukid_mission_03_anatolia_task_5_trigger_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!已整合了#Y [GetProvince('(int32)1936').GetName]#!的主流文化（#Y [GetProvince('(int32)1936').GetCulture.GetName]#!）。"
+
+ seleukid_mission_03_anatolia_task_9_forts_trigger_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!在#Y [GetProvince('(int32)1920').GetArea.GetName]#!、#Y [GetProvince('(int32)1971').GetArea.GetName]#!和#Y [GetProvince('(int32)1978').GetArea.GetName]#!拥有至少#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_9_fort_total')|0]#!座要塞建筑。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_03_anatolia_task_9_forts_trigger_loc')]"
+ seleukid_mission_03_anatolia_task_9_forts_trigger_loc_01:0 "（#R [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_9_fort_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_9_fort_total')|0]#!）"
+ seleukid_mission_03_anatolia_task_9_forts_trigger_loc_02:0 "（#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_9_fort_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_9_fort_total')|0]#!）"
+
+ seleukid_mission_03_anatolia_task_9_cities_trigger_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!在#Y [GetProvince('(int32)1920').GetArea.GetName]#!、#Y [GetProvince('(int32)1971').GetArea.GetName]#!和#Y [GetProvince('(int32)1978').GetArea.GetName]#!拥有至少#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_9_cities_total')|0]#!座城市。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_03_anatolia_task_9_cities_trigger_loc')]"
+ seleukid_mission_03_anatolia_task_9_cities_trigger_loc_01:0 "（#R [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_9_cities_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_9_cities_total')|0]#!）"
+ seleukid_mission_03_anatolia_task_9_cities_trigger_loc_02:0 "（#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_9_cities_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_9_cities_total')|0]#!）"
+
+ seleukid_mission_03_anatolia_task_13_forts_trigger_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!在#Y [GetProvince('(int32)1952').GetArea.GetName]#!和#Y [GetProvince('(int32)292').GetArea.GetName]#!拥有至少#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_13_fort_total')|0]#!座要塞建筑。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_03_anatolia_task_13_forts_trigger_loc')]"
+ seleukid_mission_03_anatolia_task_13_forts_trigger_loc_01:0 "（#R [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_13_fort_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_13_fort_total')|0]#!）"
+ seleukid_mission_03_anatolia_task_13_forts_trigger_loc_02:0 "（#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_13_fort_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_13_fort_total')|0]#!）"
+
+ seleukid_mission_03_anatolia_task_13_cities_trigger_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!在#Y [GetProvince('(int32)1952').GetArea.GetName]#!和#Y [GetProvince('(int32)292').GetArea.GetName]#!拥有至少#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_13_cities_total')|0]#!座城市。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_03_anatolia_task_13_cities_trigger_loc')]"
+ seleukid_mission_03_anatolia_task_13_cities_trigger_loc_01:0 "（#R [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_13_cities_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_13_cities_total')|0]#!）"
+ seleukid_mission_03_anatolia_task_13_cities_trigger_loc_02:0 "（#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_13_cities_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_13_cities_total')|0]#!）"
+
+ seleukid_mission_03_anatolia_task_15_trigger_tt:0 "#Y [THIS.GetProvince.GetName]#!拥有至少#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_15_total')|0]#!座神殿建筑。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_03_anatolia_task_15_loc')]"
+ seleukid_mission_03_anatolia_task_15_loc_01:0 "（#R [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_15_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_15_total')|0]#!）"
+ seleukid_mission_03_anatolia_task_15_loc_02:0 "（#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_15_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_03_anatolia_task_15_total')|0]#!）"
+
+ # Effects
+ seleukid_mission_03_anatolia_task_10_effect_tt:0 "让#Y 卡帕多基亚#!成为#Y [SCOPE.GetRootScope.GetCountry.GetName]#!的藩属"
+ seleukid_mission_03_anatolia_task_10_effect_tt_2:0 "#Y 卡帕多基亚#!将获得#Y [SCOPE.GetRootScope.GetCountry.GetName]#!在#Y [GetProvince('(int32)1932').GetArea.GetName]#!持有的所有领土。"
+ seleukid_mission_03_anatolia_task_10_effect_tt_3:0 "#Y 卡帕多基亚#!将获得#Y [SCOPE.GetRootScope.GetCountry.GetName]#!在#Y [GetProvince('(int32)172').GetArea.GetName]#!持有的所有领土。"
+
+ seleukid_mission_03_anatolia_task_15_effect_tt:0 "解锁神祇“[apollo_deity.GetName]”。"
+
+ ### 4
+ # Base Info
+ seleukid_mission_04_palestine:0 "前往埃及的边境"
+ seleukid_mission_04_palestine_DESCRIPTION:0 "如果想要掌握旧[GetCharacter('(int32)39').GetPraenomen]帝国的十字路口，控制[GetProvince('(int32)687').GetArea.GetRegion.GetName]和[GetProvince('(int32)789').GetArea.GetRegion.GetName]则尤其重要，这里时埃及到安纳托利亚、以及安纳托利亚到巴比伦尼亚的通路。\n\n控制这些区域之后，我们才能开始征服旧帝国的其他地盘。"
+ seleukid_mission_04_palestine_CRITERIA_DESCRIPTION:0 "当我们控制[GetProvince('(int32)687').GetArea.GetRegion.GetName]和[GetProvince('(int32)789').GetArea.GetRegion.GetName]之后，使命视作完成。"
+ seleukid_mission_04_palestine_BUTTON_TOOLTIP:0 "帝国的心脏处是[GetProvince('(int32)687').GetArea.GetRegion.GetName]和[GetProvince('(int32)789').GetArea.GetRegion.GetName]，这两个区域静待我们前去统治。"
+
+ seleukid_mission_04_palestine_task_1:0 "控制叙利亚"
+ seleukid_mission_04_palestine_task_2:0 "保护隘口"
+ seleukid_mission_04_palestine_task_3:0 "腓尼基的造船匠"
+ seleukid_mission_04_palestine_task_4:0 "备战南部战役"
+ seleukid_mission_04_palestine_task_5:0 "巴勒斯坦海岸"
+ seleukid_mission_04_palestine_task_6:0 "阿斯卡隆诸神"
+ seleukid_mission_04_palestine_task_7:0 "整合巴勒斯坦"
+ seleukid_mission_04_palestine_task_8:0 "南部行政"
+ seleukid_mission_04_palestine_task_9:0 "奶与蜜之地"
+ seleukid_mission_04_palestine_task_10:0 "南部邻国"
+ seleukid_mission_04_palestine_task_11:0 "定居得卡波利斯"
+ seleukid_mission_04_palestine_task_12:0 "犹地亚国"
+ seleukid_mission_04_palestine_task_final:0 "南部堡垒"
+
+ seleukid_mission_04_palestine_task_1_DESC:0 "在我们开始[GetProvince('(int32)687').GetArea.GetRegion.GetName]的战事之前，我们应该先控制[GetProvince('(int32)789').GetArea.GetRegion.GetName]全境，这样才能确保我们的士兵有一条南进的通道。"
+ seleukid_mission_04_palestine_task_2_DESC:0 "[GetProvince('(int32)789').GetArea.GetRegion.GetName]和[GetProvince('(int32)687').GetArea.GetRegion.GetName]之间的众多隘口、山峰和山脉对于未经妥善保护的过路人来说是异常险峻的。我们只需要采取一些防御性的措施，就能在敌人进犯的时候利用这些地形的性质针对敌人，同时也能够保护通过这些地段的我方民众。"
+ seleukid_mission_04_palestine_task_3_DESC:0 "腓尼基的船匠即使是在他们的城邦和行省之外都遐迩闻名，因为他们是地中海沿岸所有地方中的佼佼者。历史上有诸多国王求助于他们帮忙打造一支能够卫戍国家海岸线的海军，我们仅仅只是最近的一位。"
+ seleukid_mission_04_palestine_task_4_DESC:0 "[GetProvince('(int32)789').GetArea.GetRegion.GetName]已经完全受我们控制，我们应当着眼于南部边境，开启新的战事。"
+ seleukid_mission_04_palestine_task_5_DESC:0 "我们正计划将我们的国界拓展到埃及的沙漠，并且合并沿海的道路网和腓尼基人的城市。"
+ seleukid_mission_04_palestine_task_6_DESC:0 "我们的顾问指出，我们应该修缮位于[GetProvince('(int32)660').GetName]的神殿和神坛，进而十分轻松地提升我们在[GetProvince('(int32)687').GetArea.GetRegion.GetName]当地民众心中的人气。"
+ seleukid_mission_04_palestine_task_7_DESC:0 "如果我们想要真正确保[GetProvince('(int32)687').GetArea.GetRegion.GetName]的臣民和附庸国的忠诚，那么他们必须要更加适应我们的统治，我们也需要一定程度上整合他们进入我们的当地政府。"
+ seleukid_mission_04_palestine_task_8_DESC:0 "我们正在设法完成我们在这个地区的行政机构的设立，这样他们就能够替我们治理[GetProvince('(int32)659').GetArea.GetName]、[GetProvince('(int32)680').GetArea.GetName]以及[GetProvince('(int32)670').GetArea.GetName]省份。"
+ seleukid_mission_04_palestine_task_9_DESC:0 "作为[GetProvince('(int32)687').GetArea.GetRegion.GetName]最为富裕的地区，我们正计划控制[GetProvince('(int32)733').GetArea.GetName]、[GetProvince('(int32)687').GetArea.GetName]以及[GetProvince('(int32)681').GetArea.GetName]省份。"
+ seleukid_mission_04_palestine_task_10_DESC:0 "如果我们想要在[GetProvince('(int32)687').GetArea.GetRegion.GetName]站稳脚跟，那么我们需要和南边的邻国纳巴泰达成和解，无论是以哪种方式。"
+ seleukid_mission_04_palestine_task_11_DESC:0 "尽管[GetProvince('(int32)732').GetArea.GetName]的土地富裕而肥沃，我们需要更多的人民来耕耘此地。现在有一些移民自西边而来，我们应当可以更好地利用此地。"
+ seleukid_mission_04_palestine_task_12_DESC:0 "作为[GetProvince('(int32)687').GetArea.GetRegion.GetName]中最为肥沃的一块地区，[GetProvince('(int32)687').GetArea.GetName]却也是最为桀骜不驯的省份。当地人们以独立精神闻名，绝大多数外国官僚都深陷叛乱的泥潭。"
+ seleukid_mission_04_palestine_task_final_DESC:0 "[GetProvince('(int32)687').GetArea.GetRegion.GetName]全境已经落入我们的控制，我们终于算是完成了控制此地和[GetProvince('(int32)789').GetArea.GetRegion.GetName]的战事了。"
+
+ # Triggers
+ seleukid_mission_04_palestine_task_3_trigger_tt:0 "[THIS.GetCountry.GetName]的附属国忠诚度至少为#Y [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_3_total')|0]#!。[THIS.GetCountry.Custom('seleukid_mission_04_palestine_task_3_loc')]"
+ seleukid_mission_04_palestine_task_3_loc_01:0 "（#R [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_3_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_3_total')|0]#!）"
+ seleukid_mission_04_palestine_task_3_loc_02:0 "（#Y [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_3_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_3_total')|0]#!）"
+
+ seleukid_mission_04_palestine_task_4_trigger_tt:1 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!的军团中拥有至少#Y [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_4_total')|0]#!个大队。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_04_palestine_task_4_loc')]"
+ seleukid_mission_04_palestine_task_4_loc_01:0 "（#R [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_4_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_4_total')|0]#!）"
+ seleukid_mission_04_palestine_task_4_loc_02:0 "（#Y [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_4_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_4_total')|0]#!）"
+
+ seleukid_mission_04_palestine_task_6_trigger_tt:0 "#Y [GetProvince('(int32)660').GetName]#!拥有至少#Y [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_6_total')|0]#!座[GetBuilding('temple_building').GetName]建筑。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_04_palestine_task_6_loc')]"
+ seleukid_mission_04_palestine_task_6_loc_01:0 "（#R [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_6_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_6_total')|0]#!）"
+ seleukid_mission_04_palestine_task_6_loc_02:0 "（#Y [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_6_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_6_total')|0]#!）"
+
+ seleukid_mission_04_palestine_task_7_trigger_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!持有的#Y [GetProvince('(int32)687').GetArea.GetRegion.GetName]#!区域内，#Y [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_7_absolute_total')|0]#!人口有至少#Y 80%#!属于#Y [SCOPE.GetRootScope.GetCountry.GetPrimaryCulture.GetName]#!文化或某个已整合文化。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_04_palestine_task_7_loc')]"
+ seleukid_mission_04_palestine_task_7_loc_01:0 "（#R [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_7_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_7_total')|0]#!）"
+ seleukid_mission_04_palestine_task_7_loc_02:0 "（#Y [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_7_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_7_total')|0]#!）"
+
+ seleukid_mission_04_palestine_task_7_trigger_aramaic_tt:0 "#Y 亚兰#!是#Y [SCOPE.GetRootScope.GetCountry.GetName]#!的已整合文化。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_04_palestine_task_7_aramaic_integration_loc')]"
+ seleukid_mission_04_palestine_task_7_aramaic_integration_loc_01:0 "（整合进度：#Y [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_7_integration_aramaic')|2]%#!）"
+ seleukid_mission_04_palestine_task_7_aramaic_integration_loc_02:0 ""
+
+ seleukid_mission_04_palestine_task_7_trigger_phoenician_tt:0 "#Y 腓尼基#!是#Y [SCOPE.GetRootScope.GetCountry.GetName]#!的已整合文化。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_04_palestine_task_7_phoenician_integration_loc')]"
+ seleukid_mission_04_palestine_task_7_phoenician_integration_loc_01:0 "（整合进度：#Y [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_7_integration_phoenician')|2]%#!）"
+ seleukid_mission_04_palestine_task_7_phoenician_integration_loc_02:0 ""
+
+ seleukid_mission_04_palestine_task_7_trigger_hebrew_tt:0 "#Y 希伯来#!是#Y [SCOPE.GetRootScope.GetCountry.GetName]#!的已整合文化。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_04_palestine_task_7_hebrew_integration_loc')]"
+ seleukid_mission_04_palestine_task_7_hebrew_integration_loc_01:0 "（整合进度：#Y [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_7_integration_hebrew')|2]%#!）"
+ seleukid_mission_04_palestine_task_7_hebrew_integration_loc_02:0 ""
+
+ seleukid_mission_04_palestine_task_10_integrated_trigger_tt:0 "#Y 纳巴泰#!是#Y [SCOPE.GetRootScope.GetCountry.GetName]#!的已整合文化。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_04_palestine_task_10_integration_loc')]"
+ seleukid_mission_04_palestine_task_10_integration_loc_01:0 "（整合进度：#Y [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_10_integration_current')|2]%#!）"
+ seleukid_mission_04_palestine_task_10_integration_loc_02:0 ""
+
+ seleukid_mission_04_palestine_task_10_subject_trigger_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!有主流文化为#Y 纳巴泰#!的附属国对其忠诚度至少为#Y [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_10_subject_total')|0]#!。[SCOPE.GetRootScope.GetCountry.Custom('seleukid_mission_04_palestine_task_10_loc')]"
+ seleukid_mission_04_palestine_task_10_loc_01:0 ""
+ seleukid_mission_04_palestine_task_10_loc_02:0 "（最高：#R [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_10_subject_current')|0]#!/#Y [SCOPE.ScriptValue('seleukid_mission_04_palestine_task_10_subject_total')|0]#!）"
+ seleukid_mission_04_palestine_task_10_loc_03:0 ""
+
+ seleukid_mission_04_palestine_task_10_ally_trigger_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!有主流文化为#Y 纳巴泰#!的盟友对其好感度至少为#Y 100#!。"
+
+ # Effects
+ seleukid_mission_04_palestine_task_4_effect_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!获得#Y [THIS.GetProvince.GetArea.GetName]#!所有未被附属国或盟友持有领土的宣称。"
+
+ seleukid_mission_04_palestine_task_6_effect_tt:0 "解锁神祇“[GetDeityDefinition('omen_hadad').GetName]”。"
+
+ seleukid_mission_04_palestine_task_11_effect_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!将呼吁#Y [GetProvince('(int32)416').GetArea.GetRegion.GetName]#!、#Y [GetProvince('(int32)379').GetArea.GetRegion.GetName]#!和#Y [GetProvince('(int32)290').GetArea.GetRegion.GetName]#!的#Y [macedonian_culture.GetCultureGroup.GetName]#!人口迁移至#Y [GetProvince('(int32)732').GetArea.GetName]#!的领土。"
+
+ seleukid_mission_04_palestine_task_12_effect_tt:0 "#Y [SCOPE.GetRootScope.GetCountry.GetName]#!将可以选择在#Y [GetProvince('(int32)687').GetArea.GetName]#!创建附属国。"

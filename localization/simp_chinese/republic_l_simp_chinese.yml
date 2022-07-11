@@ -1,0 +1,123 @@
+﻿l_simp_chinese:
+ ### Basic Party Stuff
+ # Optimates
+ optimates_party:0 "贵族派"
+ optimates_party_description:0 "贵族派是我国的精英，富裕而有权势的元老，希望由他们自己瓜分共和国的权力，而不让泥腿子影响法治。\n\n他们支持有利于现有大家族和精英阶层的改变，对任何可能成为平民暴发户的人都深恶痛绝。"
+ optimates_party_influence:1 "贵族派支持"
+ monthly_optimates_party_conviction:0 "每月贵族派信念"
+
+ # Populares
+ populares_party:0 "平民派"
+ populares_party_description:0 "平民派是为普通民众服务的元老，或者至少是这样声称，以获得民众的支持，让自己的政治纲领变得有意义。受欢迎的将军和腐败的政客都倾向于加入这个派系，因为这样他们就能将可能对他们掌权产生负面影响的古老传统抛在一旁。\n\n他们支持降低贵族派影响的行动，反对任何巩固上层阶级控制力的行动。"
+ populares_party_influence:1 "平民派支持"
+ monthly_populares_party_conviction:0 "每月平民派信念"
+
+ # Boni
+ boni_party:0 "善人派"
+ boni_party_description:0 "善人派是信奉国家古老的传统，不想参与贵族派和平民派冲突的贵族。他们通过渐进式改革，努力在下层民众的需要和维护国家的稳定之间寻找平衡。\n\n他们支持积极寻求维护国家和平与稳定的领袖，反对任何可能会打破当前平衡的行动。"
+ boni_party_influence:1 "善人派支持"
+ monthly_boni_party_conviction:0 "每月善人派信念"
+
+ # Oligarchic
+ oligarchic_party:0 "寡头派"
+ oligarchic_party_description:0 "寡头派是我国的古老贵族以及他们的支持者，寡头派试图支配国家的政治，以满足自己的目的和利益。因此，他们极力避免，最多也只能容忍普通民众参与政治，因为这对他们的特权地位是一种威胁。"
+ oligarchic_party_influence:1 "寡头派支持"
+ monthly_oligarchic_party_conviction:0 "每月寡头派信念"
+
+ # Democratic
+ democratic_party:0 "民主派"
+ democratic_party_description:0 "民主派表面上支持该国更公平的政治权力分配和参与，为了自身的利益而同等保护公民和非公民的利益。尽管他们的政客动机往往同样幽暗和野心勃勃，但他们也能挫败根深蒂固的寡头派的控制。"
+ democratic_party_influence:1 "民主派支持"
+ monthly_democratic_party_conviction:0 "每月民主派信念"
+
+ # Traditionalist
+ traditionalist_party:0 "传统派"
+ traditionalist_party_description:0 "传统派通常不关心导致寡头派和民主派辩论的政治分歧。他们不想干扰诸神，只希望在面临政治改革和冲突时保护国家的古老传统和祭司的特权。"
+ traditionalist_party_influence:1 "传统派支持"
+ monthly_traditionalist_party_conviction:0 "每月传统派信念"
+
+ ### Empower Button ###
+ # Optimates
+ republic_button_empower_faction_loc_optimates:0 "歪曲公民大会"
+ republic_button_empower_faction_desc_loc_optimates:0 "为了获得对共和国更大的影响力，贵族派总是试图修改公民大会以对自己有利。通过改变不同表决大会的选举人数量，精英贵族将能在不受下层阶级影响的情况下取得多数票。\n\n该选项只能每10年使用一次，且只能在未使用“$republic_button_empower_faction_loc_populares$”时使用。"
+ empowered_optimates_party_gui_mod:0 "贵族派元老的支持"
+ optimates_party_empower_button_effect_tooltip:1 "一个重要家族的所有成员将获得#G 5#!忠诚度@loyalty_icon!，持续#Y 60#!个月。\n\n"
+ empower_button_optimates_loyalty_modifier:0 "由贵族派授予权力的重要家族"
+
+ # Populares
+ republic_button_empower_faction_loc_populares:0 "授予公有地"
+ republic_button_empower_faction_desc_loc_populares:0 "退伍士兵和较贫困的人口是平民派的重要支持者，他们靠耕种授权的土地生存。\n\n该选项只能每10年使用一次，且只能在未使用“$republic_button_empower_faction_loc_optimates$”时使用。"
+ empowered_populares_party_gui_mod:0 "平民派元老的支持"
+ populares_party_empower_button_effect_tooltip:1 "#Y [THIS.GetProvince.GetName]#!获得#Y 5#!人口[player.GetReligion.GetName][player.GetPrimaryCulture.GetName]自由民。\n\n"
+ senatorial_bypass_spent_tt:0 "此行动将不会提交给元老院，因为#Y 平民派#!会将其提交给大会。\n\n"
+# populares_party_empower_button_effect_tooltip:0 "#Y [THIS.GetProvince.GetName]#! receives #Y 5#! [player.GetReligion.GetName] [player.GetPrimaryCulture.GetName] Freemen.\n\n"
+
+ # Boni
+ republic_button_empower_faction_loc_boni:0 "支持[SCOPE.GetRootScope.GetCharacter.GetEmployer.GetPrimaryCulture.GetName]传统"
+ republic_button_empower_faction_desc_loc_boni:1 "善人派以因循守旧著称，认为古老的[SCOPE.GetRootScope.GetCharacter.GetEmployer.GetPrimaryCulture.GetName]之道就是最好的，没有东西能与之相提并论。他们经常将自己的财富分出一部分支持与其有相同观点的人，普通民众对此十分欣赏，并将其视为慈善家。\n\n该选项只能每10年使用一次。"
+ empowered_boni_party_gui_mod:0 "善人派的支持"
+
+ # Oligarchs
+ republic_button_empower_faction_loc_oligarchic:0 "操纵候选人"
+ republic_button_empower_faction_desc_loc_oligarchic:0 "寡头派将保护自身的特权地位，以及[SCOPE.GetRootScope.GetCharacter.GetEmployer.GetAdjective]社会赋予他们的权力视为第一要务，他们不惜使用拐弯抹角的战术来拓展自己的利益。\n\n该选项只能每10年使用一次，且只能在未使用“$republic_button_empower_faction_loc_democratic$”时使用。"
+ empowered_oligarchic_party_gui_mod:0 "寡头派占据上风"
+ oligarchs_party_empower_button_effect_tooltip:0 "$optimates_party_empower_button_effect_tooltip$"
+ empower_button_oligarchs_loyalty_modifier:0 "由寡头派授予权力的重要家族"
+
+# Democrats
+ republic_button_empower_faction_loc_democratic:0 "支持法律改革"
+ republic_button_empower_faction_desc_loc_democratic:1 "民主派相信，为了维护政治平衡和平等，保护公民和其他类型人口的权利是必要的——这让[SCOPE.GetRootScope.GetCharacter.GetEmployer.GetAdjective]人民和没有公民地位的人都很高兴。\n\n该选项只能每10年使用一次，且只能在未使用“$republic_button_empower_faction_loc_oligarchic$”时使用。"
+ empowered_democratic_party_gui_mod:0 "民主派占据上风"
+ democrats_party_empower_button_effect_tooltip:1 "#Y [THIS.GetProvince.GetName]#!获得#Y 3#!人口[player.GetReligion.GetName][player.GetPrimaryCulture.GetName]公民。\n\n"
+
+# Traditionalist
+ republic_button_empower_faction_loc_traditionalist:0 "维护宗教特权"
+ republic_button_empower_faction_desc_loc_traditionalist:1 "传统派试图保护我们祖辈的古老习俗，确保我们[SCOPE.GetRootScope.GetCharacter.GetEmployer.GetReligion.GetName]的宗教制度的活力是捍卫他们的利益和培育他们的支持者的简单办法。\n\n该选项只能每10年使用一次。"
+ empowered_traditonalist_party_gui_mod:0 "传统派得到安抚"
+
+ ### Other Tooltips
+ price_democratic_party_action:0 "$republic_button_empower_faction_loc_democratic$"
+ price_optimates_party_action:0 "$republic_button_empower_faction_loc_optimates$"
+ optimates_disapproval_tooltip:0 "#R 贵族派会反对这项行动。（每月反对）#!"
+ populares_disapproval_tooltip:0 "#R 平民派会反对这项行动。（每月反对）#!"
+ oligarchic_disapproval_tooltip:0 "#R 寡头派会反对这项行动。（每月反对）#!"
+ democratic_disapproval_tooltip:0 "#R 民主派会反对这项行动。（每月反对）#!"
+ ### Approval Modifiers ###
+ # Ruler Modifiers
+ APPROVAL_MODIFIER_RULER_TOOLTIP:1 "[actor.GetParty.GetName]成员[actor.Custom('approval_modifier_co_ruler_party_member_loc')]是[SCOPE.GetRootScope.GetCountry.GetName]的[SCOPE.GetRootScope.GetCountry.GetRulerTitle]：$VALUE|+=$"
+ APPROVAL_MODIFIER_CO_RULER_TOOLTIP:1 "[actor.GetParty.GetName]成员（#Y [SCOPE.GetRootScope.GetCountry.GetCoRuler.GetName]#!）是[SCOPE.GetRootScope.GetCountry.GetName]的[SCOPE.GetRootScope.GetCountry.GetCoRulerTitle]：$VALUE|+=$"
+ APPROVAL_MODIFIER_RULER_PARTY_LEADER_TOOLTIP:0 "[actor.GetParty.GetName]领袖[actor.Custom('approval_modifier_co_ruler_party_member_loc')]是[SCOPE.GetRootScope.GetCountry.GetName]的[SCOPE.GetRootScope.GetCountry.GetRulerTitle]：$VALUE|+=$"
+ APPROVAL_MODIFIER_OTHER_RULER_TOOLTIP:0 "[SCOPE.GetRootScope.GetCountry.GetRuler.GetParty.GetName]成员（#Y [SCOPE.GetRootScope.GetCountry.GetRuler.GetName]#!）是[SCOPE.GetRootScope.GetCountry.GetName]的[SCOPE.GetRootScope.GetCountry.GetRulerTitle]：$VALUE|+=$"
+ APPROVAL_MODIFIER_OTHER_RULER_PARTY_LEADER_TOOLTIP:0 "[SCOPE.GetRootScope.GetCountry.GetRuler.GetParty.GetName]领袖（#Y [SCOPE.GetRootScope.GetCountry.GetRuler.GetName]#!）是[SCOPE.GetRootScope.GetCountry.GetName]的[SCOPE.GetRootScope.GetCountry.GetRulerTitle]：$VALUE|+=$"
+ APPROVAL_MODIFIER_CO_OTHER_RULER_TOOLTIP:0 "[SCOPE.GetRootScope.GetCountry.GetName]的[SCOPE.GetRootScope.GetCountry.GetRulerTitle]都不是[actor.GetParty.GetName]的成员：$VALUE|+=$"
+ # Other Modifiers
+ APPROVAL_MODIFIER_SCORNED_FAMILY:0 "[SCOPE.GetRootScope.GetCountry.GetName]国中受鄙视的家族：$VALUE|+=$"
+ APPROVAL_MODIFIER_GRATEFUL_FAMILY:0 "[SCOPE.GetRootScope.GetCountry.GetName]国中感激的家族：$VALUE|+=$"
+ APPROVAL_MODIFIER_PEACE:0 "[SCOPE.GetRootScope.GetCountry.GetName]处于和平：$VALUE|+=$"
+ APPROVAL_MODIFIER_WAR:0 "[SCOPE.GetRootScope.GetCountry.GetName]处于战争：$VALUE|+=$"
+ APPROVAL_MODIFIER_WAR_EXHAUSTION:0 "[SCOPE.GetRootScope.GetCountry.GetName]正遭受@war_exhaustion!厌战度：$VALUE|+=$"
+ APPROVAL_MODIFIER_HIGH_STABILITY:0 "[SCOPE.GetRootScope.GetCountry.GetName]由于高@stability!稳定度：$VALUE|+=$"
+ APPROVAL_MODIFIER_LOW_STABILITY:0 "[SCOPE.GetRootScope.GetCountry.GetName]拥有低@stability!稳定度：$VALUE|+=$"
+ APPROVAL_MODIFIER_MAJOR_CHARACTER_IMPRISON:0 "#Y [SCOPE.ScriptValue('approval_modifier_major_character_imprison_svalue')|0]#!个重要[SCOPE.GetRootScope.GetCountry.Custom('approval_modifier_major_character_imprison_loc')]被囚禁：$VALUE|+=$"
+ APPROVAL_MODIFIER_MINOR_CHARACTER_IMPRISON:0 "#Y [SCOPE.ScriptValue('approval_modifier_minor_character_imprison_svalue')|0]#!个次要[SCOPE.GetRootScope.GetCountry.Custom('approval_modifier_minor_character_imprison_loc')]被囚禁：$VALUE|+=$"
+ APPROVAL_MODIFIER_STACKED_PANTHEON:0 "所有万神殿神祇都来自国教（#Y [SCOPE.GetRootScope.GetCountry.GetReligion.GetName]#!）：$VALUE|+=$"
+ APPROVAL_MODIFIER_MINOR_MIXED_PANTHEON:0 "万神殿包括非正统神祇（非#Y [SCOPE.GetRootScope.GetCountry.GetReligion.GetName]#!）：$VALUE|+=$"
+ APPROVAL_MODIFIER_MINOR_FAMILY_RULER:0 "[SCOPE.GetRootScope.GetCountry.GetRulerTitle]（#Y [SCOPE.GetRootScope.GetCountry.GetRuler.GetName]#!）不属于重要家族：$VALUE|+=$"
+ APPROVAL_MODIFIER_GREAT_FAMILY_RULER:0 "[SCOPE.GetRootScope.GetCountry.GetRulerTitle]（#Y [SCOPE.GetRootScope.GetCountry.GetRuler.GetName]#!）来自重要家族（#Y [SCOPE.GetRootScope.GetCountry.GetRuler.GetFamily.GetName]#!）：$VALUE|+=$"
+ APPROVAL_MODIFIER_TYRANNY_POSITIVE:0 "[SCOPE.GetRootScope.GetCountry.GetName]非常残暴@tyranny!：$VALUE|+=$"
+ APPROVAL_MODIFIER_TYRANNY_NEGATIVE:0 "$APPROVAL_MODIFIER_TYRANNY_POSITIVE$"
+ APPROVAL_MODIFIER_IRRELIGIOUS_LEADER:0 "[SCOPE.GetRootScope.GetCountry.GetRulerTitle]（#Y [SCOPE.GetRootScope.GetCountry.GetRuler.GetName]#!）不虔诚：$VALUE|+=$"
+ APPROVAL_MODIFIER_CORRUPTION_POSITIVE:0 "[SCOPE.GetRootScope.GetCountry.GetRulerTitle]（#Y [SCOPE.GetRootScope.GetCountry.GetRuler.GetName]#!）十分@corruption_icon!腐败：$VALUE|+=$"
+ APPROVAL_MODIFIER_CORRUPTION_NEGATIVE:0 "$APPROVAL_MODIFIER_CORRUPTION_POSITIVE$"
+ APPROVAL_MODIFIER_CONVERTED_CAPITAL:0 "首都信仰国教（#Y [SCOPE.GetRootScope.GetCountry.GetReligion.GetName]#!）的人口是少数：$VALUE|+=$"
+ APPROVAL_MODIFIER_CAPITAL_CULTURE:0 "主流文化（#Y [SCOPE.GetRootScope.GetCountry.GetPrimaryCulture.GetName]#!）群体在首都占少数：$VALUE|+=$"
+ APPROVAL_MODIFIER_PARTY_LEADER_GREAT_FAMILY:0 "所有派系领袖都来自重要家族：$VALUE|+=$"
+ APPROVAL_MODIFIER_PARTY_LEADER_MINOR_FAMILY:0 "所有派系领袖都来自次要家族：$VALUE|+=$"
+ APPROVAL_MODIFIER_LEADER_WRONG_RELIGION:0 "[SCOPE.GetRootScope.GetCountry.GetRulerTitle]不属于主流文化（#Y [SCOPE.GetRootScope.GetCountry.GetPrimaryCulture.GetName]#!）：$VALUE|+=$"
+ APPROVAL_MODIFIER_LEADER_WRONG_CULTURE:0 "[SCOPE.GetRootScope.GetCountry.GetRulerTitle]不信仰国教（#Y [SCOPE.GetRootScope.GetCountry.GetReligion.GetName]#!）：$VALUE|+=$"
+ # Custom Loc
+ approval_modifier_co_ruler_party_member_loc_1:0 " （#Y [ROOT.GetCharacter.GetEmployer.GetRuler.GetName]#!）"
+ approval_modifier_co_ruler_party_member_loc_2:0 " （#Y [ROOT.GetCharacter.GetEmployer.GetCoRuler.GetName]#!）"
+ approval_modifier_co_ruler_party_member_loc_fallback:0 ""
+ approval_modifier_character_imprison_loc_1:0 "人物"
+ approval_modifier_character_imprison_loc_2:0 "人物"

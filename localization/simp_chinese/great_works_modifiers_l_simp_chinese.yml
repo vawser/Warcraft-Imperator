@@ -1,0 +1,57 @@
+﻿l_simp_chinese:
+##### GW event modifiers
+ vandalized_work_modifier:1 "焚毁纪念碑"
+ desc_vandalized_work_modifier:0 "我国的一处奇观遭到蓄意破坏，人民垂头丧气，开始质疑我们的统治能力。"
+
+ great_work_celebration:1 "纪念碑庆典"
+ desc_great_work_celebration:0 "在该地区有一个伟大的奇观正在举行庆祝活动，鼓舞了广大民众。"
+
+ great_work_no_celebration:0 "不满的民众"
+ desc_great_work_no_celebration:0 "该地区的人民非常不满，并且质疑我们统治的权利。"
+
+ great_work_celebration_2:1 "纪念碑周年庆典"
+ desc_great_work_celebration_2:0 "$desc_great_work_celebration$"
+
+ great_work_no_celebration_2:0 "累计不满人口"
+ desc_great_work_no_celebration_2:0 "$desc_great_work_no_celebration$"
+
+ great_work_completed:1 "完成纪念碑"
+ desc_great_work_completed:0 "我们终于完成了一座令人印象深刻的奇观的建造，它的美丽和规模名扬世界，确保了我们统治的合法性。"
+
+ great_work_completed_great:1 "完成纪念碑"
+ desc_great_work_completed_great:0 "附近一处真正的伟大奇观已经完工，当地人充满敬畏。"
+
+ great_work_completed_bad:0 "完成纪念碑"
+ desc_great_work_completed_bad:0 "$desc_great_work_completed_great$"
+
+ xenophobe_response:0 "排外的统治者"
+ desc_xenophobe_response:0 "我们的行为让我们成了当地人眼中排外的典型。"
+
+ great_work_renovation:1 "修缮纪念碑"
+ desc_great_work_renovation:0 "我们花了相当多的资源来翻新当地的一处奇观。"
+
+ great_work_small_renovation:0 "财政援助"
+ desc_great_work_small_renovation:0 "我们已拨出一些资源，帮助当地人翻新这片领土上的一处奇观。"
+
+ great_work_dirty:1 "玷污纪念碑"
+ desc_great_work_dirty:0 "由于粗心大意，当地的奇观遭到破坏，与曾经的样子相比，显得相当平庸。"
+
+ happy_gw_province:0 "繁荣的省份"
+ desc_happy_gw_province:0 "自我们在附近修建了一座奇观后，这块领土产生了意想不到的经济效益。"
+
+ praise_the_animals:0 "赞美诸灵"
+ desc_praise_the_animals:0 "我们的占兆师宣称，有动物反复出现在我们的一处奇观上，证明我们得到了神明的祝福。"
+
+ embrace_great_works_religion:0 "信奉宗教"
+ desc_embrace_great_works_religion:0 "我们拨出资金来帮助当地的一个信仰，使其在我们的一个更令人印象深刻的奇观周围涌现出来。"
+
+ great_work_more_guards:0 "更多卫兵"
+ desc_great_work_more_guards:0 "我们在当地一处奇观周围部署了更多守卫，以确保没人故意搞破坏。"
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ great_work_loss_unrest:0 "伟大奇观纪念日"
+ great_work_omen_power_from_burial:0 "过世的统治者"
+ great_work_omen_power_from_burial_powerful:0 "过世的统治者"
+ great_work_omen_power_from_burial_sad_pops:0 "过世的统治者"
+ great_work_omen_power_from_burial_powerful_sad_pops:0 "过世的统治者"
+ embrace_gw_religion:0 "宗教合作"

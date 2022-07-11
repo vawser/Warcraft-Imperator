@@ -1,0 +1,123 @@
+﻿l_russian:
+ ### Basic Party Stuff
+ # Optimates
+ optimates_party:0 "Оптиматы"
+ optimates_party_description:0 "Оптиматы — элита нашей державы. Это богатые и могущественные сенаторы, которые мечтают разделить власть в Республике между собой, не оставив немытой босоте ни единой возможности влиять на судебные решения.\n\nОни одобряют изменения, направленные на поддержку древних и славных родов, и глубоко презирают выскочек-популистов."
+ optimates_party_influence:1 "Ежемесячное одобрение оптиматов"
+ monthly_optimates_party_conviction:0 "Ежемесячные убеждения оптиматов"
+
+ # Populares
+ populares_party:0 "Популяры"
+ populares_party_description:0 "Популяры — сенаторы, которые действуют (по крайней мере, на словах) в интересах простого народа, чтобы заручиться его поддержкой и набрать политический вес. К этой фракции часто примыкают популярные военачальники и продажные политики: это дает им возможность открыто выступать против древних традиций, мешающих восхождению к власти.\n\nФракция одобряет всё, что наносит ущерб влиянию оптиматов, и возражает против любых попыток упрочить положение знати."
+ populares_party_influence:1 "Ежемесячное одобрение популяров"
+ monthly_populares_party_conviction:0 "Ежемесячные убеждения популяров"
+
+ # Boni
+ boni_party:0 "Нобили"
+ boni_party_description:0 "Нобили — аристократы, которые верны древним традициям державы и не ввязываются в классовую грызню оптиматов и популяров. Они работают над реформами, которые бы удовлетворяли нужды низших классов, в то же время поддерживая стабильность державы.\n\nНобилитет уважает правителей, которые ставят мир и стабильность во главе угла, и не приемлют всё, что способно нарушить текущее равновесие."
+ boni_party_influence:1 "Ежемесячное одобрение нобилитета"
+ monthly_boni_party_conviction:0 "Ежемесячные убеждения нобилитета"
+
+ # Oligarchic
+ oligarchic_party:0 "Олигархи"
+ oligarchic_party_description:0 "Олигархи — древние аристократы нашей державы и их сторонники, которые мечтают заполучить всю полноту власти и пополнить за ее счет личную казну. Они возражают против участия простого народа в политике, поскольку это угрожает их привилегированному положению, и готовы лишь изредка допускать некоторые поблажки плебсу."
+ oligarchic_party_influence:1 "Ежемесячное одобрение олигархов"
+ monthly_oligarchic_party_conviction:0 "Ежемесячные убеждения олигархов"
+
+ # Democratic
+ democratic_party:0 "Демократы"
+ democratic_party_description:0 "Демократы формально выступают за честное разделение политической власти и равно защищают интересы как граждан, так и неграждан ради собственной выгоды. Они мешают олигархам прийти к абсолютной власти, обвиняя их в закоснелости, но и сами ради удовлетворения своих амбиций готовы пойти на многое."
+ democratic_party_influence:1 "Ежемесячное одобрение демократов"
+ monthly_democratic_party_conviction:0 "Ежемесячные убеждения демократов"
+
+ # Traditionalist
+ traditionalist_party:0 "Традиционалисты"
+ traditionalist_party_description:0 "Традиционалистов редко заботят политические распри: они обычно в стороне от грызни олигархов и демократов. Они не желают гневить богов и просто защищают древние обычаи державы, а также отстаивают права жречества во время политических реформ и раздоров."
+ traditionalist_party_influence:1 "Ежемесячное одобрение традиционалистов"
+ monthly_traditionalist_party_conviction:0 "Ежемесячные убеждения традиционалистов"
+
+ ### Empower Button ###
+ # Optimates
+ republic_button_empower_faction_loc_optimates:0 "Марионеточные собрания"
+ republic_button_empower_faction_desc_loc_optimates:0 "Оптиматы постоянно пытаются направить ход собраний в нужное им русло и усилить свое влияние. Изменив число выборщиков на разных голосованиях, аристократическая элита отстранит от голосования низшие классы и получит большинство голосов.\n\nДоступно раз в 10 лет только в том случае, если вы не пользовались возможностью «$republic_button_empower_faction_loc_populares$»."
+ empowered_optimates_party_gui_mod:0 "Поддержка оптиматов в сенате"
+ optimates_party_empower_button_effect_tooltip:1 "\nВсе #Y главы великого рода#! получают #G 5#! ед. верности@loyalty_icon! на #Y 60#! мес.\n\n"
+ empower_button_optimates_loyalty_modifier:0 "Великие роды, получившие власть от оптиматов"
+
+ # Populares
+ republic_button_empower_faction_loc_populares:0 "Даровать общественные земли"
+ republic_button_empower_faction_desc_loc_populares:0 "Власть популяров поддерживают ветераны и бедное население, которые не переменят своих убеждений, пока остается земля, с которой они могут кормиться, и льготы, позволяющие им не умереть с голоду.\n\nДоступно раз в 10 лет только в том случае, если вы не пользовались возможностью «$republic_button_empower_faction_loc_optimates$»."
+ empowered_populares_party_gui_mod:0 "Поддержка популяров в сенате"
+ populares_party_empower_button_effect_tooltip:1 "В обмен на вашу поддержку следующее ваше предложение в сенат будет выдвинуто на голосование от имени #Y популяров#!, что позволит обойти одобрение сената.\n\n"
+ senatorial_bypass_spent_tt:0 "Это единственное предложение НЕ будет выставлено на рассмотрение сената, поскольку #Y популяры#! вынесут его на рассмотрение собрания.\n\n"
+# populares_party_empower_button_effect_tooltip:0 "#Y [THIS.GetProvince.GetName]#! receives #Y 5#! [player.GetReligion.GetName] [player.GetPrimaryCulture.GetName] Freemen.\n\n"
+
+ # Boni
+ republic_button_empower_faction_loc_boni:0 "Пусть [SCOPE.GetRootScope.GetCharacter.GetEmployer.GetPrimaryCulture.GetName] традиция получит поддержку"
+ republic_button_empower_faction_desc_loc_boni:1 "Известно, что нобилитету не нравится, когда под ударами новой моды отступает старая [SCOPE.GetRootScope.GetCharacter.GetEmployer.GetPrimaryCulture.GetName] традиция, которой, по их мнению, нет равных. Периодически нобили направляют свои богатства на поддержку тех, кто разделяет их идеалы, благодаря чему снискали среди населения популярность и репутацию филантропов.\n\nДоступно раз в 10 лет."
+ empowered_boni_party_gui_mod:0 "Поддержка нобилитета"
+
+ # Oligarchs
+ republic_button_empower_faction_loc_oligarchic:0 "Манипулирование кандидатами"
+ republic_button_empower_faction_desc_loc_oligarchic:0 "В первую очередь олигархи защищают собственные привилегии и положение в [SCOPE.GetRootScope.GetCharacter.GetEmployer.GetAdjective]ом обществе. Олигархи, интересы которых оказываются под ударом, не чураются грязной игры.\n\nДоступно раз в 10 лет, если вы не пользовались возможностью «$republic_button_empower_faction_loc_democratic$»."
+ empowered_oligarchic_party_gui_mod:0 "Доминирование олигархов"
+ oligarchs_party_empower_button_effect_tooltip:0 "$optimates_party_empower_button_effect_tooltip$"
+ empower_button_oligarchs_loyalty_modifier:0 "Великие роды, получившие власть от олигархов"
+
+# Democrats
+ republic_button_empower_faction_loc_democratic:0 "Поддержать юридические реформы"
+ republic_button_empower_faction_desc_loc_democratic:1 "Демократы уверены, что в равной степени важно защищать права и горожан, и остального населения: это позволяет сохранить политическое равновесие и равенство — к радости и [SCOPE.GetRootScope.GetCharacter.GetEmployer.GetAdjective]их граждан, и бесправных людей.\n\nДоступно раз в 10 лет, если вы не пользовались возможностью «$republic_button_empower_faction_loc_oligarchic$»."
+ empowered_democratic_party_gui_mod:0 "Доминирование демократов"
+ democrats_party_empower_button_effect_tooltip:1 "В результате этой реформы до [SCOPE.ScriptValue('scripted_gui_country_rank_svalue')|0] гр. населения (#Y [player.GetReligion.GetName]#!, #Y [player.GetPrimaryCulture.GetName]#! культура) будет повышено до статуса #Y граждан#!, но сейчас в вашей державе нет городов, где преобладали бы #Y [player.GetReligion.GetName]#! и #Y [player.GetPrimaryCulture.GetName]#! культура.\n\n"
+
+# Traditionalist
+ republic_button_empower_faction_loc_traditionalist:0 "Защита религиозных привилегий"
+ republic_button_empower_faction_desc_loc_traditionalist:1 "Традиционалисты защищают обычаи предков. Самый простой способ поддержать их интересы и заручиться поддержкой их сторонников — способствовать процветанию религиозных институтов, исповедующих [SCOPE.GetRootScope.GetCharacter.GetEmployer.GetReligion.GetName].\n\nДоступно раз в 10 лет."
+ empowered_traditonalist_party_gui_mod:0 "Задабривание традиционалистов"
+
+ ### Other Tooltips
+ price_democratic_party_action:0 "$republic_button_empower_faction_loc_democratic$"
+ price_optimates_party_action:0 "$republic_button_empower_faction_loc_optimates$"
+ optimates_disapproval_tooltip:0 "#R Оптиматы не одобрят это действие. (Ежемесячное неодобрение)#!"
+ populares_disapproval_tooltip:0 "#R Популяры не одобрят это действие. (Ежемесячное неодобрение)#!"
+ oligarchic_disapproval_tooltip:0 "#R Олигархи не одобрят это действие. (Ежемесячное неодобрение)#!"
+ democratic_disapproval_tooltip:0 "#R Демократы не одобрят это действие. (Ежемесячное неодобрение)#!"
+ ### Approval Modifiers ###
+ # Ruler Modifiers
+ APPROVAL_MODIFIER_RULER_TOOLTIP:1 "Член фракции [actor.GetParty.GetName] (#Y [SCOPE.GetRootScope.GetCountry.GetRuler.GetName]#!) — [SCOPE.GetRootScope.GetCountry.GetRulerTitle] державы [SCOPE.GetRootScope.GetCountry.GetName]: $VALUE|+=$"
+ APPROVAL_MODIFIER_CO_RULER_TOOLTIP:1 "#Y [SCOPE.GetRootScope.GetCountry.GetCoRuler.GetName]#!, член фракции [actor.GetParty.GetName] — [SCOPE.GetRootScope.GetCountry.GetCoRulerTitle] державы [SCOPE.GetRootScope.GetCountry.GetName]: $VALUE|+=$"
+ APPROVAL_MODIFIER_RULER_PARTY_LEADER_TOOLTIP:0 "[actor.Custom('approval_modifier_co_ruler_party_member_loc')], лидер фракции [actor.GetParty.GetName] — [SCOPE.GetRootScope.GetCountry.GetRulerTitle] державы [SCOPE.GetRootScope.GetCountry.GetName]: $VALUE|+=$"
+ APPROVAL_MODIFIER_OTHER_RULER_TOOLTIP:0 "Член фракции [SCOPE.GetRootScope.GetCountry.GetRuler.GetParty.GetName] (#Y [SCOPE.GetRootScope.GetCountry.GetRuler.GetName]#!) — [SCOPE.GetRootScope.GetCountry.GetRulerTitle] державы [SCOPE.GetRootScope.GetCountry.GetName]: $VALUE|+=$"
+ APPROVAL_MODIFIER_OTHER_RULER_PARTY_LEADER_TOOLTIP:0 "Лидер фракции [SCOPE.GetRootScope.GetCountry.GetRuler.GetParty.GetName] (#Y [SCOPE.GetRootScope.GetCountry.GetRuler.GetName]#!) — [SCOPE.GetRootScope.GetCountry.GetRulerTitle] державы [SCOPE.GetRootScope.GetCountry.GetName]: $VALUE|+=$"
+ APPROVAL_MODIFIER_CO_OTHER_RULER_TOOLTIP:0 "Ни один [SCOPE.GetRootScope.GetCountry.GetRulerTitle] державы [SCOPE.GetRootScope.GetCountry.GetName] не состоит во фракции [actor.GetParty.GetName]: $VALUE|+=$"
+ # Other Modifiers
+ APPROVAL_MODIFIER_SCORNED_FAMILY:0 "Презираемые семьи в державе [SCOPE.GetRootScope.GetCountry.GetName]: $VALUE|+=$"
+ APPROVAL_MODIFIER_GRATEFUL_FAMILY:0 "Благодарные семьи в державе [SCOPE.GetRootScope.GetCountry.GetName]: $VALUE|+=$"
+ APPROVAL_MODIFIER_PEACE:0 "[SCOPE.GetRootScope.GetCountry.GetName] в состоянии мира: $VALUE|+=$"
+ APPROVAL_MODIFIER_WAR:0 "[SCOPE.GetRootScope.GetCountry.GetName] в состоянии войны: $VALUE|+=$"
+ APPROVAL_MODIFIER_WAR_EXHAUSTION:0 "[SCOPE.GetRootScope.GetCountry.GetName] испытывает @war_exhaustion! усталость от войны: $VALUE|+=$"
+ APPROVAL_MODIFIER_HIGH_STABILITY:0 "В державе [SCOPE.GetRootScope.GetCountry.GetName] высокая @stability! стабильность: $VALUE|+=$"
+ APPROVAL_MODIFIER_LOW_STABILITY:0 "В державе [SCOPE.GetRootScope.GetCountry.GetName] низкая @stability! стабильность: $VALUE|+=$"
+ APPROVAL_MODIFIER_MAJOR_CHARACTER_IMPRISON:0 "Важные персонажи (#Y [SCOPE.ScriptValue('approval_modifier_major_character_imprison_svalue')|0]#!) в тюрьме державы [SCOPE.GetRootScope.GetCountry.Custom('approval_modifier_major_character_imprison_loc')]: $VALUE|+=$"
+ APPROVAL_MODIFIER_MINOR_CHARACTER_IMPRISON:0 "Незначительные персонажи (#Y [SCOPE.ScriptValue('approval_modifier_major_character_imprison_svalue')|0]#!) в тюрьме державы [SCOPE.GetRootScope.GetCountry.Custom('approval_modifier_major_character_imprison_loc')]: $VALUE|+=$"
+ APPROVAL_MODIFIER_STACKED_PANTHEON:0 "Все божества пантеона принадлежат к государственной религии (#Y [SCOPE.GetRootScope.GetCountry.GetReligion.GetName]#!): $VALUE|+=$"
+ APPROVAL_MODIFIER_MINOR_MIXED_PANTHEON:0 "В пантеоне присутствуют не только традиционные божества (#Y [SCOPE.GetRootScope.GetCountry.GetReligion.GetName]#!): $VALUE|+=$"
+ APPROVAL_MODIFIER_MINOR_FAMILY_RULER:0 "[SCOPE.GetRootScope.GetCountry.GetRulerTitle] (#Y [SCOPE.GetRootScope.GetCountry.GetRuler.GetName]#!) не принадлежит к великому роду: $VALUE|+=$"
+ APPROVAL_MODIFIER_GREAT_FAMILY_RULER:0 "[SCOPE.GetRootScope.GetCountry.GetRulerTitle] (#Y [SCOPE.GetRootScope.GetCountry.GetRuler.GetName]#!) принадлежит к великому роду (#Y [SCOPE.GetRootScope.GetCountry.GetRuler.GetFamily.GetName]#!): $VALUE|+=$"
+ APPROVAL_MODIFIER_TYRANNY_POSITIVE:0 "В державе [SCOPE.GetRootScope.GetCountry.GetName] @tyranny! тирания: $VALUE|+=$"
+ APPROVAL_MODIFIER_TYRANNY_NEGATIVE:0 "$APPROVAL_MODIFIER_TYRANNY_POSITIVE$"
+ APPROVAL_MODIFIER_IRRELIGIOUS_LEADER:0 "[SCOPE.GetRootScope.GetCountry.GetRulerTitle] (#Y [SCOPE.GetRootScope.GetCountry.GetRuler.GetName]#!) не отличается благочестием: $VALUE|+=$"
+ APPROVAL_MODIFIER_CORRUPTION_POSITIVE:0 "[SCOPE.GetRootScope.GetCountry.GetRulerTitle] (#Y [SCOPE.GetRootScope.GetCountry.GetRuler.GetName]#!) отличается @corruption_icon! продажностью: $VALUE|+=$"
+ APPROVAL_MODIFIER_CORRUPTION_NEGATIVE:0 "$APPROVAL_MODIFIER_CORRUPTION_POSITIVE$"
+ APPROVAL_MODIFIER_CONVERTED_CAPITAL:0 "Государственная религия (#Y [SCOPE.GetRootScope.GetCountry.GetReligion.GetName]#!) в меньшинстве в столице: $VALUE|+=$"
+ APPROVAL_MODIFIER_CAPITAL_CULTURE:0 "Государственная культура (#Y [SCOPE.GetRootScope.GetCountry.GetPrimaryCulture.GetName]#!) в меньшинстве в столице: $VALUE|+=$"
+ APPROVAL_MODIFIER_PARTY_LEADER_GREAT_FAMILY:0 "Все лидеры фракций принадлежат к великому роду: $VALUE|+=$"
+ APPROVAL_MODIFIER_PARTY_LEADER_MINOR_FAMILY:0 "Кто-то из лидеров фракций принадлежит к незнатному роду: $VALUE|+=$"
+ APPROVAL_MODIFIER_LEADER_WRONG_RELIGION:0 "[SCOPE.GetRootScope.GetCountry.GetRulerTitle] не принадлежит к основной культуре (#Y [SCOPE.GetRootScope.GetCountry.GetPrimaryCulture.GetName]#!): $VALUE|+=$"
+ APPROVAL_MODIFIER_LEADER_WRONG_CULTURE:0 "[SCOPE.GetRootScope.GetCountry.GetRulerTitle] исповедует не государственную религию (#Y [SCOPE.GetRootScope.GetCountry.GetReligion.GetName]#!): $VALUE|+=$"
+ # Custom Loc
+ approval_modifier_co_ruler_party_member_loc_1:0 " (#Y [ROOT.GetCharacter.GetEmployer.GetRuler.GetName]#!)"
+ approval_modifier_co_ruler_party_member_loc_2:0 " (#Y [ROOT.GetCharacter.GetEmployer.GetCoRuler.GetName]#!)"
+ approval_modifier_co_ruler_party_member_loc_fallback:0 ""
+ approval_modifier_character_imprison_loc_1:0 "Персонаж"
+ approval_modifier_character_imprison_loc_2:0 "Персонажи"

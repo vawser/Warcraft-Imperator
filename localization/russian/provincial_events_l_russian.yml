@@ -1,0 +1,5 @@
+﻿l_russian:
+ provincial_events.1.t:0 "Напряжённость на местах"
+ provincial_events.1.desc:1 "Между местным населением и колонистами, считающими, что их культура [ROOT.GetCountry.GetPrimaryCulture.GetName], в провинции [SCOPE.sP('colonial_province').GetName], растёт напряжение. Местные утверждают, что наши поселенцы не уважают их традиции и законы. Наши колонисты, с другой стороны, говорят, что местные тревожатся лишь потому, что новое поселение, которое основала [ROOT.GetCountry.GetPrimaryCulture.GetName] культура, живёт лучше, чем главный город в регионе."
+ provincial_events.1.a:0 "[ROOT.GetCountry.GetPrimaryCulture.GetName] — вот чьи интересы мы поддержим."
+ provincial_events.1.b:0 "Защитить права местного населения."

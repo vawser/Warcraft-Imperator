@@ -1,0 +1,6 @@
+﻿l_russian:
+ Johan_event.1.t:0 "Название тестового события Йохана"
+ Johan_event.1.d:0 "[ROOT.Char.GetName]: возраст — [ROOT.Char.GetAge], страна проживания — [ROOT.Char.GetCountry.GetName]"
+ Johan_event.1.a:0 "Жребий брошен!"
+ animated_text_effect:0 "В провинции [ROOT.GetProvince.GetName] так СКУ-У-У-У-У-УЧНО!"
+ 
