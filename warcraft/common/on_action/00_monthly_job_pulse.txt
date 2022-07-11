@@ -1,6 +1,0 @@
-﻿monthly_job_pulse =
-{
-	random_events =
-	{
-	}
-}
